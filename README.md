@@ -10,7 +10,7 @@ All available in-game resources that are permitted for modification and alterati
 
 3. **Inside it, create the required folder** depending on what you want to edit (e.g. `textures`).  
 
-   ### 📁 Available directories:
+### 📁 Available directories:
 ```
 data
 ├── configs
@@ -48,7 +48,7 @@ Enjoy the game! 🎮
 | **Directory structure mismatch** | Creating extra folders that don't exist in the repository (e.g. `data\textures\weapons` instead of `data\textures\wpn`). | Stick strictly to the folder names and structure shown in the repository's directory tree. |
 
 
-## 🖼️ Setting Your Own Main Menu Background
+## 🖼️ Custom Main Menu Background
 ![Custom Menu](https://i.ibb.co/HL8f7wv9/ui.png)
 1. Pick an image matching your screen resolution in `.jpg` or `.png` format.
 2. Edit it to fit your monitor size; if you want a higher DPI, multiply the resolution (e.g., 1920×1080 → 2560×1440).
