@@ -11,7 +11,6 @@ All available in-game resources that are permitted for modification and alterati
 3. **Inside it, create the required folder** depending on what you want to edit (e.g. `textures`).  
 
    ### 📁 Available directories:
-   data
 ```
 data
 ├── configs
