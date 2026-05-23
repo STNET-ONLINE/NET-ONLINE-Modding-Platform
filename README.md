@@ -46,3 +46,11 @@ Enjoy the game! 🎮
 | **File not being read** | Modifying a file but not placing it in the game's `data` folder, or placing it in the repository folder by mistake. | The `data` folder must be inside your **game installation directory**, not inside the downloaded repository. |
 | **Anti-cheat still triggers** | Placing files in the wrong location or modifying protected archives (`.db`/`.pak` files) directly. | Only loose files placed in the correct `data` subfolders will bypass integrity checks. Do **not** unpack game archives. |
 | **Directory structure mismatch** | Creating extra folders that don't exist in the repository (e.g. `data\textures\weapons` instead of `data\textures\wpn`). | Stick strictly to the folder names and structure shown in the repository's directory tree. |
+
+
+## 🖼️ Setting Your Own Main Menu Background
+![Custom Menu](https://i.ibb.co/HL8f7wv9/ui.png)
+1. Pick an image matching your screen resolution in `.jpg` or `.png` format.
+2. Edit it to fit your monitor size; if you want a higher DPI, multiply the resolution (e.g., 1920×1080 → 2560×1440).
+3. Place the image into the `user` folder and rename it to `user_back`.
+4. Done! Now you can show off your fishing photos in the main menu! 🎣
