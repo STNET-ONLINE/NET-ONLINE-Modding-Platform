@@ -1,0 +1,126 @@
+#include "hud_objects.ltx"
+#include "eatable_objects.ltx"
+
+[vodka]:booster
+;***********************************************************
+hud = vodka_hud_model
+helm_prohibited = false; true
+full_outfit_prohibited = false ;true
+
+base_object = vodka ;показывает, какая секция является базовой для "одинаковых" предметов разной степени целостности
+uses_count = 4	    ;Сколько раз предмет можно использовать
+
+;При первом использовании всегда съедается базовый предмет
+using_2 = vodka2	;Секция предмета, который будет заспавнен после первого использования, и который отвечает за второе использование
+using_3 = vodka3	;Аналогично для второго использования
+using_4 = vodka4	;И третьего
+;************************************************************
+
+
+$spawn 				= "food and drugs\vodka"
+cform				= skeleton
+visual				= dynamics\devices\dev_vodka\dev_vodka.ogf
+description			= gunsl_eatable_vodka_descr
+
+inv_name			= gunsl_eatable_vodka
+inv_name_short		= gunsl_eatable_vodka
+inv_weight			= 0.6	;0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 5
+inv_grid_y			= 2
+cost				= 40
+
+attach_angle_offset		= 0.000000, 0.000000, 0.000000
+attach_position_offset	= 0.087266, -0.078540, 0.052360
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+break_particles		= destroy_fx\destroy_bottle
+break_sound			= material\bottle\collide\bottle_break_1
+
+boost_time				= 0.0
+boost_radiation_restore	= 0.00
+eat_alcohol				= 0.0
+eat_satiety				= 0.0
+
+use_sound			= $silent ;interface\inv_vodka
+visual_condition = 1.0
+
+use_script_text_1 = custom_props.text_car_fuel
+use_script_functor_1 = custom_props.text_car_funct
+
+allowed_cars = veh_tractor40_blue, veh_tractor40_red
+fuel_cost			= 700
+fuel_mass			= 7.00
+fuel_volume			= 1.0
+
+
+[vodka2]:vodka
+$spawn 				= "food and drugs\vodka_used_2"
+description			= gunsl_eatable_vodka_descr2
+hud = vodka_hud_model2
+inv_weight			= 0.5
+inv_grid_x			= 11
+inv_grid_y			= 27
+cost				= 25
+visual_condition = 0.75
+
+use_script_text_1 = custom_props.text_car_fuel
+use_script_functor_1 = custom_props.text_car_funct
+
+allowed_cars = veh_tractor40_blue, veh_tractor40_red
+fuel_cost			= 700
+fuel_mass			= 7.00
+fuel_volume			= 0.60
+
+[vodka3]:vodka
+$spawn 				= "food and drugs\vodka_used_3"
+description			= gunsl_eatable_vodka_descr3
+inv_weight			= 0.4
+hud = vodka_hud_model3
+inv_grid_x			= 12
+inv_grid_y			= 27
+cost				= 15
+visual_condition = 0.5
+
+use_script_text_1 = custom_props.text_car_fuel
+use_script_functor_1 = custom_props.text_car_funct
+
+allowed_cars = veh_tractor40_blue, veh_tractor40_red
+fuel_cost			= 700
+fuel_mass			= 7.00
+fuel_volume			= 0.40
+
+[vodka4]:vodka
+$spawn 				= "food and drugs\vodka_used_4"
+description			= gunsl_eatable_vodka_descr4
+hud = vodka_hud_model4
+inv_weight			= 0.3
+trash_object = vodka_trash
+trash_object_nothrow = vodka_trash_notrash
+inv_grid_x			= 13
+inv_grid_y			= 27
+cost				= 5
+visual_condition = 0.20
+
+use_script_text_1 = custom_props.text_car_fuel
+use_script_functor_1 = custom_props.text_car_funct
+
+allowed_cars = veh_tractor40_blue, veh_tractor40_red
+fuel_cost			= 700
+fuel_mass			= 7.00
+fuel_volume			= 0.20
+
+[vodka_trash]:gwr_base_trash
+visual                           = dynamics\devices\dev_vodka\dev_vodka_trash.ogf
+throw_dir = left
+throw_impulse_z = 65
+
+[vodka_trash_notrash]:vodka_trash
+throw_impulse_z = 30

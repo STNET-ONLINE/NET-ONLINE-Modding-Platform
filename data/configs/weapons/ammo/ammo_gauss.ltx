@@ -1,0 +1,46 @@
+[ammo_gauss]:ammo_base
+$spawn			= "weapons\ammo\ammo_gauss" ; option for Level Editor
+visual          = dynamics\weapons\wpn_ammo\ammo_gauss.ogf
+description		= gunsl_ammo_gauss_descr
+
+cost			= 2000
+
+box_size		= 10
+
+inv_name		= gunsl_ammo_gauss
+inv_name_short	= gunsl_ammo_gauss_short
+inv_weight		= .5
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 14
+
+k_hit 			= 2.0
+k_pierce		= 150
+k_ap			= 150
+tracer			= off
+wm_size         = 0.1
+
+explosive		= on
+k_air_resistance = 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_gauss_cardan]:ammo_gauss
+$spawn			= "weapons\ammo\ammo_gauss_cardan" ; option for Level Editor
+visual          = dynamics\weapons\wpn_ammo\ammo_gauss_custom.ogf
+description		= gunsl_ammo_gauss_cardan_descr
+
+box_size		= 6
+
+inv_name		= gunsl_ammo_gauss_cardan
+inv_name_short	= gunsl_ammo_gauss_cardan_short
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 9
+
+impair			= 1.5
+k_air_resistance = 1.0

@@ -1,0 +1,68 @@
+[tactical_torch]
+;---------------------------------------
+;DIRECT		= 0,
+;POINT		= 1,
+;SPOT		= 2,
+;OMNIPART	= 3,
+;REFLECTED	= 4,
+
+torch_render_type = 2 
+torch_omni_type = 2
+
+torch_render_shadow = true
+torch_omni_shadow = false
+;---------------------------------------
+
+torch_installed = true
+torch_light_bone = wpn_body
+torch_cone_bones = light
+
+torch_attach_offset_x = -0.008
+torch_attach_offset_y = 0.048
+torch_attach_offset_z = 0.0
+
+torch_world_attach_offset_x = 0.0
+torch_world_attach_offset_y = 0.05
+torch_world_attach_offset_z = 0.25
+
+
+torch_omni_attach_offset_x = 0.0 
+torch_omni_attach_offset_y = 0.0
+torch_omni_attach_offset_z = 0.0
+
+torch_omni_world_attach_offset_x = 0.0 
+torch_omni_world_attach_offset_y = 0.0
+torch_omni_world_attach_offset_z = 0.0
+
+torch_glow_radius = 0.3
+torch_glow_texture = glow\glow_torch_r2
+
+torch_color_r = 1.2
+torch_color_g = 1.2
+torch_color_b = 1.2
+torch_color_a = 0.9
+
+torch_r2_color_r = 0.6
+torch_r2_color_g = 0.55
+torch_r2_color_b = 0.55
+torch_r2_color_a = 1.0
+
+torch_omni_color_r = 1.0 
+torch_omni_color_g = 1.0
+torch_omni_color_b = 1.0
+torch_omni_color_a = 0.0
+
+torch_r2_omni_color_r = 1.0 
+torch_r2_omni_color_g = 1.0
+torch_r2_omni_color_b = 1.0
+torch_r2_omni_color_a = 0.0
+
+torch_range = 95
+torch_r2_range = 95
+torch_omni_range = 0.45
+torch_r2_omni_range = 0.45
+
+torch_spot_angle = 80
+torch_spot_texture    = internal\internal_light_torch_tactical_r2
+
+torch_breaking_params = 0.3, 0.25, 0.0 //состояние, при котором начнутся проблемы, состояние, при котором все совсем поломается, стартовая вероятность проблемы (конечная - конечно же, 1)

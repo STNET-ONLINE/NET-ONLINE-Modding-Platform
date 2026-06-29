@@ -1,0 +1,61 @@
+[grenade_flashbang_hud]:default_hud_nodraw
+fire_point			= 0,0,0
+fire_bone           = wpn_body
+
+
+attach_place_idx	= 0
+item_visual		= dynamics\weapons\wpn_grenades\wpn_flashbang_hud
+
+hud_fov_factor = 1.25
+
+hands_position				= 0.0,-0.13,0.03
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.13,0.03
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+
+item_position				= 0.0,0.0,0.0
+item_orientation			= 0.0,0.0,0.0
+
+
+anm_hide		        = flashbang_hide
+anm_show			= flashbang_draw
+
+anm_idle			= flashbang_idle
+anm_idle_slow                   = flashbang_idle
+anm_idle_crouch                 = flashbang_idle
+anm_idle_crouch_slow            = flashbang_idle
+
+disable_bore = false
+anm_bore			= flashbang_bore
+
+anm_idle_moving	 		= flashbang_walk, flashbang_slow_super
+anm_idle_moving_slow 		= flashbang_slow, flashbang_slow_super
+anm_idle_moving_crouch 	        = flashbang_slow_down, flashbang_slow_super
+anm_idle_moving_crouch_slow 	= flashbang_slow_super
+
+lock_time_anm_idle_sprint_end        = 0.4
+anm_idle_sprint_start           = flashbang_sprint_start
+anm_idle_sprint	 		= flashbang_sprint
+anm_idle_sprint_end             = flashbang_sprint_end
+
+anm_throw_begin			= flashbang_throw_start
+anm_throw_idle			= flashbang_throw_idle
+anm_throw			= f1_throw_end
+
+anm_throw_quick                 = flashbang_throw_quick
+
+
+anm_headlamp_on = flashbang_headflash
+anm_headlamp_off = flashbang_headflash
+
+mark_anm_headlamp_on = 0.5
+mark_anm_headlamp_off = 0.5
+
+anm_nv_on = flashbang_headflash
+anm_nv_off = flashbang_headflash
+
+
+throw_point			= 0.0,0.4,0.3
+throw_dir			= 0,0,1
+third_person_throw_point_offset = -0.05,0.848,0.706

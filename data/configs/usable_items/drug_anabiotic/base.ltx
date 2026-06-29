@@ -1,0 +1,41 @@
+#include "eatable_objects.ltx"
+#include "hud_objects.ltx"
+
+
+[drug_anabiotic]:booster
+$spawn 				= "food and drugs\drug_anabiotic"
+visual				= dynamics\equipments\medical\drug_anabiotic.ogf
+inv_name			= gunsl_eatable_anabiotic
+inv_name_short		= gunsl_eatable_anabiotic
+description			= gunsl_eatable_anabiotic_descr
+cost				= 1000
+ignore_eatable_boost = true
+
+inv_grid_width		        = 1
+inv_grid_height		        = 1
+inv_grid_x			= 4
+inv_grid_y			= 8
+
+use_sound			= $silent ;interface\inv_pills
+
+hud = drug_anabiotic_hud_model
+helm_prohibited = false; true
+full_outfit_prohibited = false ;true
+trash_object = drug_anabiotic_trash
+
+
+[drug_anabiotic_trash]:gwr_base_trash
+visual                        = dynamics\equipments\medical\drug_anabiotic_trash.ogf
+
+;направление, в котором предмет отбрасывается
+throw_dir = right
+;смещение точки спавна относительно камеры
+throw_offset_y = -0.6	//вверх-вниз
+throw_offset_x = -0.2	//вперед-назад
+throw_offset_z = -0.6	//положительные - в сторону броска, отрицательное - в противоположную
+
+throw_impulse_y = -90
+throw_impulse_z = 180
+
+
+

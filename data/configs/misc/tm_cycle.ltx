@@ -1,0 +1,109 @@
+;Кордон
+;Цикличные квесты на поиск различных частей тел монстров
+
+[sid_tm_cycle_find_dog_tail]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=mp_actor_has_item(mutant_dog_tail)}find_mutant_dog_tail_name_otnesti, find_mutant_dog_tail_name_naiti
+descr = find_mutant_dog_tail_descr
+condlist_0 = {+sid_find_mutant_dog_tail_info_end} complete %-sid_find_mutant_dog_tail_info_end -sid_find_mutant_dog_tail_info_start +sid_find_mutant_pseudog_info_next%
+
+[sid_tm_cycle_find_pseudodog_tail]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=mp_actor_has_item(mutant_pseudodog_tail)}find_mutant_pseudodog_tail_name_otnesti, find_mutant_pseudodog_tail_name_naiti
+descr = find_mutant_pseudodog_tail_descr
+condlist_0 = {+sid_find_mutant_pseudodog_tail_info_end} complete %-sid_find_mutant_pseudodog_tail_info_end -sid_find_mutant_pseudodog_tail_info_start +sid_find_mutant_boar_leg_info_next%
+
+[sid_tm_cycle_find_boar_leg_tail]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=mp_actor_has_item(mutant_boar_leg)}find_mutant_boar_leg_name_otnesti, find_mutant_boar_leg_name_naiti
+descr = find_mutant_boar_leg_descr
+condlist_0 = {+sid_find_mutant_boar_leg_info_end} complete %-sid_find_mutant_boar_leg_info_end -sid_find_mutant_boar_leg_info_start -sid_find_mutant_pseudog_info_next -sid_find_mutant_boar_leg_info_next%
+
+;Цикличные квесты на поиск артефактов
+
+[sid_tm_cycle_find_af_medusa]
+icon = ui_iconsTotal_artefact
+prior = 2
+storyline = false 
+title = {=mp_actor_has_item(af_medusa)}find_af_medusa_name_otnesti, find_af_medusa_name_naiti
+descr = find_af_medusa_descr
+condlist_0 = {+sid_find_af_medusa_info_end} complete %-sid_find_af_medusa_info_end -sid_find_af_medusa_info_start +sid_find_af_cristall_flower_info_next%
+
+[sid_tm_cycle_find_af_cristall_flower]
+icon = ui_iconsTotal_artefact
+prior = 2
+storyline = false
+title = {=mp_actor_has_item(af_cristall_flower)}find_af_cristall_flower_name_otnesti, find_af_cristall_flower_name_naiti
+descr = find_af_cristall_flower_descr
+condlist_0 = {+sid_find_af_cristall_flower_info_end} complete %-sid_find_af_cristall_flower_info_end -sid_find_af_cristall_flower_info_start +sid_find_af_night_star_info_next%
+
+[sid_tm_cycle_find_af_night_star]
+icon = ui_iconsTotal_artefact
+prior = 2
+storyline = false
+title = {=mp_actor_has_item(af_night_star)}find_af_night_star_name_otnesti, find_af_night_star_name_naiti
+descr = find_af_night_star_descr
+condlist_0 = {+sid_find_af_night_star_info_end} complete %-sid_find_af_night_star_info_end -sid_find_af_night_star_info_start -sid_find_af_night_star_info_next%
+
+;Цикличные квесты на поиск различных предметов
+;-----
+
+
+;Относительно уникальные цикличные квесты (+Уник диалог, но при этом всё равно цикличка)
+;-----
+
+[sid_tm_cycle_find_rgm40]
+icon = ui_iconsTotal_weapons
+prior = 3
+storyline = false 
+title = {=mp_actor_has_item(wpn_rgm40)}find_rgm40_name_otnesti, find_rgm40_name_naiti
+descr = find_rgm40_naiti_descr
+condlist_0 = {+sid_find_rgm40_info_end} complete %-sid_find_rgm40_info_end -sid_find_rgm40_info_start -sid_find_rgm40_info_next%
+
+;Тёмная лощина
+
+[ds_tm_cycle_find_dog_tail_x10]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=actor_has_item_count(mutant_dog_tail:10)}find_mutant_dog_tail_name_otnesti_x10, find_mutant_dog_tail_name_naiti_x10
+descr = find_mutant_dog_tail_descr_x10
+condlist_0 = {+zve_find_mutant_dog_tail_info_x10_end} complete %-zve_find_mutant_dog_tail_info_x10_end -zve_find_mutant_dog_tail_info_x10_start +zve_find_mutant_pseudog_info_x5_next%
+
+[ds_tm_cycle_find_pseudodog_tail_x5]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=actor_has_item_count(mutant_pseudodog_tail:5)}find_mutant_pseudodog_tail_name_otnesti_x5, find_mutant_pseudodog_tail_name_naiti_x5
+descr = find_mutant_pseudodog_tail_descr_x5
+condlist_0 = {+zve_find_mutant_pseudodog_tail_info_x5_end} complete %-zve_find_mutant_pseudodog_tail_info_x5_end -zve_find_mutant_pseudodog_tail_info_x5_start +zve_find_mutant_boar_leg_info_x15_next%
+
+[ds_tm_cycle_find_boar_leg_tail_x15]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=actor_has_item_count(mutant_boar_leg:15)}find_mutant_boar_leg_name_otnesti_x15, find_mutant_boar_leg_name_naiti_x15
+descr = find_mutant_boar_leg_descr_x15
+condlist_0 = {+zve_find_mutant_boar_leg_info_x15_end} complete %-zve_find_mutant_boar_leg_info_x15_end -zve_find_mutant_boar_leg_info_x15_start +zve_find_mutant_krovosos_jaw_tail_x3_info_next%
+
+[ds_tm_cycle_find_krovosos_jaw_tail_x3]
+icon = ui_iconsTotal_monster_part
+prior = 2
+storyline = false 
+title = {=actor_has_item_count(mutant_krovosos_jaw:3)}find_mutant_krovosos_jaw_name_otnesti_x3, find_mutant_krovosos_jaw_name_naiti_x3
+descr = find_mutant_krovosos_jaw_descr_x3
+condlist_0 = {+zve_find_mutant_krovosos_jaw_tail_info_x3_end} complete %-zve_find_mutant_krovosos_jaw_tail_info_x3_start%
+
+;[ds_tm_cycle_find_burer_hand_tail_x2]
+;icon = ui_iconsTotal_monster_part
+;prior = 2
+;storyline = false 
+;title = {=actor_has_item_count(mutant_burer_hand:2)}find_mutant_burer_hand_name_otnesti_x2, find_mutant_burer_hand_name_naiti_x2
+;descr = find_mutant_burer_hand_descr_x2
+;condlist_0 = {+zve_find_mutant_burer_hand_info_x2_end} complete %-zve_find_mutant_burer_hand_info_x2_end -zve_find_mutant_burer_hand_info_x2_start -zve_find_mutant_burer_hand_info_x2_next%

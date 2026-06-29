@@ -1,0 +1,75 @@
+#include "eatable_objects.ltx"
+#include "hud_objects.ltx"
+
+
+[medkit]:booster
+$spawn 				= "food and drugs\medkit"
+visual				= dynamics\devices\dev_aptechka\dev_aptechka_low.ogf
+inv_name			= gunsl_eatable_medkit
+inv_name_short		= gunsl_eatable_medkit
+description			= gunsl_eatable_medkit_descr
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 14
+cost				= 250
+
+boost_time				= 0.0
+boost_health_restore	= 0.0
+boost_radiation_restore	= 0.0
+boost_bleeding_restore	= 0.00
+
+use_sound			= $silent ;interface\inv_medkit
+
+hud = medkit_hud_model
+trash_object = medkit_trash
+
+;change_outfit_svoboda_exo_outfit = medkit_exo
+;change_outfit_exo_outfit = medkit_exo
+
+
+
+[medkit_exo]
+hud = medkit_exo_hud_model
+
+
+[medkit_script]:booster ;Do not use! Used in xr_wounded
+script_binding = medkit_script_binder.init
+;$spawn 				= "food and drugs\medkit_script"
+visual				= dynamics\devices\dev_aptechka\dev_aptechka_low.ogf
+inv_name			= gunsl_eatable_medkit
+inv_name_short		= gunsl_eatable_medkit
+description			= gunsl_eatable_medkit_descr
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 14
+cost				= 300
+
+;eatable item
+eat_health			= 0.5
+eat_max_power		= 0.1
+eat_radiation		= -0.05
+wounds_heal_perc	= 0.1
+eat_portions_num	= 1
+
+use_sound			= interface\inv_medkit
+
+
+[medkit_trash]:gwr_base_trash
+visual                        = gwr\equipment\medkit\medkit_trash.ogf
+
+;направление, в котором предмет отбрасывается
+throw_dir = right
+;смещение точки спавна относительно камеры
+throw_offset_y = -0.6	//вверх-вниз
+throw_offset_x = -0.2	//вперед-назад
+throw_offset_z =  0.6	//положительные - в сторону броска, отрицательное - в противоположную
+
+throw_impulse_y = -90
+throw_impulse_z = 180
+

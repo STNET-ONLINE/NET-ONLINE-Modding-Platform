@@ -1,0 +1,35 @@
+[wpn_ak74u_snag]:wpn_ak74u ;zaton b33
+$spawn                  	= "weapons\wpn_ak74u_snag"		; option for Level Editor
+
+
+def_show_bones = foregrip_plastic, body, bone2,  handler2, mag30_black, silencer1
+def_hide_bones = mag45, mag45_black, mag30, mag60, body2, body3, bone, handler, handler3, foregrip_wood, flash_rail, scope_kashtan, scope_rakurs, scope_cobra, scope_pso_sniper, scope_pso_assault, scope_pka, scope_nv_sniper, scope_nv_assault, flash, laser, sight, rail
+
+upgrades = vartree_aks74ub_barrel, vartree_aks74ub_tsevie, vartree_aks74ub_mag45, vartree_aks74ub_sights, vartree_aks74ub_priklad, vartree_aks74ub_handle, vartree_aks74ub_lastochka
+installed_upgrades = 
+upgrade_scheme = upgrade_scheme_aks74ub
+
+banned_upgrades = up_aks74u_
+
+description          = gunsl_wpn_ak74ub_descr
+inv_name             = gunsl_wpn_ak74ub                    ; name in inventory
+inv_name_short       = gunsl_wpn_ak74ub
+
+inv_weight				= 2.3
+
+cost              		= 3200
+bullet_speed            = 400
+rpm                     = 575
+
+inv_grid_width		= 5	   
+inv_grid_y		= 33
+
+upgr_icon_x		= 988
+upgr_icon_y		= 858
+upgr_icon_width		= 310
+upgr_icon_height   	= 105
+
+silencer_status            = 0 ;но будет несъемный!!! Если укажем 1 - отобразится еще и обычный глушак, что нам никак не надо
+snd_shoot = weapons\aks74u\aks74u_shoot_sil, -1.1
+flame_particles = 
+light_disabled = true

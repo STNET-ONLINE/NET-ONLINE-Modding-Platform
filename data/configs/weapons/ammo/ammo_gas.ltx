@@ -1,0 +1,33 @@
+[ammo_gas]:ammo_base
+$spawn			= "weapons\ammo\ammo_gas" ; option for Level Editor
+visual          = dynamics\weapons\wpn_ammo\ammo_gauss.ogf
+description		= gunsl_ammo_gas_descr
+
+cost			= 200
+
+box_size		= 500
+
+inv_name		= gunsl_ammo_gas
+inv_name_short	= gunsl_ammo_gas_short
+inv_weight		= 1.0
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 14
+
+k_hit 			= 0.17
+k_pierce		= 0.28
+k_ap			= 0.28
+tracer			= off
+wm_size         = 0.4
+
+buck_shot		= 1
+
+explosive		= off
+k_air_resistance = 0.001
+
+material = objects\bullet_fire
+hit_type = 0 ; burn
+
+allow_ricochet = false

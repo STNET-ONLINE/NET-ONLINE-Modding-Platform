@@ -1,0 +1,94 @@
+[vodka_hud_model]:gwr_base_usable
+visual				= dynamics\devices\dev_vodka\dev_vodka.ogf
+hud = vodka_hud
+hud_fov_factor = 0.9 
+
+description			= gunsl_eatable_vodka_descr
+inv_name			= gunsl_eatable_vodka
+inv_name_short		= gunsl_eatable_vodka
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 5
+inv_grid_y			= 2
+cost				= 40
+inv_weight		 	= 0.6
+
+snd_draw   = $silent
+snd_using   = items\vodka\vodka_drink
+timing = 6770					;задержка на время полного проигрывания анимации
+timing_early = 4800				;задержка перед назначением эффекта
+gwr_changed_object = vodka			;Какой предмет заменили
+gwr_eatable_object = vodka_eatable		;Какой предмет есть после проигрывания анимы
+
+
+[vodka_hud_model2]:vodka_hud_model
+gwr_changed_object = vodka2
+hud = vodka_hud2
+inv_grid_x			= 11
+inv_grid_y			= 27
+inv_weight			= 0.5
+
+[vodka_hud_model3]:vodka_hud_model
+gwr_changed_object = vodka3
+hud = vodka_hud3
+inv_grid_x			= 12
+inv_grid_y			= 27
+inv_weight			= 0.4
+
+[vodka_hud_model4]:vodka_hud_model
+gwr_changed_object = vodka4
+snd_using   = items\vodka\vodka_drink_last
+timing = 6500
+timing_trash = 6100
+hud = vodka_hud4
+inv_grid_x			= 13
+inv_grid_y			= 27
+inv_weight			= 0.3
+
+
+[vodka_hud]:gwr_base_usable_hud
+zoom_hide_crosshair			= true
+
+hud_fov_factor = 1.25
+
+inertion_pitch_offset_r = -0.005
+inertion_pitch_offset_n = -0.005
+inertion_pitch_offset_d = -0.001
+inertion_speed = 20
+inertion_origin_offset = 0.05
+
+hands_position				= 0.0,-0.02,0.14
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.02,0.14
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position = 0.0,0.0,0.0
+item_orientation = 0.0,0.0,0.0
+
+item_visual             	= gwr\food\vodka\vodka_hud.ogf
+
+anm_show			= vodka
+anm_hide			= zaglushka
+anm_idle			= zaglushka
+anm_idle_slow                   = zaglushka
+anm_idle_crouch                 = zaglushka
+anm_idle_crouch_slow            = zaglushka
+anm_idle_aim			= zaglushka
+anm_idle_aim_end		= zaglushka
+anm_idle_moving			= zaglushka
+anm_idle_moving_slow 		= zaglushka
+anm_idle_moving_crouch 	        = zaglushka
+anm_idle_moving_crouch_slow     = zaglushka
+anm_idle_sprint			= zaglushka
+anm_idle_sprint_start = zaglushka
+anm_bore			= zaglushka
+
+[vodka_hud2]:vodka_hud
+anm_show = vodka
+
+[vodka_hud3]:vodka_hud
+anm_show = vodka
+
+[vodka_hud4]:vodka_hud
+anm_show = vodka_last

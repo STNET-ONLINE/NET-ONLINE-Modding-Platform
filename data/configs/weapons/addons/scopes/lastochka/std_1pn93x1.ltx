@@ -1,0 +1,37 @@
+[wpn_addon_scope_night]:base_addon
+$spawn			= "weapons\addons\scope_night" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\1pn93x1.ogf
+description		= gunsl_addon_scope_1pn93_1_descr
+cost			= 3000
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_1pn93_1
+inv_name_short	= gunsl_addon_scope_1pn93_1
+inv_weight		= 1.0
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 17
+scope_texture		= crosshair_2d_1pn93x1
+scope_zoom_factor	= 1.02
+scope_nightvision	= scope_nightvision
+scope_nightvision_min_factor = 0.5
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 4			//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 4			//максимальное значение кратность прицела
+lens_factor_levels_count = 5	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.2
+
+max_night_brightness = 7.0 ; максимальная яркость прицела
+min_night_brightness = 0.5 ; минимальная яркость прицела
+steps_brightness = 7	   ; число позиций яркости
+jitter_brightness = 0.3    ; степень шума в прицеле
+default_brightness_step = 6 ; позиция яркости при спавне
+
+scope_abberation = 0

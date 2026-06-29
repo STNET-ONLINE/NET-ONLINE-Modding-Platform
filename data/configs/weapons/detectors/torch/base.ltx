@@ -1,0 +1,109 @@
+[detector_torch]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn 			= "devices\detector_torch"
+$prefetch 		= 32
+class			= DET_SIMP
+cform			= skeleton
+visual			= dynamics\devices\dev_torch\handflash.ogf
+
+
+hud			= detector_torch_hud
+animation_slot		= 7
+
+inv_name		= gunsl_detector_torch
+inv_name_short	        = gunsl_detector_torch
+description		= gunsl_detector_torch_descr
+
+slot			= 8
+ef_detector_type	= 1
+inv_weight		= 0.17
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x		= 4
+inv_grid_y		= 26
+cost			= 500
+default_to_ruck		= false
+
+af_radius		= 30
+af_vis_radius		= 3
+
+attach_angle_offset		= -1.303,-1.493,-1.202
+attach_position_offset	= 0.110,-0.019,0.000
+
+attach_bone_name	= bip01_l_hand
+auto_attach		= false
+snd_draw                = items\handflash\handflash_draw
+snd_holster             = items\handflash\handflash_hide
+
+
+torch_installed = true
+torch_light_bone = light
+torch_cone_bones = light_cone
+detects_zones = false			;чтобы не пищал при приближении к аномалиям
+
+
+;параметры освещения фонарика
+
+torch_render_type = 2 
+torch_omni_type = 2
+
+torch_render_shadow = true
+torch_omni_shadow = false
+;---------------------------------------
+
+torch_attach_offset_x = 0.15
+torch_attach_offset_y = 0.0
+torch_attach_offset_z = -0.42
+
+torch_omni_attach_offset_x = 0.15
+torch_omni_attach_offset_y = 0.0
+torch_omni_attach_offset_z = -0.5
+
+;Осторожно - в анимации прицеливания фонарик повернут, вместе с ним повернулись и оси! 
+torch_aim_attach_offset_x = -0.3
+torch_aim_attach_offset_y = -0.0
+torch_aim_attach_offset_z = -0.0
+
+torch_world_attach_offset_x = 0.0
+torch_world_attach_offset_y = 0.0
+torch_world_attach_offset_z = 0.0
+
+torch_omni_world_attach_offset_x = 0.0 
+torch_omni_world_attach_offset_y = 0.0
+torch_omni_world_attach_offset_z = 0.0
+
+torch_glow_radius = 0.3
+torch_glow_texture = glow\glow_torch_r2
+
+torch_color_r = 1.0
+torch_color_g = 1.0
+torch_color_b = 1.0
+torch_color_a = 0.5
+
+torch_r2_color_r = 0.6
+torch_r2_color_g = 0.55
+torch_r2_color_b = 0.55
+torch_r2_color_a = 1.0
+
+torch_omni_color_r = 1.0 
+torch_omni_color_g = 1.0
+torch_omni_color_b = 1.0
+torch_omni_color_a = 0.0
+
+torch_r2_omni_color_r = 1.0 
+torch_r2_omni_color_g = 1.0
+torch_r2_omni_color_b = 1.0
+torch_r2_omni_color_a = 0.0
+
+torch_range = 90
+torch_r2_range = 90
+torch_omni_range = 0.35
+torch_r2_omni_range = 0.35
+
+torch_spot_angle = 95
+torch_spot_texture    = internal\internal_hand_light_torch_tactical_r2
+
+light_directions_by_bones = false ; показывает, что вектор направления света надо высчитывать через позиции 2х костей
+torch_light_bone = light	;кость,  из которой будет светить
+torch_dir_bone = light ;кость, в сторону которой будет светить

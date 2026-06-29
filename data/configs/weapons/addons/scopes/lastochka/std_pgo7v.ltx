@@ -1,0 +1,37 @@
+[wpn_addon_scope_pgo7v]:base_addon
+$spawn			= "weapons\addons\scope_pgo7v" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\pgo7v.ogf
+description		= gunsl_addon_scope_pgo7v_descr
+cost			= 3000
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_pgo7v
+inv_name_short	        = gunsl_addon_scope_pgo7v
+inv_weight		= .62
+
+inv_grid_width	        = 1
+inv_grid_height	        = 1
+inv_grid_x		= 19
+inv_grid_y		= 22
+
+scope_texture		= crosshair_2d_pgo7v
+scope_zoom_factor	= 1.02
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 2.7		//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 2.7		//максимальное значение кратность прицела
+lens_factor_levels_count = 5	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.13
+
+max_night_brightness = 3.0 ; максимальная яркость прицела
+min_night_brightness = 0.0 ; минимальная яркость прицела
+steps_brightness = 1	   ; число позиций яркости
+default_brightness_step = 0 ; позиция яркости при спавне
+
+jitter_brightness = 0.0    ; степень шума в прицеле
+
+scope_abberation = 0.005

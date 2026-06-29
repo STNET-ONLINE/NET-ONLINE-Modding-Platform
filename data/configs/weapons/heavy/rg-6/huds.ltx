@@ -1,0 +1,376 @@
+[wpn_rg6_unoff_hud]:default_hud
+zoom_hide_crosshair		= true
+no_jam_fire = true
+
+zoom_dof_near = 0.45
+zoom_dof_focus = 0.5
+
+hud_fov_factor = 1.25
+
+prohibit_suicide = false        ;включаем суицид
+suicide_by_animation=true        ;кроме смещения будет играться анимация
+custom_suicide_shot = true        ; показываем, что необходима особая анимация самоубийственного выстрела
+
+anm_suicide            = rg6_unoff_suicide,  suicide
+lock_time_anm_suicide         = 7.37
+anm_stop_suicide         = rg6_unoff_suicide_end,  suicide_end
+lock_time_anm_stop_suicide     = 1.37
+suicide_delay = 0.8 
+
+hud_move_suicide_offset_pos = 0, 0, 0.2
+hud_move_suicide_offset_rot = 10, -50, 0
+
+hud_move_suicide_offset_pos_16x9 = 0, 0, 0.2
+hud_move_suicide_offset_rot_16x9 = 10, -50, 0
+
+; anm_shoot_suicide для гранатометов не нужно
+
+item_orientation                                   = 0,0,0
+item_position                                      = 0,0,0
+
+hands_position = -0.036400,-0.036400,-0.089400
+hands_orientation = 1.000000,1.000000,-6.000000
+hands_position_16x9 = -0.036400,-0.074700,-0.107400
+hands_orientation_16x9 = 0.080000,3.351000,-8.000000
+
+aim_hud_offset_pos = -0.001200,-0.197400,0.000000
+aim_hud_offset_rot = -0.247500,0.018250,0.040000
+aim_hud_offset_pos_16x9 = -0.003100,-0.157200,0.000000
+aim_hud_offset_rot_16x9 = -0.200500,-0.004750,0.014000
+
+gl_hud_offset_pos          = 0.0,0.0,0.0
+gl_hud_offset_rot          = 0.0,0.0,0.0
+
+gl_hud_offset_pos_16x9     = 0.0,0.0,0.0
+gl_hud_offset_rot_16x9     = 0.0,0.0,0.0
+
+lean_hud_offset_pos        = 0,0,0
+lean_hud_offset_rot        = 0,0,0
+
+shell_point		   = 0.0,-9.0,0.0
+shell_dir                  = 0.0,0.0,0.0
+shell_bone		   = wpn_body
+
+
+fire_point		   = 0.0,-0.056,0.362
+fire_bone                  = wpn_body
+
+
+attach_place_idx           = 0
+item_visual					= dynamics\weapons\wpn_rg6\wpn_rg6_unoff_hud.ogf
+
+use_advanced_ammo_bones = true
+ammo_params_section_0 = wpn_rg6_unoff_ammo_bones_vog25
+ammo_params_section_1 = wpn_rg6_unoff_ammo_bones_vog25p
+
+disable_bore = true                                            ;отключение анимации скуки
+
+mix_shoot_after_idle = false                                   ;микс первого выстрела с анимациями idle
+mix_shoot_after_shoot_in_queue = false                         ;микс между серией выстрелов
+;Доставание///////////////////////////////////////////////////
+anm_show                   = rg6_unoff_draw, draw
+anm_show_empty             = rg6_unoff_draw, draw
+anm_show_jammed            = rg6_unoff_draw, draw
+
+;Убирание/////////////////////////////////////////////////////
+anm_hide                   = rg6_unoff_holster, holster
+anm_hide_empty             = rg6_unoff_holster, holster
+anm_hide_jammed            = rg6_unoff_holster, holster
+
+;Бездействие//////////////////////////////////////////////////
+anm_idle                            = rg6_unoff_idle
+anm_idle_empty                      = rg6_unoff_idle
+anm_idle_jammed                     = rg6_unoff_idle
+anm_idle_slow                       = rg6_unoff_idle
+anm_idle_slow_empty                 = rg6_unoff_idle
+anm_idle_slow_jammed                = rg6_unoff_idle
+anm_idle_crouch                     = rg6_unoff_idle
+anm_idle_crouch_empty               = rg6_unoff_idle
+anm_idle_crouch_jammed              = rg6_unoff_idle
+anm_idle_crouch_slow                = rg6_unoff_idle
+anm_idle_crouch_slow_empty          = rg6_unoff_idle
+anm_idle_crouch_slow_jammed         = rg6_unoff_idle
+
+
+;Бездействие в прицеливании///////////////////////////////////
+autoshoot_anm_idle_aim_start = true         ;команда заставляет произвести выстрел с задержкой на lock_time, если кнопка выстрела будет нажата раньше заданного времени в lock_time
+lock_time_anm_idle_aim_start = 0.2          ;команда блокирует все действия (кроме выбрасывания оружия) во время отыгрывания обозначенной анимации до окончания заданного времени
+autoshoot_anm_idle_aim_start_empty = true
+lock_time_anm_idle_aim_start_empty = 0.2
+autoshoot_anm_idle_aim_start_jammed = true
+lock_time_anm_idle_aim_start_jammed = 0.2
+
+
+anm_idle_aim_start             = rg6_unoff_idle_aim_start
+anm_idle_aim_start_empty       = rg6_unoff_idle_aim_start
+anm_idle_aim_start_jammed      = rg6_unoff_idle_aim_start
+
+
+anm_idle_aim                   = rg6_unoff_idle_aim
+anm_idle_aim_empty             = rg6_unoff_idle_aim
+anm_idle_aim_jammed            = rg6_unoff_idle_aim
+anm_idle_aim_scope             = rg6_unoff_idle_aim
+anm_idle_aim_scope_empty       = rg6_unoff_idle_aim
+anm_idle_aim_scope_jammed      = rg6_unoff_idle_aim
+
+
+autoshoot_anm_idle_aim_end = true
+lock_time_anm_idle_aim_end = 0.25
+autoshoot_anm_idle_aim_end_empty = true
+lock_time_anm_idle_aim_end_empty = 0.25
+autoshoot_anm_idle_aim_end_jammed = true
+lock_time_anm_idle_aim_end_jammed = 0.25
+
+
+anm_idle_aim_end               = rg6_unoff_idle_aim_end
+anm_idle_aim_end_empty         = rg6_unoff_idle_aim_end
+anm_idle_aim_end_jammed        = rg6_unoff_idle_aim_end
+
+
+;enable_directions_anm_idle = true
+enable_directions_anm_idle_aim = true
+
+;Ходьба ВПЕРЕД//////////////////////////////////////////////////////////////////////////
+anm_idle_moving 					= rg6_unoff_moving
+anm_idle_moving_jammed 					= rg6_unoff_moving
+anm_idle_moving_empty					= rg6_unoff_moving
+
+;Ходьба медленная (SHIFT) ВПЕРЕД//////////////////////////////////////////////////////////////////////////
+anm_idle_moving_slow 					= rg6_unoff_moving_slow
+anm_idle_moving_slow_jammed 				= rg6_unoff_moving_slow
+anm_idle_moving_slow_empty				= rg6_unoff_moving_slow
+
+;Ходьба в полуприсяди (CTRL) ВПЕРЕД//////////////////////////////////////////////////////////////////////////
+anm_idle_moving_crouch 					= rg6_unoff_crouch
+anm_idle_moving_crouch_jammed 				= rg6_unoff_crouch
+anm_idle_moving_crouch_empty				= rg6_unoff_crouch
+
+;Ходьба в присяде (CTRL+SHIFT) ВПЕРЕД/////////////////////////////////////////////////////////////////////////
+anm_idle_moving_crouch_slow 				= rg6_unoff_crouch
+anm_idle_moving_crouch_slow_jammed 			= rg6_unoff_crouch
+anm_idle_moving_crouch_slow_empty			= rg6_unoff_crouch
+
+;ходьба в прицеливании ВПЕРЕД//////////////////////////////////////////////////////////////////
+anm_idle_aim_moving_forward                             = rg6_unoff_moving_aim
+anm_idle_aim_moving_forward_empty                       = rg6_unoff_moving_aim
+anm_idle_aim_moving_forward_jammed                      = rg6_unoff_moving_aim
+
+;ходьба в прицеливании НАЗАД//////////////////////////////////////////////////////////////////
+anm_idle_aim_moving_back                                = rg6_unoff_moving_aim
+anm_idle_aim_moving_back_empty                          = rg6_unoff_moving_aim
+anm_idle_aim_moving_back_jammed                         = rg6_unoff_moving_aim
+
+
+;ходьба в прицеливании ВЛЕВО//////////////////////////////////////////////////////////////////
+anm_idle_aim_moving_left                                = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_left_empty                          = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_left_jammed                         = rg6_unoff_aim_walk_left
+
+
+;ходьба в прицеливании ВПРАВО//////////////////////////////////////////////////////////////////
+anm_idle_aim_moving_right                               = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_right_empty                         = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_right_jammed                        = rg6_unoff_aim_walk_right
+ 
+
+;ходьба в прицеливании ВПЕРЕД+ВЛЕВО////////////////////////////////////////////////////////////
+anm_idle_aim_moving_forward_left                        = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_forward_left_empty                  = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_forward_left_jammed                 = rg6_unoff_aim_walk_left
+
+
+;ходьба в прицеливании ВПЕРЕД+ВПРАВО///////////////////////////////////////////////////////////
+anm_idle_aim_moving_forward_right                       = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_forward_right_empty                 = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_forward_right_jammed                = rg6_unoff_aim_walk_right
+
+
+;ходьба в прицеливании НАЗАД+ВЛЕВО/////////////////////////////////////////////////////////////
+anm_idle_aim_moving_back_left                           = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_back_left_empty                     = rg6_unoff_aim_walk_left
+anm_idle_aim_moving_back_left_jammed                    = rg6_unoff_aim_walk_left
+
+
+;ходьба в прицеливании НАЗАД+ВПРАВО////////////////////////////////////////////////////////////
+anm_idle_aim_moving_back_right                          = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_back_right_empty                    = rg6_unoff_aim_walk_right
+anm_idle_aim_moving_back_right_jammed                   = rg6_unoff_aim_walk_right
+
+
+;ходьба в прицеливании при надетом прицеле////////////////////////////////////////////////////
+anm_idle_aim_scope_moving	                        = rg6_unoff_moving_aim
+anm_idle_aim_scope_moving_empty		                = rg6_unoff_moving_aim
+anm_idle_aim_scope_moving_jammed	                = rg6_unoff_moving_aim
+
+
+;Бег//////////////////////////////////////////////////////////////////
+lock_time_anm_idle_sprint_start = 0.15
+lock_time_anm_idle_sprint_start_empty = 0.15
+lock_time_anm_idle_sprint_start_jammed = 0.15
+
+
+anm_idle_sprint_start             = rg6_unoff_sprint_start, sprint_start
+anm_idle_sprint_start_empty       = rg6_unoff_sprint_start, sprint_start
+anm_idle_sprint_start_jammed      = rg6_unoff_sprint_start, sprint_start
+
+
+anm_idle_sprint                   = rg6_unoff_sprint, sprint
+anm_idle_sprint_empty             = rg6_unoff_sprint, sprint
+anm_idle_sprint_jammed            = rg6_unoff_sprint, sprint
+
+
+lock_time_anm_idle_sprint_end             = 0.35
+lock_time_anm_idle_sprint_end_empty       = 0.35
+lock_time_anm_idle_sprint_end_jammed      = 0.35
+
+
+anm_idle_sprint_end              = rg6_unoff_sprint_end, sprint_end
+anm_idle_sprint_end_empty        = rg6_unoff_sprint_end, sprint_end
+anm_idle_sprint_end_jammed       = rg6_unoff_sprint_end, sprint_end
+
+
+;Скука////////////////////////////////////////////////////////////////////
+anm_bore                   = rg6_unoff_draw, draw
+anm_bore_empty             = rg6_unoff_draw, draw
+anm_bore_jammed            = rg6_unoff_draw, draw
+
+
+;Выстрелы обычными патронами/////////////////////////////////////////////////////////////////////
+anm_shoot                      = rg6_unoff_shoot_last, shoot
+anm_shoot_sil                  = rg6_unoff_shoot_last, shoot
+anm_shoot_jammed               = rg6_unoff_empty_click
+anm_shoot_jammed_sil           = rg6_unoff_empty_click
+anm_shoot_last                 = rg6_unoff_shoot_last, shoot
+anm_shoot_last_sil             = rg6_unoff_shoot_last, shoot
+anm_shoot_aim                  = rg6_unoff_aim_shoot, shoot
+anm_shoot_aim_sil              = rg6_unoff_aim_shoot, shoot
+anm_shoot_aim_jammed           = rg6_unoff_aim_dry, empty_click
+anm_shoot_aim_jammed_sil       = rg6_unoff_aim_dry, empty_click
+anm_shoot_aim_last             = rg6_unoff_aim_shoot, shoot
+anm_shoot_aim_last_sil         = rg6_unoff_aim_shoot, shoot 
+
+
+;Осечка//////////////////////////////////////////////////
+lock_time_anm_fakeshoot_empty      = 0.20
+anm_fakeshoot_empty                = rg6_unoff_empty_click
+lock_time_anm_fakeshoot_aim_empty  = 0.20
+anm_fakeshoot_aim_empty            = rg6_unoff_aim_dry
+lock_time_anm_fakeshoot_jammed     = 1.0
+anm_fakeshoot_jammed               = rg6_unoff_empty_click
+lock_time_anm_fakeshoot_aim_jammed = 0.20
+anm_fakeshoot_aim_jammed           = rg6_unoff_aim_dry
+
+
+;Перезарядка/////////////////////////////////////////////////////////////////////
+anm_reload                           = rg6_unoff_reload1, reload1
+anm_reload_empty                     = rg6_unoff_reload1, reload1
+anm_reload_jammed                    = rg6_unoff_reload1, reload1
+anm_reload_jammed_last               = rg6_unoff_reload1, reload1
+
+lock_time_start_anm_reload = 0.5
+lock_time_end_anm_reload = 1.8
+
+lock_time_start_anm_reload_empty  = 0.5
+lock_time_end_anm_reload_empty  = 1.8
+
+lock_time_start_anm_reload_jammed = 1.5
+lock_time_end_anm_reload_jammed = 2.15
+
+lock_time_start_anm_reload_jammed_last = 1.5
+lock_time_end_anm_reload_jammed_last = 2.15
+
+anm_reload_ammochange                = rg6_unoff_reload1, reload1
+lock_time_start_anm_reload_ammochange         = 1.5
+lock_time_end_anm_reload_ammochange           = 2.15
+
+
+;/////////////////////////////////////////////
+add_cartridge_in_open = false
+empty_preload_mode = false
+custom_reloads_for_each_cartridge = true
+revolver_reload = true
+
+anm_open			        = rg6_unoff_open, open
+anm_open_empty		        = rg6_unoff_open, open
+lock_time_anm_open = 2.5
+lock_time_anm_open_empty = 2.8
+
+anm_close			                = rg6_unoff_close, close
+anm_close_empty			            = rg6_unoff_close, close	;бесполезен, когда add_cartridge_in_open=true; иначе играется, если мы вдруг передумали заряжать пустое ружье, не зарядив ни одного патрона туда
+
+
+anm_add_cartridge = rg6_unoff_reload1, reload1 			;заглушка
+anm_add_cartridge_empty = rg6_unoff_reload1, reload1
+anm_add_cartridge_1	= rg6_unoff_reload6, reload6
+anm_add_cartridge_2	= rg6_unoff_reload5, reload5
+anm_add_cartridge_3	= rg6_unoff_reload4, reload4
+anm_add_cartridge_4	= rg6_unoff_reload3, reload3
+anm_add_cartridge_5	= rg6_unoff_reload2, reload2
+
+lock_time_start_anm_add_cartridge           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge             = 0.01
+lock_time_start_anm_add_cartridge_empty	    = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_empty	    = 0.01
+lock_time_start_anm_add_cartridge_1           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_1             = 0.01
+lock_time_start_anm_add_cartridge_2           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_2             = 0.01
+lock_time_start_anm_add_cartridge_3           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_3             = 0.01
+lock_time_start_anm_add_cartridge_4           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_4             = 0.01
+lock_time_start_anm_add_cartridge_5           = 1.7		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_5             = 0.01
+
+
+
+
+
+;Разрядка//////////////////////////////////////////////////////////////////////////
+use_unloadmag_anim = true
+lock_time_anm_unload_mag = 0.8
+anm_unload_mag                               = rg6_unoff_draw, draw
+lock_time_anm_unload_mag_jammed = 0.8
+anm_unload_mag_jammed                        = rg6_unoff_draw, draw  
+lock_time_anm_unload_mag_empty = 0.8
+anm_unload_mag_empty                         = rg6_unoff_draw, draw
+
+
+;включение налобника//////////////////////////////////////////////////////////////////////////
+anm_headlamp_on                             = rg6_unoff_flash
+lock_time_start_anm_headlamp_on = 0.58
+lock_time_end_anm_headlamp_on = 0.5
+
+anm_headlamp_on_empty                       = rg6_unoff_flash
+lock_time_start_anm_headlamp_on_empty = 0.58
+lock_time_end_anm_headlamp_on_empty = 0.5
+
+anm_headlamp_on_jammed                      = rg6_unoff_flash
+lock_time_start_anm_headlamp_on_jammed = 0.58
+lock_time_end_anm_headlamp_on_jammed = 0.5
+
+
+;выключение налобника//////////////////////////////////////////////////////////////////////////
+anm_headlamp_off                            = rg6_unoff_flash
+lock_time_start_anm_headlamp_off = 0.58
+lock_time_end_anm_headlamp_off = 0.5
+
+anm_headlamp_off_empty                      = rg6_unoff_flash
+lock_time_start_anm_headlamp_off_empty = 0.58
+lock_time_end_anm_headlamp_off_empty = 0.5
+
+anm_headlamp_off_jammed                     = rg6_unoff_flash
+lock_time_start_anm_headlamp_off_jammed = 0.58
+lock_time_end_anm_headlamp_off_jammed = 0.5
+
+
+;включение пнв//////////////////////////////////////////////////////////////////////////
+anm_nv_on                                   = rg6_unoff_flash
+anm_nv_on_empty                             = rg6_unoff_flash
+anm_nv_on_jammed                            = rg6_unoff_flash
+
+
+;выключение пнв//////////////////////////////////////////////////////////////////////////
+anm_nv_off                                  = rg6_unoff_flash
+anm_nv_off_empty                            = rg6_unoff_flash
+anm_nv_off_jammed                           = rg6_unoff_flash

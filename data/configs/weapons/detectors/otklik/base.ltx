@@ -1,0 +1,77 @@
+[detector_simple]:identity_immunities
+
+GroupControlSection	= spawn_group
+$spawn 			= "devices\detector_simple"
+$prefetch 		= 32
+class			= DET_SIMP
+cform			= skeleton
+visual			= dynamics\devices\dev_detector_1\dev_detector_1.ogf
+
+hud			= detector_simple_hud
+animation_slot		= 7
+
+inv_name		= gunsl_detector_simple
+inv_name_short	= gunsl_detector_simple
+description		= gunsl_detector_simple_descr
+
+slot			= 8
+ef_detector_type	= 1
+inv_weight		= 0.5
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x		= 9
+inv_grid_y		= 14
+cost			= 500
+default_to_ruck		= false
+
+af_radius		= 30
+af_vis_radius		= 3
+
+af_class_1		= af_cristall
+af_sound_1_		= detectors\art_beep1
+af_freq_1		= 0.05, 2
+af_class_2		= af_fireball
+af_sound_2_		= detectors\art_beep1
+af_freq_2		= 0.05, 2
+
+af_class_3		= af_medusa
+af_sound_3_		= detectors\art_beep1
+af_freq_3		= 0.05, 2
+af_class_4		= af_cristall_flower
+af_sound_4_		= detectors\art_beep1
+af_freq_4		= 0.05, 2
+
+af_class_5		= af_blood
+af_sound_5_		= detectors\art_beep1
+af_freq_5		= 0.05, 2
+af_class_6		= af_mincer_meat
+af_sound_6_		= detectors\art_beep1
+af_freq_6		= 0.05, 2
+
+af_class_7		= af_electra_sparkler
+af_sound_7_		= detectors\art_beep1
+af_freq_7		= 0.05, 2
+af_class_8		= af_electra_flash
+af_sound_8_		= detectors\art_beep1
+af_freq_8		= 0.05, 2
+
+af_class_9		= af_quest_b14_twisted
+af_sound_9_		= detectors\art_beep1
+af_freq_9		= 0.05, 2
+
+af_class_10		= af_quest_anomaly_pistol
+af_sound_10_		= detectors\art_beep1
+af_freq_10		= 0.05, 2
+
+af_class_11		= af_compass
+af_sound_11_		= detectors\art_beep1
+af_freq_11		= 0.05, 2
+
+attach_angle_offset		= -1.303,-1.493,-1.202
+attach_position_offset	= 0.110,-0.019,0.000
+
+attach_bone_name	= bip01_l_hand
+auto_attach		= false
+snd_draw                = detectorshud\detector_draw
+snd_holster             = detectorshud\detector_hide

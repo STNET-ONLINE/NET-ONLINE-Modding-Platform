@@ -1,0 +1,21 @@
+[quick_kick_animator]:base_animator
+hud = quick_kick_animator_hud
+supports_detector = false
+snd_draw                                              = weapons\knife\knife_kick_1
+
+kick_wallmark_size = 0.05 
+kick_hit_power = 0.8 
+kick_hit_impulse = 10
+kick_hit_type = 5
+
+kick_distance = 2
+
+kick_hit_count = 7 	; число лучей в момент удара
+kick_disp_ver = 0.1	; дисперсия по вертикали
+kick_disp_hor = 0.5	; дисперсия по горизонтали
+kick_ap = 0.35
+
+[quick_kick_animator_hud]:base_animator_hud
+item_visual             	= dynamics\weapons\wpn_knife\wpn_knife_hud.ogf
+anm_show = knife_kick_quick
+mark_anm_show = 0.3

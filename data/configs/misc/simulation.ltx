@@ -1,0 +1,75 @@
+[sim_faction]
+GroupControlSection	= 
+$spawn 			= "ai\DO_NOT_USE"
+class			= SCRIPTZN
+;script_binding	= bind_faction.bind
+
+shape_transp_color		= 0, 0, 255, 60 ;0x1800FF00
+shape_edge_color		= 32, 32, 32, 255 ;0xFF202020
+
+
+[smart_terrain]
+GroupControlSection	= 
+$spawn 			= "ai\smart_terrain"
+;$prefetch 		= 4
+$def_sphere		= 2
+class			= SMRTTRRN
+script_binding	= bind_smart_terrain.bind
+
+shape_transp_color		= 100, 100, 180, 60 ;0x1800FF00
+shape_edge_color		= 32, 32, 32, 255 ;0xFF202020
+
+
+[smart_terrain_stay_time]
+quick   = 2,  5
+medium  = 6,  8
+long    = 12, 14
+default = 10000, 10001
+
+;В simulation.ltx создаете поле [start_position_<имя уровня>]
+;В нем пишите строку <ид сквада> = <имя смарта>
+
+[start_position_jupiter_stnet_v2]
+barmen_military_jup_squad = millitary_spawn_smart
+trader_military_jup_squad = millitary_spawn_smart
+tech_military_jup_squad = millitary_spawn_smart
+
+scientist_artefacts_jup_squad = scientist_spawn_smart
+scientist_barmen_jup_squad = scientist_spawn_smart
+scientist_guard_jup_squad = scientist_spawn_smart
+scientist_armor_jup_squad = scientist_spawn_smart
+scientist_tech_jup_squad = scientist_spawn_smart
+
+jup_base_duty_barmen_squad = duty_spawn_smart
+jup_base_duty_trader_squad = duty_spawn_smart
+jup_base_duty_armor_squad = duty_spawn_smart
+
+jup_base_killer_barmen_squad = merc_spawn_smart
+jup_base_killer_trader_squad = merc_spawn_smart
+jup_base_killer_armor_squad = merc_spawn_smart
+
+mart_trader_jup_squad = mart_smart_1
+mart_stalker_armor_squad = mart_smart_1
+mart_stalker_barmen_squad = mart_smart_1
+mart_stalker_ammo_squad = mart_smart_1 
+mart_stalker_tech_squad = mart_smart_1
+
+jup_base_bandit_barmen_squad = bandit_spawn_smart
+jup_base_bandit_trader_squad = bandit_spawn_smart
+jup_base_bandit_armor_squad = bandit_spawn_smart
+
+jup_base_freedom_barmen_squad = freedom_spawn_smart
+jup_base_freedom_armor_squad = freedom_spawn_smart
+jup_base_freedom_trader_squad =  freedom_spawn_smart
+
+jup_base_cs_barmen_squad = clearsky_spawn_smart
+jup_base_cs_trader_squad = clearsky_spawn_smart
+jup_base_cs_armor_squad = clearsky_spawn_smart
+
+jup_base_monolith_armor_squad = monolith_spawn_smart
+jup_base_monolith_trader_squad = monolith_spawn_smart
+jup_base_monolith_drugers_squad = monolith_spawn_smart
+
+jup_base_spectrum_armor_squad = spectrum_spawn_smart
+jup_base_spectrum_trader_squad = spectrum_spawn_smart
+jup_base_spectrum_drugers_squad = spectrum_spawn_smart

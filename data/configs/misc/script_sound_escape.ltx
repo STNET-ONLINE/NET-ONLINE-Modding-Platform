@@ -1,0 +1,119 @@
+[list_script_sound_escape]
+esc_start_cutscene_getting_up
+esc_cutscene_2
+esc_cutscene_3
+
+esc_owl_stalker_trader_greeting
+esc_owl_stalker_trader_farewell
+
+esc_stalker_trader_meet
+esc_stalker_trader_meet_bye
+esc_stalker_mechanic_meet
+esc_stalker_mechanic_meet_bye
+esc_stalker_leader_meet
+esc_stalker_leader_meet_bye
+
+megafon
+megafon_alarm
+esc_comandir_megafon
+
+[esc_start_cutscene_getting_up]
+type = actor
+actor_stereo = false
+path = device\bed_getup_1
+shuffle = seq
+idle = 1,1,100
+
+[esc_cutscene_2]
+type = actor
+actor_stereo = false
+path = ambient\x16\x16_brain_death
+shuffle = seq
+idle = 1,1,100
+
+[esc_cutscene_3]
+type = actor
+actor_stereo = false
+path = characters_voice\scenario\escape\esc_railroadpost_yes_1_pda
+shuffle = seq
+idle = 1,1,100
+
+
+[esc_owl_stalker_trader_greeting]
+type = npc
+path = scenario\escape\esc_owl_stalker_trader_greeting_
+shuffle = rnd
+idle = 0,0,100
+
+[esc_owl_stalker_trader_farewell]
+type = npc
+path = scenario\escape\esc_owl_stalker_trader_farewell_
+shuffle = rnd
+idle = 1,1,100
+
+[esc_stalker_mechanic_meet]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_mechanic_meet_
+shuffle = rnd
+idle = 3,5,100
+
+[esc_stalker_mechanic_meet_bye]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_mechanic_meet_bye_
+shuffle = rnd
+idle = 1,1,100
+
+[esc_stalker_trader_meet]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_trader_meet_
+shuffle = rnd
+idle = 3,5,100
+
+[esc_stalker_trader_meet_bye]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_trader_meet_bye_
+shuffle = rnd
+idle = 1,1,100
+
+[esc_stalker_leader_meet]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_leader_meet_
+shuffle = rnd
+idle = 3,5,100
+
+[esc_stalker_leader_meet_bye]
+type = npc
+actor_stereo = false
+npc_prefix = false
+path = scenario\escape\esc_stalker_leader_meet_bye_
+shuffle = rnd
+idle = 1,1,100
+
+[megafon]
+type = 3d
+path = characters_voice\scenario\escape\megafon_
+shuffle = rnd
+idle = 1,1,20
+
+[megafon_alarm]
+type = 3d
+path = characters_voice\scenario\escape\megafon_alarm_
+shuffle = rnd
+idle = 1,1,20
+
+[esc_comandir_megafon]
+type = 3d
+actor_stereo = false
+path = characters_voice\scenario\escape\comandir_megafon_
+shuffle = seq
+idle = 1,10,100

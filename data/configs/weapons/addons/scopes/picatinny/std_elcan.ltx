@@ -1,0 +1,35 @@
+[wpn_addon_scope_susat_custom]:base_addon
+$spawn			= "weapons\addons\scope_susat_custom" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\elcan.ogf
+description		= gunsl_addon_scope_elcan_descr
+cost			= 800
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_elcan
+inv_name_short	        = gunsl_addon_scope_elcan
+inv_weight		= .66
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 10
+inv_grid_y			= 18
+scope_texture		= crosshair_2d_elcan
+scope_zoom_factor	= 1.02
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 1.05		//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 4			//максимальное значение кратности прицела
+lens_factor_levels_count = 1	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.5
+
+max_night_brightness = 3.0 ; максимальная яркость прицела
+min_night_brightness = 0.0 ; минимальная яркость прицела
+steps_brightness = 3	   ; число позиций яркости
+default_brightness_step = 0 ; позиция яркости при спавне
+
+scope_abberation = 0.005
+force_zoom_sound = true

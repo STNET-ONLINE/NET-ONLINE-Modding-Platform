@@ -1,0 +1,29 @@
+[wpn_addon_scope_susat]:base_addon
+$spawn			= "weapons\addons\scope_susat" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\susat.ogf
+description		= gunsl_addon_scope_susat_descr
+cost			= 2000
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_susat
+inv_name_short	= gunsl_addon_scope_susat
+inv_weight		= .417
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 19
+inv_grid_y			= 1
+scope_texture		= crosshair_2d_susat
+scope_zoom_factor	= 1.02
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 4			//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 4			//максимальное значение кратность прицела
+lens_factor_levels_count = 5	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.13
+
+scope_abberation = 0.003

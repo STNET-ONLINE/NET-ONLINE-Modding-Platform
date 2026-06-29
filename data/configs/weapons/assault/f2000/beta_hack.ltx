@@ -1,0 +1,87 @@
+[wpn_fn2000]:wpn_l85
+$spawn               	= "weapons\wpn_fn2000"
+
+def_show_bones = mag30, handguard, handler, rail, scope1
+def_hide_bones = scope2, scope3, scope4, scope5, rail, handguard_rail, mag45, mag60, tac_handler, flash, light, rope, sight, sight_top, bayonet, sight_handle, sight_iron2
+def_hide_bones_override_when_gl_attached = handguard, handguard_rail, tac_handler 
+
+upgrades = vartree_wpn_l85_podacha, vartree_wpn_l85_perevodchik, vartree_wpn_f2000_mag45, vartree_wpn_l85_sights, vartree_wpn_l85_priklad, vartree_wpn_l85_grip, vartree_wpn_f2000_tac_handler
+installed_upgrades = up_wpn_l85_mag_fixator, up_wpn_l85_usm_rpm, up_wpn_l85_barrel_kompensator, up_wpn_f2000_tac_handle
+
+description          	= gunsl_wpn_l85_as_f2000_descr
+inv_name             	= gunsl_wpn_l85_as_f2000_name
+inv_name_short         	= gunsl_wpn_l85_as_f2000_name
+
+bullet_speed         	= 550
+rpm                     = 850
+
+PDM_disp_base 			= 0.8
+cam_dispersion          = 0.6
+cam_dispersion_inc      = 0.25 
+
+scope_status            = 0
+grenade_launcher_status = 1	
+
+grenade_class			= ammo_m209, ammo_m397a1
+grenade_vel 			= 75
+
+zoom_enabled            = true                                                ; (on,off)zoom mode (right mouse button)
+zoom_rotate_time			= 0.25
+
+hud = wpn_fn2000_hud
+scope_zoom_factor       = 1.02                                                ; fov for zoom mode
+ironsight_zoom_factor   = 1.02
+
+visual                   = dynamics\weapons\wpn_fn2000\wpn_fn2000.ogf
+
+cost              		= 14000
+
+;--------------------------------------------
+[up_sect_wpn_f2000_mag40]:up_sect_wpn_l85_mag40
+hud = wpn_fn2000_hud
+
+[up_wpn_f2000_mag40]:up_wpn_l85_mag40
+effects = vartree_wpn_f2000_mag60
+section = up_sect_wpn_f2000_mag40
+
+[up_wpn_f2000_mag60]:up_wpn_l85_mag60
+effects =
+
+[up_sect_wpn_f2000_tac_handle]:up_sect_wpn_l85_tac_handle
+hud = wpn_fn2000_hud
+
+[up_wpn_f2000_tac_handle]:up_wpn_l85_tac_handle
+section = up_sect_wpn_f2000_tac_handle
+effects = vartree_wpn_f2000_laser
+
+[up_wpn_f2000_flashlaser]:up_wpn_l85_flashlaser
+effects = 
+
+[up_wpn_f2000_bayonet]:up_wpn_l85_bayonet
+effects = 
+
+[vartree_wpn_f2000_mag45]
+elements = up_wpn_f2000_mag40
+
+[vartree_wpn_f2000_mag60]
+elements = up_wpn_f2000_mag60
+
+[vartree_wpn_f2000_tac_handler]
+elements = up_wpn_f2000_tac_handle, up_wpn_f2000_bayonet
+
+[vartree_wpn_f2000_laser]
+elements = up_wpn_f2000_flashlaser
+
+;--------------------------------------------
+
+[wpn_fn2000_hud]:wpn_l85_handler_long_mag_hud
+aim_hud_offset_pos = 0.0,0.0222,0.0
+aim_hud_offset_rot = 0.0,0.0,0.0
+
+aim_hud_offset_pos_16x9 = 0.0,0.0222,0.0
+aim_hud_offset_rot_16x9 = 0.0,0.0,0.0
+
+hud_fov_zoom_factor = 0.7
+
+fire_point2					= 0.0,-0.008,0.408
+fire_bone2					= wpn_body

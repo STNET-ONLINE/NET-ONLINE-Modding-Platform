@@ -1,0 +1,74 @@
+[drug_anabiotic_hud_model]:gwr_base_usable
+script_binding      = gwr_eatable.init
+timing = 8000			;задержка на время проигрывания анимации перед назначением эффекта (мс)
+timing_trash = 7700
+gwr_changed_object = drug_anabiotic
+gwr_eatable_object = drug_anabiotic_eatable
+hud_fov_factor = 0.9 
+
+visual                  	= dynamics\equipments\medical\drug_anabiotic.ogf
+hud                     	= drug_anabiotic_hud
+
+inv_name			= gunsl_eatable_anabiotic
+inv_name_short		= gunsl_eatable_anabiotic
+description			= gunsl_eatable_anabiotic_descr
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 8
+inv_weight			= 0.01
+
+cost				= 1000
+
+;звуки
+snd_draw   = $silent
+snd_using   = items\anabiotic\anabiotic
+
+[drug_anabiotic_hud]:gwr_base_usable_hud
+zoom_hide_crosshair			= true
+
+hud_fov_factor = 1.25
+
+inertion_pitch_offset_r = -0.005
+inertion_pitch_offset_n = -0.005
+inertion_pitch_offset_d = -0.001
+inertion_speed = 20
+inertion_origin_offset = 0.05
+
+dof_time_offset_anm_show = -0.6
+dof_anm_show_far = 3
+dof_anm_show_focus = 0.3
+dof_speed_in_anm_show = 0.7
+
+hands_position				= 0.0,-0.01,0.14
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.01,0.14
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position = 0.0,0.0,0.0
+item_orientation = 0.0,0.0,0.0
+
+aim_hud_offset_pos = -0.171504,0.060500,-0.089010
+aim_hud_offset_rot = 0.048900,0.082240,-0.009000
+aim_hud_offset_pos_16x9 = -0.193470,0.061100,-0.037740
+aim_hud_offset_rot_16x9 = 0.057800,0.111900,-0.011000
+
+
+item_visual             	= gwr\equipment\drug_anabiotic\drug_anabiotic_hud.ogf
+
+anm_show						= biotic 
+anm_hide						= energy_zaglushka
+anm_idle						= energy_zaglushka
+anm_idle_slow                                           = energy_zaglushka
+anm_idle_crouch                                         = energy_zaglushka
+anm_idle_crouch_slow                                    = energy_zaglushka
+anm_idle_aim				                = energy_zaglushka
+anm_idle_aim_end							= energy_zaglushka
+anm_idle_moving			                        = energy_zaglushka
+anm_idle_moving_slow 		                        = energy_zaglushka
+anm_idle_moving_crouch 	                                = energy_zaglushka
+anm_idle_moving_crouch_slow 	                        = energy_zaglushka
+anm_idle_sprint			                        = energy_zaglushka
+anm_idle_sprint_start = energy_zaglushka
+anm_bore						= energy_zaglushka

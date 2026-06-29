@@ -1,0 +1,83 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;																		Предметы строительства
+;;		visual - Модель предмета, просто выкинутого на землю
+;; 		visual_build - Модель предмета, в установленном состояние
+;;		visual_plane - Модель, используемая в проекции - если не указано то брать из visual_build 
+;;	
+;;		build_inventory (true/false) - Есть ли у предмета инвентарь
+;;		build_inventory_use - Какие кости могут использоваться для открытия ивентаря (Если ничего не указано - все)
+;;		build_inventory_lot - inventory1, 50, pick_bone1, inventory2, 50, pick_bone2 - Реализация нескольких инвентарей в рамках одного объекта (Формат инвентарь|вес|Кость)
+;;		build_inventory_weight - Максимальные вес, который вмещает в себя постройка (По умолчанию - 50)
+;;
+;;		build_campfire (true/false) - Является ли объект костром
+;;		build_campfire_use - Какие кости могут использоваться для разжигания костра
+;;		build_campfire_item - Какой предмет необходим для разжигания костра
+;;		build_campfire_food - Какие постройки для приготовления можно прикреплять к данному костру
+;;		build_campfire_particle - Из какой кости будет идти свет и партикл огня
+;;		light_settings?
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[build_base]:identity_immunities
+GroupControlSection		= spawn_group
+discovery_dependency	=
+cform                   = skeleton
+class					= II_ATTCH
+
+visual				    = dynamics\vehicles\veh_items\accumulator.ogf
+cost					= 4500
+
+inv_name				= build_base_name
+inv_name_short			= build_base_name 
+description				= build_base_descr
+
+inv_weight				= 14.0
+
+inv_grid_width     = 2
+inv_grid_height    = 1
+inv_grid_x         = 35
+inv_grid_y         = 1
+
+show_condition = true
+
+;Палатка
+[build_palatka]:build_base
+GroupControlSection		= spawn_group
+discovery_dependency	=
+$spawn					= "build\build_palatka"
+cform                   = skeleton
+class					= II_ATTCH
+visual				    = dynamics\build\build_palatka.ogf
+cost					= 1500
+
+inv_name				= palatka_name
+inv_name_short			= palatka_name 
+description				= palatka_descr
+
+inv_weight				= 0.3
+
+inv_grid_width     = 2
+inv_grid_height    = 2
+inv_grid_x         = 37
+inv_grid_y         = 1
+
+;Костёр
+[build_fireplace]:build_base
+GroupControlSection		= spawn_group
+discovery_dependency	=
+$spawn					= "build\build_fireplace"
+cform                   = skeleton
+class					= II_ATTCH
+visual				    = dynamics\build\build_fireplace.ogf
+cost					= 1500
+
+inv_name				= fireplace_name
+inv_name_short			= fireplace_name 
+description				= fireplace_descr
+
+inv_weight				= 0.3
+
+inv_grid_width     = 2
+inv_grid_height    = 2
+inv_grid_x         = 37
+inv_grid_y         = 1

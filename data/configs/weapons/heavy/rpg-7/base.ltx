@@ -1,0 +1,224 @@
+[wpn_rpg7]:identity_immunities,weapon_probability,default_weapon_params
+
+GroupControlSection			= spawn_group
+discovery_dependency 		=
+$spawn                  	= "weapons\rpg-7"					; option for Level Editor
+$prefetch 		 			= 8
+visual                   	= dynamics\weapons\wpn_rpg7\wpn_rpg7
+scheduled            		= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_RPG7
+max_zoom_factor				= 5
+;sprint_allowed				= false
+description					= gunsl_wpn_rpg7_descr
+
+ef_main_weapon_type		= 4
+ef_weapon_type			= 12
+
+repair_group = rpg7
+
+;------------------------------------------------------------------------------
+cost					= 26000
+weapon_class			= heavy_weapon
+inv_weight				= 6.3
+
+;------TTX------------------------------------------------------------------------
+hit_power       		= 1.0, 1.0, 1.0, 1.0
+hit_impulse				= 100
+hit_type 				= explosion
+fire_distance           = 400
+bullet_speed			= 100 ;300			;начальна€ скорость пули
+rpm                     = 200
+
+hud                     = wpn_rpg7_hud
+
+;изношенность, при которой по€вл€етс€ шанс осечки
+misfire_start_condition		= 0.6
+;изношеность при которой шанс осечки становитс€ константным
+misfire_end_condition		= 0.1
+;шанс осечки при изношености больше чем misfireStartCondition
+misfire_start_prob	     	= 0.0
+;шанс осечки при изношености больше чем misfireEndCondition
+misfire_end_prob	     	= 0.0
+;увеличение изношености при одиночном выстреле
+condition_shot_dec      	= 0.00001
+;увеличение изношености при выстреле очередью
+condition_queue_shot_dec	= 0.00002
+
+rocket_misfunc_start_condition = 0.5
+rocket_misfunc_end_condition=0.1
+rocket_misfunc_start_probability = 0.1
+rocket_misfunc_end_probability = 0.9
+
+
+reactive_hit_dist = 7                  ; ƒистанци€ поражени€ реактивной струей за стрелком
+reactive_hit_power = 0.7                ; ’ит, наносимый струей цел€м за стрелком
+reactive_hit_impulse = 200             ; »мпульс, наносимый цел€м за стрелком реактивной струей
+reactive_hit_buck = 10		           ;  оличество "лучей" в реактивной струе за стрелком
+reactive_hit_buck_disp = 0.3           ; "Ўирина" реактивной струи за стрелком
+reactive_hit_type = 8			       ; “ип хита, наносимого реактивной струей (8 - explosion)
+reactive_hit_bullet_material = default
+
+reactive_hit_reverse_k = 0.5		   ;  оэффициент ослаблени€ отраженой струи (чем меньше - тем меньше дистанци€ поражени€ от точки касани€)
+reactive_hit_reverse_disp = 0.1        ; "Ўирина" отражаемой части струи за стрелком (по которой идЄт проверка на преп€тствие)
+reactive_hit_reverse_disp2 = 0.3       ; "Ўирина" отраженной струи дл€ каждого из лучей (направленна€ от точки пересечени€ с преп€тствием к стрелку) 
+reactive_hit_reverse_buck = 3          ;  оличество лучей в отраженной струе (дл€ каждого из "лучей" исходнйо струи, попавшх в преп€тствие)
+reactive_hit_reverse_power = 0.25       ; ’ит, наносимый стрелку отраженной струЄй 
+
+
+
+
+ammo_limit		 		= 120
+ammo_current		 	= 96
+ammo_elapsed		 	= 12
+
+ammo_mag_size		 	= 1
+ammo_class		 		= ammo_og-7b; ammo_vog-25
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+;---дисперси€-------------------------------------------------------------------------
+;базова€ дисперси€
+fire_dispersion_base			= 1.5   ;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+crosshair_inertion   	= 10
+
+PDM_disp_base           = 2.0
+PDM_disp_vel_factor     = 1.0
+PDM_disp_accel_factor   = 1.0
+PDM_disp_crouch         = 1.0
+PDM_disp_crouch_no_acc  = 1.0
+
+;отдача
+cam_relax_speed         = 10.0	;скорость возврата в исходное положение
+cam_relax_speed_ai      = 360
+cam_dispersion          = 0.1	;увеличени€ угла (в градусах) с каждым выстрелом
+cam_max_angle			= 15		;максимальный угол отдачи
+cam_max_angle_horz		= 15	;(degree) maximum shot horizontal degree
+cam_step_angle_horz		= 0.5	;(degree) size of step camera moved in horizontal position while shooting
+fire_dispersion_condition_factor 	= 5	;увеличение дисперсии в процентах при максимальном износе
+
+misfire_probability        = 0.005 ;веро€тность осечки при максимальном износе  !!!old - now not working
+
+;---DOF-------------------------------------------------------------------------
+zoom_dof			= 0.5, 1.0, 180
+reload_dof			= 0.0, 0.5, 5, 1.7
+
+;-------------------------------------------------------------------------------
+holder_range_modifier 	= 2.0               ; во сколько раз увеличиваетс€ eye_range
+holder_fov_modifier		= 1.0              ; во сколько раз увеличиваетс€ eye_fov
+
+min_radius               	= 50
+max_radius               	= 150
+;-------------------------------------------------------------------------------
+slot 				 	= 2
+animation_slot		 	= 4		; type of the animation that will be used
+
+launch_speed			= 20
+
+inv_name				= gunsl_wpn_rpg7
+inv_name_short			= gunsl_wpn_rpg7
+
+
+inv_grid_width          = 5
+inv_grid_height         = 2
+inv_grid_x              = 0
+inv_grid_y              = 38
+
+upgr_icon_x 			= 29
+upgr_icon_y 			= 811
+upgr_icon_width 		= 290
+upgr_icon_height 		= 124
+
+kill_msg_x				= 0
+kill_msg_y				= 85
+kill_msg_width				= 73
+kill_msg_height				= 19
+
+;-------------------------------------------------------------------------------
+position                = -0.027, -0.113, 0.0
+orientation             = 0, 0, 0
+
+shell_point		= 0.0, 0.0, 0.0
+fire_point              = 0.0, 0.12, 0.357
+
+smoke_particles		   	= weapons\generic_weapon02;generic_rpg_shot
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой стволом в верх
+strap_position         			= -0.28,-0.20,0.25			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      			= -15,-189,110				; (3rd person view in degrees)
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+
+
+fragment_speed	 			= 50
+
+explode_duration		 	= 1		;подолжительность взрыва (с)
+
+light_color		 		= 0.95,0.95,0.3
+light_range		 		= 20.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 		= 0.75
+
+ph_mass			 		= 1
+
+scope_status				= 2
+silencer_status				= 0
+grenade_launcher_status			= 0
+scope_texture				= wpn_crosshair_rpg
+
+zoom_enabled            = true                                                ; (on,off)zoom mode (right mouse button)
+zoom_rotate_time        = 0.25
+scope_zoom_factor       = 1.02                                                ; fov for zoom mode
+
+scopes_sect		= scope_pgo7v_rpg7
+
+
+;звуки
+snd_draw		= weapons\rpg7\rpg7_draw
+snd_holster		= weapons\rpg7\rpg7_hide
+snd_shoot		= weapons\rpg7\rpg7_shoot
+snd_empty		= weapons\generic_empty
+snd_reload              = weapons\rpg7\rpg7_reload
+snd_reload_empty        = weapons\rpg7\rpg7_reload
+snd_explode		= weapons\grenade\grenade_explosion2
+snd_fly_sound		= weapons\rocket_fly
+snd_changecartridgetype = weapons\rpg7\rpg7_reload
+snd_switch              = weapons\groza_switch, 1.0, 0.5
+snd_close		= $silent
+snd_unload_mag          = $silent
+snd_breechblock         = $silent
+snd_aim_start           = weapons\rpg7\rpg7_aim
+snd_aim_end             = weapons\vss\vss_aim_end
+snd_sprint_start        = weapons\detector_prepare
+snd_sprint_end          = weapons\pistol_sprint_end
+snd_headlamp_on         = weapons\headflash_on
+snd_headlamp_off        = weapons\headflash_off
+snd_nv_on               = weapons\nv_act
+snd_nv_off              = weapons\nv_deact
+
+snd_scope_brightness_plus = weapons\nv_intensity
+snd_scope_brightness_minus = weapons\nv_intensity
+
+
+rocket_class				= wpn_rpg7_missile ;unused now
+wallmark_section			= explosion_marks
+auto_spawn_ammo				= false
+
+
+use_world_anims=true
+
+wanm_idle = idle
+wanm_idle_empty = idle_empty
+
+
+wanm_shoot = idle_empty
+
+
+wanm_shoot_last = idle_empty
+
+
+wanm_reload = idle
+wanm_reload_empty = idle

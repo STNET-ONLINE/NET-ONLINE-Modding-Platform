@@ -1,0 +1,411 @@
+[animation_sets]
+animation_set_idle
+animation_set_state
+animation_set_battle
+animation_set_scenario
+animation_set_other
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[animation_set_idle]
+sit_1_animation
+sit_2_animation
+sit_3_animation
+sleeping_1_animation
+ohrana_1_animation
+komandir_1_animation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[animation_set_battle]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[animation_set_scenario]
+zat_b100_heli_2_serch
+jup_b219_azot_all_1_animation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[animation_set_other]
+guitar_play_animation
+harmonica_play_animation
+eat_bread_play_animation
+eat_kolbasa_play_animation
+eat_water_play_animation
+eat_energy_drink_play_animation
+eat_vodka_play_animation
+refuse_1_animation
+hello_1_animation
+search_corpse_1_animation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[animation_set_state]
+caution_1_animation
+prisoner_1_animation
+hand_up_1_animation
+press_1_animation
+trans_1_animation
+trans_2_animation
+psy_1_animation
+
+;ohrana_0
+;ohrana_1_short
+;ohrana_2
+
+;idle_0_to_trans_0
+;psy_0_idle_0_to_idle_0
+;idle_0_to_trans_1
+
+;psy
+;psy_0_idle_0
+;psy_0_idle_1
+;psy_0_idle_2
+;psy_03_idle_3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;------------Animations-------------------;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Set Idle
+
+;Сидит полубоком (sit_knee)
+[sit_1_animation]
+ui_name = st_sit_1_animation
+
+start_animation = idle_0_to_sit_1
+stop_animation = sit_1_lazy_idle_0
+idle_animation = sit_1_idle_0, sit_1_idle_1, sit_1_idle_2, sit_1_idle_3
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true
+
+;Сидит на корточках (sit)
+[sit_2_animation]
+ui_name = st_sit_2_animation
+
+start_animation = idle_0_to_sit_0
+stop_animation = sit_0_lazy_idle_0
+idle_animation = sit_0_idle_0, sit_0_idle_1, sit_0_idle_2, sit_0_idle_3
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true
+
+;Сидит на заднице (sit_ass)
+[sit_3_animation]
+ui_name = st_sit_3_animation
+
+start_animation = idle_0_to_sit_2
+stop_animation = sit_2_lazy_idle_0
+idle_animation = sit_2_idle_0, sit_2_idle_1, sit_2_idle_2, sit_2_idle_3
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true
+
+;Спит
+[sleeping_1_animation]
+ui_name = st_sleeping_1_animation
+
+start_animation = idle_0_to_sit_0, sit_to_sleep_0
+stop_animation = sleep_to_sit_0, sit_0_to_idle_0
+idle_animation = sleep_idle_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Занять позу охраника
+[ohrana_1_animation]
+ui_name = st_ohrana_1_animation
+
+start_animation = ohrana_0
+idle_animation = ohrana_1, ohrana_2
+
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+idle_animation_can_skip = true
+
+;Занять позу командира
+[komandir_1_animation]
+ui_name = st_komandir_1_animation
+
+start_animation = komandir_0
+idle_animation = komandir_1, komandir_2
+
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+idle_animation_can_skip = true
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Set Other
+
+;Игра на гитаре
+[guitar_play_animation]
+ui_name = st_guitar_play_animation
+
+start_animation = sit_1_guitar_0_0, sit_1_guitar_0_1
+start_animation_sound = $silent
+
+stop_animation = guitar_0_sit_1_0, guitar_0_sit_1_1
+stop_animation_sound = $silent
+
+idle_animation = guitar_0
+idle_animation_sound = $silent, characters_voice\human_03\stalker\music\guitar_1, characters_voice\human_03\stalker\music\guitar_2, characters_voice\human_03\stalker\music\guitar_3, characters_voice\human_03\stalker\music\guitar_4, characters_voice\human_03\stalker\music\guitar_5, characters_voice\human_03\stalker\music\guitar_6, characters_voice\human_03\stalker\music\guitar_7, characters_voice\human_03\stalker\music\guitar_8, characters_voice\human_03\stalker\music\guitar_9, characters_voice\human_03\stalker\music\guitar_10, characters_voice\human_03\stalker\music\guitar_11, characters_voice\human_03\stalker\music\guitar_12, characters_voice\human_03\stalker\music\guitar_13, characters_voice\human_03\stalker\music\guitar_14, characters_voice\human_03\stalker\music\guitar_15, characters_voice\human_03\stalker\music\guitar_16
+
+; animation_parts = legs, torso
+
+attachable_items = guitar_a
+attach_animation = sit_1_guitar_0_1
+dettach_animation = guitar_0_sit_1_1
+
+start_action = {=mp_actor_has_item(guitar_a) =active_animation(sit_1_animation)} start, fail
+stop_action = stop ;%=play_next_animation(sit_1_animation)%
+
+[harmonica_play_animation]
+ui_name = st_harmonica_play_animation
+
+start_animation = sit_2_harmonica_1_0, sit_2_harmonica_1_1
+start_animation_sound = $silent
+
+stop_animation = harmonica_1_sit_2_0, harmonica_1_sit_2_1
+stop_animation_sound = $silent
+
+idle_animation = harmonica_0
+idle_animation_sound = $silent, characters_voice\human_03\stalker\music\harmonica_1, characters_voice\human_03\stalker\music\harmonica_2, characters_voice\human_03\stalker\music\harmonica_3, characters_voice\human_03\stalker\music\harmonica_4, characters_voice\human_03\stalker\music\harmonica_5
+
+; animation_parts = legs, torso
+
+attachable_items = harmonica_a
+attach_animation = sit_2_harmonica_1_1
+dettach_animation = harmonica_1_sit_2_1
+
+start_action = {=mp_actor_has_item(harmonica_a) =active_animation(sit_3_animation)} start, fail
+stop_action = stop ;%=play_next_animation(sit_2_animation)%
+
+
+;Съесть Хлеб
+
+[eat_bread_play_animation]
+ui_name = st_bread_play_animation
+
+start_animation = item_2_prepare_0, item_2_holster_0, item_2_holster_1
+
+stop_animation = item_2_draw_0, item_2_draw_1
+
+idle_animation = item_2_attack_0, item_2_aim_0
+; animation_parts = legs, torso
+
+attachable_items = bread
+attach_animation = item_2_holster_1
+dettach_animation = item_2_draw_1
+
+start_action = {=mp_actor_has_item(bread) =active_animation(sit_1_animation)} start, fail
+stop_action = stop
+
+;Съесть Колбасу
+
+[eat_kolbasa_play_animation]
+ui_name = st_kolbasa_play_animation
+
+start_animation = item_2_prepare_0, item_2_holster_0, item_2_holster_1
+
+stop_animation = item_2_draw_0, item_2_draw_1
+
+idle_animation = item_2_attack_0, item_2_aim_0
+
+; animation_parts = legs, torso
+
+attachable_items = kolbasa
+attach_animation = item_2_holster_1
+dettach_animation = item_2_draw_1
+
+start_action = {=mp_actor_has_item(kolbasa) =active_animation(sit_1_animation)} start, fail
+stop_action = stop
+
+;Пить воду
+
+[eat_water_play_animation]
+ui_name = st_water_play_animation
+
+start_animation = sit_2_item_4_0, sit_2_item_4_1
+
+stop_animation = sit_2_item_4_0, item_4_sit_1
+
+idle_animation = item_4_attack_0, item_4_aim_0, item_4_prepare_0
+
+; animation_parts = legs, torso
+
+attachable_items = water
+attach_animation = sit_2_item_4_1
+dettach_animation = item_4_sit_1
+
+start_action = {=mp_actor_has_item(water) =active_animation(sit_1_animation)} start, fail
+stop_action = stop
+
+;Пить энергетик
+
+[eat_energy_drink_play_animation]
+ui_name = st_energy_drink_play_animation
+
+start_animation = sit_2_item_4_0, sit_2_item_4_1
+
+stop_animation = sit_2_item_4_0, item_4_sit_1
+
+idle_animation = item_4_attack_0, item_4_aim_0, item_4_prepare_0
+
+; animation_parts = legs, torso
+
+attachable_items = energy_drink
+attach_animation = sit_2_item_4_1
+dettach_animation = item_4_sit_1
+
+start_action = {=mp_actor_has_item(energy_drink) =active_animation(sit_1_animation)} start, fail
+stop_action = stop
+
+;Пить водку
+
+[eat_vodka_play_animation]
+ui_name = st_vodka_play_animation
+
+start_animation = sit_2_item_4_0, sit_2_item_4_1
+
+stop_animation = sit_2_item_4_0, item_4_sit_1
+
+idle_animation = item_4_attack_0, item_4_aim_0, item_4_prepare_0
+
+; animation_parts = legs, torso
+
+attachable_items = vodka
+attach_animation = sit_2_item_4_1
+dettach_animation = item_4_sit_1
+
+start_action = {=mp_actor_has_item(vodka) =active_animation(sit_1_animation)} start, fail
+stop_action = stop
+
+;Не знаю
+[refuse_1_animation]
+ui_name = st_refuse_1_animation
+
+start_animation = net_0_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Привет!
+[hello_1_animation]
+ui_name = st_hello_1_animation
+
+start_animation = hello_0_idle_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Установить что-то (Установка динамита)
+[search_corpse_1_animation]
+ui_name = st_search_corpse_1_animation
+
+start_animation = dinamit_1
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Нажать на что-то
+[press_1_animation]
+ui_name = st_press_1_animation
+
+start_animation = knopka_0
+idle_animation = knopka_idle
+stop_animation = knopka_1
+
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Set Scenario (Cutscenes)
+
+;Держит КПК в руках
+[zat_b100_heli_2_serch]
+ui_name = st_zat_b100_heli_2_serch
+
+start_animation = zat_b100_heli_2_serch
+stop_animation = zat_b100_heli_2_serch
+attachable_items = device_pda
+attach_animation = zat_b100_heli_2_serch
+start_action = {=mp_actor_has_item(device_pda)} start, fail
+stop_action = stop
+
+;Смотрит, потом что-то бьёт
+[jup_b219_azot_all_1_animation]
+ui_name = st_jup_b219_azot_all_1_animation
+
+start_animation = jup_b219_descent_tech_1
+start_animation_sound = $silent
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Set State
+
+;Пленный - на коленях, руки за головой
+[prisoner_1_animation]
+ui_name = st_prisoner_1_animation
+
+start_animation = prisoner_0_sit_down_0
+stop_animation = prisoner_0_stand_up_0
+idle_animation = prisoner_0_sit_idle_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Осмотр - слегка согнувшись
+[caution_1_animation]
+ui_name = st_caution_1_animation
+
+start_animation = prisluh_0_in
+stop_animation = prisluh_0_out
+idle_animation = prisluh_0_1, prisluh_0_0, prisluh_0_2
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Руки вверх!
+[hand_up_1_animation]
+ui_name = st_hand_up_1_animation
+
+start_animation = hand_up_0
+idle_animation = hand_up_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+
+;Транс - Лёгкий
+[trans_1_animation]
+ui_name = st_trans_1_animation
+
+start_animation = idle_0_to_trans_0
+stop_animation = trans_0_to_idle_0
+idle_animation = trans_0_idle_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true
+
+;Транс - Тяжёлый
+[trans_2_animation]
+ui_name = st_trans_2_animation
+
+start_animation = idle_0_to_trans_1
+stop_animation = trans_1_to_idle_0
+idle_animation = trans_1_idle_0
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true
+
+;Пси-Излучение!
+
+[psy_1_animation]
+ui_name = st_psy_1_animation
+
+start_animation = idle_0_to_psy_0_idle_0
+stop_animation = psy_0_idle_0_to_idle_0
+idle_animation = psy_0_idle_0, psy_0_idle_1, psy_0_idle_2, psy_0_idle_3
+start_action = {=no_active_animation} start, fail
+stop_action = stop
+; animation_parts = legs, torso
+
+idle_animation_can_skip = true

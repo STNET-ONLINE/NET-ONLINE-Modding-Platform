@@ -1,0 +1,427 @@
+;      <-- MILITARY BASE -->
+
+[millitary_smart_squad]:online_offline_group
+faction = army
+npc = sim_default_military_2, sim_default_military_3, sim_default_military_4, sim_default_military_4, sim_default_military_2
+target_smart = millitary_spawn_smart
+story_id = millitary_smart_squad
+
+[barmen_military_jup_squad]:online_offline_group
+faction = army
+npc = barmen_military_jup
+target_smart = millitary_spawn_smart
+story_id = barmen_military_jup
+
+[medic_military_jup_squad]:online_offline_group
+faction = army
+npc = medic_military_jup
+target_smart = millitary_spawn_smart
+story_id = medic_military_jup
+
+[trader_military_jup_squad]:online_offline_group
+faction = army
+npc = trader_military_jup
+target_smart = millitary_spawn_smart
+story_id = trader_military_jup
+
+[tech_military_jup_squad]:online_offline_group
+faction = army
+npc = tech_military_jup
+target_smart = millitary_spawn_smart
+story_id = tech_military_jup
+
+;      <-- SCIENTIST BASE -->
+
+[scientist_smart_squad]:online_offline_group
+faction = ecolog
+npc = sim_default_scientist_0, sim_default_scientist_0, sim_default_scientist_0, sim_default_scientist_0, sim_default_scientist_0, sim_default_scientist_0, sim_default_scientist_0
+target_smart = scientist_spawn_smart
+story_id = scientist_smart_squad
+
+[scientist_artefacts_jup_squad]:online_offline_group
+faction = ecolog
+npc = scientist_artefacts
+target_smart = scientist_spawn_smart
+story_id = scientist_artefacts_jup_squad
+
+[scientist_barmen_jup_squad]:online_offline_group
+faction = ecolog
+npc = scientist_barmen
+target_smart = scientist_spawn_smart
+story_id = scientist_barmen_jup_squad
+
+[scientist_guard_jup_squad]:online_offline_group
+faction = ecolog
+npc = scientist_guard
+target_smart = scientist_spawn_smart
+story_id = scientist_guard_jup_squad
+
+[scientist_armor_jup_squad]:online_offline_group
+faction = ecolog
+npc = scientist_armor
+target_smart = scientist_spawn_smart
+story_id = scientist_guard_jup_squad
+
+[scientist_tech_jup_squad]:online_offline_group
+faction = ecolog
+npc = jup_b6_scientist_tech
+target_smart = scientist_spawn_smart
+story_id = scientist_tech_jup_squad
+
+
+
+;      <-- BAR BASE -->
+
+[stalker_smart_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_1, sim_default_stalker_3, sim_default_stalker_4
+target_smart = stalker_spawn_smart
+story_id = stalker_smart_squad
+
+;      <-- Squad Kills | Random  -->
+
+[stalker_1_smart_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_1, sim_default_stalker_2
+target_smart = jupiter_smart_1
+story_id = stalker_1_smart_squad
+
+[bandit_1_smart_squad]:online_offline_group
+faction = bandit
+npc = sim_default_bandit_1 , sim_default_bandit_3, sim_default_bandit_4, sim_default_bandit_4
+target_smart = jupiter_smart_2
+story_id = bandit_1_smart_squad
+
+[stalker_2_smart_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_2
+target_smart = jupiter_smart_3
+story_id = stalker_2_smart_squad
+
+[jupiter_smart_zombied_squad_base]:online_offline_group
+faction = zombied
+npc = sim_default_zombied_3, sim_default_zombied_3, sim_default_zombied_4, sim_default_zombied_2, sim_default_zombied_1, sim_default_zombied_4
+;target_smart = NONE
+;story_id = NONE
+
+;      <-- DUTY BASE -->
+
+[duty_smart_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_1, sim_default_duty_2, sim_default_duty_1, sim_default_duty_3, sim_default_duty_4
+target_smart = duty_spawn_smart
+story_id = duty_smart_squad
+
+[jup_base_duty_barmen_squad]:online_offline_group
+faction = dolg
+npc = jup_base_duty_barmen
+target_smart = duty_spawn_smart
+story_id = jup_base_duty_barmen_squad
+
+[jup_base_duty_trader_squad]:online_offline_group
+faction = dolg
+npc = jup_base_duty_trader
+target_smart = duty_spawn_smart
+story_id = jup_base_duty_trader_squad
+
+[jup_base_duty_armor_squad]:online_offline_group
+faction = dolg
+npc = jup_base_duty_armor
+target_smart = duty_spawn_smart
+story_id = jup_base_duty_armor_squad
+
+;      <-- MERC BASE -->
+
+[merc_smart_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0, sim_default_killer_2, sim_default_killer_3
+target_smart = merc_spawn_smart
+story_id = merc_smart_squad
+
+[jup_base_killer_armor_squad]:online_offline_group
+faction = killer
+npc = jup_base_killer_armor
+target_smart = merc_spawn_smart
+story_id = jup_base_killer_armor_squad
+
+[jup_base_killer_trader_squad]:online_offline_group
+faction = killer
+npc = jup_base_killer_trader
+target_smart = merc_spawn_smart
+story_id = jup_base_killer_trader_squad
+
+[jup_base_killer_barmen_squad]:online_offline_group
+faction = killer
+npc = jup_base_killer_barmen
+target_smart = merc_spawn_smart
+story_id = jup_base_killer_barmen_squad
+
+
+;      <-- Mutants | Monsters -->
+;NONE
+;ONLY TASKS
+
+[simulation_zombie_civil]:online_offline_group
+faction = monster_vegetarian
+npc_random = zombie_1, zombie_2
+npc_in_squad = 3, 3
+
+[simulation_gigant_fixed]:online_offline_group
+faction = monster_predatory_day
+npc_random = gigant_normal, tushkano_normal
+npc_in_squad = 3, 4
+
+[simulation_gigant_fixed_target]:online_offline_group
+faction = monster_predatory_day
+npc_random = gigant_normal, gigant_normal
+npc_in_squad = 1, 2
+target_smart = mart_smart_1
+
+[simulation_pseudog_fixed_target]:online_offline_group
+faction = monster_predatory_day
+npc_random = pseudodog_normal, pseudodog_normal,tushkano_normal
+npc_in_squad = 3, 4
+target_smart = mart_smart_1
+
+;      <-- BOSSES -->
+
+;OWNER FOREST
+[jup_boar_owner_forest]:online_offline_group
+faction = monster_predatory_day
+npc = boar_owner_forest
+;target_smart = boar_owner_forest
+
+[jup_boar_owner_forest_squad_1]:online_offline_group
+faction = monster_predatory_day
+npc_random = boar_strong, boar_strong, boar_strong, boar_normal, boar_normal, boar_normal, boar_strong
+npc_in_squad = 4, 6
+;target_smart = boar_owner_forest
+
+[jup_boar_owner_forest_squad_2]:online_offline_group
+faction = monster_predatory_day
+npc_random = boar_strong, boar_strong, boar_strong, boar_normal, boar_normal, boar_normal, boar_strong
+npc_in_squad = 4, 6
+;target_smart = boar_owner_forest
+
+[jup_boar_owner_forest_squad_3]:online_offline_group
+faction = monster_predatory_day
+npc_random = boar_strong, boar_strong, boar_strong, boar_normal, boar_normal, boar_normal, boar_strong
+npc_in_squad = 4, 6
+;target_smart = boar_owner_forest
+
+[jup_boar_owner_forest_squad_4]:online_offline_group
+faction = monster_predatory_day
+npc_random = boar_strong, boar_strong, boar_strong, boar_normal, boar_normal, boar_normal, boar_strong
+npc_in_squad = 4, 6
+;target_smart = boar_owner_forest
+
+[jup_boar_owner_forest_squad_5]:online_offline_group
+faction = monster_predatory_day
+npc_random = boar_strong, boar_strong, boar_strong, boar_normal, boar_normal, boar_normal, boar_strong
+npc_in_squad = 4, 6
+;target_smart = boar_owner_forest
+
+;OLD ZOMBIE
+[jup_zombied_boss_squad]:online_offline_group
+faction = zombied
+npc = jup_zombied_boss
+target_smart = jup_zombied_boss
+story_id = jup_zombied_boss_squad
+
+[jup_zombied_boss_squad_1]:online_offline_group
+faction = zombied
+npc_random = sim_default_zombied_3, sim_default_zombied_4, sim_default_zombied_3, sim_default_zombied_2
+npc_in_squad = 2, 4
+;target_smart = jup_zombied_boss_squad_1
+
+[jup_zombied_boss_squad_2]:online_offline_group
+faction = zombied
+npc_random = sim_default_zombied_3, sim_default_zombied_4, sim_default_zombied_3, sim_default_zombied_2
+npc_in_squad = 2, 4
+target_smart = jup_zombied_boss_squad_2
+
+[jup_zombied_boss_squad_3]:online_offline_group
+faction = zombied
+npc_random = zombie_weak_1, zombie_weak_1, zombie_weak_2, zombie_weak_2, zombie_weak_dead, zombie_weak_dead
+npc_in_squad = 4, 4
+target_smart = jup_zombied_boss_squad_3
+
+[jup_zombied_boss_squad_4]:online_offline_group
+faction = zombied
+npc_random = zombie_weak_1, zombie_weak_1, zombie_weak_2, zombie_weak_2, zombie_weak_dead, zombie_weak_dead
+npc_in_squad = 4, 4
+target_smart = jup_zombied_boss_squad_4
+
+[jup_zombied_boss_squad_5]:online_offline_group
+faction = zombied
+npc_random = zombie_weak_1, zombie_weak_1, zombie_weak_2, zombie_weak_2, zombie_weak_dead, zombie_weak_dead
+npc_in_squad = 4, 4
+target_smart = jup_zombied_boss_squad_5
+
+[jup_zombied_boss_squad_6]:online_offline_group
+faction = zombied
+npc_random = zombie_weak_1, zombie_weak_1, zombie_weak_2, zombie_weak_2, zombie_weak_dead, zombie_weak_dead
+npc_in_squad = 4, 4
+target_smart = jup_zombied_boss_squad_6
+
+[jup_zombied_boss_squad_7]:online_offline_group
+faction = zombied
+npc_random = zombie_weak_1, zombie_weak_1, zombie_weak_2, zombie_weak_2, zombie_weak_dead, zombie_weak_dead
+npc_in_squad = 4, 4
+target_smart = jup_zombied_boss_squad_7
+
+;      <-- MART BASE -->
+
+[mart_smart_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = mart_smart_1
+story_id = mart_smart_1_squad
+
+[mart_trader_jup_squad]:online_offline_group
+faction = stalker
+npc = mart_stalker_trader
+target_smart = mart_smart_1
+story_id = mart_trader_jup_squad
+
+[mart_stalker_armor_squad]:online_offline_group
+faction = stalker
+npc = mart_stalker_armor
+target_smart = mart_smart_1
+story_id = mart_trader_jup_squad
+
+[mart_stalker_barmen_squad]:online_offline_group
+faction = stalker
+npc = mart_stalker_barmen
+target_smart = mart_smart_1
+story_id = mart_trader_jup_squad
+
+[mart_stalker_ammo_squad]:online_offline_group
+faction = stalker
+npc = mart_stalker_ammo
+target_smart = mart_smart_1
+story_id = mart_stalker_ammo_squad
+
+[mart_stalker_tech_squad]:online_offline_group
+faction = stalker
+npc = jup_b217_stalker_tech
+target_smart = mart_smart_1
+story_id = mart_stalker_tech_squad
+
+; <-- BANDIT BASE --> 
+
+[bandit_smart_squad]:online_offline_group
+faction = bandit
+npc = sim_default_bandit_2
+target_smart = bandit_spawn_smart
+story_id = bandit_smart_squad
+
+[jup_base_bandit_barmen_squad]:online_offline_group
+faction = bandit
+npc = jup_base_bandit_barmen
+target_smart = bandit_spawn_smart
+story_id = jup_base_bandit_barmen_squad
+
+[jup_base_bandit_trader_squad]:online_offline_group
+faction = bandit
+npc = jup_base_bandit_trader
+target_smart = bandit_spawn_smart
+story_id = jup_base_bandit_trader_squad
+
+[jup_base_bandit_armor_squad]:online_offline_group
+faction = bandit
+npc = jup_base_bandit_armor
+target_smart = bandit_spawn_smart
+story_id = jup_base_bandit_armor_squad
+
+; <-- FREEDOM BASE --> 
+
+[freedom_smart_squad]:online_offline_group
+faction = freedom
+npc = sim_default_freedom_1, sim_default_freedom_2
+target_smart = freedom_spawn_smart
+story_id = freedom_smart_squad
+
+[jup_base_freedom_barmen_squad]:online_offline_group
+faction = freedom
+npc = jup_base_freedom_barmen
+target_smart = freedom_spawn_smart
+story_id = jup_base_freedom_barmen_squad
+
+[jup_base_freedom_armor_squad]:online_offline_group
+faction = freedom
+npc = jup_base_freedom_armor
+target_smart = freedom_spawn_smart
+story_id = jup_base_freedom_armor_squad
+
+[jup_base_freedom_trader_squad]:online_offline_group
+faction = freedom
+npc = jup_base_freedom_trader
+target_smart = freedom_spawn_smart
+story_id = jup_base_freedom_trader_squad
+
+; <-- CLEAR SKY BASE --> 
+
+[clearsky_smart_squad]:online_offline_group
+faction = clearsky
+npc = sim_default_nebo_2, sim_default_nebo_2, sim_default_nebo_2, sim_default_nebo_1, sim_default_nebo_3, sim_default_nebo_4, sim_default_nebo_1, sim_default_nebo_2, sim_default_nebo_1
+target_smart = clearsky_spawn_smart
+story_id = clearsky_smart_squad
+
+[jup_base_cs_barmen_squad]:online_offline_group
+faction = clearsky
+npc = jup_base_cs_barmen
+target_smart = clearsky_spawn_smart
+story_id = jup_base_cs_barmen_squad
+
+[jup_base_cs_trader_squad]:online_offline_group
+faction = clearsky
+npc = jup_base_cs_trader
+target_smart = clearsky_spawn_smart
+story_id = jup_base_cs_trader_squad
+
+[jup_base_cs_armor_squad]:online_offline_group
+faction = clearsky
+npc = jup_base_cs_armor
+target_smart = clearsky_spawn_smart
+story_id = jup_base_cs_armor_squad
+
+; <-- Monolith BASE -->
+
+[jup_base_monolith_armor_squad]:online_offline_group
+faction = monolith
+npc = stalker_monolith_armor
+target_smart = monolith_spawn_smart
+story_id = jup_base_monolith_armor_squad
+
+[jup_base_monolith_trader_squad]:online_offline_group
+faction = monolith
+npc = stalker_monolith_trader
+target_smart = monolith_spawn_smart
+story_id = jup_base_monolith_trader_squad
+
+[jup_base_monolith_drugers_squad]:online_offline_group
+faction = monolith
+npc = stalker_monolith_drugers
+target_smart = monolith_spawn_smart
+story_id = jup_base_monolith_drugers_squad
+
+; <-- Spectrum BASE -->
+
+[jup_base_spectrum_armor_squad]:online_offline_group
+faction = stalker
+npc = stalker_spectrum_armor
+target_smart = spectrum_spawn_smart
+story_id = jup_base_spectrum_armor_squad
+
+[jup_base_spectrum_trader_squad]:online_offline_group
+faction = stalker
+npc = stalker_spectrum_trader
+target_smart = spectrum_spawn_smart
+story_id = jup_base_spectrum_trader_squad
+
+[jup_base_spectrum_drugers_squad]:online_offline_group
+faction = stalker
+npc = stalker_spectrum_drugers
+target_smart = spectrum_spawn_smart
+story_id = jup_base_spectrum_drugers_squad

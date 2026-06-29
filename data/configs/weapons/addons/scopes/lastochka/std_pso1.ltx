@@ -1,0 +1,36 @@
+[wpn_addon_scope]:base_addon
+$spawn			= "weapons\addons\scope" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\pso1sn.ogf
+description		= gunsl_addon_scope_pso1m2_descr
+cost			= 2000
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_pso1m2
+inv_name_short	= gunsl_addon_scope_pso1m2
+inv_weight		= .62
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 10
+inv_grid_y			= 17
+scope_texture		= crosshair_2d_pso1sn
+scope_zoom_factor	= 1.02
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 4			//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 4			//максимальное значение кратность прицела
+lens_factor_levels_count = 5	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.13
+
+scope_abberation = 0.003
+
+max_night_brightness = 3.0 ; максимальная яркость прицела
+min_night_brightness = 0.0 ; минимальная яркость прицела
+steps_brightness = 1	   ; число позиций яркости
+default_brightness_step = 0 ; позиция яркости при спавне
+
+jitter_brightness = 0.0    ; степень шума в прицеле

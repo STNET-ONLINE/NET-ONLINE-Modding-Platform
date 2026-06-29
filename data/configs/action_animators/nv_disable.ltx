@@ -1,0 +1,30 @@
+[nv_disable_animator]:base_animator
+hud = nv_disable_animator_hud
+script_binding = action_animators.init ; удалить, если считается оружием
+snd_draw   = weapons\nv_deact
+
+[nv_disable_animator_hud]:base_animator_hud
+item_visual             	= gwr\food\headflash\headflash_hud.ogf
+anm_show = headflash 
+mark_anm_show = 0.3
+
+use_ppe_effector_anm_show = true
+ppe_effector_anm_show = black.ppe
+ppe_start_anm_show = 0.2
+ppe_end_anm_show = 0.5
+
+
+anm_lefthand_detector_torch_wpn_draw          = handflash_headflash
+anm_lefthand_detector_torch_wpn_draw_16x9     = handflash_headflash
+
+anm_lefthand_detector_simple_wpn_draw          = dev_detector_1_headflash
+anm_lefthand_detector_simple_wpn_draw_16x9     = dev_detector_1_headflash
+
+anm_lefthand_detector_advanced_wpn_draw        = dev_detector_2_headflash
+anm_lefthand_detector_advanced_wpn_draw_16x9   = dev_detector_2_headflash
+
+anm_lefthand_detector_elite_wpn_draw           = veles_headflash
+anm_lefthand_detector_elite_wpn_draw_16x9      = veles_headflash
+
+anm_lefthand_detector_scientific_wpn_draw      = veles_headflash
+anm_lefthand_detector_scientific_wpn_draw_16x9 = veles_headflash

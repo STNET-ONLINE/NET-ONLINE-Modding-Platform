@@ -1,0 +1,568 @@
+;------------------------------------------wpn_sks_usm_recoil------------------------------------------
+[up_sect_wpn_sks_usm_recoil]
+cost = 3000
+value = -20
+zoom_cam_dispersion          = -0.05
+zoom_cam_dispersion_inc = -0.04
+
+cam_dispersion          = -0.1
+cam_dispersion_inc = -0.05
+
+PDM_disp_base = -0.05
+
+[up_wpn_sks_usm_recoil]
+scheme_index = 0, 0
+known = 1
+effects = vartree_wpn_sks_barrel
+section = up_sect_wpn_sks_usm_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_usm_recoil_name
+description =gunsl_wpn_sks_up_usm_recoil_descr
+icon = ui_gunsl_up_wpn_sks_usm_recoil
+;------------------------------------------wpn_sks_usm_accuracy------------------------------------------
+[up_sect_wpn_sks_usm_accuracy]
+cost = 3000
+value = +20
+fire_dispersion_base = -0.03
+bullet_speed = +10
+crosshair_inertion = -1
+cam_dispersion = -0.1
+zoom_cam_dispersion = -0.05
+cam_dispersion_inc      = -0.1
+zoom_cam_dispersion_inc     = -0.03
+
+PDM_disp_base = -0.2
+PDM_disp_vel_factor 		= -0.1
+PDM_disp_accel_factor 		= -0.2
+PDM_disp_crouch	 		= -0.1
+PDM_disp_crouch_no_acc 		= -0.1
+
+[up_wpn_sks_usm_accuracy]
+scheme_index = 0, 1
+known = 1
+effects = vartree_wpn_sks_barrel
+section = up_sect_wpn_sks_usm_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_usm_accuracy_name
+description =gunsl_wpn_sks_up_usm_accuracy_descr
+icon = ui_gunsl_up_wpn_sks_usm_accuracy
+;------------------------------------------wpn_sks_barrel_speed------------------------------------------
+[up_sect_wpn_sks_barrel_speed]
+cost = 5000
+value = +30
+bullet_speed = 250
+PDM_disp_base = -0.1
+
+[up_wpn_sks_barrel_speed]
+scheme_index = 0, 2
+known = 1
+effects = 
+section = up_sect_wpn_sks_barrel_speed
+property = prop_bullet_speed
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_barrel_speed_name
+description =gunsl_wpn_sks_up_barrel_speed_descr
+icon = ui_gunsl_up_wpn_sks_barrel_speed
+;------------------------------------------wpn_sks_barrel_accuracy------------------------------------------
+[up_sect_wpn_sks_barrel_accuracy]
+cost = 5000
+value = +30
+fire_dispersion_base = -0.04
+PDM_disp_base = -0.3
+PDM_disp_crouch	 		= -0.1
+PDM_disp_crouch_no_acc 		= -0.1
+
+cam_dispersion = -0.03
+zoom_cam_dispersion = -0.02
+
+
+[up_wpn_sks_barrel_accuracy]
+scheme_index = 0, 3
+known = 1
+effects = 
+section = up_sect_wpn_sks_barrel_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_barrel_accuracy_name
+description =gunsl_wpn_sks_up_barrel_accuracy_descr
+icon = ui_gunsl_up_wpn_sks_barrel_accuracy
+;------------------------------------------wpn_sks_bayonet------------------------------------------
+[up_sect_wpn_sks_bayonet]:base_bayonet
+cost = 2000
+kick_hit_power = 1.6
+kick_distance = 3.2
+
+show_bones = bayonet
+inv_weight              = +0.2
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_bayonet
+upgrade_addon_icon_offset_x = 200
+upgrade_addon_icon_offset_y = 0
+inv_grid_width = +1
+
+
+[up_wpn_sks_bayonet]
+scheme_index = 0, 4
+known = 1
+effects = 
+section = up_sect_wpn_sks_bayonet
+property = prop_bayonet
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_bayonet_name
+description =gunsl_wpn_sks_up_bayonet_descr
+icon = ui_gunsl_up_wpn_sks_bayonet
+;------------------------------------------wpn_sks_barrel_compensator------------------------------------------
+[up_sect_wpn_sks_barrel_compensator]
+cost = 5000
+value = -30
+cam_dispersion  = -0.2
+cam_dispersion_inc  = -0.06
+zoom_cam_dispersion = -0.1
+zoom_cam_dispersion_inc = -0.1
+PDM_disp_base = -0.07
+show_bones = dtk
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_dtk
+upgrade_addon_icon_offset_x = 200
+upgrade_addon_icon_offset_y = 0
+
+[up_wpn_sks_barrel_compensator]
+scheme_index = 0, 5
+known = 1
+effects = 
+section = up_sect_wpn_sks_barrel_compensator
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_barrel_compensator_name
+description =gunsl_wpn_sks_up_barrel_compensator_descr
+icon = ui_gunsl_up_wpn_sks_barrel_compensator
+;------------------------------------------wpn_sks_gascam------------------------------------------
+[up_sect_wpn_sks_gascam]
+cost = 1500
+value = +10
+misfire_end_prob = -0.05
+
+[up_wpn_sks_gascam]
+scheme_index = 0, 6
+known = 1
+effects = vartree_wpn_sks_usm
+section = up_sect_wpn_sks_gascam
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_gascam_name
+description =gunsl_wpn_sks_up_gascam_descr
+icon = ui_gunsl_up_wpn_sks_gascam
+;------------------------------------------wpn_sks_laser------------------------------------------
+[up_sect_wpn_sks_laser]:red_laser, tactical_torch
+cost = 7000
+crosshair_inertion = -0.3
+show_bones = flash
+inv_weight              = +0.3
+
+laserdot_attach_offset_x = -0.027
+laserdot_attach_offset_y = 0.07
+laserdot_attach_offset_z = -0.4
+
+torch_attach_offset_x = -0.08
+torch_attach_offset_y = 0.095
+torch_attach_offset_z = 0.1
+torch_omni_attach_offset_x = -0.08
+torch_omni_attach_offset_y = 0.12
+torch_omni_attach_offset_z = -0.1
+torch_omni_range = 0.25
+torch_r2_omni_range = 0.15
+
+laserdot_world_attach_offset_x = -0.035
+laserdot_world_attach_offset_y = 0.103
+laserdot_world_attach_offset_z = 0.281
+
+torch_world_attach_offset_x = -0.015
+torch_world_attach_offset_y = -0.108
+torch_world_attach_offset_z = 0.533
+
+torch_omni_world_attach_offset_x = -0.015
+torch_omni_world_attach_offset_y = -0.108
+torch_omni_world_attach_offset_z = 0.533
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_laser
+upgrade_addon_icon_offset_x = 150
+upgrade_addon_icon_offset_y = 0
+upgrade_addon_always_front = true
+
+[up_wpn_sks_laser]
+scheme_index = 0, 7
+known = 1
+effects = 
+section = up_sect_wpn_sks_laser
+property = prop_laser
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_laser_name
+description =gunsl_wpn_sks_up_laser_descr
+icon = ui_gunsl_up_wpn_sks_laser
+;------------------------------------------wpn_sks_sights------------------------------------------
+[up_sect_wpn_sks_sights]
+cost = 500
+crosshair_inertion = -1
+control_inertion_factor = -0.05
+show_bones = sights
+
+[up_wpn_sks_sights]
+scheme_index = 0, 8
+known = 1
+effects = 
+section = up_sect_wpn_sks_sights
+property = prop_lightingsights
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_sights_name
+description =gunsl_wpn_sks_up_sights_descr
+icon = ui_gunsl_up_wpn_sks_sights
+;------------------------------------------wpn_sks_dovetail------------------------------------------
+[up_sect_wpn_sks_dovetail]
+cost = 1500
+inv_weight = +0.1
+scopes_sect = scope_pso1_sks, scope_pso1m2_sks, scope_nvsn_sks, scope_nvas_sks, scope_cobra_sks, scope_pka_sks, scope_kashtan_sks
+scope_status = 2
+show_bones = dovetail
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_dovetail
+upgrade_addon_icon_offset_x = 50
+upgrade_addon_icon_offset_y = 0
+
+[up_wpn_sks_dovetail]
+scheme_index = 0, 9
+known = 1
+effects = 
+section = up_sect_wpn_sks_dovetail
+property = prop_scope_attach
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_dovetail_name
+description =gunsl_wpn_sks_up_dovetail_descr
+icon = ui_gunsl_up_wpn_sks_dovetail
+;------------------------------------------wpn_sks_pokritie------------------------------------------
+[up_sect_wpn_sks_pokritie]
+cost = 5000
+value = +25
+condition_shot_dec = -0.00075
+condition_queue_shot_dec = -0.00075 
+misfire_start_condition = -0.1
+
+[up_wpn_sks_pokritie]
+scheme_index = 0, 10
+known = 1
+effects = 
+section = up_sect_wpn_sks_pokritie
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_pokritie_name
+description =gunsl_wpn_sks_up_pokritie_descr
+icon = ui_gunsl_up_wpn_sks_pokritie
+;------------------------------------------wpn_sks_rail------------------------------------------
+[up_sect_wpn_sks_rail]
+cost = 1500
+inv_weight = +0.1
+scopes_sect = scope_eotech_sks, scope_aimpoint_sks, scope_elcan_sks, scope_pn23_sks
+scope_status = 2
+show_bones = rail
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_rail
+upgrade_addon_icon_offset_x = 50
+upgrade_addon_icon_offset_y = 0
+
+[up_wpn_sks_rail]
+scheme_index = 0, 11
+known = 1
+effects = 
+section = up_sect_wpn_sks_rail
+property = prop_scope_attach
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_rail_name
+description =gunsl_wpn_sks_up_rail_descr
+icon = ui_gunsl_up_wpn_sks_rail
+;------------------------------------------wpn_sks_zatvor_accuracy------------------------------------------
+[up_sect_wpn_sks_zatvor_accuracy]
+cost = 3000
+value = +20
+fire_dispersion_base = -0.02
+PDM_disp_base = -0.2
+PDM_disp_crouch = -0.1
+PDM_disp_crouch_no_acc = -0.1
+
+[up_wpn_sks_zatvor_accuracy]
+scheme_index = 0, 12
+known = 1
+effects = vartree_wpn_sks_body
+section = up_sect_wpn_sks_zatvor_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_zatvor_accuracy_name
+description =gunsl_wpn_sks_up_zatvor_accuracy_descr
+icon = ui_gunsl_up_wpn_sks_zatvor_accuracy
+;------------------------------------------wpn_sks_zatvor_balance------------------------------------------
+[up_sect_wpn_sks_zatvor_balance]
+cost = 3000
+value = -20
+cam_dispersion  = -0.15
+cam_dispersion_inc = -0.05
+
+zoom_cam_dispersion = -0.06
+zoom_cam_dispersion_inc = -0.1
+
+[up_wpn_sks_zatvor_balance]
+scheme_index = 0, 13
+known = 1
+effects = vartree_wpn_sks_body
+section = up_sect_wpn_sks_zatvor_balance
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_zatvor_balance_name
+description =gunsl_wpn_sks_up_zatvor_balance_descr
+icon = ui_gunsl_up_wpn_sks_zatvor_balance
+;------------------------------------------wpn_sks_mag20------------------------------------------
+[up_sect_wpn_sks_mag20]
+cost = 3000
+value = +10
+show_bones = mag_20, podavatel_20, ammo_20
+hide_bones = mag_10, mag_10_podavatel, ammo_10
+ammo_mag_size	= +10
+inv_weight              = +0.1
+
+tri_state_reload = 0
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_mag20
+upgrade_addon_icon_offset_x = 100
+upgrade_addon_icon_offset_y = 0
+
+[up_wpn_sks_mag20]
+scheme_index = 0, 14
+known = 1
+effects = vartree_wpn_sks_fab
+section = up_sect_wpn_sks_mag20
+property = prop_ammo_size
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_mag20_name
+description =gunsl_wpn_sks_up_mag20_descr
+icon = ui_gunsl_up_wpn_sks_mag20
+;------------------------------------------wpn_sks_tactical_set------------------------------------------
+[up_sect_wpn_sks_tactical_set]
+cost = 6000
+show_bones = fab_stock, mag_rel_fab
+hide_bones = mag_rel, wood_stock
+
+inv_weight = -0.4
+scope_status = 2
+scopes_sect = scope_rakurs_sks
+
+control_inertion_factor = -0.3
+cam_dispersion = -0.1
+zoom_cam_dispersion = -0.05
+
+hud = wpn_sks_tac_hud
+
+upgrade_addon_icon = upgrade_addon_icon_element_sks_fab
+upgrade_addon_icons_hide = icon_element_sks_body
+upgrade_addon_icon_offset_x = 0
+upgrade_addon_icon_offset_y = 0
+
+[up_wpn_sks_tactical_set]
+scheme_index = 0, 15
+known = 1
+effects = vartree_wpn_sks_laser
+section = up_sect_wpn_sks_tactical_set
+property = prop_inertion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_tactical_set_name
+description =gunsl_wpn_sks_up_tactical_set_descr
+icon = ui_gunsl_up_wpn_sks_tactical_set
+;------------------------------------------wpn_sks_rpm_increase------------------------------------------
+[up_sect_wpn_sks_rpm_increase]
+cost = 1500
+value = +50
+rpm = +75
+condition_shot_dec = +0.0005
+condition_queue_shot_dec = +0.0005
+
+[up_wpn_sks_rpm_increase]
+scheme_index = 0, 16
+known = 1
+effects = vartree_wpn_sks_zatvor
+section = up_sect_wpn_sks_rpm_increase
+property = prop_rpm
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_rpm_increase_name
+description =gunsl_wpn_sks_up_rpm_increase_descr
+icon = ui_gunsl_up_wpn_sks_rpm_increase
+;------------------------------------------wpn_sks_light_details------------------------------------------
+[up_sect_wpn_sks_light_details]
+cost = 1500
+value = -0.4
+inv_weight = -0.4
+
+[up_wpn_sks_light_details]
+scheme_index = 0, 17
+known = 1
+effects = vartree_wpn_sks_zatvor
+section = up_sect_wpn_sks_light_details
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_light_details_name
+description =gunsl_wpn_sks_up_light_details_descr
+icon = ui_gunsl_up_wpn_sks_light_details
+;------------------------------------------wpn_sks_hard_details------------------------------------------
+[up_sect_wpn_sks_hard_details]
+cost = 1500
+value = +15
+misfire_end_prob = -0.01
+condition_shot_dec = -0.0006
+condition_queue_shot_dec = -0.0006
+
+[up_wpn_sks_hard_details]
+scheme_index = 0, 18
+known = 1
+effects = vartree_wpn_sks_zatvor
+section = up_sect_wpn_sks_hard_details
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_wpn_sks_up_hard_details_name
+description =gunsl_wpn_sks_up_hard_details_descr
+icon = ui_gunsl_up_wpn_sks_hard_details
+;------------------------------------------------------------------------------------
+[vartree_wpn_sks_gascam]
+elements = up_wpn_sks_gascam
+[vartree_wpn_sks_usm]
+elements = up_wpn_sks_usm_recoil, up_wpn_sks_usm_accuracy
+[vartree_wpn_sks_barrel]
+elements = up_wpn_sks_barrel_speed, up_wpn_sks_barrel_accuracy, up_wpn_sks_barrel_compensator
+[vartree_wpn_sks_details]
+elements = up_wpn_sks_rpm_increase, up_wpn_sks_light_details, up_wpn_sks_hard_details
+[vartree_wpn_sks_zatvor]
+elements = up_wpn_sks_zatvor_accuracy, up_wpn_sks_zatvor_balance
+[vartree_wpn_sks_body]
+elements = up_wpn_sks_pokritie
+[vartree_wpn_sks_mag]
+elements = up_wpn_sks_mag20
+[vartree_wpn_sks_fab]
+elements = up_wpn_sks_tactical_set
+[vartree_wpn_sks_laser]
+elements = up_wpn_sks_laser
+[vartree_wpn_sks_sights]
+elements = up_wpn_sks_sights
+[vartree_wpn_sks_rail]
+elements = up_wpn_sks_dovetail, up_wpn_sks_rail
+[vartree_wpn_sks_bayonet]
+elements = up_wpn_sks_bayonet

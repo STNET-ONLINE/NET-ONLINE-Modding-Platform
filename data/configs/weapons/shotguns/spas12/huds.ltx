@@ -1,0 +1,266 @@
+[wpn_spas12_hud]:default_hud
+
+shell_point			= 0.028,0.052,0.0147
+shell_dir                     	= 0.0, 1.0, 0.0
+shell_bone			= wpn_body
+
+
+fire_point		= 0, 0.051, 0.808
+fire_bone			= wpn_body
+
+
+attach_place_idx		= 0
+item_visual                   	= dynamics\weapons\wpn_spas12\wpn_spas12_hud.ogf
+
+hands_position				= -0.131000,-0.084001,0.197000
+hands_orientation			= 1.950000,-0.999998,3.349998
+
+
+
+hands_position_16x9				= -0.122000,-0.142500,0.234499
+hands_orientation_16x9			= 3.149998,1.050001,2.349999
+
+item_position				= 0.001394,0.007643,0.003674
+item_orientation			= -0.194673,-0.83 9747,-0.116095
+
+aim_hud_offset_pos				= -0.098000,0.051000,0.000000
+aim_hud_offset_rot				= 0.017500,0.025000,-0.022500
+
+aim_hud_offset_pos_16x9				= -0.107500,0.119000,0.000000
+aim_hud_offset_rot_16x9				= 0.052500,0.045000,-0.045000
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;Идл обычный
+
+anm_idle			= spas12_idle
+anm_idle_empty			= spas12_idle
+anm_idle_jammed			= spas12_idle
+
+;Идл - сосредоточенный
+anm_idle_slow			= spas12_idle
+anm_idle_slow_empty			= spas12_idle
+anm_idle_slow_jammed			= spas12_idle
+
+;Идл - присев
+anm_idle_crouch			= spas12_idle
+anm_idle_crouch_empty			= spas12_idle
+anm_idle_crouch_jammed			= spas12_idle
+
+;Идл - сосредоточенный и присев
+anm_idle_crouch_slow			= spas12_idle
+anm_idle_crouch_slow_empty			= spas12_idle
+anm_idle_crouch_slow_jammed			= spas12_idle
+
+;//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;Обычное движение
+anm_idle_moving			= spas12_idle_moving
+anm_idle_moving_empty		= spas12_idle_moving
+anm_idle_moving_jammed		= spas12_idle_moving
+
+;Замедленное движение
+anm_idle_moving_slow			= spas12_idle_moving
+anm_idle_moving_slow_empty		= spas12_idle_moving
+anm_idle_moving_slow_jammed		= spas12_idle_moving
+
+;Движение в присяде
+anm_idle_moving_crouch			= spas12_idle_moving
+anm_idle_moving_crouch_empty		= spas12_idle_moving
+anm_idle_moving_crouch_jammed		= spas12_idle_moving
+
+;Замедленное движение в присяде
+anm_idle_moving_crouch_slow			= spas12_idle_moving
+anm_idle_moving_crouch_slow_empty		= spas12_idle_moving
+anm_idle_moving_crouch_slow_jammed		= spas12_idle_moving
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+; включаем анимы движения в прицеливании по направлениям
+enable_directions_anm_idle_aim = true
+
+
+
+;вход в прицеливание
+anm_idle_aim_start		= spas12_holster
+anm_idle_aim_start_empty	= spas12_holster
+anm_idle_aim_start_jammed	= spas12_holster
+
+autoshoot_anm_idle_aim_start = true
+autoshoot_anm_idle_aim_start_empty = true
+autoshoot_anm_idle_aim_start_jammed = true
+
+lock_time_anm_idle_aim_start = 0.25
+lock_time_anm_idle_aim_start_empty = 0.25
+lock_time_anm_idle_aim_start_jammed = 0.25
+
+;выход из прицеливания
+anm_idle_aim_end		= spas12_draw
+anm_idle_aim_end_empty		= spas12_draw
+anm_idle_aim_end_jammed		= spas12_draw
+
+autoshoot_anm_idle_aim_end = true
+autoshoot_anm_idle_aim_end_empty = true
+autoshoot_anm_idle_aim_end_jammed = true
+
+lock_time_anm_idle_aim_end = 0.25
+lock_time_anm_idle_aim_end_empty = 0.25
+lock_time_anm_idle_aim_end_jammed = 0.25
+
+;прицеливание - стоя на месте
+anm_idle_aim			= spas12_idle_aim
+anm_idle_aim_empty		= spas12_idle_aim
+anm_idle_aim_jammed		= spas12_idle_aim
+
+;прицеливание - идем вперед
+anm_idle_aim_moving_forward		= spas12_idle_aim
+anm_idle_aim_moving_forward_empty	= spas12_idle_aim
+anm_idle_aim_moving_forward_jammed	= spas12_idle_aim
+
+;прицеливание - идем назад
+anm_idle_aim_moving_back		= spas12_idle_aim
+anm_idle_aim_moving_back_empty		= spas12_idle_aim
+anm_idle_aim_moving_back_jammed		= spas12_idle_aim
+
+;прицеливание - идем влево
+anm_idle_aim_moving_left		= spas12_idle_aim
+anm_idle_aim_moving_left_empty		= spas12_idle_aim
+anm_idle_aim_moving_left_jammed		= spas12_idle_aim
+
+;прицеливание - идем вправо
+anm_idle_aim_moving_right		= spas12_idle_aim
+anm_idle_aim_moving_right_empty		= spas12_idle_aim
+anm_idle_aim_moving_right_jammed	= spas12_idle_aim
+
+;прицеливание - идем вперед и вправо
+anm_idle_aim_moving_forward_right		= spas12_idle_aim
+anm_idle_aim_moving_forward_right_empty		= spas12_idle_aim
+anm_idle_aim_moving_forward_right_jammed	= spas12_idle_aim
+
+;прицеливание - идем вперед и влево
+anm_idle_aim_moving_forward_left		= spas12_idle_aim
+anm_idle_aim_moving_forward_left_empty		= spas12_idle_aim
+anm_idle_aim_moving_forward_left_jammed		= spas12_idle_aim
+
+;прицеливание - идем назад и вправо
+anm_idle_aim_moving_back_right			= spas12_idle_aim
+anm_idle_aim_moving_back_right_empty		= spas12_idle_aim
+anm_idle_aim_moving_back_right_jammed		= spas12_idle_aim
+
+;прицеливание - идем назад и влево
+anm_idle_aim_moving_back_left			= spas12_idle_aim
+anm_idle_aim_moving_back_left_empty		= spas12_idle_aim
+anm_idle_aim_moving_back_left_jammed		= spas12_idle_aim
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;вход в спринт
+anm_idle_sprint_start             = spas12_holster
+anm_idle_sprint_start_empty       = spas12_holster
+anm_idle_sprint_start_jammed      = spas12_holster
+
+lock_time_anm_idle_sprint_start = 0.15
+lock_time_anm_idle_sprint_start_empty = 0.15
+lock_time_anm_idle_sprint_start_jammed = 0.15
+
+;выход из спринта
+anm_idle_sprint_end             = spas12_draw
+anm_idle_sprint_end_empty       = spas12_draw
+anm_idle_sprint_end_jammed      = spas12_draw
+
+lock_time_anm_idle_sprint_end        = 0.4
+lock_time_anm_idle_sprint_end_empty  = 0.4
+lock_time_anm_idle_sprint_end_jammed = 0.4
+
+;собственно спринт
+anm_idle_sprint			= spas12_idle_sprint
+anm_idle_sprint_empty		= spas12_idle_sprint
+anm_idle_sprint_jammed		= spas12_idle_sprint
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+;начало релоада
+anm_open			= spas12_reload_start
+anm_open_empty			= spas12_draw
+
+add_cartridge_in_open = true	;Говорим, что open содержит в себе добавление в магазин патрона
+empty_preload_mode = true	;после анимы anm_open_empty надо играть add_cartridge_preloaded или close_preloaded (т.к. в anm_open_empty загоняется патрон в патронник)
+
+lock_time_start_anm_open = 0.3	;время от старта анимации до зарядки (обновления счетчика) патрона  (если патрон заряжается в open, иначе ставить просто один параметр lock_time_anm_open)
+lock_time_end_anm_open = 0.01	;время от момента зарядки патрона (обновления счетчика) до момента, когда можно прерывать аниму
+				;если lock_time_start + lock_time_end превышают время проигрывания анимации, то прервать выстрелом набивание магазина будет невозможно! Целесообразно устанавливать время суммарного лока так, чтобы оно было на не менее 100мс меньше времени анимы, чтобы апдейт на остановку стрельбы успел пройти
+lock_time_start_anm_open_empty = 0.9	
+lock_time_end_anm_open_empty = 0.01	
+
+
+;добавление патрона
+anm_add_cartridge			= spas12_reload
+anm_add_cartridge_empty			= spas12_reload 	; в случае add_cartridge_in_open=true параметр не используется по понятным причинам 
+anm_add_cartridge_preloaded		= spas12_holster
+anm_add_cartridge_empty_preloaded	= spas12_holster 	;указывать аналогично обычному anm_add_cartridge_preloaded, затычка от потенциального вылета
+
+lock_time_start_anm_add_cartridge = 0.2		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge = 0.2
+lock_time_start_anm_add_cartridge_empty	 = 0.2		;аналогично параметрам у open
+lock_time_end_anm_add_cartridge_empty	 = 0.2
+lock_time_start_anm_add_cartridge_preloaded	 = 0.2		
+lock_time_end_anm_add_cartridge_preloaded	 = 0.2
+
+
+;конец релоада
+anm_close			= spas12_reload_end
+anm_close_empty			= spas12_reload_end	;бесполезен, когда add_cartridge_in_open=true; иначе играется, если мы вдруг передумали заряжать пустое ружье, не зарядив ни одного патрона туда
+anm_close_preloaded		= spas12_draw
+anm_close_empty_preloaded	= spas12_holster 	;указывать аналогично обычному anm_close_preloaded, затычка от потенциального вылета при выбрасывании во время релоада всех патронов на землю
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;скука - включить при необходимости
+disable_bore = true
+
+anm_bore			= spas12_idle_bore
+anm_bore_empty			= spas12_idle_bore
+anm_bore_jammed			= spas12_idle_bore
+
+
+;доставание
+anm_show			= spas12_draw
+anm_show_empty			= spas12_draw
+anm_show_jammed			= spas12_draw
+
+
+;убирание
+anm_hide			= spas12_holster
+anm_hide_empty			= spas12_holster
+anm_hide_jammed			= spas12_holster
+
+
+;Стрельба
+anm_shoot			= spas12_shoot
+anm_shoot_last			= spas12_shoot
+anm_shoot_aim			= spas12_shoot
+anm_shoot_last_aim		= spas12_shoot
+
+; выстрел с переходом в состояние клина
+anm_shoot_jammed			= spas12_shoot
+anm_shoot_aim_jammed			= spas12_shoot
+
+;Осечки
+anm_fakeshoot_empty 		= spas12_shoot
+anm_fakeshoot_jammed 		= spas12_shoot
+anm_fakeshoot_aim_empty 		= spas12_shoot
+anm_fakeshoot_aim_jammed 		= spas12_shoot
+
+lock_time_anm_fakeshoot_empty = 1
+lock_time_anm_fakeshoot_jammed = 1
+lock_time_anm_fakeshoot_aim_empty = 1
+lock_time_anm_fakeshoot_aim_jammed = 1
+
+;расклин
+anm_reload_jammed			= spas12_shoot
+anm_reload_jammed_last			= spas12_shoot
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;затычка от вылетов
+anm_reload			= spas12_shoot
+anm_reload_last			= spas12_shoot

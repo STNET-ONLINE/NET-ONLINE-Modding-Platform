@@ -1,0 +1,97 @@
+#include "vehicle_level_respawn.ltx"
+
+;В секцию группы машины (Например [car_location_respawn] и [truck_location_respawn])
+;Формат заполнения следующий:
+;section = veh_niva_white - Секция машины
+;random_attachment = test1, test2, test3, test4 - Какие аттачи рандомить
+;probability_attachment = 0.5 - Шанс рандома атача (1 = 100%) 
+;max_vehicle = 1 - Максимальное число, доступное для респавна этой группы
+;max_vehicle_in_level = 10 - Максимально допустимое число машин на уровне (Если машин больше - будут удаляться сначала из респавна, а затем те что принадлежат игрокам)
+;unique_id = escape_niva_white - Уникальный ID секции, если нужно больше машин этой группы
+
+[truck_jupiter_respawn]
+jupiter_kamaz_red
+jupiter_kamaz_white
+
+[niva_jupiter_respawn]
+jupiter_niva_white
+jupiter_niva_blue
+jupiter_niva_green
+jupiter_niva_yellow
+jupiter_niva_army
+
+[moskvich_jupiter_respawn]
+jupiter_moskvich_white
+jupiter_moskvich_yellow
+
+[jupiter_kamaz_red]
+section = veh_kamaz5320_red
+random_attachment = kamaz_wheel, kamaz_wheel, kamaz_wheel2, kamaz_wheel2, kamaz_wheel2, kamaz_wheel2, radiator, accumulator, spark_plug, kamaz_front_bamper, kamaz_door_left_red, kamaz_door_right_red
+random_fuel = 100
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 5
+
+[jupiter_kamaz_white]
+section = veh_kamaz5320_white
+random_attachment = kamaz_wheel, kamaz_wheel, kamaz_wheel2, kamaz_wheel2, kamaz_wheel2, kamaz_wheel2, radiator, accumulator, spark_plug, kamaz_front_bamper, kamaz_door_left_white, kamaz_door_right_white
+random_fuel = 100
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 5
+
+[jupiter_moskvich_white]
+section = veh_moskvich412_white
+random_attachment = moskvich_wheel, moskvich_wheel, moskvich_wheel, moskvich_wheel, radiator, accumulator, spark_plug, moskvich_left_door, moskvich_right_door, moskvich_front_door, moskvich_back_door
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_moskvich_yellow]
+section = veh_moskvich412_yellow
+random_attachment = moskvich_wheel, moskvich_wheel, moskvich_wheel, moskvich_wheel, radiator, accumulator, spark_plug, moskvich_left_door, moskvich_right_door, moskvich_front_door, moskvich_back_door
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_niva_white]
+section = veh_niva_white
+random_attachment = niva_wheel, niva_wheel, niva_wheel, niva_wheel, bagage, radiator, accumulator, spark_plug, niva_front_bamper_1, niva_front_bamper_2, niva_back_bamper, niva_back_door_white, niva_front_door_white, niva_left_door_white, niva_right_door_white
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_niva_blue]
+section = veh_niva_blue
+random_attachment = niva_wheel, niva_wheel, niva_wheel, niva_wheel, bagage, radiator, accumulator, spark_plug, niva_front_bamper_1, niva_front_bamper_2, niva_back_bamper, niva_back_door_blue, niva_front_door_blue, niva_left_door_blue, niva_right_door_blue
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_niva_green]
+section = veh_niva_green
+random_attachment = niva_wheel, niva_wheel, niva_wheel, niva_wheel, bagage, radiator, accumulator, spark_plug, niva_front_bamper_1, niva_front_bamper_2, niva_back_bamper, niva_back_door_green, niva_front_door_green, niva_left_door_green, niva_right_door_green
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_niva_yellow]
+section = veh_niva_yellow
+random_attachment = niva_wheel, niva_wheel, niva_wheel, niva_wheel, bagage, radiator, accumulator, spark_plug, niva_front_bamper_1, niva_front_bamper_2, niva_back_bamper, niva_back_door_yellow, niva_front_door_yellow, niva_left_door_yellow, niva_right_door_yellow
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10
+
+[jupiter_niva_army]
+section = veh_niva_army
+random_attachment = niva_wheel, niva_wheel, niva_wheel, niva_wheel, bagage, radiator, accumulator, spark_plug, niva_front_bamper_1, niva_front_bamper_2, niva_back_bamper, niva_back_door_army, niva_front_door_army, niva_left_door_army, niva_right_door_army
+random_fuel = 10
+probability_attachment = 0.5
+max_vehicle = 1
+max_vehicle_in_level = 10

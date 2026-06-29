@@ -1,0 +1,716 @@
+[stalker_silent]:stalker
+$spawn        = "respawn\stalker_silent"
+character_profile = sim_default_stalker_0
+
+sound_death						=
+sound_anomaly_death				=
+sound_hit						= 
+
+sound_humming					= 
+sound_alarm						= 
+sound_backup					= 
+sound_detour					= 
+sound_friendly_fire				= 
+sound_panic_human				= 
+sound_panic_monster				= 
+sound_tolls						= 
+sound_wounded					= 
+sound_grenade_alarm				= 
+sound_friendly_grenade_alarm	= 
+sound_need_backup				= 
+sound_running_in_danger			= 
+sound_walking_in_danger			= 
+sound_kill_wounded				= 
+sound_enemy_critically_wounded	= 
+sound_enemy_killed_or_wounded	= 
+
+sound_attack_no_allies				= 
+sound_attack_allies_single_enemy	= 
+sound_attack_allies_several_enemies	= 
+sound_search1_no_allies				= 
+sound_search1_with_allies			= 
+sound_enemy_lost_no_allies			= 
+sound_enemy_lost_with_allies		= 
+sound_throw_grenade					= 
+
+[default_duty]:stalker
+$spawn        = "respawn\default_dolg"
+character_profile = default_dolg
+
+[default_freedom]:stalker
+$spawn        = "respawn\default_freedom"
+character_profile = default_freedom
+
+[default_bandit]:stalker
+$spawn        = "respawn\default_bandit"
+character_profile = sim_default_bandit_0
+
+[default_stalker]:stalker
+$spawn        = "respawn\default_stalker"
+character_profile = sim_default_duty_0
+
+[stalker_regular]:stalker
+$spawn        = "respawn\dolg_regular"
+character_profile = default
+
+[stalker_monolith_default]:stalker
+$spawn        = "respawn\stalker_monolith_default"
+character_profile = sim_default_monolith_0
+
+
+;****************************************************************
+; Simulation
+;****************************************************************
+
+;****************************************************************
+; duty
+;****************************************************************
+
+[sim_default_duty_0]:stalker
+$spawn                     = "respawn\sim_default_duty_0"
+character_profile     = sim_default_duty_0
+spec_rank = novice
+community = dolg
+
+[sim_default_duty_1]:stalker
+$spawn                     = "respawn\sim_default_duty_1"
+character_profile     = sim_default_duty_1
+spec_rank = regular
+community = dolg
+
+[sim_default_duty_2]:stalker
+$spawn                     = "respawn\sim_default_duty_2"
+character_profile     = sim_default_duty_2
+spec_rank = experienced
+community = dolg
+
+[sim_default_duty_3]:stalker
+$spawn                     = "respawn\sim_default_duty_3"
+character_profile     = sim_default_duty_3
+spec_rank = veteran
+community = dolg
+
+[sim_default_duty_4]:stalker
+$spawn                     = "respawn\sim_default_duty_4"
+character_profile     = sim_default_duty_4
+spec_rank = master
+community = dolg
+
+;***** sim monolith *****
+[sim_default_monolith_0]:stalker
+$spawn                     = "respawn\sim_default_monolith_0"
+character_profile     = sim_default_monolith_0
+spec_rank = novice
+community = monolith
+
+[sim_default_monolith_1]:stalker
+$spawn                     = "respawn\sim_default_monolith_1"
+character_profile     = sim_default_monolith_1
+spec_rank = regular
+community = monolith
+
+[sim_default_monolith_2]:stalker
+$spawn                     = "respawn\sim_default_monolith_2"
+character_profile     = sim_default_monolith_2
+spec_rank = experienced
+community = monolith
+
+[sim_default_monolith_3]:stalker
+$spawn                     = "respawn\sim_default_monolith_3"
+character_profile     = sim_default_monolith_3
+spec_rank = veteran
+community = monolith
+
+[sim_default_monolith_4]:stalker
+$spawn                     = "respawn\sim_default_monolith_4"
+character_profile     = sim_default_monolith_4
+spec_rank = master
+community = monolith
+
+;***** sim freedom *****
+
+[sim_default_freedom_0]:stalker
+$spawn                     = "respawn\sim_default_freedom_0"
+character_profile     = sim_default_freedom_0
+spec_rank = novice
+community = freedom
+
+[sim_default_freedom_1]:stalker
+$spawn                     = "respawn\sim_default_freedom_1"
+character_profile     = sim_default_freedom_1
+spec_rank = regular
+community = freedom
+
+[sim_default_freedom_2]:stalker
+$spawn                     = "respawn\sim_default_freedom_2"
+character_profile     = sim_default_freedom_2
+spec_rank = experienced
+community = freedom
+
+[sim_default_freedom_3]:stalker
+$spawn                     = "respawn\sim_default_freedom_3"
+character_profile     = sim_default_freedom_3
+spec_rank = veteran
+community = freedom
+
+[sim_default_freedom_4]:stalker
+$spawn                     = "respawn\sim_default_freedom_4"
+character_profile     = sim_default_freedom_4
+spec_rank = master
+community = freedom
+
+;***** sim bandit *****
+
+[sim_default_bandit_0]:stalker
+$spawn                     = "respawn\sim_default_bandit_0"
+character_profile     = sim_default_bandit_0
+spec_rank = novice
+community = bandit
+
+[sim_default_bandit_1]:stalker
+$spawn                     = "respawn\sim_default_bandit_1"
+character_profile     = sim_default_bandit_1
+spec_rank = regular
+community = bandit
+
+[sim_default_bandit_2]:stalker
+$spawn                     = "respawn\sim_default_bandit_2"
+character_profile     = sim_default_bandit_2
+spec_rank = experienced
+community = bandit
+
+[sim_default_bandit_3]:stalker
+$spawn                     = "respawn\sim_default_bandit_3"
+character_profile     = sim_default_bandit_3
+spec_rank = veteran
+community = bandit
+
+[sim_default_bandit_4]:stalker
+$spawn                     = "respawn\sim_default_bandit_4"
+character_profile     = sim_default_bandit_4
+spec_rank = master
+community = bandit
+
+;***** sim stalker *****
+
+[sim_default_stalker_0]:stalker
+$spawn                     = "respawn\sim_default_stalker_0"
+character_profile     = sim_default_stalker_0
+spec_rank = novice
+community = stalker
+
+[sim_default_stalker_1]:stalker
+$spawn                     = "respawn\sim_default_stalker_1"
+character_profile     = sim_default_stalker_1
+spec_rank = regular
+community = stalker
+
+[sim_default_stalker_2]:stalker
+$spawn                     = "respawn\sim_default_stalker_2"
+character_profile     = sim_default_stalker_2
+spec_rank = experienced
+community = stalker
+
+[sim_default_stalker_3]:stalker
+$spawn                     = "respawn\sim_default_stalker_3"
+character_profile     = sim_default_stalker_3
+spec_rank = veteran
+community = stalker
+
+[sim_default_stalker_4]:stalker
+$spawn                     = "respawn\sim_default_stalker_4"
+character_profile     = sim_default_stalker_4
+spec_rank = master
+community = stalker
+
+;***** military *****
+
+[sim_default_military_0]:stalker
+$spawn                     = "respawn\sim_default_military_0"
+character_profile     = sim_default_military_0
+spec_rank = novice
+community = military
+
+[sim_default_military_1]:stalker
+$spawn                     = "respawn\sim_default_military_1"
+character_profile     = sim_default_military_1
+spec_rank = regular
+community = military
+
+[sim_default_military_2]:stalker
+$spawn                     = "respawn\sim_default_military_2"
+character_profile     = sim_default_military_2
+spec_rank = experienced
+community = military
+
+[sim_default_military_3]:stalker
+$spawn                     = "respawn\sim_default_military_3"
+character_profile     = sim_default_military_3
+spec_rank = veteran
+community = military
+
+[sim_default_military_3_sniper]:stalker
+$spawn                     = "respawn\sim_default_military_3_sniper"
+character_profile     = sim_default_military_3_sniper
+spec_rank = veteran
+community = military
+
+[sim_default_military_4]:stalker
+$spawn                     = "respawn\sim_default_military_4"
+character_profile     = sim_default_military_4
+spec_rank = master
+community = military
+
+;***** sim merc *****
+
+[sim_default_killer_0]:stalker
+$spawn                     = "respawn\sim_default_killer_0"
+character_profile     = sim_default_killer_0
+spec_rank = novice
+community = killer
+
+[sim_default_killer_1]:stalker
+$spawn                     = "respawn\sim_default_killer_1"
+character_profile     = sim_default_killer_1
+spec_rank = novice
+community = killer
+
+[sim_default_killer_2]:stalker
+$spawn                     = "respawn\sim_default_killer_2"
+character_profile     = sim_default_killer_2
+spec_rank = novice
+community = killer
+
+[sim_default_killer_3]:stalker
+$spawn                     = "respawn\sim_default_killer_3"
+character_profile     = sim_default_killer_3
+spec_rank = novice
+community = killer
+
+[sim_default_killer_4]:stalker
+$spawn                     = "respawn\sim_default_killer_4"
+character_profile     = sim_default_killer_4
+spec_rank = novice
+community = killer
+
+;***** sim zombied *****
+
+[sim_default_zombied_1]:stalker_zombied
+$spawn                     = "respawn\sim_default_zombied_1"
+character_profile     = sim_default_zombied_1
+spec_rank = novice
+community = zombied
+
+[sim_default_zombied_2]:stalker_zombied
+$spawn                     = "respawn\sim_default_zombied_2"
+character_profile     = sim_default_zombied_2
+spec_rank = novice
+community = zombied
+
+[sim_default_zombied_3]:stalker_zombied
+$spawn                     = "respawn\sim_default_zombied_3"
+character_profile     = sim_default_zombied_3
+spec_rank = novice
+community = zombied
+
+[sim_default_zombied_4]:stalker_zombied
+$spawn                     = "respawn\sim_default_zombied_4"
+character_profile     = sim_default_zombied_4
+spec_rank = novice
+community = zombied
+
+[actor_visual_stalker]:stalker_silent
+$spawn 					= "respawn\actor_visual_stalker"
+character_profile 		= actor_visual_stalker
+set_visual 				= actor_visual
+
+;***** sim clearsky *****
+
+[sim_default_clearsky_0]:stalker
+$spawn                     = "respawn\sim_default_clearsky_0"
+character_profile     = sim_default_clearsky_0
+spec_rank = novice
+community = clearsky
+
+[sim_default_clearsky_1]:stalker
+$spawn                     = "respawn\sim_default_clearsky_1"
+character_profile     = sim_default_clearsky_1
+spec_rank = regular
+community = clearsky
+
+[sim_default_clearsky_2]:stalker
+$spawn                     = "respawn\sim_default_clearsky_2"
+character_profile     = sim_default_clearsky_2
+spec_rank = experienced
+community = clearsky
+
+[sim_default_clearsky_3]:stalker
+$spawn                     = "respawn\sim_default_clearsky_3"
+character_profile     = sim_default_clearsky_3
+spec_rank = veteran
+community = clearsky
+
+[sim_default_clearsky_4]:stalker
+$spawn                     = "respawn\sim_default_clearsky_4"
+character_profile     = sim_default_clearsky_4
+spec_rank = master
+community = clearsky
+
+;***** sim renegades *****
+
+[sim_default_renegade_0]:stalker
+$spawn                     = "respawn\sim_default_renegade_0"
+character_profile     = sim_default_renegade_0
+spec_rank = regular
+community = renegades
+
+[sim_default_renegade_1]:stalker
+$spawn                     = "respawn\sim_default_renegade_1"
+character_profile     = sim_default_renegade_1
+spec_rank = experienced
+community = renegades
+
+[sim_default_renegade_2]:stalker
+$spawn                     = "respawn\sim_default_renegade_2"
+character_profile     = sim_default_renegade_2
+spec_rank = veteran
+community = renegades
+
+;***** test_killer *****
+
+[test_killer]:stalker
+$spawn                     = "respawn\test_killer"
+character_profile     = test_killer
+spec_rank = novice
+community = killer
+
+[conrack_selo_stalker]:stalker
+$spawn                     = "respawn\conrack_selo_stalker"
+character_profile     = jup_b6_freedom_stalker_1
+
+;***** sim hunter *****
+
+[sim_default_hunter_0]:stalker
+$spawn                     = "respawn\sim_default_hunter_0"
+character_profile     = sim_default_hunter_0
+spec_rank = novice
+community = hunter
+
+[sim_default_hunter_1]:stalker
+$spawn                     = "respawn\sim_default_hunter_1"
+character_profile     = sim_default_hunter_1
+spec_rank = regular
+community = hunter
+
+[sim_default_hunter_2]:stalker
+$spawn                     = "respawn\sim_default_hunter_2"
+character_profile     = sim_default_hunter_2
+spec_rank = experienced
+community = hunter
+
+[sim_default_hunter_3]:stalker
+$spawn                     = "respawn\sim_default_hunter_3"
+character_profile     = sim_default_hunter_3
+spec_rank = veteran
+community = hunter
+
+[sim_default_hunter_4]:stalker
+$spawn                     = "respawn\sim_default_hunter_4"
+character_profile     = sim_default_hunter_4
+spec_rank = master
+community = hunter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; scientist
+
+ [sim_default_scientist_0]:stalker
+ $spawn = "respawn\sim_default_scientist_0"
+ character_profile = sim_default_scientist_0
+ spec_rank = novice
+ community = ecolog
+
+ [sim_default_scientist_1]:stalker
+ $spawn = "respawn\sim_default_scientist_1"
+ character_profile = sim_default_scientist_1
+ spec_rank = novice
+ community = ecolog
+
+
+; nebo 
+
+[sim_default_nebo_0]:stalker 
+$spawn = "respawn\sim_default_nebo_0" 
+character_profile = sim_default_nebo_0 
+spec_rank = novice 
+community = clearsky 
+
+[sim_default_nebo_1]:stalker 
+$spawn = "respawn\sim_default_nebo_1" 
+character_profile = sim_default_nebo_1 
+spec_rank = regular 
+community = clearsky 
+
+[sim_default_nebo_2]:stalker 
+$spawn = "respawn\sim_default_nebo_2" 
+character_profile = sim_default_nebo_2 
+spec_rank = experienced 
+community = clearsky 
+
+[sim_default_nebo_3]:stalker 
+$spawn = "respawn\sim_default_nebo_3" 
+character_profile = sim_default_nebo_3 
+spec_rank = veteran 
+community = clearsky 
+
+[sim_default_nebo_4]:stalker 
+$spawn = "respawn\sim_default_nebo_4" 
+character_profile = sim_default_nebo_4 
+spec_rank = master 
+community = clearsky
+
+[barmen_military_jup]:stalker
+$spawn                     = "respawn\barmen_military_jup"
+character_profile     = barmen_military_jup
+spec_rank = veteran 
+community = military
+
+[medic_military_jup]:stalker
+$spawn                     = "respawn\medic_military_jup"
+character_profile     = medic_military_jup
+spec_rank = veteran 
+community = military
+
+[trader_military_jup]:stalker
+$spawn                     = "respawn\trader_military_jup"
+character_profile     = trader_military_jup
+spec_rank = veteran 
+community = military
+
+[tech_military_jup]:stalker
+$spawn                     = "respawn\trader_military_jup"
+character_profile     = tech_military_jup
+spec_rank = veteran 
+community = military
+
+[mart_stalker_trader]:stalker
+$spawn                     = "respawn\stalker_mart_trader_jup"
+character_profile     = mart_stalker_trader
+spec_rank = veteran 
+community = stalker
+
+[mart_stalker_armor]:stalker
+$spawn                     = "respawn\stalker_mart_armor_jup"
+character_profile     = mart_stalker_armor
+spec_rank = veteran 
+community = stalker
+
+[mart_stalker_barmen]:stalker
+$spawn                     = "respawn\stalker_mart_barmen_jup"
+character_profile     = mart_stalker_barmen
+spec_rank = veteran 
+community = stalker
+
+[jup_base_bandit_barmen]:stalker
+$spawn                     = "respawn\jup_base_bandit_barmen"
+character_profile     = jup_base_bandit_barmen
+spec_rank = veteran 
+community = bandit
+
+[jup_base_bandit_trader]:stalker
+$spawn                     = "respawn\jup_base_bandit_trader"
+character_profile     = jup_base_bandit_trader
+spec_rank = veteran 
+community = bandit
+
+[jup_base_bandit_armor]:stalker
+$spawn                     = "respawn\jup_base_bandit_armor"
+character_profile     = jup_base_bandit_armor
+spec_rank = veteran 
+community = bandit
+
+[jup_base_duty_barmen]:stalker
+$spawn                     = "respawn\jup_base_duty_barmen"
+character_profile     = jup_base_duty_barmen
+spec_rank = veteran 
+community = duty
+
+[jup_base_duty_trader]:stalker
+$spawn                     = "respawn\jup_base_duty_trader"
+character_profile     = jup_base_duty_trader
+spec_rank = veteran 
+community = duty
+
+[jup_base_duty_armor]:stalker
+$spawn                     = "respawn\jup_base_duty_armor"
+character_profile     = jup_base_duty_armor
+spec_rank = veteran 
+community = duty
+
+[jup_base_killer_trader]:stalker
+$spawn                     = "respawn\jup_base_killer_trader"
+character_profile     = jup_base_killer_trader
+spec_rank = veteran 
+community = killer
+
+[jup_base_killer_barmen]:stalker
+$spawn                     = "respawn\jup_base_killer_barmen"
+character_profile     = jup_base_killer_barmen
+spec_rank = veteran 
+community = killer
+
+[jup_base_killer_armor]:stalker
+$spawn                     = "respawn\jup_base_killer_armor"
+character_profile     = jup_base_killer_armor
+spec_rank = veteran 
+community = killer
+
+[scientist_artefacts]:stalker
+$spawn                     = "respawn\jup_base_scientist_artef"
+character_profile     = scientist_artefacts
+spec_rank = veteran 
+community = ecolog
+
+[scientist_barmen]:stalker
+$spawn                     = "respawn\jup_base_scientist_barmen"
+character_profile     = scientist_barmen
+spec_rank = veteran 
+community = ecolog
+
+[scientist_armor]:stalker
+$spawn                     = "respawn\jup_base_scientist_armor"
+character_profile     = scientist_armor
+spec_rank = veteran 
+community = ecolog
+
+[scientist_guard]:stalker
+$spawn                     = "respawn\jup_base_guard_scientist"
+character_profile     = scientist_guard
+spec_rank = veteran 
+community = ecolog
+
+[jup_base_freedom_barmen]:stalker
+$spawn                     = "respawn\jup_base_freedom_barmen"
+character_profile     = jup_base_freedom_barmen
+spec_rank = veteran 
+community = freedom
+
+[jup_base_freedom_trader]:stalker
+$spawn                     = "respawn\jup_base_freedom_trader"
+character_profile     = jup_base_freedom_trader
+spec_rank = veteran 
+community = freedom
+
+[jup_base_freedom_armor]:stalker
+$spawn                     = "respawn\jup_base_freedom_armor"
+character_profile     = jup_base_freedom_armor
+spec_rank = veteran 
+community = freedom
+
+[jup_base_cs_armor]:stalker
+$spawn                     = "respawn\jup_base_cs_armor"
+character_profile     = jup_base_cs_armor
+spec_rank = veteran 
+community = clearsky
+
+[jup_base_cs_trader]:stalker
+$spawn                     = "respawn\jup_base_cs_trader"
+character_profile     = jup_base_cs_trader
+spec_rank = veteran 
+community = clearsky
+
+[jup_base_cs_barmen]:stalker
+$spawn                     = "respawn\jup_base_scientist_barmen"
+character_profile     = jup_base_cs_barmen
+spec_rank = veteran 
+community = clearsky
+
+[dungeon_master_vostoka_1]:stalker
+$spawn                     = "respawn\xyi_sosi_blyat1"
+character_profile     = dungeon_master_vostoka_1
+spec_rank = master 
+community = stalker
+
+[dungeon_master_vostoka_2]:stalker
+$spawn                     = "respawn\xyi_sosi_blyat2"
+character_profile     = dungeon_master_vostoka_2
+spec_rank = master 
+community = stalker
+
+[jup_base_sin_armor]:stalker
+$spawn                   = "respawn\jup_base_sin_armor"
+character_profile     = jup_base_sin_armor
+spec_rank = master 
+community = monolith
+
+[mart_stalker_ammo]:stalker
+$spawn                   = "respawn\mart_stalker_ammo"
+character_profile     = mart_stalker_ammo
+spec_rank = master 
+community = stalker
+
+[stalker_monolith_armor]:stalker
+$spawn                   = "respawn\stalker_monolith_armor"
+character_profile     = stalker_monolith_armor
+spec_rank = master 
+community = monolith
+
+[stalker_monolith_trader]:stalker
+$spawn                   = "respawn\stalker_monolith_trader"
+character_profile     = stalker_monolith_trader
+spec_rank = master 
+community = stalker
+
+[stalker_monolith_drugers]:stalker
+$spawn                   = "respawn\stalker_monolith_drugers"
+character_profile     = stalker_monolith_drugers
+spec_rank = master 
+community = stalker
+
+[stalker_spectrum_trader]:stalker
+$spawn                   = "respawn\stalker_spectrum_trader"
+character_profile     = stalker_spectrum_trader
+spec_rank = master 
+community = stalker
+
+[stalker_spectrum_drugers]:stalker
+$spawn                   = "respawn\stalker_spectrum_drugers"
+character_profile     = stalker_spectrum_drugers
+spec_rank = master 
+community = stalker
+
+[stalker_spectrum_armor]:stalker
+$spawn                   = "respawn\stalker_spectrum_armor"
+character_profile     = stalker_spectrum_armor
+spec_rank = master 
+community = stalker
+
+[jup_b217_stalker_tech]:stalker_silent
+$spawn                     = "respawn\jup_b217_stalker_tech"
+character_profile     = jup_b217_stalker_tech
+story_id = jup_b217_stalker_tech
+
+[jup_b6_scientist_tech]:stalker
+$spawn                     = "respawn\jup_b6_scientist_tech"
+character_profile     = jup_b6_scientist_tech
+story_id = jup_b6_scientist_tech
+
+[jup_zombied_boss]:stalker_zombied
+$spawn                     = "respawn\jup_zombied_boss"
+character_profile     = jup_zombied_boss
+spec_rank = novice
+community = zombied
+show_health = true

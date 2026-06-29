@@ -1,0 +1,80 @@
+[medkit_hud_model]:gwr_base_usable
+script_binding      = gwr_eatable.init
+gwr_eatable_object = medkit_eatable
+timing = 3070			;задержка на время полного проигрывания анимации
+timing_early = 2500		;задержка перед назначением эффекта
+timing_trash = 2500
+gwr_changed_object = medkit
+animation_override = dmg_norm_torso_11_attack_0
+
+visual                  	= dynamics\devices\dev_aptechka\dev_aptechka_low.ogf
+hud                     	= medkit_hud
+
+inv_name				= gunsl_eatable_medkit
+inv_name_short			= gunsl_eatable_medkit
+description				= gunsl_eatable_medkit_descr
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 14
+
+cost					= 650
+inv_weight				= 0.1
+
+;звуки
+snd_draw   = $silent
+snd_using   = items\medkit\medkit
+
+[medkit_hud]:gwr_base_usable_hud
+zoom_hide_crosshair			= true
+
+hud_fov_factor = 1.25
+
+hands_position				= 0.0,-0.025,0.11
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.025,0.06
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position = 0.0,0.0,0.0
+item_orientation = 0.0,0.0,0.0
+
+aim_hud_offset_pos = -0.171504,0.060500,-0.089010
+aim_hud_offset_rot = 0.048900,0.082240,-0.009000
+aim_hud_offset_pos_16x9 = -0.193470,0.061100,-0.037740
+aim_hud_offset_rot_16x9 = 0.057800,0.111900,-0.011000
+
+
+item_visual             	= gwr\equipment\medkit\medkit_hud.ogf
+
+
+anm_show			= apteka
+anm_hide			= zaglushka
+anm_idle			= zaglushka
+anm_idle_slow                   = zaglushka
+anm_idle_crouch                 = zaglushka
+anm_idle_crouch_slow            = zaglushka
+anm_idle_aim			= zaglushka
+anm_idle_aim_end		= zaglushka
+anm_idle_moving			= zaglushka
+anm_idle_moving_slow 		= zaglushka
+anm_idle_moving_crouch 	        = zaglushka
+anm_idle_moving_crouch_slow     = zaglushka
+anm_idle_sprint			= zaglushka
+anm_idle_sprint_start			= zaglushka
+anm_bore			= zaglushka
+
+;прием аптеки в экзоскелете
+
+[medkit_exo_hud_model]:medkit_hud_model
+timing = 2190			;задержка на время проигрывания анимации перед назначением эффекта (мс)
+hud                     	= medkit_exo_hud
+snd_using   = items\medkit\medkit_exo
+no_trash = true
+
+[medkit_exo_hud]:medkit_hud
+item_visual             	= gwr\equipment\medkit_exo\medkit_exo_hud.ogf
+anm_show			= medkit_exo
+
+hands_position				= 0.0,-0.015,0.04
+hands_position_16x9			= 0.0,-0.015,-0.01

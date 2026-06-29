@@ -1,0 +1,743 @@
+;------------------------------------------unoff_lr300_barrel_accuracy------------------------------------------
+[up_sect_unoff_lr300_barrel_accuracy]
+cost = 9000
+value = +30
+fire_dispersion_base = -0.04
+PDM_disp_base = -0.25
+PDM_disp_vel_factor 		= -0.1
+PDM_disp_accel_factor 		= -0.2
+PDM_disp_crouch	 		= -0.1
+PDM_disp_crouch_no_acc 		= -0.1
+
+cam_dispersion = -0.03
+zoom_cam_dispersion = -0.02
+
+[up_unoff_lr300_barrel_accuracy]
+scheme_index = 0, 0
+known = 1
+effects = 
+section = up_sect_unoff_lr300_barrel_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_barrel_accuracy_name
+description =gunsl_unoff_lr300_up_barrel_accuracy_descr
+icon = ui_gunsl_up_unoff_lr300_barrel_accuracy
+;------------------------------------------unoff_lr300_barrel_bullet_speed------------------------------------------
+[up_sect_unoff_lr300_barrel_bullet_speed]
+cost = 9000
+value = +30
+bullet_speed = 200
+PDM_disp_base = -0.1
+
+[up_unoff_lr300_barrel_bullet_speed]
+scheme_index = 0, 1
+known = 1
+effects = 
+section = up_sect_unoff_lr300_barrel_bullet_speed
+property = prop_bullet_speed
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_barrel_bullet_speed_name
+description =gunsl_unoff_lr300_up_barrel_bullet_speed_descr
+icon = ui_gunsl_up_unoff_lr300_barrel_bullet_speed
+;------------------------------------------unoff_lr300_barrel_compensator------------------------------------------
+[up_sect_unoff_lr300_barrel_compensator]
+cost = 9000
+value = -25
+cam_dispersion  = -0.1
+cam_dispersion_inc  = -0.06
+zoom_cam_dispersion = -0.08
+zoom_cam_dispersion_inc = -0.02
+PDM_disp_base = -0.07
+
+[up_unoff_lr300_barrel_compensator]
+scheme_index = 0, 2
+known = 1
+effects = 
+section = up_sect_unoff_lr300_barrel_compensator
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_barrel_compensator_name
+description =gunsl_unoff_lr300_up_barrel_compensator_descr
+icon = ui_gunsl_up_unoff_lr300_barrel_compensator
+;------------------------------------------unoff_lr300_body_reliability------------------------------------------
+[up_sect_unoff_lr300_body_reliability]
+cost = 8000
+value = +30
+misfire_start_condition = -0.05
+misfire_end_condition = -0.03
+condition_shot_dec = -0.0002
+condition_queue_shot_dec = -0.0003
+
+[up_unoff_lr300_body_reliability]
+scheme_index = 0, 3
+known = 1
+effects = 
+section = up_sect_unoff_lr300_body_reliability
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_body_reliability_name
+description =gunsl_unoff_lr300_up_body_reliability_descr
+icon = ui_gunsl_up_unoff_lr300_body_reliability
+;------------------------------------------unoff_lr300_usm_accuracy------------------------------------------
+[up_sect_unoff_lr300_usm_accuracy]
+cost = 7000
+value = +20
+fire_dispersion_base = -0.03
+bullet_speed = +10
+
+PDM_disp_base = -0.08
+PDM_disp_vel_factor 		= -0.05
+PDM_disp_accel_factor 		= -0.05
+PDM_disp_crouch	 		= -0.05
+PDM_disp_crouch_no_acc 		= -0.05
+
+cam_dispersion = -0.03
+zoom_cam_dispersion = -0.01
+
+cam_dispersion_inc      = -0.03
+zoom_cam_dispersion_inc     = -0.01
+
+[up_unoff_lr300_usm_accuracy]
+scheme_index = 0, 4
+known = 1
+effects = 
+section = up_sect_unoff_lr300_usm_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_usm_accuracy_name
+description =gunsl_unoff_lr300_up_usm_accuracy_descr
+icon = ui_gunsl_up_unoff_lr300_usm_accuracy
+;------------------------------------------unoff_lr300_gascam_recoil------------------------------------------
+[up_sect_unoff_lr300_gascam_recoil]
+cost = 5000
+value = -10
+cam_dispersion  = -0.02
+cam_dispersion_inc  = -0.01
+zoom_cam_dispersion = -0.015
+zoom_cam_dispersion_inc = -0.01
+PDM_disp_base = -0.05
+
+[up_unoff_lr300_gascam_recoil]
+scheme_index = 0, 5
+known = 1
+effects = vartree_unoff_lr300_set
+section = up_sect_unoff_lr300_gascam_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_gascam_recoil_name
+description =gunsl_unoff_lr300_up_gascam_recoil_descr
+icon = ui_gunsl_up_unoff_lr300_gascam_recoil
+;------------------------------------------unoff_lr300_anatomic_handle------------------------------------------
+[up_sect_unoff_lr300_anatomic_handle]
+cost = 900
+value = +10
+control_inertion_factor = -0.15
+PDM_disp_vel_factor = -0.2
+
+cam_dispersion = -0.01
+zoom_cam_dispersion = -0.005
+inv_weight = +0.05
+
+[up_unoff_lr300_anatomic_handle]
+scheme_index = 0, 6
+known = 1
+effects = 
+section = up_sect_unoff_lr300_anatomic_handle
+property = prop_inertion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_anatomic_handle_name
+description =gunsl_unoff_lr300_up_anatomic_handle_descr
+icon = ui_gunsl_up_unoff_lr300_anatomic_handle
+;------------------------------------------unoff_lr300_flashlaser------------------------------------------
+[up_sect_unoff_lr300_flashlaser]:red_laser, tactical_torch
+cost = 7000
+crosshair_inertion = -0.3
+show_bones = laser
+inv_weight              = +0.3
+
+laserdot_attach_offset_x = -0.027
+laserdot_attach_offset_y = 0.07
+laserdot_attach_offset_z = -0.4
+
+torch_attach_offset_x = -0.07
+torch_attach_offset_y = 0.12
+torch_attach_offset_z = -0.2
+torch_omni_attach_offset_x = -0.07
+torch_omni_attach_offset_y = 0.12
+torch_omni_attach_offset_z = -0.23
+torch_omni_range = 0.25
+torch_r2_omni_range = 0.25
+
+
+laserdot_world_attach_offset_x = -0.035
+laserdot_world_attach_offset_y = 0.133
+laserdot_world_attach_offset_z = 0.281
+
+torch_world_attach_offset_x = -0.035
+torch_world_attach_offset_y = 0.168
+torch_world_attach_offset_z = 0.283
+
+torch_omni_world_attach_offset_x = -0.035
+torch_omni_world_attach_offset_y = 0.168
+torch_omni_world_attach_offset_z = 0.283
+
+upgrade_addon_icon = icon_element_lr300_unoff_lam
+upgrade_addon_icon_offset_x = 150
+upgrade_addon_icon_offset_y = 0
+upgrade_addon_always_front = true
+
+[up_unoff_lr300_flashlaser]
+scheme_index = 0, 7
+known = 1
+effects = 
+section = up_sect_unoff_lr300_flashlaser
+property = prop_laser
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_flashlaser_name
+description =gunsl_unoff_lr300_up_flashlaser_descr
+icon = ui_gunsl_up_unoff_lr300_flashlaser
+;------------------------------------------unoff_lr300_mag40------------------------------------------
+[up_sect_unoff_lr300_mag40]
+cost = 1000
+value = +10
+show_bones = mag_45
+hide_bones = mag_30
+ammo_mag_size	= +10
+inv_weight              = +0.03
+
+upgrade_addon_icon = icon_element_lr300_unoff_mag40
+upgrade_addon_icons_hide = icon_element_lr300_unoff_mag_std
+upgrade_addon_icon_offset_x = 100
+upgrade_addon_icon_offset_y = 0
+
+[up_unoff_lr300_mag40]
+scheme_index = 0, 8
+known = 1
+effects = vartree_unoff_lr300_mag60
+section = up_sect_unoff_lr300_mag40
+property = prop_ammo_size
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_mag40_name
+description =gunsl_unoff_lr300_up_mag40_descr
+icon = ui_gunsl_up_unoff_lr300_mag40
+;------------------------------------------unoff_lr300_mag60------------------------------------------
+[up_sect_unoff_lr300_mag60]
+cost = 1500
+value = +20
+show_bones = mag_60
+hide_bones_override =  mag_45
+
+
+ammo_mag_size	= +20
+inv_weight              = +0.05
+
+upgrade_addon_icon = icon_element_lr300_unoff_mag60
+upgrade_addon_icons_hide = icon_element_lr300_unoff_mag40
+upgrade_addon_icon_offset_x = 100
+upgrade_addon_icon_offset_y = 0
+
+[up_unoff_lr300_mag60]
+scheme_index = 0, 9
+known = 1
+effects = 
+section = up_sect_unoff_lr300_mag60
+property = prop_ammo_size
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_mag60_name
+description =gunsl_unoff_lr300_up_mag60_descr
+icon = ui_gunsl_up_unoff_lr300_mag60
+;------------------------------------------unoff_lr300_podacha_reliability------------------------------------------
+[up_sect_unoff_lr300_podacha_reliability]
+cost = 500
+value = +10
+misfire_start_condition = -0.05
+misfire_start_prob = -0.0001
+misfire_end_prob = -0.007
+
+[up_unoff_lr300_podacha_reliability]
+scheme_index = 0, 10
+known = 1
+effects = vartree_unoff_lr300_mag40
+section = up_sect_unoff_lr300_podacha_reliability
+property = feed_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_podacha_reliability_name
+description =gunsl_unoff_lr300_up_podacha_reliability_descr
+icon = ui_gunsl_up_unoff_lr300_podacha_reliability
+;------------------------------------------unoff_lr300_usm_rpm------------------------------------------
+[up_sect_unoff_lr300_usm_rpm]
+cost = 7000
+value = +20
+rpm = +200
+condition_queue_shot_dec     = +0.0002
+misfire_start_prob	     	= +0.0005
+misfire_end_prob	     	= +0.005
+
+[up_unoff_lr300_usm_rpm]
+scheme_index = 0, 11
+known = 1
+effects = 
+section = up_sect_unoff_lr300_usm_rpm
+property = prop_rpm
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_usm_rpm_name
+description =gunsl_unoff_lr300_up_usm_rpm_descr
+icon = ui_gunsl_up_unoff_lr300_usm_rpm
+;------------------------------------------unoff_lr300_stock_recoil------------------------------------------
+[up_sect_unoff_lr300_stock_recoil]
+cost = 5000
+value = -20
+cam_dispersion = -0.08
+cam_dispersion_inc = -0.05
+
+PDM_disp_base = -0.15
+PDM_disp_vel_factor = -0.2
+
+zoom_cam_dispersion = -0.04
+zoom_cam_dispersion_inc = -0.01
+
+show_bones = stock_mod
+hide_bones_override =  stock
+
+upgrade_addon_icon = icon_element_lr300_unoff_stock_mod
+upgrade_addon_icons_hide = icon_element_lr300_unoff_stock_std
+upgrade_addon_icon_offset_x = 0
+upgrade_addon_icon_offset_y = 0
+
+[up_unoff_lr300_stock_recoil]
+scheme_index = 0, 12
+known = 1
+effects = vartree_unoff_lr300_usm
+section = up_sect_unoff_lr300_stock_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_stock_recoil_name
+description =gunsl_unoff_lr300_up_stock_recoil_descr
+icon = ui_gunsl_up_unoff_lr300_stock_recoil
+;------------------------------------------unoff_lr300_tacticalset------------------------------------------
+[up_sect_unoff_lr300_tacticalset]
+cost = 7000
+control_inertion_factor = -0.3
+inv_weight              = +0.4
+
+crosshair_inertion		= -2.0
+cam_relax_speed         = +1
+
+cam_max_angle           = -20.0      
+cam_max_angle_horz      = -20.0
+
+cam_dispersion          = -0.02
+cam_dispersion_inc      = -0.03
+
+zoom_cam_dispersion = -0.02
+zoom_cam_dispersion_inc = -0.02
+
+
+PDM_disp_base = -0.05
+PDM_disp_vel_factor = -0.2
+PDM_disp_accel_factor = -0.2
+
+show_bones = gl_rails, grip
+hide_bones_override_when_gl_attached = grip
+
+hud = wpn_lr300_unoff_hud_tac
+
+grenade_launcher_status = 2
+grenade_launcher_name   = wpn_addon_grenade_launcher_m203
+
+grenade_launcher_x      = 124
+grenade_launcher_y      = 26
+
+upgrade_addon_icon = icon_element_lr300_unoff_gl_rail
+upgrade_addon_icon_offset_x = 150
+upgrade_addon_icon_offset_y = 0
+upgrade_addon_icon_banned_addons_mask = 2
+
+[up_unoff_lr300_tacticalset]
+scheme_index = 0, 13
+known = 1
+effects = vartree_unoff_lr300_barrel
+section = up_sect_unoff_lr300_tacticalset
+property = prop_underbarrel_slot,prop_tacticalhandle
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_tacticalset_name
+description =gunsl_unoff_lr300_up_tacticalset_descr
+icon = ui_gunsl_up_unoff_lr300_tacticalset
+;------------------------------------------unoff_lr300_zatvor_balancer------------------------------------------
+[up_sect_unoff_lr300_zatvor_balancer]
+cost = 6000
+value = -20
+zoom_cam_dispersion          = -0.03
+zoom_cam_dispersion_inc = -0.01
+
+cam_dispersion          = -0.06
+cam_dispersion_inc = -0.01
+
+misfire_start_prob	     	= -0.0002
+misfire_end_prob	     	= -0.005
+
+PDM_disp_base = -0.05
+
+[up_unoff_lr300_zatvor_balancer]
+scheme_index = 0, 14
+known = 1
+effects = vartree_unoff_lr300_body
+section = up_sect_unoff_lr300_zatvor_balancer
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_zatvor_balancer_name
+description =gunsl_unoff_lr300_up_zatvor_balancer_descr
+icon = ui_gunsl_up_unoff_lr300_zatvor_balancer
+;------------------------------------------unoff_lr300_zatvor_reliability------------------------------------------
+[up_sect_unoff_lr300_zatvor_reliability]
+cost = 6000
+value = +20
+misfire_start_prob = -0.0006
+misfire_end_prob = -0.02
+
+[up_unoff_lr300_zatvor_reliability]
+scheme_index = 0, 15
+known = 1
+effects = vartree_unoff_lr300_body
+section = up_sect_unoff_lr300_zatvor_reliability
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_zatvor_reliability_name
+description =gunsl_unoff_lr300_up_zatvor_reliability_descr
+icon = ui_gunsl_up_unoff_lr300_zatvor_reliability
+;------------------------------------------unoff_lr300_usm_rpm_down------------------------------------------
+[up_sect_unoff_lr300_usm_rpm_down]
+cost = 7000
+value = -25
+rpm = -200
+condition_queue_shot_dec     = -0.0002
+misfire_start_prob	     	= -0.0003
+misfire_end_prob	     	= -0.005
+
+[up_unoff_lr300_usm_rpm_down]
+scheme_index = 0, 16
+known = 1
+effects = 
+section = up_sect_unoff_lr300_usm_rpm_down
+property = prop_rpm
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_usm_rpm_down_name
+description =gunsl_unoff_lr300_up_usm_rpm_down_descr
+icon = ui_gunsl_up_unoff_lr300_usm_rpm_down
+;------------------------------------------unoff_lr300_sights------------------------------------------
+[up_sect_unoff_lr300_sights]
+cost = 500
+crosshair_inertion = -0.4
+control_inertion_factor = -0.05
+show_bones = sights
+
+[up_unoff_lr300_sights]
+scheme_index = 0, 17
+known = 1
+effects = 
+section = up_sect_unoff_lr300_sights
+property = prop_lightingsights
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_sights_name
+description =gunsl_unoff_lr300_up_sights_descr
+icon = ui_gunsl_up_unoff_lr300_sights
+;------------------------------------------unoff_lr300_foregrip_weight------------------------------------------
+[up_sect_unoff_lr300_foregrip_weight]
+cost = 2000
+value = -0.15
+inv_weight = -0.15
+
+[up_unoff_lr300_foregrip_weight]
+scheme_index = 0, 18
+known = 1
+effects = vartree_unoff_lr300_stock
+section = up_sect_unoff_lr300_foregrip_weight
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_foregrip_weight_name
+description =gunsl_unoff_lr300_up_foregrip_weight_descr
+icon = ui_gunsl_up_unoff_lr300_foregrip_weight
+;------------------------------------------unoff_lr300_light_details------------------------------------------
+[up_sect_unoff_lr300_light_details]
+cost = 4000
+value = -0.4
+inv_weight = -0.4
+
+[up_unoff_lr300_light_details]
+scheme_index = 0, 19
+known = 1
+effects = vartree_unoff_lr300_zatvor
+section = up_sect_unoff_lr300_light_details
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_light_details_name
+description =gunsl_unoff_lr300_up_light_details_descr
+icon = ui_gunsl_up_unoff_lr300_light_details
+;------------------------------------------unoff_lr300_hard_details------------------------------------------
+[up_sect_unoff_lr300_hard_details]
+cost = 4000
+value = +10
+condition_shot_dec  = -0.00005
+condition_queue_shot_dec = 0.0001
+
+[up_unoff_lr300_hard_details]
+scheme_index = 0, 20
+known = 1
+effects = vartree_unoff_lr300_zatvor
+section = up_sect_unoff_lr300_hard_details
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_hard_details_name
+description =gunsl_unoff_lr300_up_hard_details_descr
+icon = ui_gunsl_up_unoff_lr300_hard_details
+;------------------------------------------unoff_lr300_sniper_set------------------------------------------
+[up_sect_unoff_lr300_sniper_set]
+cost = 7000
+value = +20
+hit_power	 = 1.04, 1.04, 1.04, 1.04
+bullet_speed = +200
+fire_dispersion_base  = -0.03
+PDM_disp_base = -0.2
+
+show_bones = barrel_long, fore_mod, sil_long
+hide_bones_override =  fore, barrel, sil_short
+
+upgrade_addon_icon = icon_element_lr300_unoff_fore_mod
+upgrade_addon_icons_hide = icon_element_lr300_unoff_fore_std
+upgrade_addon_icon_offset_x = 100
+upgrade_addon_icon_offset_y = 0
+
+[up_unoff_lr300_sniper_set]
+scheme_index = 0, 21
+known = 1
+effects = vartree_unoff_lr300_barrel
+section = up_sect_unoff_lr300_sniper_set
+property = prop_bullet_speed, prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_sniper_set_name
+description =gunsl_unoff_lr300_up_sniper_set_descr
+icon = ui_gunsl_up_unoff_lr300_sniper_set
+;------------------------------------------unoff_lr300_stock_light------------------------------------------
+[up_sect_unoff_lr300_stock_light]
+cost = 5000
+value = -0.5
+inv_weight  = -0.5
+
+show_bones = stock_mod2
+hide_bones_override =  stock
+
+upgrade_addon_icon = icon_element_lr300_unoff_stock_mod2
+upgrade_addon_icons_hide = icon_element_lr300_unoff_stock_std
+upgrade_addon_icon_offset_x = 0
+upgrade_addon_icon_offset_y = 0
+
+[up_unoff_lr300_stock_light]
+scheme_index = 0, 22
+known = 1
+effects = vartree_unoff_lr300_usm
+section = up_sect_unoff_lr300_stock_light
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_stock_light_name
+description =gunsl_unoff_lr300_up_stock_light_descr
+icon = ui_gunsl_up_unoff_lr300_stock_light
+;------------------------------------------unoff_lr300_recoil_dempfer------------------------------------------
+[up_sect_unoff_lr300_recoil_dempfer]
+cost = 4000
+value = -10
+cam_dispersion          =  -0.03
+cam_dispersion_inc      = -0.02
+
+zoom_cam_dispersion          = -0.02
+zoom_cam_dispersion_inc      = -0.01
+
+PDM_disp_base = -0.03
+
+show_bones = bolt_holder_new
+hide_bones_override =  bolt_holder
+
+[up_unoff_lr300_recoil_dempfer]
+scheme_index = 0, 23
+known = 1
+effects = vartree_unoff_lr300_zatvor
+section = up_sect_unoff_lr300_recoil_dempfer
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_unoff_lr300_up_recoil_dempfer_name
+description =gunsl_unoff_lr300_up_recoil_dempfer_descr
+icon = ui_gunsl_up_unoff_lr300_recoil_dempfer
+;------------------------------------------------------------------------------------
+[vartree_unoff_lr300_gascam]
+elements = up_unoff_lr300_gascam_recoil
+[vartree_unoff_lr300_usm]
+elements = up_unoff_lr300_usm_accuracy, up_unoff_lr300_usm_rpm, up_unoff_lr300_usm_rpm_down
+[vartree_unoff_lr300_barrel]
+elements = up_unoff_lr300_barrel_accuracy, up_unoff_lr300_barrel_bullet_speed, up_unoff_lr300_barrel_compensator
+[vartree_unoff_lr300_details]
+elements = up_unoff_lr300_hard_details, up_unoff_lr300_light_details, up_unoff_lr300_recoil_dempfer
+[vartree_unoff_lr300_zatvor]
+elements = up_unoff_lr300_zatvor_balancer, up_unoff_lr300_zatvor_reliability
+[vartree_unoff_lr300_body]
+elements = up_unoff_lr300_body_reliability
+[vartree_unoff_lr300_feed]
+elements = up_unoff_lr300_podacha_reliability
+[vartree_unoff_lr300_mag40]
+elements = up_unoff_lr300_mag40
+[vartree_unoff_lr300_mag60]
+elements = up_unoff_lr300_mag60
+[vartree_unoff_lr300_fore]
+elements = up_unoff_lr300_foregrip_weight
+[vartree_unoff_lr300_laser]
+elements = up_unoff_lr300_flashlaser
+[vartree_unoff_lr300_sights]
+elements = up_unoff_lr300_sights
+[vartree_unoff_lr300_stock]
+elements = up_unoff_lr300_stock_recoil, up_unoff_lr300_stock_light
+[vartree_unoff_lr300_handle]
+elements = up_unoff_lr300_anatomic_handle
+[vartree_unoff_lr300_set]
+elements = up_unoff_lr300_tacticalset, up_unoff_lr300_sniper_set

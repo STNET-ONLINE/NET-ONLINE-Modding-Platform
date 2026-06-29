@@ -1,0 +1,190 @@
+[ammo_og-7b]:ammo_base
+$spawn			= "weapons\ammo\ammo_og-7b" ; option for Level Editor
+class			= S_OG7B
+cform                   = skeleton
+visual                  = dynamics\weapons\wpn_ammo\ammo_og_7b.ogf
+description		= gunsl_ammo_og_7b_descr
+
+cost			= 2000
+
+box_size		= 1
+
+inv_name		= gunsl_ammo_og_7b
+inv_name_short	= gunsl_ammo_og_7b_short
+inv_weight		= 2.6
+
+inv_grid_width				= 5
+inv_grid_height				= 1
+inv_grid_x				= 6
+inv_grid_y				= 0
+
+k_hit			= 3.0
+k_pierce		= 0.25
+k_ap		        = 0.25
+impair			= 1.15
+buck_shot		= 0
+wm_size                 = 0.1
+
+wallmark_section			= explosion_marks
+
+
+fake_grenade_name = wpn_rpg7_missile
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+[ammo_og-7b_jump]:ammo_og-7b
+$spawn			= "weapons\ammo\ammo_og-7b_jump" ; option for Level Editor
+k_hit			= 0
+k_pierce		= 0.25
+k_ap		        = 0.25
+impair			= 1.15
+
+fake_grenade_name = wpn_rpg7_missile_rocket_jump
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+
+[ammo_vog-25]:ammo_base
+$spawn			= "weapons\ammo\ammo_vog-25" ; option for Level Editor
+class			= S_VOG25
+visual                  = dynamics\weapons\wpn_ammo\ammo_vog_25.ogf
+description		= gunsl_ammo_vog25_descr
+
+cost			= 300
+
+box_size		= 1
+
+inv_name		= gunsl_ammo_vog25
+inv_name_short	= gunsl_ammo_vog25_short
+inv_weight		= .250
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x		= 19
+inv_grid_y		= 9
+
+kill_msg_x		= 38
+kill_msg_y		= 233
+kill_msg_width		= 21
+kill_msg_height		= 22
+
+k_hit			= 2.0
+k_pierce		= 0.25
+k_ap			= 0.25
+buck_shot		= 0
+tracer			= off
+
+fake_grenade_name = wpn_fake_missile
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+[ammo_vog-25p]:ammo_base
+$spawn			= "weapons\ammo\ammo_vog-25p" ; option for Level Editor
+class			= S_VOG25
+visual                  = dynamics\weapons\wpn_ammo\ammo_vog_25p.ogf
+description		= gunsl_ammo_vog25p_descr
+
+cost			= 500
+
+box_size		= 1
+
+inv_name		= gunsl_ammo_vog25p
+inv_name_short	= gunsl_ammo_vog25p_short
+inv_weight		= 0.275
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x		= 19
+inv_grid_y		= 10
+
+kill_msg_x		= 17
+kill_msg_y		= 232
+kill_msg_width		= 21
+kill_msg_height		= 22
+
+k_hit			= 2.5
+k_dist			= 1.3
+k_pierce		= 0.25
+k_ap			= 0.25
+buck_shot		= 0
+tracer			= off
+
+fake_grenade_name = wpn_fake_missile1
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_m209]:ammo_base
+$spawn			= "weapons\ammo\ammo_m209" ; option for Level Editor
+class			= S_M209
+visual                  = dynamics\weapons\wpn_ammo\ammo_m433hedp.ogf
+description		= gunsl_ammo_m209_descr
+
+cost			= 350
+
+box_size		= 1
+
+inv_name		= gunsl_ammo_m209
+inv_name_short	= gunsl_ammo_m209_short
+inv_weight		= .08
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 5
+inv_grid_y			= 13
+
+kill_msg_x			= 61
+kill_msg_y			= 232
+kill_msg_width		= 19
+kill_msg_height		= 22
+
+k_hit			= 2.0
+k_pierce		= 0.25
+k_ap			= 0.25
+buck_shot		= 0
+
+fake_grenade_name = wpn_fake_missile2
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+
+[ammo_m397a1]:ammo_base
+$spawn			= "weapons\ammo\ammo_m397a1" ; option for Level Editor
+class			= S_M209
+visual          = dynamics\weapons\wpn_ammo\ammo_m397a1.ogf
+description		= gunsl_ammo_m397a1_descr
+
+cost			= 500
+
+box_size		= 1
+
+inv_name		= gunsl_ammo_m397a1
+inv_name_short	= gunsl_ammo_m397a1_short
+inv_weight		= 0.275
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x		= 5
+inv_grid_y		= 15
+
+kill_msg_x		= 17
+kill_msg_y		= 232
+kill_msg_width		= 21
+kill_msg_height		= 22
+
+k_hit			= 2.5
+k_dist			= 1.3
+k_pierce		= 0.25
+k_ap			= 0.25
+buck_shot		= 0
+tracer			= off
+
+fake_grenade_name = wpn_fake_missile3
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false

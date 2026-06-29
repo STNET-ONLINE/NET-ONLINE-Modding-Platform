@@ -1,0 +1,75 @@
+[drug_booster_hud_model]:gwr_base_usable
+script_binding      = gwr_eatable.init
+timing = 6500					;задержка на время полного проигрывания анимации
+timing_early = 5000				;задержка перед назначением эффекта
+timing_trash = 6100
+gwr_changed_object = drug_booster
+gwr_eatable_object = drug_booster_eatable
+hud_fov_factor = 0.9 
+
+visual                  	= dynamics\equipments\medical\drug_booster.ogf
+hud                     	= drug_booster_hud
+inv_name			= gunsl_eatable_booster
+inv_name_short		= gunsl_eatable_booster
+description			= gunsl_eatable_booster_descr
+
+
+inv_grid_width		        = 1
+inv_grid_height		        = 1
+inv_grid_x			= 18
+inv_grid_y			= 7
+inv_weight			= 0.2
+
+cost				= 200
+
+;звуки
+snd_draw   = $silent
+snd_using   = items\water\water_drink_last
+
+[drug_booster_hud]:gwr_base_usable_hud
+zoom_hide_crosshair			= true
+
+hud_fov_factor = 1.25
+
+inertion_pitch_offset_r = -0.005
+inertion_pitch_offset_n = -0.005
+inertion_pitch_offset_d = -0.001
+inertion_speed = 20
+inertion_origin_offset = 0.05
+
+dof_time_offset_anm_show = -0.6
+dof_anm_show_far = 3
+dof_anm_show_focus = 0.3
+dof_speed_in_anm_show = 0.7
+
+hands_position				= 0.0,-0.02,0.14
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.02,0.14
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position = 0.0,0.0,0.0
+item_orientation = 0.0,0.0,0.0
+
+aim_hud_offset_pos = -0.171504,0.060500,-0.089010
+aim_hud_offset_rot = 0.048900,0.082240,-0.009000
+aim_hud_offset_pos_16x9 = -0.193470,0.061100,-0.037740
+aim_hud_offset_rot_16x9 = 0.057800,0.111900,-0.011000
+
+
+item_visual             	= gwr\food\hercules\hercules_hud.ogf
+
+anm_show			= hercules, water_last
+anm_hide			= zaglushka
+anm_idle			= zaglushka
+anm_idle_slow                   = zaglushka
+anm_idle_crouch                 = zaglushka
+anm_idle_crouch_slow            = zaglushka
+anm_idle_aim			= zaglushka
+anm_idle_aim_end		= zaglushka
+anm_idle_moving			= zaglushka
+anm_idle_moving_slow 		= zaglushka
+anm_idle_moving_crouch 	        = zaglushka
+anm_idle_moving_crouch_slow     = zaglushka
+anm_idle_sprint			= zaglushka
+anm_idle_sprint_start = zaglushka
+anm_bore			= zaglushka

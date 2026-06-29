@@ -1,0 +1,34 @@
+#include "eatable_objects.ltx"
+#include "hud_objects.ltx"
+
+
+[drug_booster]:booster
+$spawn 				= "food and drugs\drug_booster"
+visual				= dynamics\equipments\medical\drug_booster.ogf
+inv_name			= gunsl_eatable_booster
+inv_name_short		= gunsl_eatable_booster
+description			= gunsl_eatable_booster_descr
+cost				= 200
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 18
+inv_grid_y			= 7
+inv_weight			= 0.2
+
+hud = drug_booster_hud_model
+helm_prohibited = false; true
+full_outfit_prohibited = false ;true
+trash_object = drug_booster_trash
+trash_object_nothrow = drug_booster_trash_nothrow
+
+use_sound			= $silent ;interface\inv_softdrink
+
+
+[drug_booster_trash]:gwr_base_trash
+visual                        = dynamics\equipments\medical\drug_booster_trash.ogf
+throw_dir = left
+throw_impulse_z = 60
+
+[drug_booster_trash_nothrow]:drug_booster_trash
+throw_impulse_z = 30

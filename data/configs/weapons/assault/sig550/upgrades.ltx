@@ -1,0 +1,565 @@
+;------------------------------------------sig550_handle------------------------------------------
+[up_sect_sig550_handle]
+cost = 900
+value = +10
+control_inertion_factor = -0.12
+PDM_disp_vel_factor = -0.1
+
+cam_dispersion = -0.01
+zoom_cam_dispersion = -0.01
+
+
+[up_sig550_handle]
+scheme_index = 0, 0
+known = 1
+effects = vartree_sig550_stock
+section = up_sect_sig550_handle
+property = prop_inertion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_handle_name
+description =gunsl_sig550_up_handle_descr
+icon = ui_gunsl_up_sig550_handle
+;------------------------------------------sig550_bayonet------------------------------------------
+[up_sect_sig550_bayonet]:base_bayonet
+cost = 2000
+show_bones = bayonet
+hide_bones_override_grenade = bayonet
+hide_bones_override_when_gl_attached = bayonet
+hide_bones_override_when_silencer_attached = bayonet
+
+disable_kick_anim_when_gl_attached = true
+disable_kick_anim_when_sil_attached = true
+
+inv_weight              = +0.2
+;silencer_status            = 0
+disable_kick_anim_when_gl_enabled = true
+
+[up_sig550_bayonet]
+scheme_index = 0, 1
+known = 1
+effects = 
+section = up_sect_sig550_bayonet
+property = prop_bayonet
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_bayonet_name
+description =gunsl_sig550_up_bayonet_descr
+icon = ui_gunsl_up_sig550_bayonet
+;------------------------------------------sig550_zatvor_accuracy------------------------------------------
+[up_sect_sig550_zatvor_accuracy]
+cost = 4500
+value = +20
+fire_dispersion_base = -0.03
+PDM_disp_base = -0.22
+PDM_disp_crouch = -0.05
+PDM_disp_crouch_no_acc = -0.05
+cam_dispersion = -0.03
+zoom_cam_dispersion = -0.01
+
+[up_sig550_zatvor_accuracy]
+scheme_index = 0, 2
+known = 1
+effects = vartree_sig550_barrel
+section = up_sect_sig550_zatvor_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_zatvor_accuracy_name
+description =gunsl_sig550_up_zatvor_accuracy_descr
+icon = ui_gunsl_up_sig550_zatvor_accuracy
+;------------------------------------------sig550_light_stock------------------------------------------
+[up_sect_sig550_light_stock]
+cost = 3000
+value = -0.4
+inv_weight              = -0.4
+
+[up_sig550_light_stock]
+scheme_index = 0, 3
+known = 1
+effects = vartree_sig550_body
+section = up_sect_sig550_light_stock
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_light_stock_name
+description =gunsl_sig550_up_light_stock_descr
+icon = ui_gunsl_up_sig550_light_stock
+;------------------------------------------sig550_mag------------------------------------------
+[up_sect_sig550_mag]
+cost = 500
+value = +2
+ammo_mag_size = +2
+
+[up_sig550_mag]
+scheme_index = 0, 4
+known = 1
+effects = 
+section = up_sect_sig550_mag
+property = prop_ammo_size
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_mag_name
+description =gunsl_sig550_up_mag_descr
+icon = ui_gunsl_up_sig550_mag
+;------------------------------------------sig550_barrel_recoil------------------------------------------
+[up_sect_sig550_barrel_recoil]
+cost = 5000
+value = -25
+cam_dispersion  = -0.1
+cam_dispersion_inc  = -0.06
+zoom_cam_dispersion = -0.05
+zoom_cam_dispersion_inc = -0.04
+PDM_disp_base = -0.07
+
+[up_sig550_barrel_recoil]
+scheme_index = 0, 5
+known = 1
+effects = 
+section = up_sect_sig550_barrel_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_barrel_recoil_name
+description =gunsl_sig550_up_barrel_recoil_descr
+icon = ui_gunsl_up_sig550_barrel_recoil
+;------------------------------------------sig550_barrel_accuracy------------------------------------------
+[up_sect_sig550_barrel_accuracy]
+cost = 5000
+value = +25
+fire_dispersion_base = -0.04
+PDM_disp_base = -0.22
+PDM_disp_vel_factor 		= -0.1
+PDM_disp_accel_factor 		= -0.2
+PDM_disp_crouch	 		= -0.1
+PDM_disp_crouch_no_acc 		= -0.1
+
+cam_dispersion = -0.03
+zoom_cam_dispersion = -0.02
+
+
+[up_sig550_barrel_accuracy]
+scheme_index = 0, 6
+known = 1
+effects = 
+section = up_sect_sig550_barrel_accuracy
+property = prop_dispersion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_barrel_accuracy_name
+description =gunsl_sig550_up_barrel_accuracy_descr
+icon = ui_gunsl_up_sig550_barrel_accuracy
+;------------------------------------------sig550_barrel_speed------------------------------------------
+[up_sect_sig550_barrel_speed]
+cost = 5000
+value = +25
+bullet_speed = 150
+PDM_disp_base = -0.1
+
+[up_sig550_barrel_speed]
+scheme_index = 0, 7
+known = 1
+effects = 
+section = up_sect_sig550_barrel_speed
+property = prop_bullet_speed
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_barrel_speed_name
+description =gunsl_sig550_up_barrel_speed_descr
+icon = ui_gunsl_up_sig550_barrel_speed
+;------------------------------------------sig550_body_reliability------------------------------------------
+[up_sect_sig550_body_reliability]
+cost = 6000
+value = +30
+misfire_start_condition = -0.1
+misfire_end_condition = -0.03
+condition_shot_dec = -0.00015
+condition_queue_shot_dec = -0.00017
+
+[up_sig550_body_reliability]
+scheme_index = 0, 8
+known = 1
+effects = 
+section = up_sect_sig550_body_reliability
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_body_reliability_name
+description =gunsl_sig550_up_body_reliability_descr
+icon = ui_gunsl_up_sig550_body_reliability
+;------------------------------------------sig550_usm_recoil------------------------------------------
+[up_sect_sig550_usm_recoil]
+cost = 4000
+value = -15
+zoom_cam_dispersion          = -0.05
+zoom_cam_dispersion_inc = -0.04
+
+cam_dispersion          = -0.08
+cam_dispersion_inc = -0.03
+
+PDM_disp_base = -0.05
+
+[up_sig550_usm_recoil]
+scheme_index = 0, 9
+known = 1
+effects = vartree_sig550_korobka
+section = up_sect_sig550_usm_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_usm_recoil_name
+description =gunsl_sig550_up_usm_recoil_descr
+icon = ui_gunsl_up_sig550_usm_recoil
+;------------------------------------------sig550_flashlaser------------------------------------------
+[up_sect_sig550_flashlaser]:red_laser, tactical_torch
+cost = 7000
+crosshair_inertion = -0.3
+show_bones = flash, laser
+inv_weight              = +0.3
+
+laserdot_attach_offset_x = -0.027
+laserdot_attach_offset_y = 0.07
+laserdot_attach_offset_z = -0.4
+
+torch_attach_offset_x = -0.07
+torch_attach_offset_y = 0.12
+torch_attach_offset_z = -0.2
+torch_omni_attach_offset_x = -0.07
+torch_omni_attach_offset_y = 0.12
+torch_omni_attach_offset_z = -0.23
+torch_omni_range = 0.25
+torch_r2_omni_range = 0.25
+
+
+laserdot_world_attach_offset_x = -0.035
+laserdot_world_attach_offset_y = 0.133
+laserdot_world_attach_offset_z = 0.281
+
+torch_world_attach_offset_x = -0.035
+torch_world_attach_offset_y = 0.168
+torch_world_attach_offset_z = 0.283
+
+torch_omni_world_attach_offset_x = -0.035
+torch_omni_world_attach_offset_y = 0.168
+torch_omni_world_attach_offset_z = 0.283
+
+
+[up_sig550_flashlaser]
+scheme_index = 0, 10
+known = 1
+effects = 
+section = up_sect_sig550_flashlaser
+property = prop_laser
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_flashlaser_name
+description =gunsl_sig550_up_flashlaser_descr
+icon = ui_gunsl_up_sig550_flashlaser
+;------------------------------------------sig550_mag_lock------------------------------------------
+[up_sect_sig550_mag_lock]
+cost = 1000
+value = +10
+misfire_start_condition = -0.05
+misfire_start_prob = -0.0003
+misfire_end_prob = -0.0045
+
+[up_sig550_mag_lock]
+scheme_index = 0, 11
+known = 1
+effects = vartree_sig550_zatvor
+section = up_sect_sig550_mag_lock
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_mag_lock_name
+description =gunsl_sig550_up_mag_lock_descr
+icon = ui_gunsl_up_sig550_mag_lock
+;------------------------------------------sig550_korobka------------------------------------------
+[up_sect_sig550_korobka]
+cost = 6000
+value = -0.5
+inv_weight = -0.5
+
+[up_sig550_korobka]
+scheme_index = 0, 12
+known = 1
+effects = 
+section = up_sect_sig550_korobka
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_korobka_name
+description =gunsl_sig550_up_korobka_descr
+icon = ui_gunsl_up_sig550_korobka
+;------------------------------------------sig550_shell_ejector------------------------------------------
+[up_sect_sig550_shell_ejector]
+cost = 2500
+value = +20
+misfire_start_prob = -0.0006
+misfire_end_prob = -0.008
+
+[up_sig550_shell_ejector]
+scheme_index = 0, 13
+known = 1
+effects = vartree_sig550_usm
+section = up_sect_sig550_shell_ejector
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_shell_ejector_name
+description =gunsl_sig550_up_shell_ejector_descr
+icon = ui_gunsl_up_sig550_shell_ejector
+;------------------------------------------sig550_sights------------------------------------------
+[up_sect_sig550_sights]
+cost = 500
+crosshair_inertion = -0.4
+control_inertion_factor = -0.05
+show_bones = foregrip_sight, ironsight_sight
+
+[up_sig550_sights]
+scheme_index = 0, 14
+known = 1
+effects = 
+section = up_sect_sig550_sights
+property = prop_lightingsights
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_sights_name
+description =gunsl_sig550_up_sights_descr
+icon = ui_gunsl_up_sig550_sights
+;------------------------------------------sig550_stock_nakladka------------------------------------------
+[up_sect_sig550_stock_nakladka]
+cost = 4000
+value = +15
+control_inertion_factor = -0.18
+PDM_disp_vel_factor = -0.15
+crosshair_inertion = -1
+
+cam_dispersion = -0.06
+zoom_cam_dispersion = -0.03
+
+[up_sig550_stock_nakladka]
+scheme_index = 0, 15
+known = 1
+effects = vartree_sig550_body
+section = up_sect_sig550_stock_nakladka
+property = prop_inertion
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_stock_nakladka_name
+description =gunsl_sig550_up_stock_nakladka_descr
+icon = ui_gunsl_up_sig550_stock_nakladka
+;------------------------------------------sig550_tac_foregrip------------------------------------------
+[up_sect_sig550_tac_foregrip]
+cost = 4000
+control_inertion_factor = -0.12
+inv_weight              = +0.2
+
+crosshair_inertion		= -1.0
+cam_relax_speed         = +1
+
+cam_max_angle           = -20.0      
+cam_max_angle_horz      = -20.0
+
+cam_dispersion          = -0.1 
+cam_dispersion_inc      = -0.1
+
+zoom_cam_dispersion = -0.03
+zoom_cam_dispersion_inc = -0.05
+
+PDM_disp_base = -0.1
+
+
+grenade_launcher_name   = wpn_addon_grenade_launcher_m203
+
+grenade_launcher_x      = 117
+
+grenade_launcher_y      = 33
+grenade_launcher_status = 2
+
+hud = wpn_sig550_handler_hud
+visual = dynamics\weapons\wpn_sig550\wpn_sig550_tactical.ogf
+
+show_bones = foregrip_handler
+
+[up_sig550_tac_foregrip]
+scheme_index = 0, 16
+known = 1
+effects = vartree_sig550_flashlaser
+section = up_sect_sig550_tac_foregrip
+property = prop_underbarrel_slot, prop_tacticalhandle
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_tac_foregrip_name
+description =gunsl_sig550_up_tac_foregrip_descr
+icon = ui_gunsl_up_sig550_tac_foregrip
+;------------------------------------------sig550_usm_rpm_up------------------------------------------
+[up_sect_sig550_usm_rpm_up]
+cost = 3500
+value = +20
+rpm = +150
+condition_queue_shot_dec     = +0.0003
+misfire_start_prob	     	= +0.0005
+misfire_end_prob	     	= +0.009
+
+[up_sig550_usm_rpm_up]
+scheme_index = 0, 17
+known = 1
+effects = vartree_sig550_korobka
+section = up_sect_sig550_usm_rpm_up
+property = prop_rpm
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_usm_rpm_up_name
+description =gunsl_sig550_up_usm_rpm_up_descr
+icon = ui_gunsl_up_sig550_usm_rpm_up
+;------------------------------------------sig550_zatvor_balancer------------------------------------------
+[up_sect_sig550_zatvor_balancer]
+cost = 4000
+value = -20
+zoom_cam_dispersion          = -0.07
+zoom_cam_dispersion_inc = -0.02
+
+cam_dispersion          = -0.08
+cam_dispersion_inc = -0.03
+
+misfire_start_prob	     	= -0.0002
+misfire_end_prob	     	= -0.005
+
+PDM_disp_base = -0.05
+
+[up_sig550_zatvor_balancer]
+scheme_index = 0, 18
+known = 1
+effects = vartree_sig550_barrel
+section = up_sect_sig550_zatvor_balancer
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_sig550_up_zatvor_balancer_name
+description =gunsl_sig550_up_zatvor_balancer_descr
+icon = ui_gunsl_up_sig550_zatvor_balancer
+;------------------------------------------------------------------------------------
+[vartree_sig550_maglock]
+elements = up_sig550_mag_lock
+[vartree_sig550_zatvor]
+elements = up_sig550_zatvor_accuracy, up_sig550_zatvor_balancer
+[vartree_sig550_barrel]
+elements = up_sig550_barrel_recoil, up_sig550_barrel_accuracy, up_sig550_barrel_speed
+[vartree_sig550_ejector]
+elements = up_sig550_shell_ejector
+[vartree_sig550_usm]
+elements = up_sig550_usm_recoil, up_sig550_usm_rpm_up
+[vartree_sig550_korobka]
+elements = up_sig550_korobka
+[vartree_sig550_handle]
+elements = up_sig550_handle
+[vartree_sig550_stock]
+elements = up_sig550_light_stock, up_sig550_stock_nakladka
+[vartree_sig550_body]
+elements = up_sig550_body_reliability
+[vartree_sig550_foregrip]
+elements = up_sig550_tac_foregrip
+[vartree_sig550_flashlaser]
+elements = up_sig550_flashlaser
+[vartree_sig550_sights]
+elements = up_sig550_sights
+[vartree_sig550_mag]
+elements = up_sig550_mag
+[vartree_sig550_bayonet]
+elements = up_sig550_bayonet

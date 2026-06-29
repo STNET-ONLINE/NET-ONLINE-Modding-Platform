@@ -1,0 +1,29 @@
+[wpn_addon_scope_pu]:base_addon
+$spawn			= "weapons\addons\scope_pu" ; option for Level Editor
+class			= WP_SCOPE
+visual          = dynamics\weapons\addons\scopes\pu.ogf
+description		= gunsl_addon_scope_pu_descr
+cost			= 600
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 1.0
+
+inv_name		= gunsl_addon_scope_pu
+inv_name_short	        = gunsl_addon_scope_pu
+inv_weight		= .5
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 18
+inv_grid_y			= 26
+scope_texture		= crosshair_2d_pu
+scope_zoom_factor	= 1.02
+zoom_hide_ui = true
+
+need_lens_frame = true		//включает для этого прицела двойной рендер в прицеливании
+min_lens_factor = 3.5			//минимальное значение кратности прицела (кратность такова при условии, что прицел на весь экран)
+max_lens_factor = 3.5			//максимальное значение кратность прицела
+lens_factor_levels_count = 5	//число поворотов колесика от максимального зума до минимального и наоборот
+zoom_mouse_sense_koef = 0.5
+
+scope_abberation = 0.008

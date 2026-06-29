@@ -1,0 +1,66 @@
+#include "eatable_objects.ltx"
+#include "hud_objects.ltx"
+
+
+[drug_psy_blockade]:booster
+
+;***********************************************************
+hud = drug_psy_blockade_hud_model
+helm_prohibited = false; true
+full_outfit_prohibited = false ;true
+
+base_object = drug_psy_blockade ;показывает, какая секция является базовой для "одинаковых" предметов разной степени целостности
+uses_count = 3	    ;Сколько раз предмет можно использовать
+
+;При первом использовании всегда съедается базовый предмет
+using_2 = drug_psy_blockade2	;Секция предмета, который будет заспавнен после первого использования, и который отвечает за второе использование
+using_3 = drug_psy_blockade3	;Аналогично для второго использования
+;************************************************************
+
+$spawn 				= "food and drugs\drug_psy_blockade"
+visual				= dynamics\equipments\medical\drug_psy_blockade.ogf
+inv_name			= gunsl_eatable_psy_blockade
+inv_name_short		= gunsl_eatable_psy_blockade
+description			= gunsl_eatable_psy_blockade_descr
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 8
+inv_grid_y			= 11
+cost				= 1650
+inv_weight			= 0.03
+
+use_sound			= $silent ;interface\inv_pills
+visual_condition = 1.0
+
+
+[drug_psy_blockade2]:drug_psy_blockade
+$spawn 				= "food and drugs\drug_psy_blockade_used_2"
+description			= gunsl_eatable_psy_blockade_descr2
+inv_weight			= 0.02
+hud = drug_psy_blockade_hud_model2
+cost				= 1100
+visual_condition = 0.66
+
+[drug_psy_blockade3]:drug_psy_blockade
+$spawn 				= "food and drugs\drug_psy_blockade_used_3"
+description			= gunsl_eatable_psy_blockade_descr3
+hud = drug_psy_blockade_hud_model3
+inv_weight			= 0.01
+trash_object = drug_psy_blockade_trash
+cost				= 550
+visual_condition = 0.33
+
+
+[drug_psy_blockade_trash]:gwr_base_trash
+visual                        = dynamics\equipments\medical\drug_psy_blockade_trash.ogf
+
+;направление, в котором предмет отбрасывается
+throw_dir = right
+;смещение точки спавна относительно камеры
+throw_offset_y = -0.6	//вверх-вниз
+throw_offset_x = 0.2	//вперед-назад
+throw_offset_z =  0.6	//положительные - в сторону броска, отрицательное - в противоположную
+
+throw_impulse_y = -90
+throw_impulse_z = 180

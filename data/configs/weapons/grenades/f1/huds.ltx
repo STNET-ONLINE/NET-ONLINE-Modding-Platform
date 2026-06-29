@@ -1,0 +1,66 @@
+[grenade_f1_hud]:default_hud_nodraw
+fire_point			= 0,0,0
+fire_bone           = wpn_body
+
+prohibit_suicide = false; при выставлении true заставляет убирать гранату и достатвать нож
+allow_suicide = true ; при выставлении true активирует специальные анимации суицида, иначе - делает просто бросок куда-нибудь
+
+
+attach_place_idx	= 0
+item_visual		= dynamics\weapons\wpn_grenades\wpn_f1_hud
+
+hud_fov_factor = 1.25
+
+hands_position				= 0.0,-0.13,0.03
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.13,0.03
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position				= 0.0,0.0,0.0
+item_orientation			= 0.0,0.0,0.0
+
+anm_hide		        = f1_hide
+anm_show			= f1_draw
+
+anm_idle			= f1_idle
+anm_idle_slow                   = f1_idle
+anm_idle_crouch                 = f1_idle
+anm_idle_crouch_slow            = f1_idle
+
+
+disable_bore = false
+anm_bore			= f1_bore
+
+anm_idle_moving	 		= f1_walk
+anm_idle_moving_slow 		= f1_slow
+anm_idle_moving_crouch 	        = f1_slow_down
+anm_idle_moving_crouch_slow 	= f1_slow_super
+
+lock_time_anm_idle_sprint_end        = 0.4
+anm_idle_sprint_start           = f1_sprint_start
+anm_idle_sprint	 		= f1_sprint
+anm_idle_sprint_end             = f1_sprint_end
+
+anm_throw_begin			= f1_throw_start
+anm_throw_idle			= f1_throw_idle
+anm_throw			= f1_throw_end
+
+anm_throw_quick                 = f1_throw_quick
+
+anm_headlamp_on = f1_headflash
+anm_headlamp_off = f1_headflash
+
+anm_suicide_begin = f1_suicide
+anm_suicide_throw = f1_throw_end
+anm_suicide_stop =  f1_throw_end
+
+mark_anm_headlamp_on = 0.5
+mark_anm_headlamp_off = 0.5
+
+anm_nv_on = f1_headflash
+anm_nv_off = f1_headflash
+
+
+throw_point			= 0.0,0.4,0.3
+throw_dir			= 0,0,1
+third_person_throw_point_offset = -0.05,0.848,0.706

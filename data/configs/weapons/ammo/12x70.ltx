@@ -1,0 +1,60 @@
+[ammo_12x70_buck]:ammo_base
+$spawn			= "weapons\ammo\ammo_12x70_buck" ; option for Level Editor
+visual          = dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+description		= gunsl_ammo_12x70_buck_descr
+
+cost			= 120
+
+box_size		= 10
+
+inv_name		= gunsl_ammo_12x70_buck
+inv_name_short	= gunsl_ammo_12x70_buck_short
+inv_weight		= .6
+
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 13
+inv_grid_y		= 9
+
+k_dist			= 0.4
+k_disp			= 17
+k_hit			= 0.36
+k_impulse		= 0.5
+k_pierce		= 0.05
+k_ap			= 0.05
+impair			= 1
+buck_shot		= 13
+tracer			= off
+wm_size         = 0.05
+k_air_resistance = 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_12x76_zhekan]:ammo_base
+$spawn			= "weapons\ammo\ammo_12x76_zhekan" ; option for Level Editor
+visual          = dynamics\weapons\wpn_ammo\ammo_12x76_zhekan.ogf
+description		= gunsl_ammo_12x70_zhekan_descr
+
+cost			= 250
+
+box_size		= 10
+
+inv_name		= gunsl_ammo_12x70_zhekan
+inv_name_short	= gunsl_ammo_12x70_zhekan_short
+inv_weight		= .50
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 11
+inv_grid_y			= 10
+
+k_pierce		= 0.96
+k_disp			= 1.07
+k_hit = 1.35
+k_ap			= 0.96
+k_air_resistance = 1.1
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_12x76_zhekan_heli]:ammo_12x76_zhekan ; Do not use! Fake zhekan for helicopter
+$spawn			= ;"weapons\ammo\ammo_12x76_zhekan_heli" ; option for Level Editor
+explosive		= on

@@ -1,0 +1,389 @@
+;------------------------------------------protecta_rail------------------------------------------
+[up_sect_protecta_rail]
+cost = 2000
+inv_weight = +0.1
+show_bones = rail, scope1, scope2, scope3, scope4
+scope_status = 2
+scopes_sect = scope_eotech_protecta, scope_aimpoint_protecta, scope_elcan_protecta, scope_pn23_protecta
+
+hud = wpn_protecta_hud_rail
+
+upgrade_addon_icon = icon_element_protecta_rail
+upgrade_addon_icon_offset_x = 44
+upgrade_addon_icon_offset_y = 0
+
+[up_protecta_rail]
+scheme_index = 0, 0
+known = 1
+effects = 
+section = up_sect_protecta_rail
+property = prop_scope_attach
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_rail_name
+description =gunsl_protecta_up_rail_descr
+icon = ui_gunsl_up_protecta_rail
+;------------------------------------------protecta_barrel_voronenie------------------------------------------
+[up_sect_protecta_barrel_voronenie]
+cost = 4000
+value = +10
+misfire_start_condition = -0.05
+condition_shot_dec = -0.0004
+
+[up_protecta_barrel_voronenie]
+scheme_index = 0, 1
+known = 1
+effects = vartree_protecta_usm
+section = up_sect_protecta_barrel_voronenie
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_barrel_voronenie_name
+description =gunsl_protecta_up_barrel_voronenie_descr
+icon = ui_gunsl_up_protecta_barrel_voronenie
+;------------------------------------------protecta_barrel_silencer------------------------------------------
+[up_sect_protecta_barrel_silencer]
+cost = 5000
+show_bones = body
+inv_weight              = +0.1
+
+silencer_name           = wpn_silencer_hexagon12 
+silencer_status			= 2
+
+silencer_x                  = 122
+silencer_y                  = 18
+
+snd_silncer_shot        = weapons\protecta\protecta_shoot_silencer, -1.1
+
+upgrade_addon_icon = icon_element_protecta_sil_barrel
+upgrade_addon_icon_offset_x = 134
+upgrade_addon_icon_offset_y = 0
+inv_grid_width = +1
+
+[up_protecta_barrel_silencer]
+scheme_index = 0, 2
+known = 1
+effects = 
+section = up_sect_protecta_barrel_silencer
+property = prop_silencer
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_barrel_silencer_name
+description =gunsl_protecta_up_barrel_silencer_descr
+icon = ui_gunsl_up_protecta_barrel_silencer
+;------------------------------------------protecta_ejector------------------------------------------
+[up_sect_protecta_ejector]
+cost = 4000
+value = +15
+misfire_start_prob = -0.0005
+misfire_end_prob = -0.1
+
+[up_protecta_ejector]
+scheme_index = 0, 3
+known = 1
+effects = vartree_protecta_body
+section = up_sect_protecta_ejector
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_ejector_name
+description =gunsl_protecta_up_ejector_descr
+icon = ui_gunsl_up_protecta_ejector
+;------------------------------------------protecta_barrel_narezka------------------------------------------
+[up_sect_protecta_barrel_narezka]
+cost = 5000
+value = +30
+bullet_speed = 80
+condition_shot_dec = 0.001
+fire_dispersion_base = -0.09
+ammo_class = ammo_12x76_zhekan
+hit_impulse    = +25
+PDM_disp_base = -1.0
+hit_power		=1.2,1.2,1.2,1.2
+
+[up_protecta_barrel_narezka]
+scheme_index = 0, 4
+known = 1
+effects = 
+section = up_sect_protecta_barrel_narezka
+property = prop_dispersion, prop_destruction, prop_no_buck
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_barrel_narezka_name
+description =gunsl_protecta_up_barrel_narezka_descr
+icon = ui_gunsl_up_protecta_barrel_narezka
+;------------------------------------------protecta_light_details------------------------------------------
+[up_sect_protecta_light_details]
+cost = 4000
+value = -0.4
+inv_weight = -0.4
+
+[up_protecta_light_details]
+scheme_index = 0, 5
+known = 1
+effects = vartree_protecta_body
+section = up_sect_protecta_light_details
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_light_details_name
+description =gunsl_protecta_up_light_details_descr
+icon = ui_gunsl_up_protecta_light_details
+;------------------------------------------protecta_laser------------------------------------------
+[up_sect_protecta_laser]:red_laser, tactical_torch
+cost = 10000
+crosshair_inertion = -0.3
+show_bones = flash, laser,barrel_long,rail_lam
+inv_weight              = +0.7
+
+inv_grid_y = +2
+
+laserdot_world_attach_offset_x = 0.110
+laserdot_world_attach_offset_y = -0.157
+laserdot_world_attach_offset_z = 1.010
+
+torch_world_attach_offset_x = 0.097
+torch_world_attach_offset_y = -0.174
+torch_world_attach_offset_z = 1.010
+
+torch_omni_world_attach_offset_x = 0.097
+torch_omni_world_attach_offset_y = -0.174
+torch_omni_world_attach_offset_z = 1.010
+
+torch_attach_offset_x = -0.008
+torch_attach_offset_y = 0.048
+torch_attach_offset_z = 0.1
+torch_omni_attach_offset_x = 0.0 
+torch_omni_attach_offset_y = 0.0
+torch_omni_attach_offset_z = 0.0
+torch_range = 50
+torch_r2_range = 50
+torch_omni_range = 0.2
+torch_r2_omni_range = 0.2
+
+upgrade_addon_icon = icon_element_protecta_laser
+upgrade_addon_icon_offset_x = 138
+upgrade_addon_icon_offset_y = 0
+inv_grid_width = +1
+
+[up_protecta_laser]
+scheme_index = 0, 6
+known = 1
+effects = 
+section = up_sect_protecta_laser
+property = prop_laser
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_laser_name
+description =gunsl_protecta_up_laser_descr
+icon = ui_gunsl_up_protecta_laser
+;------------------------------------------protecta_plastic_mag------------------------------------------
+[up_sect_protecta_plastic_mag]
+cost = 1000
+value = -0.3
+inv_weight = -0.3
+
+[up_protecta_plastic_mag]
+scheme_index = 0, 7
+known = 1
+effects = vartree_protecta_details
+section = up_sect_protecta_plastic_mag
+property = prop_weight
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_plastic_mag_name
+description =gunsl_protecta_up_plastic_mag_descr
+icon = ui_gunsl_up_protecta_plastic_mag
+;------------------------------------------protecta_sights------------------------------------------
+[up_sect_protecta_sights]
+cost = 1000
+crosshair_inertion = -1
+control_inertion_factor = -0.05
+show_bones = sight
+
+[up_protecta_sights]
+scheme_index = 0, 8
+known = 1
+effects = 
+section = up_sect_protecta_sights
+property = prop_lightingsights
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_sights_name
+description =gunsl_protecta_up_sights_descr
+icon = ui_gunsl_up_protecta_sights
+;------------------------------------------protecta_body_reliability------------------------------------------
+[up_sect_protecta_body_reliability]
+cost = 6000
+value = +30
+condition_shot_dec = -0.0012
+condition_queue_shot_dec = -0.013
+misfire_start_condition = -0.1
+misfire_end_condition = -0.05
+
+[up_protecta_body_reliability]
+scheme_index = 0, 9
+known = 1
+effects = 
+section = up_sect_protecta_body_reliability
+property = prop_reliability
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_body_reliability_name
+description =gunsl_protecta_up_body_reliability_descr
+icon = ui_gunsl_up_protecta_body_reliability
+;------------------------------------------protecta_stock------------------------------------------
+[up_sect_protecta_stock]
+cost = 3000
+value = -20
+show_bones = stock
+inv_weight = +0.6
+cam_dispersion = -1.0
+cam_dispersion_inc = -0.4
+
+PDM_disp_base = -0.3
+zoom_cam_dispersion = -0.8
+zoom_cam_dispersion_inc = -0.5
+
+upgrade_addon_icon = icon_element_protecta_stock
+upgrade_addon_icon_offset_x = -50
+upgrade_addon_icon_offset_y = 0
+inv_grid_width = +1
+inv_grid_x = -1
+inv_addons_correction_x = +50
+
+[up_protecta_stock]
+scheme_index = 0, 10
+known = 1
+effects = 
+section = up_sect_protecta_stock
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_stock_name
+description =gunsl_protecta_up_stock_descr
+icon = ui_gunsl_up_protecta_stock
+;------------------------------------------protecta_usm_recoil------------------------------------------
+[up_sect_protecta_usm_recoil]
+cost = 5000
+value = -15
+zoom_cam_dispersion          = -0.55
+zoom_cam_dispersion_inc = -0.34
+
+cam_dispersion          = -0.7
+cam_dispersion_inc = -0.5
+
+PDM_disp_base = -0.1
+
+[up_protecta_usm_recoil]
+scheme_index = 0, 11
+known = 1
+effects = vartree_protecta_barrel2
+section = up_sect_protecta_usm_recoil
+property = prop_recoil
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_usm_recoil_name
+description =gunsl_protecta_up_usm_recoil_descr
+icon = ui_gunsl_up_protecta_usm_recoil
+;------------------------------------------protecta_usm_rpm------------------------------------------
+[up_sect_protecta_usm_rpm]
+cost = 5000
+value = +20
+rpm = +30
+
+[up_protecta_usm_rpm]
+scheme_index = 0, 12
+known = 1
+effects = vartree_protecta_barrel2
+section = up_sect_protecta_usm_rpm
+property = prop_rpm
+precondition_functor = inventory_upgrades.precondition_functor_a
+precondition_parameter = true
+effect_functor = inventory_upgrades.effect_functor_a
+effect_parameter  = something_here
+prereq_functor  = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params  = 
+name =gunsl_protecta_up_usm_rpm_name
+description =gunsl_protecta_up_usm_rpm_descr
+icon = ui_gunsl_up_protecta_usm_rpm
+;------------------------------------------------------------------------------------
+[vartree_protecta_barrel1]
+elements = up_protecta_barrel_voronenie
+[vartree_protecta_usm]
+elements = up_protecta_usm_recoil, up_protecta_usm_rpm
+[vartree_protecta_barrel2]
+elements = up_protecta_barrel_silencer, up_protecta_barrel_narezka, up_protecta_laser
+[vartree_protecta_mag]
+elements = up_protecta_plastic_mag
+[vartree_protecta_details]
+elements = up_protecta_ejector, up_protecta_light_details
+[vartree_protecta_body]
+elements = up_protecta_body_reliability
+[vartree_protecta_rail]
+elements = up_protecta_rail
+[vartree_protecta_sights]
+elements = up_protecta_sights
+[vartree_protecta_stock]
+elements = up_protecta_stock

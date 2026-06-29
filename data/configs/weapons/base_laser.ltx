@@ -1,0 +1,48 @@
+[red_laser]
+laser_installed = true
+laser_ray_bones = line
+
+
+particles_count = 4 ; число различных партиклов
+laserdot_particle_0 = laser\red_dot
+
+laserdot_particle_1 = laser\red_dot1
+laserdot_dist_1 = 0.1
+laserdot_particle_2 = laser\red_dot2
+laserdot_dist_2 = 7
+laserdot_particle_3 = laser\red_dot3
+laserdot_dist_3 = 15
+
+laserdot_attach_bone = line 
+laserdot_attach_offset_x = 0.0
+laserdot_attach_offset_y = 0.017
+laserdot_attach_offset_z = -0.6
+
+laserdot_world_attach_offset_x = 0.0
+laserdot_world_attach_offset_y = 0.1
+laserdot_world_attach_offset_z = 0.05
+
+laserdot_dists_count = 3
+
+laserdot_dist_treshold_1 = 0.5
+laserdot_dist_scale_1 = 0.08
+
+laserdot_dist_treshold_2 = 10
+laserdot_dist_scale_2 = 0.03
+
+laserdot_dist_treshold_3 = 40
+laserdot_dist_scale_3 = 0.05
+
+//при дистанции 5 точка становится визуально неразличима
+
+laser_breaking_params = 0.15, 0.14, 1.0; //состояние, при котором начнутся проблемы, состояние, при котором все совсем поломается, стартовая вероятность проблемы (конечная - конечно же, 1)
+laser_problems_level = 3 ;параметр отключения при выбросе
+
+
+
+[green_laser]:red_laser
+
+laserdot_particle_0 = laser\green_dot
+laserdot_particle_1 = laser\green_dot1
+laserdot_particle_2 = laser\green_dot2
+laserdot_particle_3 = laser\green_dot3

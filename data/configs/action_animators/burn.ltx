@@ -1,0 +1,22 @@
+[burn_animator]:base_animator
+hud = burn_animator_hud
+supports_detector = false
+script_binding = action_animators.init ; удалить, если считается оружием
+
+burn_restore = 0.0002
+;flame_particles		   		= explosions\gas_light
+flame_particles		   		= damage_fx\burn_actor
+
+[burn_animator_hud]:base_animator_hud
+item_visual             	= gwr\food\burn\burn_hud.ogf
+anm_show = fire_on_the_hand
+
+hud_fov_factor = 1.1
+
+hands_position				= 0.0,-0.01,-0.05
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.01,-0.05
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+fire_point		= 0,0,0
+fire_bone               = fire_bone

@@ -1,0 +1,95 @@
+[water_hud_model]:gwr_base_usable
+visual				= gwr\food\water\water.ogf
+hud = water_hud
+hud_fov_factor = 0.9   
+
+description			= gunsl_eatable_water_descr
+inv_name			= gunsl_eatable_water
+inv_name_short		= gunsl_eatable_water
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 19
+inv_grid_y			= 7
+cost				= 40
+inv_weight		 	= 0.55
+
+snd_draw   = $silent
+snd_using   = items\water\water_drink
+timing = 6770					;задержка на время полного проигрывания анимации
+timing_early = 4800				;задержка перед назначением эффекта
+gwr_changed_object = water			;Какой предмет заменили
+gwr_eatable_object = water_eatable		;Какой предмет есть после проигрывания анимы
+
+
+[water_hud_model2]:water_hud_model
+gwr_changed_object = water2
+hud = water_hud2
+cost				= 30
+inv_weight		 	= 0.45
+inv_grid_x			= 11
+inv_grid_y			= 28
+
+[water_hud_model3]:water_hud_model
+gwr_changed_object = water3
+hud = water_hud3
+cost				= 20
+inv_weight		 	= 0.3
+inv_grid_x			= 12
+inv_grid_y			= 28
+
+[water_hud_model4]:water_hud_model
+gwr_changed_object = water4
+snd_using   = items\water\water_drink_last
+timing = 6500
+timing_trash = 6100
+hud = water_hud4
+cost				= 10
+inv_weight		 	= 0.15
+inv_grid_x			= 13
+inv_grid_y			= 28
+
+[water_hud]:gwr_base_usable_hud
+zoom_hide_crosshair			= true
+
+inertion_pitch_offset_r = 0
+inertion_pitch_offset_n = 0
+inertion_pitch_offset_d = 0
+inertion_speed = 20
+inertion_origin_offset = 0
+
+
+hands_position				= 0.0,-0.02,0.24
+hands_orientation			= 0.0,0.0,0.0
+hands_position_16x9			= 0.0,-0.02,0.24
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+item_position = 0.0,0.0,0.0
+item_orientation = 0.0,0.0,0.0
+
+item_visual             	= gwr\food\water\water_hud.ogf
+
+anm_show			= water
+anm_hide			= zaglushka
+anm_idle			= zaglushka
+anm_idle_slow                   = zaglushka
+anm_idle_crouch                 = zaglushka
+anm_idle_crouch_slow            = zaglushka
+anm_idle_aim			= zaglushka
+anm_idle_aim_end		= zaglushka
+anm_idle_moving			= zaglushka
+anm_idle_moving_slow 		= zaglushka
+anm_idle_moving_crouch 	        = zaglushka
+anm_idle_moving_crouch_slow     = zaglushka
+anm_idle_sprint			= zaglushka
+anm_idle_sprint_start = zaglushka
+anm_bore			= zaglushka
+
+[water_hud2]:water_hud
+anm_show = water
+
+[water_hud3]:water_hud
+anm_show = water
+
+[water_hud4]:water_hud
+anm_show = water_last

@@ -1,0 +1,48 @@
+#include "eatable_objects.ltx"
+#include "hud_objects.ltx"
+
+
+[medkit_army]:booster
+$spawn 				= "food and drugs\medkit_army"
+visual				= dynamics\devices\dev_aptechka\dev_aptechka_high.ogf
+inv_name			= gunsl_eatable_medkit_army
+inv_name_short		= gunsl_eatable_medkit_army
+description			= gunsl_eatable_medkit_army_descr
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 10
+inv_grid_y			= 10
+cost				= 650
+
+boost_time				= 0
+boost_health_restore	= 0
+boost_radiation_restore	= 0
+boost_bleeding_restore	= 0
+
+use_sound			= $silent 
+hud = medkit_army_hud_model
+trash_object = medkit_army_trash
+
+
+;change_outfit_svoboda_exo_outfit = medkit_army_exo
+;change_outfit_exo_outfit = medkit_army_exo
+
+
+[medkit_army_exo]
+hud = medkit_army_exo_hud_model
+
+
+[medkit_army_trash]:gwr_base_trash
+visual                        = gwr\equipment\medkit\medkit_trash.ogf
+
+;направление, в котором предмет отбрасывается
+throw_dir = right
+;смещение точки спавна относительно камеры
+throw_offset_y = -0.6	//вверх-вниз
+throw_offset_x = -0.2	//вперед-назад
+throw_offset_z =  0.6	//положительные - в сторону броска, отрицательное - в противоположную
+
+throw_impulse_y = -90
+throw_impulse_z = 180
