@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="actor_break_dialog_0">
+    <text>See you.</text>
+  </string>
+  <string id="actor_break_dialog_1">
+    <text>Be there.</text>
+  </string>
+  <string id="actor_break_dialog_2">
+    <text>See you.</text>
+  </string>
+  <string id="actor_break_dialog_3">
+    <text>Bye.</text>
+  </string>
+  <string id="trade_dialog_0">
+    <text>[Trade]Show what you have.</text>
+  </string>
+  <string id="trade_dialog_1">
+    <text>Choose.</text>
+  </string>
+  <string id="trade_dialog_2">
+    <text>This is all.</text>
+  </string>
+  <string id="medic_heal_dialog_0">
+    <text>I need medical help.</text>
+  </string>
+  <string id="medic_heal_dialog_1">
+    <text>Well, that's it, healthy as a burer!</text>
+  </string>
+  <string id="actor_to_bandit_dialog_0">
+    <text>I want to join your group.</text>
+  </string>
+  <string id="actor_to_bandit_dialog_1">
+    <text>Have you decided to become a bandit?Okay, we'll find a place.But remember: you chose us - there is no turning back.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_0">
+    <text>I want to join your group.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_1">
+    <text>In our business, the main thing is honesty and mutual assistance.If you agree, consider yourself with us.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_2">
+    <text>See you.</text>
+  </string>
+  <string id="actor_to_bandit_dialog_2">
+    <text>See you.</text>
+  </string>
+</string_table>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="ds_quest_archive_note_1_name">
+		<text>Condition of the residual zones</text>
+	</string>
+	<string id="ds_quest_archive_note_1_descr">
+		<text>The Administrative Complex of the Hollow Industrial Base represents a stable focus of spatial instability.\nApparently, one of the experimental units of Project 'The Seer' (module B-2) malfunctioned, which led to the formation of a stable micro-zone of 'reflected time.'\nTests show that objects left inside the zone change their position or composition after twenty-four hours (and in one case — return to their state prior to damage).\nAttempts to reproduce the phenomenon outside the Hollow have been unsuccessful.\nConclusion: the complex must be fully sealed. Military personnel are to be withdrawn.</text>
+	</string>
+	
+	<string id="ds_quest_archive_note_2_name">
+		<text>Activation of the experimental psi-unit 'Grom-2'</text>
+	</string>
+	<string id="ds_quest_archive_note_2_descr">
+		<text>\nTo: Supervisor of Object 412-A\nFrom: Senior Engineer-Physicist D. M. Rozhkov\nThe station was activated at 04:26. Psi-field power increased to 7 units (local radius about 300 m). At the perimeter boundary, a disorienting effect was observed — nausea, dizziness, and panic in animals. The objective — to restrain stalker intrusion into the administrative complex — was partially achieved: two unknown individuals entered from the side of the old rail tracks, one lost consciousness, the other escaped. Preliminary assessment indicates the field is unstable: the complex shows responsive spatial distortions (possibly remnants of 'The Seer').\nRecommendations: reduce power by 20%, install emergency shutdown triggered by pulsation sensors.\nDate: June 18, 2010</text>
+	</string>
+	
+	<string id="ds_quest_archive_note_3_name">
+		<text>Personal log of research associate K. N. Mironova</text>
+	</string>
+	<string id="ds_quest_archive_note_3_descr">
+		<text>After the unit was activated, I hear footsteps in the old hangar. There is no one there, but the motion sensors register a temperature of 36.5. My colleagues laugh and say I am imagining things. At night, when the generator is running, I feel as if someone is watching me. I do not want to stay on duty alone.\nDate: June 21, 2010</text>
+	</string>
+	
+	<string id="ds_quest_archive_note_4_name">
+		<text>Report of Field Group No. 12, Major Serov</text>
+	</string>
+	<string id="ds_quest_archive_note_4_descr">
+		<text>The 'Grom-2' unit entered resonance.\nA psi-emission wave spread beyond the boundaries of the complex, causing a brief blackout of communications and satellite channels. The signal was shut down manually — personnel evacuated, equipment left behind. During shutdown, a peak field spike was recorded at 0.2 Hz — below the audible range. According to the survivors, for several seconds a female silhouette appeared in the corridor of the administrative building. After the flash, the field stabilized.\nConclusion: the object reacts to psi-activity. It is possible that 'The Seer' is still present, but does not manifest without an external trigger</text>
+	</string>
+	
+	<string id="ds_quest_archive_note_5_name">
+		<text>Encounter with an unidentified biological entity</text>
+	</string>
+	<string id="ds_quest_archive_note_5_descr">
+		<text>Top Secret\nCopy No. 1\n\nTo the Commander of Operational Group 'South'\nfrom Captain Sokolov A. I.\n\nREPORT\n\nI hereby inform you that during the night of June 13 to 14, 2002, the personnel of unit 7425-B were on duty near the northern hangars of the storage complex.\n\nAt 02:47 hours, the duty officers recorded a sudden drop in air temperature to +3 C. At the same time, brief failures in radio communication and the appearance of unidentified interference were observed.\n\nA few minutes later, through dense fog at an approximate distance of 40-50 meters, a humanoid-type entity was visually observed, presumably of female build, height about 180 cm. The entity moved silently, did not respond to the commands 'Stop' and 'Back', and showed no signs of being armed.\n\nUpon receiving the order to open fire, three bursts were fired. Bullet impact was observed to deflect at a direct angle, and no signs of damage to the target were recorded. During the engagement, brief power interruptions to the floodlights and distortions in the radio channel were noted.\n\nPrivate Romanov, stationed at Post No. 2, did not respond after the shooting began. During inspection of the area, only his service weapon and traces of movement on wet ground leading toward open terrain were found at his post. The soldier himself is missing.\n\nBy my order, the unit retreated toward Warehouse No. 3. After the floodlights were activated, the observed entity disappeared. Reacquisition of the target was not possible.\n\nPersonnel losses amount to 4 men, including:\n- 1 missing in action (Pvt. Romanov S. P.);\n- 2 concussed (Cpl. Kozlov A. N., Pvt. Belov I. R.);\n- 1 lightly wounded (Sgt. Levchenko V. D.).\n\nPreliminary data indicate that the incident is not related to hostile activity or civilian interference. A phenomenon of atmospheric or technogenic origin is possible. I consider it necessary to dispatch an engineering-technical commission to inspect radiation and electromagnetic levels in the area of the complex.\n\nCommander of Unit 7425-B\nCaptain Sokolov A. I.\nJune 14, 2002</text>
+	</string>
+	
+	<string id="ds_station_note_2_name">
+		<text>Newspaper 'Evening Limansk' (No. 42, April 15, 1983)</text>
+	</string>
+	<string id="ds_station_note_2_descr">
+		<text>Construction of the new residential district 'Solnechny' has begun.\nAs part of Limansk's development program, more than 40 thousand square meters of housing are planned for construction this year.\nThe main contractor is 'UKS Limansk'.\nFor the needs of the workers, a temporary transfer point and bus station have been organized on the territory of the future 'Hollow' complex.\nWork is being carried out at an accelerated pace</text>
+	</string>
+	
+	<string id="ds_depot_note_1_name">
+		<text>Incident during equipment unloading</text>
+	</string>
+	<string id="ds_depot_note_1_descr">
+		<text>\nFrom: Head of Security, Engineering Division, Lozovaya S. G.\nTo: Chief of the Construction Site, 'UKS Limansk'\nDuring the night of February 11 to 12, work brigade No. 5 was unloading railway containers with cables. One of the containers was found open; inside were burned pieces of equipment, and at the bottom — a laboratory-type women's gown marked 'Z-3'. The watchman, Kovalenko, reported that about an hour earlier he heard screams 'from the tunnel' leading to the storage area. Upon inspection, a footprint resembling a bare human foot was discovered in the concrete. Depth — up to 2 cm.\nLosses amount to 4 workers.\nDecision: do not disclose the incident, seal the container, and send it back to Limansk Station</text>
+	</string>
+	
+	<string id="ds_storage_note_1_name">
+		<text>Newspaper 'Evening Limansk' (No. 71, September 9, 1984)</text>
+	</string>
+	<string id="ds_storage_note_1_descr">
+		<text>\nAccording to the audit commission, during the construction of the residential district 'Yuzhny-2', serious violations were discovered in the accounting of concrete blocks and reinforcement. The disappearance of more than three hundred tons of construction materials was explained as 'errors in transportation'. However, according to our sources, part of the cargo was registered to fictitious companies.\nThe editorial office has sent an inquiry to 'UKS Limansk'. No response has been received</text>
+	</string>
+	
+	<string id="ds_station_note_3_name">
+		<text>Draft letter home)</text>
+	</string>
+	<string id="ds_station_note_3_descr">
+		<text>Masha, things are strange here.\nThe bosses are angry, always walking around with guards.\nThey say the ministry is inspecting something.\nOne guy from our brigade whispered that no one is allowed into the basement of the hangar, and down there you can hear a noise like a train moving underground.\nYesterday I saw the guards carrying out a crate, and water was dripping from inside it.\nMaybe it is chemicals or something.\nJust do not worry, I will finish my work here and leave</text>
+	</string>
+	
+	<string id="ds_old_vagons_note_1_name">
+		<text>Note from the railcars, torn piece of a paper journal (1984)</text>
+	</string>
+	<string id="ds_old_vagons_note_1_descr">
+		<text>Semyon keeps hauling bricks at night again, without any paperwork. He says the bosses ordered it: some kind of special masonry, not listed in the estimate. And where he delivers them — he refuses to say. There are no slabs in the warehouse, the cement is gone. But the military keep arriving and loading something into their vehicles. And later we are the ones who have to answer for why the materials are written off</text>
+	</string>
+	
+	<string id="ds_station_note_1_name">
+		<text>Article from 'Evening Limansk' (No. 89, July 17, 1985)</text>
+	</string>
+	<string id="ds_station_note_1_descr">
+		<text>\nHeadline: The Missing Bus\nOn the intercity route Limansk - Industrial Zone 'Hollow', the search continues for the regular LAZ-4202 bus that was carrying 14 passengers. The bus departed at 06:20 but did not arrive at its destination. Searches along the highway have yielded no results. Local residents claim that on the day of the disappearance the road was covered by a dense fog, and communication with the driver was lost immediately after leaving the city ring. The transportation authority stated that the vehicle was in good condition and the driver was experienced. Investigations of various possible explanations are ongoing.</text>
+	</string>
+	
+	<string id="ds_garage_note_1_name">
+		<text>Clipping from the newspaper 'Znamya Truda' (No. 54, June 21, 1984)</text>
+	</string>
+	<string id="ds_garage_note_1_descr">
+		<text>\nHeadline: Accident at the 'Yuzhnaya' Bus Station\nYesterday, on June 20, at around 16:00, a tragic incident occurred at the construction site of the new bus station. According to preliminary data, a worker from construction brigade No. 8 was fatally injured during the unloading of concrete slabs. A commission consisting of representatives from 'Stroytekhmontazh-3' and the State Mining and Industrial Inspectorate arrived at the scene. An investigation into the circumstances is underway. According to eyewitnesses, before the incident the crane operator claimed that 'the hoist activated on its own.' The editorial office has received letters requesting increased safety oversight at the construction sites of the Hollow Industrial Zone</text>
+	</string>
+	
+	<string id="ds_camp_2_note_1_name">
+		<text>Pie recipe</text>
+	</string>
+	<string id="ds_camp_2_note_1_descr">
+		<text>So I decided to bake a pie. Threw in four spoonfuls of flour, three tablespoons of sugar, and two chicken eggs, then spent five minutes praying for the campfire not to go out.\nIt turned out very sweet.</text>
+	</string>
+	
+	<string id="ds_station_note_4_name">
+		<text>Radioman's tincture</text>
+	</string>
+	<string id="ds_station_note_4_descr">
+		<text>Lekha always brewed this stuff using the same recipe. He heated the alcohol to forty degrees, threw in three wolfberries, waited five minutes, then added two spoonfuls of sugar.\n'Just do not overheat it,' he used to say.</text>
+	</string>	
+	
+	<string id="ds_storage_note_2_name">
+		<text>Report No. 47/M - Sector Industrial Base 'Hollow'</text>
+	</string>
+	<string id="ds_storage_note_2_descr">
+		<text>\nTop Secret. For sector command only.\nMedical supply report for the Industrial Base 'Hollow'.\nReceived according to inventory:\n- Iodine - 14 ampoules\n- Sterile bandages - 8 packs\n- Analgin - 23 blister packs\n- Syringes - 5 sets\nDuring transportation, 2 crates were lost, written off by official report.\n\nNote: one container was found broken near the crossing, the second was not located. Presumably carried away by the current.\nAccess code for report verification - 2326.\nFor personal needs: ampoules, bandages, blister packs, syringes, lost.\nSignature: Captain L. V. Orlov</text>
+	</string>
+	
+	<string id="esc_joseph_after_boar_note_name">
+		<text>Letter to Joseph</text>
+	</string>
+	
+	<string id="esc_joseph_after_boar_note_descr">
+		<text>About your matter, brother: the military stormed into Dark Hollow — corpses everywhere, your whole crew got wiped out...\nBecause of this, I have a request: arrange a supply drop for my boys. The goblins have gone completely mad, they need to be taught a lesson, otherwise if they push any further — I am done for.\n\nPS: After the Major Emission everyone is running around like crazy — the 'free ones' are grouping up, scouting new paths, and the deserters are gathering explosives at Agroprom. People say they found something in the underground there. Looks like things are not so smooth if they suddenly need explosives. I sent my own guys there, let them see what those bastards have dug up.\n\nV.</text>
+	</string>
+	
+	<string id="ds_quest_depot_pda_name">
+		<text>Hamster's PDA</text>
+	</string>
+	
+	<string id="ds_quest_depot_descr">
+		<text>[Data corrupted]</text>
+	</string>
+	
+	
+</string_table>

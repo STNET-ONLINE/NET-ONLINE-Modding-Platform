@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="kb_active_jobs">
+		<text>PDA</text>
+	</string>
+	<string id="kb_alife_command">
+		<text>Order to attack</text>
+	</string>
+	<string id="kb_always_run">
+		<text>Step</text>
+	</string>
+	<string id="kb_artefact">
+		<text>Artifact</text>
+	</string>
+	<string id="kb_backward">
+		<text>Back</text>
+	</string>
+	<string id="kb_binoculars">
+		<text>Binoculars</text>
+	</string>
+	<string id="kb_buy_menu">
+		<text>Purchase menu</text>
+	</string>
+	<string id="kb_chat">
+		<text>Chat</text>
+	</string>
+	<string id="kb_chat_team">
+		<text>Team chat</text>
+	</string>
+	<string id="kb_console">
+		<text>Console</text>
+	</string>
+	<string id="kb_party">
+		<text>Party</text>
+	</string>
+	<string id="kb_contacts">
+		<text>Contacts in KPK</text>
+	</string>
+	<string id="kb_crouch">
+		<text>Sit down</text>
+	</string>
+	<string id="kb_crouch_toggle">
+		<text>Constantly crouching</text>
+	</string>
+	<string id="kb_detector">
+		<text>Detector</text>
+	</string>
+	<string id="kb_down">
+		<text>Down</text>
+	</string>
+	<string id="kb_drop">
+		<text>Post</text>
+	</string>
+	<string id="kb_fire">
+		<text>Fire</text>
+	</string>
+	<string id="kb_firemode_next">
+		<text>Shooting mode next.</text>
+	</string>
+	<string id="kb_firemode_prev">
+		<text>Pre-firing mode</text>
+	</string>
+	<string id="kb_forward">
+		<text>Forward</text>
+	</string>
+	<string id="kb_func">
+		<text>grenade launcher</text>
+	</string>
+	<string id="kb_grp_common">
+		<text>GENERAL</text>
+	</string>
+	<string id="kb_grp_direction">
+		<text>DIRECTIONS</text>
+	</string>
+	<string id="kb_grp_inventory">
+		<text>BACKPACK</text>
+	</string>
+	<string id="kb_grp_movement">
+		<text>MOVEMENT</text>
+	</string>
+	<string id="kb_grp_multiplayer">
+		<text>ONLINE GAME</text>
+	</string>
+	<string id="kb_grp_weapons">
+		<text>WEAPONS</text>
+	</string>
+	<string id="kb_inventory">
+		<text>Backpack</text>
+	</string>
+	<string id="kb_jump">
+		<text>Bounce</text>
+	</string>
+	<string id="kb_left">
+		<text>Left</text>
+	</string>
+	<string id="kb_left_lookout">
+		<text>Look left</text>
+	</string>
+	<string id="kb_left_strafe">
+		<text>Step left</text>
+	</string>
+	<string id="kb_map">
+		<text>Map in PDA</text>
+	</string>
+	<string id="kb_next_slot">
+		<text>Weapons from the next slot</text>
+	</string>
+	<string id="kb_night_vision">
+		<text>Night vision device</text>
+	</string>
+	<string id="kb_pause">
+		<text>Pause</text>
+	</string>
+	<string id="kb_pda">
+		<text>PDA</text>
+	</string>
+	<string id="kb_prev_slot">
+		<text>Weapons from the previous slot</text>
+	</string>
+	<string id="kb_quit">
+		<text>Exit</text>
+	</string>
+	<string id="kb_reload">
+		<text>Recharge</text>
+	</string>
+	<string id="kb_repair">
+		<text>Repair</text>
+	</string>
+	<string id="kb_right">
+		<text>Right</text>
+	</string>
+	<string id="kb_right_lookout">
+		<text>Look to the right</text>
+	</string>
+	<string id="kb_right_strafe">
+		<text>Step right</text>
+	</string>
+	<string id="kb_scores">
+		<text>Glasses</text>
+	</string>
+	<string id="kb_screenshot">
+		<text>Screenshot</text>
+	</string>
+	<string id="kb_skin_menu">
+		<text>Model selection menu</text>
+	</string>
+	<string id="kb_sprint">
+		<text>Running</text>
+	</string>
+	<string id="kb_team_menu">
+		<text>Team selection menu</text>
+	</string>
+	<string id="kb_torch">
+		<text>Flashlight</text>
+	</string>
+	<string id="kb_up">
+		<text>Up</text>
+	</string>
+	<string id="kb_use">
+		<text>Use</text>
+	</string>
+	<string id="kb_use_bandage">
+		<text>Fastusing a bandage</text>
+	</string>
+	<string id="kb_use_medkit">
+		<text>Fastusing a first aid kit</text>
+	</string>
+	<string id="kb_vote_begin">
+		<text>Start voting</text>
+	</string>
+	<string id="kb_vote_menu">
+		<text>Vote</text>
+	</string>
+	<string id="kb_vote_no">
+		<text>Vote "No"</text>
+	</string>
+	<string id="kb_vote_yes">
+		<text>Vote "Yes"</text>
+	</string>
+	<string id="kb_weapon1">
+		<text>Weapon 1</text>
+	</string>
+	<string id="kb_weapon2">
+		<text>Weapon 2</text>
+	</string>
+	<string id="kb_weapon3">
+		<text>Weapon 3</text>
+	</string>
+	<string id="kb_weapon4">
+		<text>Weapon 4</text>
+	</string>
+	<string id="kb_weapon5">
+		<text>Weapon 5</text>
+	</string>
+	<string id="kb_weapon6">
+		<text>Weapon 6</text>
+	</string>
+	<string id="kb_wpn_next">
+		<text>Change ammo type</text>
+	</string>
+	<string id="kb_wpn_prev">
+		<text>Previous weapons of this type</text>
+	</string>
+	<string id="kb_zoom">
+		<text>Zoom in</text>
+	</string>
+	<string id="speech_menu_group">
+		<text>Voice messages (1)</text>
+	</string>
+	<string id="speech_menu_personal">
+		<text>Voice messages (2)</text>
+	</string>
+	<string id="kb_quick_use_1">
+		<text>Quick access slot 1</text>
+	</string>
+	<string id="kb_quick_use_2">
+		<text>Quick access slot 2</text>
+	</string>
+	<string id="kb_quick_use_3">
+		<text>Quick access slot 3</text>
+	</string>
+	<string id="kb_quick_use_4">
+		<text>Quick access slot 4</text>
+	</string>
+	<string id="kb_quick_use_4">
+		<text>Quick access slot 4</text>
+	</string>
+	<string id="kb_grp_audio">
+		<text>AUDIO</text>
+	</string>
+	<string id="kb_grp_actor">
+		<text>CHARACTER</text>
+	</string>
+	<string id="kb_weapon_torch">
+		<text>Weapon Lantern</text>
+	</string>
+	<string id="kb_weapon_laser">
+		<text>Laser pointer</text>
+	</string>
+	<string id="kb_weapon_knife">
+		<text>Bayonet</text>
+	</string>	
+	<string id="kb_scope_brightness_minus">
+		<text>Reduce optical brightness (-)</text>
+	</string>	
+	<string id="kb_scope_brightness_plus">
+		<text>Increase optical brightness (+)</text>
+	</string>
+	<string id="kb_safe_mode">
+		<text>Safe Mode</text>
+	</string>
+		<string id="kb_animation_menu">
+		<text>Animations menu</text>
+	</string>
+	<string id="kb_cam_1">
+		<text>1st person view</text>
+	</string>
+		<string id="kb_cam_2">
+		<text>2nd person view</text>
+	</string>
+		<string id="kb_cam_3">
+		<text>3rd person view</text>
+	</string>
+	<string id="kb_active_voice">
+		<text>Walkie-talkie mode</text>
+	</string>
+	<string id="kb_grp_car">
+		<text>TRANSPORT</text>
+	</string>	
+	 <string id="kb_car_fwd">
+		<text>Gas</text>
+	</string>	
+	<string id="kb_car_back">
+	   <text>Brake, reverse</text>
+	</string>
+	<string id="kb_car_left">
+	   <text>Turn left</text>
+	</string>
+	<string id="kb_car_right">
+	   <text>Turn right</text>
+	</string>
+	<string id="kb_car_trans_up">
+	   <text>Upshift</text>
+	</string>
+	<string id="kb_car_trans_down">
+	   <text>Downshift</text>
+	</string>
+	<string id="kb_car_trans_down">
+	   <text>Downshift</text>
+	</string>
+	<string id="kb_car_breaks">
+	   <text>Handbrake</text>
+	</string>
+	<string id="kb_car_nitro">
+	   <text>Full throttle</text>
+	</string>
+	<string id="kb_turn_engine">
+	   <text>Start the engine</text>
+	</string>
+	<string id="kb_car_lights">
+	   <text>Headlights</text>
+	</string>
+	<string id="kb_car_trunk">
+	   <text>Trunk</text>
+	</string>	
+	<string id="kb_car_radio">
+	   <text>Car Radio</text>
+	</string>
+	
+	
+</string_table>

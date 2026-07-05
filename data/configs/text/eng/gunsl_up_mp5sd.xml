@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_mp5sd_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_mp5sd_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_mp5sd_up_mag40_name">
+     <text>High capacity magazine (40 rounds)</text>
+</string>
+<string id="gunsl_mp5sd_up_mag40_descr">
+     <text>Installing a high-capacity magazine allows you to reduce the number of reloads in battle.</text>
+</string>
+<string id="gunsl_mp5sd_up_rail_name">
+     <text>Rail fastening</text>
+</string>
+<string id="gunsl_mp5sd_up_rail_descr">
+     <text>Allows you to install various types of sights on weapons.</text>
+</string>
+<string id="gunsl_mp5sd_up_handle_name">
+     <text>Tactical grip</text>
+</string>
+<string id="gunsl_mp5sd_up_handle_descr">
+     <text>Installing an under-barrel grip allows you to make the weapon more convenient to handle, making it easier to compensate for recoil.The kit includes replacing the forend with a tactical one, which allows you to install additional equipment on the weapon due to the presence of Weaver mounts.</text>
+</string>
+<string id="gunsl_mp5sd_up_laser_name">
+     <text>Laser pointer</text>
+</string>
+<string id="gunsl_mp5sd_up_laser_descr">
+     <text>Visually indicates the location of the intended hit on the target, greatly facilitating and speeding up aiming, as well as having a demoralizing effect on the victim.Does not interfere with the installation of a tactical flashlight and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_mp5sd_up_torch_name">
+     <text>Tactical flashlight</text>
+</string>
+<string id="gunsl_mp5sd_up_torch_descr">
+     <text>A narrow-beam, long-range flashlight is indispensable for night forays, as well as when exploring unlit areas.Does not interfere with the installation of a laser pointer and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_mp5sd_up_plastic_stock_name">
+     <text>Plastic stock</text>
+</string>
+<string id="gunsl_mp5sd_up_plastic_stock_descr">
+     <text>Installing a plastic stock allows you to reduce the weight of the weapon, while simultaneously increasing the ease of handling the weapon by reducing the felt recoil.</text>
+</string>
+<string id="gunsl_mp5sd_up_max_fixator_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_mp5sd_up_max_fixator_descr">
+     <text>Individual fitting of the power supply parts allows you to reduce the likelihood of delays during shooting associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+<string id="gunsl_mp5sd_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_mp5sd_up_usm_rpm_descr">
+     <text>Refinement of the firing mechanism components makes it possible to increase the weapon's rate of fire, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_mp5sd_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_mp5sd_up_usm_accuracy_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_mp5sd_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_mp5sd_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets when firing a weapon, which increases the accuracy and accuracy of fire.</text>
+</string>
+<string id="gunsl_mp5sd_up_barrel_compensator_name">
+     <text>Recoil compensator</text>
+</string>
+<string id="gunsl_mp5sd_up_barrel_compensator_descr">
+     <text>Integrating a compensator into the muffler allows you to reduce the recoil felt from the weapon by redirecting the flow of powder gases.</text>
+</string>
+<string id="gunsl_mp5sd_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_mp5sd_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the aiming line and the spread of bullets when fired.</text>
+</string>
+<string id="gunsl_mp5sd_up_body_coating_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_mp5sd_up_body_coating_descr">
+     <text>Replacing standard parts with analogues made of high-strength alloys and coating weapon mechanisms with a special protective compound can increase its wear resistance.</text>
+</string>
+<string id="gunsl_mp5sd_up_extractor_name">
+     <text>Improved extractor</text>
+</string>
+<string id="gunsl_mp5sd_up_extractor_descr">
+     <text>Refinement of the spent cartridge ejection unit makes it possible to reduce the number of delays that occur during shooting due to the stuck cartridge case.</text>
+</string>
+<string id="gunsl_mp5sd_up_body_weight_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_mp5sd_up_body_weight_descr">
+     <text>Replacing standard parts with analogues made of light alloys significantly reduces the weight of the weapon.</text>
+</string>
+</string_table>

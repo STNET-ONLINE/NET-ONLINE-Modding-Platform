@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="fxaa_tip">
+		<text>Fast approXimate Anti-Aliasing (FXAA) is an NVIDIA anti-aliasing algorithm that significantly reduces the jagged effect of models in the game world.Does not affect performance, but it has low accuracy, which may make the image less clear.If you are not satisfied with the image clarity, turn this option off.</text>
+	</string>
+	<string id="mblur_tip">
+		<text>Blurs and smoothes the image when you rotate the camera.The blur strength is set by an additional parameter.</text>
+	</string>
+	<string id="r2_detail_bump_tip">
+		<text>Enables a smooth transition of grass, earth, asphalt and sand materials among themselves, and also increases their overall quality.</text>
+	</string>
+	<string id="r2_steep parallax_tip">
+		<text>Parallax mapping allows you to add a procedural effect of height and volume for materials in the game world.</text>
+	</string>
+	<string id="ssao_tip">
+		<text>Screen Space Ambient Occlusion (SSAO) - A real-time algorithm that simulates diffuse indirect lighting and corresponding occlusions in the game world.Has a big impact on performance.</text>
+	</string>
+	<string id="r2_sun_tip">
+		<text>If your game is having performance issues, please use the static lighting option.This option will significantly reduce the load on the video card.Running this parameter is not available on GTX, RTX, RX series video cards, and is intended exclusively for older GPUs, as an alternative solution to static rendering.</text>
+	</string>
+	<string id="r2_dof_tip">
+		<text>Depth of field adds a blurry effect to objects that are far away or require focusing on certain elements (For example: When aiming).In its operating principle, it resembles focusing in cameras.This parameter does not have any impact on performance.</text>
+	</string>
+		<string id="volumetric_light_tip">
+		<text>Enables a procedural 3D Light Volume effect for dynamic light sources.[TEMPORARILY NOT WORKING]</text>
+	</string>
+		<string id="vsync_tip">
+		<text>V-Sync (Vertical Synchronization) - Allows you to get rid of image tearing when the player turns the camera sharply.Enabling this option will lock your FPS based on what your monitor supports.Has a big impact on performance.</text>
+	</string>
+		<string id="soft_water_tip">
+		<text>Enables procedural water smoothing and also adds a «Coastline» effect to all bodies of water in the game.</text>
+	</string>
+		<string id="soft_particles_tip">
+		<text>Includes smooth transitions and softening for all effects in the game (For example, anomalies, or shots).</text>
+	</string>		
+		<string id="enable_avatars_tip">
+		<text>Allows the server to receive and process user avatars. You can set your profile photo on netonline.team</text>
+	</string>
+	
+	
+	
+	
+	
+</string_table>

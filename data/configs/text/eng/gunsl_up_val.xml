@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_val_up_rail1_name">
+     <text>Weaver Mount Type 1</text>
+</string>
+<string id="gunsl_val_up_rail1_descr">
+     <text>Designed for installation of a tactical flashlight and laser target designator.Due to its configuration, it is not suitable for mounting sights and tactical grips.</text>
+</string>
+<string id="gunsl_val_up_laser_name">
+     <text>Laser pointer</text>
+</string>
+<string id="gunsl_val_up_laser_descr">
+     <text>Visually indicates the location of the intended hit on the target, greatly facilitating and speeding up aiming, as well as having a demoralizing effect on the victim.Does not interfere with the installation of a tactical flashlight and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_val_up_torch_name">
+     <text>Tactical flashlight</text>
+</string>
+<string id="gunsl_val_up_torch_descr">
+     <text>A narrow-beam, long-range flashlight is indispensable for night forays, as well as when exploring unlit areas.Does not interfere with the installation of a laser pointer and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_val_up_rail2_name">
+     <text>Weaver Mount Type 2</text>
+</string>
+<string id="gunsl_val_up_rail2_descr">
+     <text>Allows the installation of a tactical grip, as well as additional types of sights.Not suitable for mounting laser designators and tactical flashlights.</text>
+</string>
+<string id="gunsl_val_up_handle_name">
+     <text>Tactical grip</text>
+</string>
+<string id="gunsl_val_up_handle_descr">
+     <text>Installing an under-barrel grip allows you to make the weapon more convenient to handle, making it easier to compensate for recoil.</text>
+</string>
+<string id="gunsl_val_up_light_mag_name">
+     <text>Lightweight store</text>
+</string>
+<string id="gunsl_val_up_light_mag_descr">
+     <text>Installing a special polymer magazine allows you to reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_val_up_reliability_barrel_name">
+     <text>Improved heat dissipation</text>
+</string>
+<string id="gunsl_val_up_reliability_barrel_descr">
+     <text>Improved heat removal mechanisms in the integrated muffler can significantly extend its service life.</text>
+</string>
+<string id="gunsl_val_up_accuracy_usm_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_val_up_accuracy_usm_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_val_up_rpm_usm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_val_up_rpm_usm_descr">
+     <text>Thanks to the replacement of trigger units, the weapon's rate of fire increases at the cost of a slight decrease in wear resistance.</text>
+</string>
+<string id="gunsl_val_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_val_up_body_reliability_descr">
+     <text>Applying a special protective coating to the barrel and critical components allows you to extend the service life of the weapon.</text>
+</string>
+<string id="gunsl_val_up_tilnik_name">
+     <text>Butt pad</text>
+</string>
+<string id="gunsl_val_up_tilnik_descr">
+     <text>Allows you to soften the recoil from a weapon shot.</text>
+</string>
+<string id="gunsl_val_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_val_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_val_up_barrel_speed_name">
+     <text>Re-rifling the barrel</text>
+</string>
+<string id="gunsl_val_up_barrel_speed_descr">
+     <text>Changing the pitch of the rifling in the bore of a weapon allows you to increase the initial speed of the bullet and reduce the spread of hits when firing.</text>
+</string>
+</string_table>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="cycle_quests_dialog_0">
+    <text>I need a job. Anything in mind?</text>
+  </string>
+  <string id="cycle_quests_dialog_1">
+    <text>There are several simple tasks.Interested?</text>
+  </string>
+  <string id="cycle_quests_dialog_10">
+    <text>Hands down!</text>
+  </string>
+  <string id="cycle_quests_dialog_11">
+    <text>I'll think about it some more...</text>
+  </string>
+  <string id="cycle_quests_dialog_2">
+    <text>Find the tail of the blind dog.</text>
+  </string>
+  <string id="cycle_quests_dialog_3">
+    <text>Find the pseudodog's tail.</text>
+  </string>
+  <string id="cycle_quests_dialog_4">
+    <text>Find a boar's hoof.</text>
+  </string>
+  <string id="cycle_quests_dialog_5">
+    <text>Find the jellyfish artifact.</text>
+  </string>
+  <string id="cycle_quests_dialog_6">
+    <text>Find a stone flower.</text>
+  </string>
+  <string id="cycle_quests_dialog_7">
+    <text>Find the night star.</text>
+  </string>
+  <string id="cycle_quests_dialog_8">
+    <text>Find RGM-40.</text>
+  </string>
+  <string id="cycle_quests_dialog_9">
+    <text>Are you serious about this?Then listen carefully.One very influential person asked to get this wall and promised a huge amount of money.Where to look for one - to be honest, I have no idea.But I heard out of the blue that the bandits had such a thing.If you find it, bring it to me immediately.I won't regret the money.</text>
+  </string>
+  <string id="cycle_quests_dialog_99">
+    <text>I'm not interested.</text>
+  </string>
+  <string id="cycle_quests_dialog_end_0">
+    <text>Is there something for me?</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_0">
+    <text>I need a job.Anything in mind?</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_end_0">
+    <text>Is there something for me?</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_1">
+    <text>There are several tasks.Here, look</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_2">
+    <text>Find 10 blind dog tails</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_3">
+    <text>Find 5 pseudo dog tails</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_4">
+    <text>Find 15 boar hooves</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_5">
+    <text>Find 3 bloodsucker tentacles</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_6">
+    <text>Find 2 burer hands</text>
+  </string>
+  <string id="ds_cycle_quests_dialog_7">
+    <text>I'm not interested</text>
+  </string>
+</string_table>

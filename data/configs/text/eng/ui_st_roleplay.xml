@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="mp_community_selection">
+		<text>Group selection</text>
+	</string>
+	<string id="rp_team_1_name">
+		<text>Bandits</text>
+	</string>
+	<string id="rp_team_2_name">
+		<text>"Duty"</text>
+	</string>
+	<string id="rp_team_3_name">
+		<text>Scientists</text>
+	</string>
+	<string id="rp_team_4_name">
+		<text>"Freedom"</text>
+	</string>
+	<string id="rp_team_5_name">
+		<text>Mercenaries</text>
+	</string>
+	<string id="rp_team_6_name">
+		<text>Military</text>
+	</string>
+	<string id="rp_team_7_name">
+		<text>"Monolith"</text>
+	</string>
+	<string id="rp_team_8_name">
+		<text>Singles</text>
+	</string>
+	<string id="rp_team_9_name">
+		<text>"Clear Sky"</text>
+	</string>
+	<string id="rp_team_1_desc">
+		<text>Representatives of the criminal world who came to the Zone for various reasons: to make money by selling artifacts, to hide from the law, to buy or sell weapons.There are many similar elements in the Zone, ranging from punks to serious criminals.Most of them are united in gangs.Although there is still no single bandit organization in the Zone.They really bother ordinary stalkers.</text>
+	</string>
+	<string id="rp_team_2_desc">
+		<text>Paramilitary group.Its members live according to clear military regulations and are distinguished by fairly strict discipline and military paraphernalia.In the group, there are divisions of fighters into military ranks.The group's ideology is based on protecting peaceful humanity from the dangers of the Zone.«Duty» deals with the internal problems of the Zone: the destruction of mutants and bandits.</text>
+	</string>
+	<string id="rp_team_3_desc">
+		<text>A set of scientific groups operating in the Zone.They can only be called a single group only conditionally; there are separate groups of scientists sent by the government to study.They have a mobile research laboratory in the vicinity of Jupiter.</text>
+	</string>
+	<string id="rp_team_4_desc">
+		<text>Anarchists of the Zone.They profess the idea that the Zone is a reserve of unlimited freedom for everyone, therefore the laws, rules and conventions of the outside world lose their force here.Their motto is: «Do what you want, just don't bother others.»They fight against attempts to take control of the Zone, as well as against a clan of mercenaries.</text>
+	</string>
+	<string id="rp_team_5_desc">
+		<text>Adventurers and thugs from all over the world, who do not disdain any work, even the dirtiest.The motto is logical and predictable: «Money doesn't smell.»As long as artifacts are well paid, mercenaries will fight for control of their deposits.They are equipped mainly with Western-made small arms.</text>
+	</string>
+	<string id="rp_team_6_desc">
+		<text>Soldiers who have undergone special training after serving in the Zone, or stalkers who have signed a contract with the army.They are usually equipped with a large amount of auxiliary equipment and are well armed.They are mainly used to study the causes and consequences of the disaster, and are also involved in mapping the Zone.They can walk alone or in groups.</text>
+	</string>
+	<string id="rp_team_7_desc">
+		<text>A group more like a religious sect.Its members believe that in the center of the Zone rests an evolutionary crystal - a Monolith - of unearthly origin.Most stalkers despise Monolith adherents, considering them crazy.Since its formation, the group has been preventing the advance of stalkers to the center of the Zone, citing the latter's bad intentions towards the Monolith.</text>
+	</string>
+	<string id="rp_team_8_desc">
+		<text>Stalkers exploring the Zone alone.These are the majority, since membership in a group takes away valuable time, thereby reducing earnings;In addition, some are simply by nature inclined towards loneliness and independence.</text>
+	</string>
+	<string id="rp_team_9_desc">
+		<text>A peaceful group, whose members are not fighters, but researchers, use weapons only for self-defense.Their main goals are to study the Zone and maintain balance in it.Some of the «Clear Sky» stalkers are not averse to destroying the Zone, but they limit themselves only to saying things out loud.</text>
+	</string>
+</string_table>

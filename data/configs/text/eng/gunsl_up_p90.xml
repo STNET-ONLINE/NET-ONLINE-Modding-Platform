@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_p90_up_reliability_name">
+		<text>Protective coating</text>
+	</string>
+	<string id="gunsl_p90_up_reliability_descr">
+		<text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+	</string>	
+	
+	<string id="gunsl_p90_up_usm_name">
+		<text>USM calibration</text>
+	</string>
+	<string id="gunsl_p90_up_usm_descr">
+		<text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+	</string>	
+	
+	<string id="gunsl_p90_up_torch_name">
+		<text>Tactical flashlight</text>
+	</string>
+	<string id="gunsl_p90_up_torch_descr">
+		<text>A narrow-beam, long-range flashlight is indispensable for night forays, as well as when exploring unlit areas.</text>
+	</string>	
+</string_table>

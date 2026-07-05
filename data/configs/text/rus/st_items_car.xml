@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_try_car_attach">
+	<text>Прикрепить к машине</text>
+	</string>
+	
+	<string id="spark_plug_name">
+		<text>Свеча зажигания</text>
+	</string>
+		<string id="spark_plug_descr">
+		<text>Устройство для воспламенения топливо-воздушной смеси в самых разнообразных двигателях. Без данного элемента не получится завести любой автомобиль.</text>
+	</string>
+	<string id="radiator_name">
+		<text>Автомобильный радиатор</text>
+	</string>
+		<string id="radiator_descr">
+		<text>Металлическое изделие, предназначенное для охлаждения системы двигателя  и поддержания необходимого температурного режима. Без него автомобиль очень быстро выйдет из строя.</text>
+	</string>		
+		<string id="empty_canister_name">
+		<text>Пустая канистра</text>
+	</string>
+		<string id="empty_canister_descr">
+		<text>Пустая 10 литровая топливная канистра. Очень полезна для хранения топлива.</text>
+	</string>
+		<string id="veh_aid_kit_name">
+		<text>Автомобильные инструменты</text>
+	</string>
+		<string id="veh_aid_kit_descr">
+		<text>Комплект грамотно разложенных различных инструментов для работы с автомобилями. В наличие гаечные ключи, отвёртки, различные болты и некоторые клейкие вещества</text>
+	</string>
+		<string id="accumulator_name">
+		<text>Автомобильный аккумулятор</text>
+	</string>
+		<string id="accumulator_descr">
+		<text>Электрическая «12V» батарея, применяемая на легковых автомобилях.</text>
+	</string>
+		<string id="canister_name">
+		<text>Канистра</text>
+	</string>
+		<string id="canister_descr">
+		<text>Обыкновенная 10 литровая канистра. Подойдёт для хранения топлива, или любой другой жидкости.</text>
+	</string>
+	
+	<string id="niva_back_door_name">
+	<text>Задняя дверь автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_back_door_descr">
+	<text>Задняя дверь, снятая с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_front_door_name">
+	<text>Капот автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_front_door_descr">
+	<text>Капот, снятый с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_left_door_name">
+	<text>Левая дверь автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_left_door_descr">
+	<text>Дверь, снятая с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_right_door_name">
+	<text>Правая дверь автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_right_door_descr">
+	<text>Дверь, снятая с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_front_bamper_1_name">
+	<text>Передний бампер автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_front_bamper_1_descr">
+	<text>Бампер снятый с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_front_bamper_2_name">
+	<text>Кенгурятник автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_front_bamper_2_descr">
+	<text>Прочный и надёжный бампер-кенгурятник снятый с автомобиля «НИВА». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_back_bamper_name">
+	<text>Задний бампер автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_back_bamper_descr">
+	<text>Задний бампер снятый с автомобиля «НИВА».  Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="niva_wheel_name">
+	<text>Колесо автомобиля «НИВА»</text>
+	</string>
+	<string id="niva_wheel_descr">
+	<text>Колесо, снятое с автомобиля «НИВА».  Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="moskvich_wheel_name">
+	<text>Колесо автомобиля «Москвич»</text>
+	</string>
+	<string id="moskvich_wheel_descr">
+	<text>Колесо, снятое с автомобиля «Москвич».  Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_wheel_name">
+	<text>Одинарное колесо грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_wheel_descr">
+	<text>Колесо, снятое с грузовика «Камаз». Можно установить на такую же машину, а так же объединить их.</text>
+	</string>
+	
+	<string id="kamaz_wheel2_name">
+	<text>Спарка колеса грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_wheel2_descr">
+	<text>Колесо, снятое с грузовика «Камаз». Можно установить на такую же машину, а так же разъединить их.</text>
+	</string>
+	
+	<string id="bagage_name">
+	<text>Верхний багажник</text>
+	</string>
+	<string id="bagage_descr">
+	<text>Универсальный верхний багажник для легковых автомобилей. Можно использовать почти на всех легковых автомобилях.</text>
+	</string>
+		
+	<string id="figure_cat_name">
+	<text>Фигурка «Кота»</text>
+	</string>
+	<string id="figure_cat_descr">
+	<text>Увесистая каменная фигурка жирного кота. Возможно, это чей-то талисман. Хорошо впишется в любой интерьер, или в ваш автомобиль.</text>
+	</string>	
+	
+	<string id="key_car_name">
+	<text>«Автомобильный» ключ</text>
+	</string>
+	<string id="key_car_descr">
+	<text>Универсальный автомобильный ключ, которым можно запереть любую машину.</text>
+	</string>
+	
+	<string id="btr_wheel_green_name">
+	<text>Колесо «БТР»</text>
+	</string>
+	<string id="btr_wheel_green_descr">
+	<text>Колесо, снятое с «БТР».  Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_yellow_wheel_name">
+	<text>Колесо «БТР»</text>
+	</string>
+	<string id="btr_yellow_wheel_descr">
+	<text>Колесо, снятое с «БТР».  Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_left_green_door_name">
+	<text>Левая бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_left_green_door_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_left_yellow_door_name">
+	<text>Левая бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_left_yellow_door_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_right_green_door_name">
+	<text>Правая бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_right_green_door_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_right_yellow_door_name">
+	<text>Правая бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_right_yellow_door_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_front_door_green_name">
+	<text>Передняя бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_front_door_green_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="btr_front_door_yellow_name">
+	<text>Передняя бронированная дверь «БТР»</text>
+	</string>
+	<string id="btr_front_door_yellow_descr">
+	<text>Дверь, снятая с «БТР». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="moskvich_left_door_name">
+	<text>Левая дверь автомобиля «Москвич»</text>
+	</string>
+	<string id="moskvich_left_door_descr">
+	<text>Дверь, снятая с автомобиля «Москвич». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="moskvich_right_door_name">
+	<text>Правая дверь автомобиля «Москвич»</text>
+	</string>
+	<string id="moskvich_right_door_descr">
+	<text>Дверь, снятая с автомобиля «Москвич». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="moskvich_front_door_name">
+	<text>Капот автомобиля «Москвич»</text>
+	</string>
+	<string id="moskvich_front_door_descr">
+	<text>Капот, снятый с автомобиля «Москвич». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="moskvich_back_door_name">
+	<text>Крышка багажника автомобиля «Москвич»</text>
+	</string>
+	<string id="moskvich_back_door_descr">
+	<text>Крышка, снятая с автомобиля «Москвич». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_door_left_red_name">
+	<text>Левая дверь грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_door_left_red_descr">
+	<text>Дверь, снятая с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_door_left_white_name">
+	<text>Левая дверь грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_door_left_white_descr">
+	<text>Дверь, снятая с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_door_right_red_name">
+	<text>Правая дверь грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_door_right_red_descr">
+	<text>Дверь, снятая с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_door_right_white_name">
+	<text>Правая дверь грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_door_right_white_descr">
+	<text>Дверь, снятая с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	
+	<string id="kamaz_back_door_name">
+	<text>Задняя дверь грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_back_door_descr">
+	<text>Дверь, снятая с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_front_bamper_name">
+	<text>Передний бампер грузовика «Камаз»</text>
+	</string>
+	<string id="kamaz_front_bamper_descr">
+	<text>Бампер снятый с грузовика «Камаз». Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_tent_name">
+	<text>Тент для прицепа «Камаз»</text>
+	</string>
+	<string id="kamaz_tent_descr">
+	<text>Тент, которым можно обернуть грузовик. Можно установить на такую же машину.</text>
+	</string>
+	
+	<string id="kamaz_tent_name">
+	<text>Тент для прицепа «Камаз»</text>
+	</string>
+	<string id="kamaz_tent_descr">
+	<text>Тент, которым можно обернуть «Камаз»</text>
+	</string>
+	
+	<string id="kamaz_mount_name">
+	<text>Крепление для установки прицепа «Камаз»</text>
+	</string>
+	<string id="kamaz_mount_descr">
+	<text>Крепление, при помощи которого можно присоединить прицеп.</text>
+	</string>
+	
+	<string id="kamaz_mudguard_name">
+	<text>Брызговики для «Камаз»</text>
+	</string>
+	<string id="kamaz_mudguard_descr">
+	<text>Брызговики, которые можно установить на грузовик "Камаз"</text>
+	</string>
+	
+	<string id="kamaz_beams">
+	<text>Балки прицепа для «Камаз»</text>
+	</string>
+	<string id="kamaz_mudguard_descr">
+	<text>Балки для бортового прицепа, на которые можно установить тент.</text>
+	</string>
+	
+	<string id="kamaz_fuel_name">
+	<text>Бензобак для «Камаз»</text>
+	</string>
+	<string id="kamaz_fuel_descr">
+	<text>Дополнительный бензобак для «Камаз», который позволит увеличить вместительность топлива.</text>
+	</string>
+	
+	<string id="kamaz_snorkel_name">
+	<text>Шноркель для «Камаз»</text>
+	</string>
+	<string id="kamaz_snorkel_descr">
+	<text>Шноркель обеспечит грузовику постоянную подачу воздуха в двигатель, благодаря чему машина перестанет глохнуть в глубоких водоёмах.</text>
+	</string>
+	
+	<string id="kamaz_trailer_name">
+	<text>Бортовой прицеп «Камаз»</text>
+	</string>
+	<string id="kamaz_trailer_descr">
+	<text>Бортовой прицеп, в котором можно перевозить вещи.</text>
+	</string>
+	
+</string_table>

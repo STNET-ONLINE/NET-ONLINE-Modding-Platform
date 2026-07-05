@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_abakan_up_barrel_otkat_name">
+     <text>Smooth barrel rollback</text>
+</string>
+<string id="gunsl_abakan_up_barrel_otkat_descr">
+     <text>A more uniform distribution of the recoil impulse over time has a beneficial effect on shooting in long bursts.</text>
+</string>
+<string id="gunsl_abakan_up_barrel_bullet_speed_name">
+     <text>Changing the barrel cutting pitch</text>
+</string>
+<string id="gunsl_abakan_up_barrel_bullet_speed_descr">
+     <text>Increases the initial speed of the bullet, due to which the bullet deviates less from the expected trajectory and reaches the target faster.Useful for long range shooting.</text>
+</string>
+<string id="gunsl_abakan_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_abakan_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_abakan_up_barrel_compensator_name">
+     <text>Improved DTK</text>
+</string>
+<string id="gunsl_abakan_up_barrel_compensator_descr">
+     <text>Improving the muzzle compensator can significantly reduce recoil.</text>
+</string>
+<string id="gunsl_abakan_up_body_reliability_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_abakan_up_body_reliability_descr">
+     <text>Replacing standard parts with analogues made of high-strength alloys makes it possible to increase the wear resistance of weapons.</text>
+</string>
+<string id="gunsl_abakan_up_grip_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_abakan_up_grip_descr">
+     <text>Provides the right hand with a more comfortable grip.</text>
+</string>
+<string id="gunsl_abakan_up_knife_name">
+     <text>Bayonet</text>
+</string>
+<string id="gunsl_abakan_up_knife_descr">
+     <text>Installing a standard 6x5 bayonet on a weapon allows you to use the machine gun as a melee weapon.</text>
+</string>
+<string id="gunsl_abakan_up_lightdetails_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_abakan_up_lightdetails_descr">
+     <text>Replacing standard parts with analogues made of light alloys significantly reduces the weight of the weapon.</text>
+</string>
+<string id="gunsl_abakan_up_podacha_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_abakan_up_podacha_descr">
+     <text>Refinement of the ammunition supply unit makes it possible to reduce the number of delays associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+<string id="gunsl_abakan_up_mag45_black_name">
+     <text>High capacity magazine (black, 45 rounds)</text>
+</string>
+<string id="gunsl_abakan_up_mag45_black_descr">
+     <text>Allows you to reduce the number of reloads in battle, increasing your chances of staying alive.</text>
+</string>
+<string id="gunsl_abakan_up_mag45_brown_name">
+     <text>High capacity magazine (brown, 45 rounds)</text>
+</string>
+<string id="gunsl_abakan_up_mag45_brown_descr">
+     <text>Allows you to reduce the number of reloads in battle, increasing your chances of staying alive.</text>
+</string>
+<string id="gunsl_abakan_up_mag60_name">
+     <text>High capacity magazine (60 rounds)</text>
+</string>
+<string id="gunsl_abakan_up_mag60_descr">
+     <text>Allows you to send even more opponents to the best of two worlds with one burst.</text>
+</string>
+<string id="gunsl_abakan_up_tilnik_name">
+     <text>Improved backplate</text>
+</string>
+<string id="gunsl_abakan_up_tilnik_descr">
+     <text>The installation of an anatomical rubberized butt plate reduces the felt recoil from shots fired by the shooter.</text>
+</string>
+<string id="gunsl_abakan_up_stock_weight_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_abakan_up_stock_weight_descr">
+     <text>Reduces the weight of weapons, allowing you to carry more ammunition or an additional artifact during a sortie.</text>
+</string>
+<string id="gunsl_abakan_up_usilenie_korobki_name">
+     <text>Strengthening the bolt group</text>
+</string>
+<string id="gunsl_abakan_up_usilenie_korobki_descr">
+     <text>Makes the bolt mechanism more resistant to wear and damage, thereby increasing the reliability of the weapon.</text>
+</string>
+<string id="gunsl_abakan_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_abakan_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_abakan_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_abakan_up_usm_rpm_descr">
+     <text>Refinement of trigger units makes it possible to increase the rate of fire of weapons, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_abakan_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_abakan_up_usm_accuracy_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_abakan_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_abakan_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the line of sight when firing, and also reduces the likelihood of delays when firing.</text>
+</string>
+</string_table>

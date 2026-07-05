@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="stavor_find_canister_tip">
+        <text>Подобрать канистру</text>
+    </string>
+    <string id="wolf_quest_begining_1_tip">
+        <text>Подобрать КПК Курьера</text>
+    </string>		
+    <string id="esc_quest_end_help">
+        <text>Выполненое сюжетное задание не обозначает конец сюжетной ветки. Исследуйте мир, и вы обязательно наткнётесь на продолжение истории.</text>
+    </string>
+	  <string id="esc_help_1">
+        <text>С этого момента вы можете проходить сюжетную линию, дополнительные задания, а также участвовать в мировых событиях и войне группировок вместе с другими игроками, и в том числе, с вашими друзьями. Совместное выживание главный ключ к вашему успеху.</text>
+    </string>
+	 <string id="ds_quest_find_food_info_tip">
+        <text>Подобрать контейнер</text>
+    </string>	
+	<string id="esc_quest_task_vixhryn_2_tip">
+        <text>Положить детектор</text>
+    </string>
+	<string id="esc_quest_task_vixhryn_2_tip">
+        <text>Положить детектор</text>
+    </string>
+	<string id="esc_quest_entry_stalker_object_tip">
+        <text>Спрятать предмет «$$ACTION_USE$$»</text>
+    </string>
+	<string id="esc_quest_docent_ivanov_scanner_tip">
+        <text>Включить сканер «$$ACTION_USE$$»</text>
+    </string>	
+	<string id="ds_quest_pda_tip">
+        <text>Подобрать КПК «$$ACTION_USE$$»</text>
+    </string>
+	<string id="ds_groza_find_tip">
+        <text>Обыскать ящик</text>
+    </string>		
+	<string id="ds_groza_find_nil">
+        <text>Пусто...</text>
+    </string>	
+	<string id="ds_treasure_moskvich_tip">
+        <text>Осмотреть тайник</text>
+    </string>	
+	<string id="st_read_note">
+        <text>Прочитать «$$ACTION_USE$$»</text>
+    </string>	
+	<string id="st_code">
+        <text>Необходим код</text>
+    </string>
+	<string id="tip_lift_start">
+		<text>[$$ACTION_USE$$] Опустить лифт</text>
+	</string>
+	<string id="tip_lift_wait">
+		<text>Лифт опускается, ожидайте...</text>
+	</string>
+		<string id="tip_lift_backward">
+		<text>Лифт поднимается, ожидайте...</text>
+	</string>
+		<string id="jup_control_panel_wait">
+		<text>Лифт будет опущен через 15 секунд.</text>
+	</string>
+</string_table>

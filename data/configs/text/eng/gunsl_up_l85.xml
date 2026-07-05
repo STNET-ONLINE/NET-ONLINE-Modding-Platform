@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_wpn_l85_up_mag40_name">
+     <text>High capacity magazine (40 rounds)</text>
+</string>
+<string id="gunsl_wpn_l85_up_mag40_descr">
+     <text>Using a PMAG 40 AR magazine reduces the number of reloads in combat.</text>
+</string>
+<string id="gunsl_wpn_l85_up_mag60_name">
+     <text>High capacity magazine (60 rounds)</text>
+</string>
+<string id="gunsl_wpn_l85_up_mag60_descr">
+     <text>Using the SureFire MAG5-60 magazine makes it much easier to fight against a superior number of opponents.</text>
+</string>
+<string id="gunsl_wpn_l85_up_tac_handle_name">
+     <text>Tactical grip</text>
+</string>
+<string id="gunsl_wpn_l85_up_tac_handle_descr">
+     <text>Replacing the forend and installing a tactical grip increases the convenience of firing a weapon.In addition, the presence of Piccatiny rails on the new forend allows you to install additional tactical modules on the weapon.</text>
+</string>
+<string id="gunsl_wpn_l85_up_flashlaser_name">
+     <text>Tactical module</text>
+</string>
+<string id="gunsl_wpn_l85_up_flashlaser_descr">
+     <text>The Insight AN/PEQ-16a tactical unit combines the functions of a laser designator and a tactical flashlight.An indispensable thing for fighting at night.</text>
+</string>
+<string id="gunsl_wpn_l85_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_wpn_l85_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_wpn_l85_up_grip_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_wpn_l85_up_grip_descr">
+     <text>Provides the right hand with a more comfortable grip.</text>
+</string>
+<string id="gunsl_wpn_l85_up_bayonet_name">
+     <text>Bayonet</text>
+</string>
+<string id="gunsl_wpn_l85_up_bayonet_descr">
+     <text>Installing the L3A1 bayonet on the weapon allows you to use the machine gun as a melee weapon.Due to the design features of the weapon, it is impossible to use a bayonet simultaneously with an under-barrel grenade launcher or silencer.</text>
+</string>
+<string id="gunsl_wpn_l85_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_wpn_l85_up_usm_accuracy_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_wpn_l85_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_wpn_l85_up_usm_rpm_descr">
+     <text>Refinement of the firing mechanism components makes it possible to increase the weapon's rate of fire, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_wpn_l85_up_mag_fixator_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_wpn_l85_up_mag_fixator_descr">
+     <text>Refinement of the ammunition supply unit makes it possible to reduce the number of delays associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_kompensator_name">
+     <text>Improved DTK</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_kompensator_descr">
+     <text>Installing an improved muzzle compensator can significantly reduce recoil.</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_bullet_speed_name">
+     <text>Changing the barrel cutting pitch</text>
+</string>
+<string id="gunsl_wpn_l85_up_barrel_bullet_speed_descr">
+     <text>Increases the initial speed of the bullet, due to which the bullet deviates less from the expected trajectory and reaches the target faster.Useful for long range shooting.</text>
+</string>
+<string id="gunsl_wpn_l85_up_priklad_name">
+     <text>Improved backplate</text>
+</string>
+<string id="gunsl_wpn_l85_up_priklad_descr">
+     <text>Installation of an anatomical rubberized butt plate reduces the felt recoil from shots fired by the shooter.</text>
+</string>
+<string id="gunsl_wpn_l85_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_wpn_l85_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the line of sight when firing, and also reduces the likelihood of delays when firing.</text>
+</string>
+<string id="gunsl_wpn_l85_up_body_reliability_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_wpn_l85_up_body_reliability_descr">
+     <text>Replacing standard parts with analogues made of high-strength alloys makes it possible to increase the wear resistance of weapons.</text>
+</string>
+<string id="gunsl_wpn_l85_up_body_weight_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_wpn_l85_up_body_weight_descr">
+     <text>Replacing standard parts with analogues made of light alloys significantly reduces the weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_l85_up_firemode_name">
+     <text>Improved fire mode switch</text>
+</string>
+<string id="gunsl_wpn_l85_up_firemode_descr">
+     <text>Reduces the likelihood of delays due to malfunctions in the firing mode switching unit.</text>
+</string>
+</string_table>

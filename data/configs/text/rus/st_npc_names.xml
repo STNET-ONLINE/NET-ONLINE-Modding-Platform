@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="me">
+		<text>Вы</text>
+	</string>
+	<string id="esc_base_stalker_shilov_name">
+		<text>Шилов</text>
+	</string>
+	<string id="esc_base_stalker_fyrgon_name">
+		<text>Фургон</text>
+	</string>
+		<string id="esc_base_stalker_sidorovich_name">
+		<text>Сидорович</text>
+	</string>
+		<string id="mar_base_cs_syslov_name">
+		<text>Суслов</text>
+	</string>
+	<string id="gar_base_depot_yoga_name">
+		<text>Йога</text>
+	</string>
+	<string id="mar_base_cs_xolod_name">
+		<text>Холод</text>
+	</string>
+	<string id="mar_base_cs_lebedev_name">
+		<text>Лебедев</text>
+	</string>
+	<string id="mar_base_cs_novikov_name">
+		<text>Новиков</text>
+	</string>
+		<string id="esc_base_stalker_stavor_name">
+		<text>Ставор</text>
+	</string>
+		<string id="esc_base_military_vova_vist_name">
+		<text>Вова Вист</text>
+	</string>
+	<string id="ds_base_stalker_zveroboi_name">
+		<text>Зверобой</text>
+	</string>
+	<string id="ds_smart_base_farm_ovod_name">
+		<text>Овод</text>
+	</string>
+	<string id="ds_stalker_becas_name">
+		<text>Бекас</text>
+	</string>
+		<string id="ds_smart_base_farm_lis_name">
+		<text>Лис</text>
+	</string>
+		<string id="ds_smart_bridge_oxotnik_name">
+		<text>Охотник</text>
+	</string>
+		<string id="esc_base_stalker_wolf_name">
+		<text>Волк</text>
+	</string>
+		<string id="esc_smart_base_stalker_vixhryn_name">
+		<text>Вихрун</text>
+	</string>
+	<string id="esc_base_stalker_joseph_name">
+		<text>Иосиф</text>
+	</string>
+	<string id="esc_base_stalker_docent_ivanov_name">
+		<text>Доцент Иванов</text>
+	</string>
+	<string id="mar_darkskinned_name">
+		<text>Смуглый</text>
+	</string>
+</string_table>

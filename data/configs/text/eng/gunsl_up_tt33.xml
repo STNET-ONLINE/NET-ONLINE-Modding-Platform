@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_tt33_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_tt33_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_tt33_up_barrel_speed_name">
+     <text>Re-rifling the barrel</text>
+</string>
+<string id="gunsl_tt33_up_barrel_speed_descr">
+     <text>Changing the barrel rifling pitch allows you to increase the initial speed of the bullet.</text>
+</string>
+<string id="gunsl_tt33_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_tt33_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_tt33_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_tt33_up_body_reliability_descr">
+     <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+</string>
+<string id="gunsl_tt33_up_podacha_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_tt33_up_podacha_descr">
+     <text>Individual fitting of the power supply parts allows you to reduce the likelihood of delays during shooting associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+<string id="gunsl_tt33_up_ejector_name">
+     <text>Refinement of the extractor</text>
+</string>
+<string id="gunsl_tt33_up_ejector_descr">
+     <text>Modification of the ejector makes it possible to reduce the number of delays associated with the sticking of cartridges ejected from the pistol after firing.It has a beneficial effect on the reliability of the weapon.</text>
+</string>
+<string id="gunsl_tt33_up_plastic_handle_name">
+     <text>Plastic cover</text>
+</string>
+<string id="gunsl_tt33_up_plastic_handle_descr">
+     <text>Replacing the standard wooden lining makes it easier to handle the weapon and also slightly reduces its weight.</text>
+</string>
+<string id="gunsl_tt33_up_kurok_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_tt33_up_kurok_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_tt33_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_tt33_up_usm_rpm_descr">
+     <text>Reconfiguring the trigger and modifying some of its parts allows the shooter to fire at a higher rate.Unfortunately, this causes the weapon to wear out a little faster.</text>
+</string>
+<string id="gunsl_tt33_up_light_mag_name">
+     <text>Lightweight magazine</text>
+</string>
+<string id="gunsl_tt33_up_light_mag_descr">
+     <text>Replacing a standard magazine with a modern analogue made of light alloys allows you to reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_tt33_up_patronnik_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_tt33_up_patronnik_descr">
+     <text>Careful fitting of parts and minimization of backlash allows for improved sealing and higher shooting accuracy.</text>
+</string>
+<string id="gunsl_tt33_up_zatvor_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_tt33_up_zatvor_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the aiming line when firing.</text>
+</string>
+<string id="gunsl_tt33_up_light_details_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_tt33_up_light_details_descr">
+     <text>Replacing some weapon parts with their modern light-alloy counterparts allows you to reduce the weight of the weapon.</text>
+</string>
+</string_table>

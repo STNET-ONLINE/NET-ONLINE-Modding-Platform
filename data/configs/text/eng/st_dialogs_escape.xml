@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="delete_this">
+    <text>1</text>
+  </string>
+  <string id="esc_quest_find_canister_end_0">
+    <text>Нашёл я твою канистру. Тяжелая однако...</text>
+  </string>
+  <string id="esc_quest_find_canister_end_1">
+    <text>Ничего себе, вот это выручил так выручил. Спасибо %s. Держи немного денег, и я тебе расскажу о топливе и как его можно эффективно применять.</text>
+  </string>
+  <string id="esc_quest_find_canister_end_2">
+    <text>Спасибо, ну-ка, интересно...</text>
+  </string>
+  <string id="esc_quest_find_canister_end_3">
+    <text>Как ты уже понял - топливо очень сильно ценится. Главное его приминение - заправка машины. Всегда рекомендую иметь с в багажнике твоего авто пустую канистру, чтобы при надобности можно было без всяких проблем заправить твою колесницу. Кстати, на болоте какой-то хренов дальнобойщик из Ренегатов свой камаз где-то бросил, если отроешь - он тоже твой. Грузовой транспорт кстати жрёт куда больше топлива чем остальные автомбили, поэтому имей это ввиду. Зато грузоподъёмность значительно больше, а местами даже проходимость лучше.</text>
+  </string>
+  <string id="esc_quest_find_canister_end_4">
+    <text>Спасибо за такое количество информации. Ты здесь давно как я смотрю?</text>
+  </string>
+  <string id="esc_quest_find_canister_end_5">
+    <text>Ну.. Да. Я на "Иве" ездил, ремонтировал машины которые ещё имеют какие-то признаки жизни, потом сталкерам и группировкам различным продавал. Долгу вот даже "БТР" достался. Но однажды, в Припяти когда машины искал - разбил "Иву" свою, когда от псевдогиганта пытался уехать. Он как вдарил, машина подлетела, а я под 80 км/ч в гаражи втюрился. Благо зацепило машину не сильно, так, боком. Только краску содрало, но времени крутиться в том месте не было, там и бросил её. Тем более не заводилась она уже, что-то важное видать отвалилось. Где-то там она и стоит, полу-рабочая... Красная. Эх, жалко машину. Потом сюда добрался - так и осел здесь. Новичкам помогаю, подсказываю по машинам и не только.</text>
+  </string>
+  <string id="esc_quest_find_canister_end_6">
+    <text>"Иву" разбил? Не приятно. Ладно, пойду я, что-то заговорились мы. Ещё раз спасибо.</text>
+  </string>
+  <string id="esc_quest_find_canister_start_0">
+    <text>Здарова. Нужно чем-нибудь помочь, а то сидите тут часами около этого генератора...</text>
+  </string>
+  <string id="esc_quest_find_canister_start_1">
+    <text>Даров. Да вот генератор начал отказывать, а ведь он главный источник света для этого лагеря. Сидим и пытаемся помочь ему.</text>
+  </string>
+  <string id="esc_quest_find_canister_start_2">
+    <text>Может мне помочь с инструментами?</text>
+  </string>
+  <string id="esc_quest_find_canister_start_3">
+    <text>Нет, не нужно, инструменты я у Фургона попросил. А вот с топливом можешь подсобить, буду счастлив.</text>
+  </string>
+  <string id="esc_quest_find_canister_start_4">
+    <text>С топливом? Где мне его искать?</text>
+  </string>
+  <string id="esc_quest_find_canister_start_5">
+    <text>Ну где-где... На автомобильных стоянках этих канистр должно быть навалом, либо можешь сливать топливо с бензаколонок. Чуть ли не полные в лощине стоят, сами ходили туда, сливали оттуда. Ещё несколько есть в тёмной долине, но там наверное всё слили, но можешь глянуть. Здесь неподалёку на АТП банда бандитов приехала с Лощины, у них то топливо наверняка есть. Кстати - если всех перебьёшь, "Иву" можешь забрать себе. Всё что мне нужно - это канистра с топливом, и кстати - найдёшь ещё, можешь продавать мне их. Куплю по максимально выгодной цене.</text>
+  </string>
+  <string id="esc_quest_find_canister_start_6">
+    <text>На АТП говоришь? Пойду схожу, посмотрю что у этих забрать можно. Сколько их вообще?</text>
+  </string>
+  <string id="esc_quest_find_canister_start_7">
+    <text>Штук 8-9 обычно. У них там что-то в духе основной базы на кордоне, как военные хвост поджали - так они и начали переть с Лощины. Но я тебе ничего не гарантирую, там большая часть в патруль уходят сталкерню ловить - поэтому если их будет больше - уж извини.</text>
+  </string>
+  <string id="esc_quest_find_military_box_end_0">
+    <text>Задание выполнил. Вот ящик с блокпоста.</text>
+  </string>
+  <string id="esc_quest_find_military_box_end_1">
+    <text>Вот молодчага! Удружил. Хотя, конечно, "спасибом" сыт не будешь... Значит, держи три... или нет, две тыщи тугриков - и мы в расчёте! \nКстати, зольды же ведь пропажу обнаружат обязательно - так тут такой кипеж начнётся... Так что вали-ка ты отсюда побыстрее на повышенной скорости.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_0">
+    <text>Есть что-нибудь на примете?</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_1">
+    <text>В общем, тут такое дело... На блокпост из глубины Зоны передали ящик с отчётом одной из экспедиций, что к северу ходила. Днём охраняют его так, будто он чистым плутонием наполнен, а по ночам почему-то не больше двух охранников оставляют.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_2">
+    <text>Продолжай.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_3">
+    <text>Проберись втихаря на блокпост да изыми для меня этот ящик. А уж я для тебя ничего не пожалею... в разумных пределах. Возьмешься, нет?</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_4">
+    <text>Попробую.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_5">
+    <text>Нет. Пока браться не буду.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_6">
+    <text>Ну так я денежку готовлю - ты ведь меня, Меченый, ещё ни разу не подводил. Только это... шуму не наделай, ладно? А то нам всем тут небо с овчинку покажется, если вояки обидятся.</text>
+  </string>
+  <string id="esc_quest_find_military_box_start_7">
+    <text>Да ладно, чего ты? Там не блокпост, а название одно! Десяток срочников полупьяных с прапором!.. Ладно. -Жак Фреско-</text>
+  </string>
+  <string id="esc_quest_side_moskvich_start_0">
+    <text>Насчёт того Москвича...</text>
+  </string>
+  <string id="esc_quest_side_moskvich_start_1">
+    <text>Да?</text>
+  </string>
+  <string id="esc_quest_side_moskvich_start_2">
+    <text>Я попытаюсь разузнать что-нибудь о нём.</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_0">
+    <text>Нашёл я твой ящик. Принимай.</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_1">
+    <text>Ничего себе, вот это удивил! Где он был?</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_2">
+    <text>В одном из зданий на развалинах.</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_3">
+    <text>Ты не выяснил что случилось?</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_4">
+    <text>Судя по всему эти трое объеденились с бандитами. Люди Сидоровича мертвы, а на месте их смерти я нашёл этот КПК. На элеваторе нашёл наводку на развалины, и там действительно оказался ящик.</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_5">
+    <text>Вот твари... Если увижу их, пристрелю. А тебе - спасибо за помощь. В ящике кстати провизия и медикаменты, держи свою честно заслуженную долю, и от меня немного деньжат. Перед Сидоровичем я уже замолвил словечко, так что можешь смело идти к нему. У него тоже какое-то важное дело есть.</text>
+  </string>
+  <string id="esc_quest_task_beginning_end_6">
+    <text>Благодарю!</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_0">
+    <text>Привет! Мне нужно раздобыть снаряжение, не подскажешь к кому обратиться?</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_1">
+    <text>О, это ты, новенький? Наслышал о тебе. Знаю такого человека, это наш местный торговец - Сидорович. Только он с кем попало дел вести не будет, и предложит разве чтоли бесполезную бодягу.</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_2">
+    <text>И как же мне заработать его влияние?</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_3">
+    <text>Я могу замолвить за тебя словечко, если займёшься одним весьма муторным делом. Хоть ты тут и новенький, но по лицу видно, будто ты не первый день здесь...</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_4">
+    <text>Что за дело?</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_5">
+    <text>Дело весьма важное для меня и этого лагеря. Решили мы значит эту работу трём новичкам доверить. Суть заключалась в передаче денег группе людей Сидоровича, получения одного ящика, и доставке его сюда. Только вот, чего-то не срослось у этих трёх. Не вернулись они. Я уже отправлял людей на их поиски, но не их, ни самого груза мы так и не нашли. Сделка должна была состояться в лагере который, находится около АТП. Никто за такую работу здесь не берётся, а у опытных времени на это нет. Я от тебя ничего не жду, но если сможешь раздобыть этот ящик и принести его сюда - отблагодарю как следует. И да, поищи этих трёх. Вдруг они где-то неподалёку ошиваются.</text>
+  </string>
+  <string id="esc_quest_task_beginning_start_6">
+    <text>Хорошо, сделаю всё что в моих силах.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_end_0">
+    <text>Я принёс деньги. Была не была.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_end_1">
+    <text>Прекрасно! Ну чтож, добро пожаловать в нашу команду!</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_end_2">
+    <text>Приступим.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_0">
+    <text>...</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_1">
+    <text>Эй, сталкер, интересует прибыльная курьерская работа?</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_2">
+    <text>Я слушаю. Только для начала представься.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_3">
+    <text>Я агент крупного агенства по доставке и поиску предметов любого типа и сложности. Кличут меня Вихруном. Как ты сам понимаешь - работаем мы везде. Наши люди находятся в разных уголках зоны, я же занимаюсь южным округом. Окрестности болот, Кордон, Свалка, и несколько лагерей в Тёмной Лощине уже являлились нашими клиентами. Доставляем мы совершенно разные вещи, для нас это не имеет никакого значения. Если хорошо заплатили - мы работаем.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_4">
+    <text>Неужели у вас недостаток работников?</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_5">
+    <text>Недостаток работников? Нет, с этим ноль проблем. На юге зоны возникает проблема с опытом работы - как ты сам понимаешь молодняка здесь навалом. Лично я устал получать сообщения о том что один заказ за другим обваливается, поэтому я ввёл систему личного страхования нашей фирмы. Выкладываешь нам 50000 рублей, и можешь работать с нами. Не беспокойся, всего за пару наших заказов ты окупишь эту сумму. Нашим курьерам мы платим 30% от стоимости заказа. Нашим постоянным курьерам все 50%. В большинстве случаев это достаточно большие деньги.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_6">
+    <text>Выкладывать 50000 рублей за кота в мешке? Не слишком ли много?</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_7">
+    <text>Твоё дело. Если передумаешь - обращайся ко мне. Поверь, ты не пожалеешь.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_1_start_8">
+    <text>Я подумаю.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_end_0">
+    <text>Выполнено. Детектор доставлен.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_end_1">
+    <text>Прекрасно! Уже вкурсе. Вот твои деньги.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_0">
+    <text>Какой будет мой первый заказ?</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_1">
+    <text>Давай глянем. Так, это ерунда... Этот не оплатил... А, вот! То что нужно!</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_2">
+    <text>Слушаю.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_3">
+    <text>Некий сталкер по кличке "Голос" оплатил заказ на поиск детектора "Велес". Неплохая сумма. Сам детектор очень дорогой, и доставлять не далеко. Значит так, план таков - у меня сейчас такого детектора нет, поэтому искать тебе придётся самому. Доставку тоже берёшь на себя, метку я тебе оставлю. Как найдёшь детектор - оставишь его там, и придёшь ко мне за деньгами.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_4">
+    <text>Отлично. Какая итоговая оплата?</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_5">
+    <text>Заплачу 35000.</text>
+  </string>
+  <string id="esc_quest_task_vixhryn_2_start_6">
+    <text>Неплохо, работаю.</text>
+  </string>
+  <string id="esc_stavor_talk_0">
+    <text>Может расскажешь что-нибудь интересное?</text>
+  </string>
+  <string id="esc_stavor_talk_1">
+    <text>А чего бы не рассказать? Спрашивай.</text>
+  </string>
+  <string id="esc_stavor_talk_10">
+    <text>Вроде-бы нет.</text>
+  </string>
+  <string id="esc_stavor_talk_11">
+    <text>Этой байке уже 1 месяц, мне самому досих-пор в неё не верится. Был сталкер тут один, «Мавиком» звали. Так вот, этот сталкер, не поверишь, собрал себе очень быстрый «Москвич», самый обыкновенный. Только вот ехал он пошустрее некоторых сегодняших болидов, и столько вещей в нём этот сталкер возил, словами не передать. Не представляю, как у него это получилось.</text>
+  </string>
+  <string id="esc_stavor_talk_12">
+    <text>Может что-то поменял? Там запчасти, или может привёз его сюда?</text>
+  </string>
+  <string id="esc_stavor_talk_13">
+    <text>В том то и дело, что нет. «Москвич» этот отсюда, с ЧЗО. По логотипу узнал. Я краем глаза посмотрел, когда этот «Мавиком» что-то ковырял в нём. Вроде самый обычный двигатель, самый обычный звук, ничего удивительного вообщем я не увидел. Сталкер не хотел разговаривать об этой машине, сколько бы я не пытался попросить у него рассказть мне о ней.</text>
+  </string>
+  <string id="esc_stavor_talk_14">
+    <text>И что было дальше?</text>
+  </string>
+  <string id="esc_stavor_talk_15">
+    <text>Говорят разбился он в лощине. Сталкера с машины вытащили, похоронили как следует - машину так и оставили там. Я уже собирался ринуться и посмотреть, что там было. Но произошло что-то странное. Москвич просто пропал.</text>
+  </string>
+  <string id="esc_stavor_talk_16">
+    <text>Исчез?</text>
+  </string>
+  <string id="esc_stavor_talk_17">
+    <text>Да. Полностью. И никаких следов той аварии.</text>
+  </string>
+  <string id="esc_stavor_talk_18">
+    <text>Как такое могло произойти? Даже вмятин никаких не было?</text>
+  </string>
+  <string id="esc_stavor_talk_19">
+    <text>Я вот сам незнаю. Один из охотников рассказывал, что его друган видел как этот Москвич отъхал от этого дерева сам по себе, умчался на полной скорости в сторону заправки, и пропал. Было это ночью. Правда этот знакомый того охотника погиб на следующий день, в аномалию попал - поэтому распросить у него, подробнее не получится.</text>
+  </string>
+  <string id="esc_stavor_talk_2">
+    <text>Расскажи о себе.</text>
+  </string>
+  <string id="esc_stavor_talk_20">
+    <text>Спасибо за рассказ. Надо поспрашивать у местных.</text>
+  </string>
+  <string id="esc_stavor_talk_21">
+    <text>Забудь.</text>
+  </string>
+  <string id="esc_stavor_talk_22">
+    <text>Спасибо за рассказ. Надо поспрашивать у местных.</text>
+  </string>
+  <string id="esc_stavor_talk_3">
+    <text>На этой базе есть что-нибудь интересное?</text>
+  </string>
+  <string id="esc_stavor_talk_4">
+    <text>Может какие слухи ходят?</text>
+  </string>
+  <string id="esc_stavor_talk_5">
+    <text>Да чего тут расказывать. Работал автомехаником, до того как в зону попал. В жизни проблемы появились, не хочу ни с кем об этом говорить... Вот так вот здесь и оказался. А возращаться обратно уже нет смысла.</text>
+  </string>
+  <string id="esc_stavor_talk_6">
+    <text>Конечно есть. Фургон вот, талантливый техник. Если сломалось что, сразу иди к нему. Торговец есть - Шилов. Продаёт выгодно, и ассортимент побольше чем у Сидоровича.</text>
+  </string>
+  <string id="esc_stavor_talk_7">
+    <text>Может кто-нибудь работу предложить? Деньги нужны.</text>
+  </string>
+  <string id="esc_stavor_talk_8">
+    <text>Есть такой. Вихруном кличут. Мутный тип, какая-то курьерская служба. Берёт дорого, но говорят что реально доставляет. Он тут искал желающих поработать, можешь поговорить с ним.</text>
+  </string>
+  <string id="esc_stavor_talk_9">
+    <text>Слышал о пропавшем "Москвиче"?</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_0">
+    <text>Вот кейс. Курьер мёртв.</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_1">
+    <text>Вот чёрт. Жалко мужика. Вижу кейс в целости и сохраности, сработал как надо.</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_2">
+    <text>Что там по моей части?</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_3">
+    <text>Всё здесь. Как ты и просил, достаточно хорошее снаряжение. И от меня деньжат.</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_4">
+    <text>Благодарю, весьма жирно!</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_5">
+    <text>Если нужна будет работёнка - подходи. Всегда найдётся.</text>
+  </string>
+  <string id="esc_story_quest_find_container_end_6">
+    <text>Буду на связи.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_0">
+    <text>Я от Волка. Он передал, что у тебя есть какое-то поручения для меня.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_1">
+    <text>О, это ты тот самый который разобрался с тем отребьем? Не забивай себе голову, я займусь этим вопросом. И про твою награду я не забыл. Есть ли у тебя желание заняться ещё одним расследованием, есстествено, я помогу тебе с твоим вопросом, с которым ты обратился к Волку.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_2">
+    <text>Я слушаю.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_3">
+    <text>Тебе придётся найти моего курьера, который нёс мне очень важный для меня груз. Какой именно - тебе знать не нужно. Пропал он где-то в районе тёмной лощины, пару дней назад, и на связь не выходит. Как ты сам понимаешь, мне нужно найти груз, и доставить мне, а если курьер будет жив - скажешь ему чтобы двигался ко мне.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_4">
+    <text>Есть какая-либо наводка на него?</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_5">
+    <text>Хмм... Дай как вспомнить. В последний раз он выходил на связь как только прибыл в лощину. Поспрашивай у местных, охотников к примеру, у них там лагерь на ферме. Они могут знать более точно. Как только найдёшь кейс - тащи его ко мне.</text>
+  </string>
+  <string id="esc_story_quest_find_container_start_6">
+    <text>Кейс значит? Жди.</text>
+  </string>
+  <string id="esc_vixhryn_talk_0">
+    <text>Может расскажешь что-нибудь интересное?</text>
+  </string>
+  <string id="esc_vixhryn_talk_1">
+    <text>Что нужно?</text>
+  </string>
+  <string id="esc_vixhryn_talk_2">
+    <text>Расскажи о себе.</text>
+  </string>
+  <string id="esc_vixhryn_talk_3">
+    <text>Мне нечего о себе рассказывать. Я твой куратор - больше тебе знать не нужно.</text>
+  </string>
+  <string id="esc_vixhryn_talk_4">
+    <text>На этой базе есть что-нибудь интересное?</text>
+  </string>
+  <string id="esc_vixhryn_talk_5">
+    <text>Здесь полная скукотища, ничего интересного.</text>
+  </string>
+  <string id="esc_vixhryn_talk_6">
+    <text>Может какие слухи ходят?</text>
+  </string>
+  <string id="esc_vixhryn_talk_7">
+    <text>Я не интересуюсь сталкерскими байками.</text>
+  </string>
+  <string id="esc_vixhryn_talk_8">
+    <text>Забудь.</text>
+  </string>
+  <string id="st_esc_quest_find_military_box_descr">
+    <text>Залезть на блокпост и оттуда украсть кейс с отчетом военной экспедиции с севера Зоны.</text>
+  </string>
+  <string id="st_esc_quest_find_military_box_give_name">
+    <text>Принести ящик торговцу</text>
+  </string>
+  <string id="st_esc_quest_find_military_box_none_name">
+    <text>Украсть ящик с блокпоста</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_0">
+    <text>Волк, я тут ищу информацию... Тебе что-нибудь известно о пропавшем Москвиче?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1">
+    <text>Бегал тут какой-то сталкер, интересовался. Мне особо ничего не известно. Он к сидору забегал - попробуй у него спросить.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_2">
+    <text>Спасибо!</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_0">
+    <text>Сидорович, я ищу информацию по пропавшему Москвичу. Тебе что-нибудь известно о нём?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_1">
+    <text>Москвич? Слышал. Что конкретно тебя интересует?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_5">
+    <text>Спрошу элементарное - где она разбилась?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_8">
+    <text>Да, был такой. Точно так же как и ты - интересовался этой машиной. Не понимаю, что вы в ней нашли...</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_9">
+    <text>Меня Ставор с базы сталкеров попросил разузнать об этом. Сможешь рассказать?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_10">
+    <text>Я могу сказать тебе, если ты кое-что сделаешь для меня. Уж пойми - такие дела за просто не так делаются.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_11">
+    <text>Вот же... Ладно, говори что нужно сделать.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_12">
+    <text>Мне нужно, что бы ты забрал мою специальную винтовку из Лощины. Там найдёшь контейнер, внутри лежит винтовка. Принесёшь, после я расскажу тебе всё что знаю об этом сталкере. </text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_14">
+    <text>Раз плюнуть. Кидай координаты.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_15">
+    <text>Почти ничего... Пересекались пару раз, немного поехавший. Покупал у меня провизию и оружие мне сбагривал.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_16">
+    <text>На старой заправке, что в Лощине. Там ещё обычно снорков полно.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_17">
+    <text>Что тебе известно о владельце автомобиля?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_18">
+    <text>Мне сказали, что к тебе заходил сталкер, который интересовался этой машиной.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_19">
+    <text>Пожалуй, это всё что я хотел спросить.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_2_0">
+    <text>Тебе что-нибудь известно о пропавшем Москвиче?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_2_1">
+    <text>Извини, я особо ничего не знаю. Хотя... Это конечно всего-лишь предположение, но можешь выслушать если интересно.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_2_2">
+    <text>Ну-ка.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_2_3">
+    <text>Мне кажется, что после этого случая на юге зоны появилось несколько пространственных пузырей. Один из них находится в Лощине, где-то в лесу. Второй прямо у нас под носом - на самой верхушке ЖД насыпи. Не думаю, что это как-то связано, но можешь попробовать изучить их. Вдруг найдёшь какую-нибудь зацепку.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_2_4">
+    <text>Может действительно пригодится, спасибо!</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_0">
+    <text>Тебе что-нибудь известно о пропавшем Москвиче?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_1">
+    <text>Не слышал, но наш знакомый охотник знал о нём. Правда лично мне это совершенно не интересно.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_2">
+    <text>Ты можешь сказать мне, где находится твой знакомый? Мне бы очень хотелось поговорить с ним.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_3">
+    <text>Нету его уже... В аномалию попал. Но знаешь, знаю я где его тайник был. Он любил все свои находки в блокнотик записывать. Я расскажу тебе, если поможешь нам со снорками разобраться. После того случая с тем водятлом эти снорки как будто из под земли начали вылезать. Около старой заправки их навалом - завали штук 10, принесёшь их стопы, и координаты твои.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_4">
+    <text>Ты забудешь о снорках. Готовь координаты.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_end_0">
+    <text>Подчистил я местность от снорков. Принимай трофеи.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_end_1">
+    <text>Мастер! Нет слов. Лови координаты. У нас тут дробовик лежит хороший - возьми, пригодится. Надеюсь ты найдёшь то что ищешь.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_3_end_2">
+    <text>Весьма признателен. Дробовик пригодится.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_end_0">
+    <text>Нашёл я твою грозу. Только сломана она похоже. Неплохой зверь, если починить.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_end_1">
+    <text>Молодчина. Держи от меня, заслужил. Слушай по своему сталкеру. Находится он сейчас на болотах. Связывались недавно. Он даже не против поговорить с тобой, правда не сейчас, сказал позже маякнёт.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_1_1_end_2">
+    <text>Спасибо, будь на связи.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_stavor_end_0">
+    <text>Здарова, попытался разобраться с тем Москвичом. Все опрошены. Никто ничего толком не знает.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_stavor_end_1">
+    <text>Грустно. Хоть что-нибудь удалось нарыть?</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_stavor_end_2">
+    <text>Да, удалось. Вот эта записка, и ещё один сталкер, который интересовался этой машине. Сидорович сказал что маякнёт.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_stavor_end_3">
+    <text>Лучше чем ничего... Спасибо, если будут успехи - заскакивай. Возьми на дорожку, пригодится.</text>
+  </string>
+  <string id="esc_quest_task_moskvich_find_stavor_end_4">
+    <text>Тут уж как получится... И тебе не хворать.</text>
+  </string>
+  <string id="esc_quest_owner_forest_start_0">
+    <text>Got your message. And what is this 'Forest Beast' supposed to be?</text>
+  </string>
+  <string id="esc_quest_owner_forest_start_1">
+    <text>So you finally came? Well, there is no real 'master' there, just a problem. The rookies say there is a big, old boar that settled in the Hollow. It eats anyone who gets close and does not let anyone near its lair. We need to deal with it, or it will get a lot of young stalkers killed.</text>
+  </string>
+  <string id="esc_quest_owner_forest_start_2">
+    <text>Just one boar? What is the problem then?</text>
+  </string>
+  <string id="esc_quest_owner_forest_start_3">
+    <text>Heh-heh, no. There are more than ten of them out there, and all of them are mad, fast, and slippery. That is the real problem. You either shoot them from a distance, or get in close - but in that case you will need some companions. Find yourself a team, and you can split the loot among yourselves. What I need is proof that the Forest Beast is dead - its hoof. It is larger and heavier than that of an ordinary boar, so I will not mistake it for anything else. You will get your reward from me.</text>
+  </string>
+  <string id="esc_quest_owner_forest_start_4">
+    <text>Well, damn… A whole pack of boars. Clear some space on your shelf - I will bring you the trophy.</text>
+  </string>
+  <string id="esc_quest_owner_forest_end_0">
+    <text>The boar is dead. Tough bastard</text>
+  </string>
+  <string id="esc_quest_owner_forest_end_1">
+    <text>Master! I will sell the hoof to the swamp, let them study it. Here, take your reward</text>
+  </string>
+  <string id="esc_quest_owner_forest_end_2">
+    <text>If you need anything else, just let me know!</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_0">
+    <text>What happened… Who are you?</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_1">
+    <text>Awake, are you? They call me Wolf, a local old-timer. I keep an eye on the rookies. The stalkers brought you in, said they found you near an anomaly, unconscious.</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_2">
+    <text>I do not remember anything... How did I end up here?</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_3">
+    <text>Lost your memory? Well, you look like it. This is the rookie village. Stalkers who have just come in from beyond the perimeter gather here. It is the safest place in the whole Zone - mutants rarely come here, mostly just boars and dogs. As for people, only bandits show up here, and even then, they do not touch the newcomers for now.
+Something happened in their leadership, and they are not eager to start a serious conflict with stalkers. But they are sharpening their teeth on the experienced ones - that you can be sure of.
+There is plenty they can take from them.</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_4">
+    <text>The Zone, mutants, anomalies… I remember something, but only in terrible fragments. Where did you find me?</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_5">
+    <text>I marked the spot on your PDA</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_6">
+    <text>I will take a walk...</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_0">
+    <text>I checked the place. All I found was this PDA — looks like I was searching for some scientist.</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_1">
+    <text>Let me take a look… Indeed, strange. There are definitely no scientists here - only that odd creature in the basement, and I am afraid it will not be of any help to you. And why you were looking for scientists in this place - that is a mystery in itself</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_2">
+    <text>Is there anyone here who can tell me where to find Kaimanov? Right now, it is my only lead.</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_3">
+    <text>Go speak with Sidorovich - the local trader. He is quite the wheeler-dealer, but he definitely has the right connections. If you want to get in touch with the scientists, all roads lead through him. Keep in mind, though, he will not do business with just anyone. First, you need to earn some reputation. Someone here in the camp might put in a word for you. Sorry, but I do not know you well enough to recommend you myself</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_4">
+    <text>Thanks for that, at least. And one more thing… while I was walking back, my head started hurting again… I feel terrible. Is there a medic somewhere around here who could take a look at me?</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_5">
+    <text>At the stalker base across the bridge, there is a talented doctor. You can go to him. And it is possible I will need your help once you recover. I will let you know.</text>
+  </string>
+  <string id="esc_quest_story_1_who_wolf_end_6">
+    <text>See you.</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_0">
+    <text>Something bothering you?</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_1">
+    <text>Damn… my pistol is gone!</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_2">
+    <text>Where?</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_3">
+    <text>Right here in the village. I was drinking with the guys, got completely wasted, we argued, yelled at each other - and after that my pistol was gone. I remember hiding it so no one would steal it. But where I hid it - I forgot. I searched the whole village…</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_4">
+    <text>Let me help you find the pistol. I was planning to look around the houses anyway.</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_5">
+    <text>Oh, you are the one they found near that anomaly?</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_6">
+    <text>Yeah, I lost my memory. I do not remember anything about myself</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_7">
+    <text>Well, damn! The important thing is that you are still alive. Listen, if you manage to find it, I will do anything for you! That pistol is really precious to me, practically a relic. Please, look around carefully, maybe you will come across it</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_8">
+    <text>I cannot promise anything, but if I find it, I will let you know. I need to go see Sidorovich… Can you put in a word for me with him?</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_9">
+    <text>Easy as that! I will let him know you are a good man - if you find it. We were drinking in that red house by the entrance. But I searched everything there and could not find a thing</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_start_10">
+    <text>I will go and look. If I find it, I will bring it to you</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_end_0">
+    <text>I found your pistol. It really is not an ordinary one. Only a detector can pick it up</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_end_1">
+    <text>So that is why I could not find it! Did it really turn into an artifact because it ended up in an anomaly back then? Either way, thank you! I would never have figured that out myself. As you asked, I put in a word for you with Sidorovich. He said he is expecting you</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_end_2">
+    <text>Glad I could help you. I will head to Sidorovich</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_end_3">
+    <text>Wait a moment! Here, take some cash, my old pistol, and a handful of ammo. Oh, and we still have some food left from that drinking spree! Go on, take it - it is the least I can do to thank you for helping me</text>
+  </string>
+  <string id="esc_quest_story_2_anomaly_pistol_end_4">
+    <text>Thanks. It will not hurt!</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_0">
+    <text>I am here on business. I need to find a scientist - Professor Kaimanov. I was told you might know something about him</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_1">
+    <text>Well, hello there, lucky one. They say you were found after the Major Emission. You do not remember anything about yourself — yet you are looking for a man like that</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_2">
+    <text>Major Emission?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_3">
+    <text>A Major Emission happened in the Zone not long ago. I have no idea why you appeared there right after it, or how you managed to survive. My men were in the area where you were found, and none of them saw you there</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_4">
+    <text>All these strange things make no sense to me either. I do not remember anything, and I am simply trying to recall at least something about myself</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_5">
+    <text>Professor Kaimanov is an outstanding scientist and a true genius who studied the effects of psi-emission. If you really want to find him, I can give you a lead - but you will have to work for me. Where you even got such a task from - I do not want to know, and they would never give something like that to the first man they meet. So I think you will manage the job I am about to hand you</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_6">
+    <text>Go ahead</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_7">
+    <text>Rumor has it the military dug up something very important in Dark Hollow. And whatever it is, it is so important to them that they are preparing a plan to take the Cordon. Now to the point. You need to go to Valeryan - he is at the stalker base right now - and get information from him regarding this discovery. We cannot send anything like that over an open channel, so you will have to learn it in person. There has been some kind of damn madness going on in Dark Hollow for a long time. It is time to finally sort it out</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_8">
+    <text>So the main goal is to find out what the military discovered in Dark Hollow?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_9">
+    <text>Yes. And if possible, bring it to me. Be careful - they say the military sent an entire helicopter for this mission</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_start_10">
+    <text>It will be done</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_0">
+    <text>I am here on behalf of Sidorovich, about Dark Hollow</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_1">
+    <text>Another new soul! They call me Father Valeryan. So, straight to the point: Stalkers have discovered that in the administrative buildings of the storage complex, some documents were found. It seems the place used to be a transfer point, and for some time unknown scientists were working there on their projects. The military cannot get inside because of the strong PSI-emission, which, from what we can tell, was created there artificially. You are not the first one heading there</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_2">
+    <text>What is the danger of PSI-emission?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_3">
+    <text>Why were the other stalkers unable to handle it?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_4">
+    <text>Are there any stalker bases in Dark Hollow?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_5">
+    <text>I am ready to move out</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_6">
+    <text>PSI-emission has a strong effect on the brain. Your head starts hurting, you begin seeing things, and some people lose consciousness right away - and just like that, your former friend turns into a zombie. Be careful out there</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_7">
+    <text>Because of the intense PSI-emission, many people could not stay there for more than five minutes. Even those who used psi-blockers had to retreat due to severe headaches. So you need to be extremely careful with that thing</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_8">
+    <text>Yes. Go visit the hunters and give them my regards. Oh, right — and ask them to return what they owe me! You can keep it for yourself. They are at the old sawmill in the forest. I think it will be useful to you</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_9">
+    <text>I can only wish you luck. Head toward the administrative buildings - you will see zombified stalkers there. In the central archive building lies what you and the military are looking for. Since they have not yet figured out how to get inside, you had better hurry</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_11">
+    <text>Wait, I need to get ready</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_valerian_12">
+    <text>We will see what I can do</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_0">
+    <text>I want to join your faction.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_1">
+    <text>I actually have a job for you.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_2">
+    <text>Alright, what’s the job?</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_3">
+    <text>You need to get a suppressed rifle &#x30FC; an AK-74 will do nicely - and a good sight so you can see something other than a black silhouette. A Kobra for example</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_4">
+    <text>Alright, I won't ask unnecessary questions - I'll do what needs to be done.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_0">
+    <text>I've completed the task, just as you asked.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_1">
+    <text>Excellent. I'll send my men to check it. So, tell me - are you ready to join?</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_2">
+    <text>Yes, I agree.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_3">
+    <text>No, not sure about it for now.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_0">
+    <text>Я хочу вступить в вашу группировку.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_1">
+    <text>У меня как раз есть для тебя задание.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_2">
+    <text>Отлично, что требуется сделать?</text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_3">
+    <text>Нужно раздобыть ствол с глушителем - АК-74 будет в самый раз, и прицел хороший, чтобы что-то кроме черного сталкера видеть -, «кобру» например. </text>
+  </string>
+  <string id="esc_quest_entry_stalker_start_4">
+    <text>Хорошо, не буду задавать лишние вопросы сделаю что требуется.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_0">
+    <text>Я выполнил задание, как ты и сказал.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_1">
+    <text>Отлично я отправлю своих людей проверить. Ну что ты готов вступить?</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_2">
+    <text>Да, я согласен.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_3">
+    <text>Нет пока не уверен.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_start_0">
+    <text>Я хочу вступить в вашу группировку.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_start_1">
+    <text>У меня как раз есть для тебя задание. У нас шпалеры заканчиваются, пацанам не из чего шмалять, притащи пару обрезов, и я покумекаю что с тобой дальше делать.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_start_2">
+    <text>Сделаю.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_start_3">
+    <text>Отлично, свиснешь как найдешь.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_end_0">
+    <text>Я нашел стволы, вот зацени.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_end_1">
+    <text>Отлично, теперь проще будет щемить этих туристов, ну, зачисляю тебя в группировку?</text>
+  </string>
+  <string id="esc_quest_entry_bandit_end_2">
+    <text>Да, я готов.</text>
+  </string>
+  <string id="esc_quest_entry_bandit_end_4">
+    <text>Не, повремени, я еще подумаю.</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_0">
+    <text>I am back, alive and in one piece. Here, take the documents</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_1">
+    <text>I see you are alive! I was already thinking you were done for. Well then, tell me - what was there?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_2">
+    <text>A military helicopter was chasing me. But I managed to collect the documents. From what I can tell, they mention some project called 'The Seer'. Most of it is reports and logs from completely different periods. Looks like there must be more materials somewhere else</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_3">
+    <text>'The Seer'… Hm… Let me take a look. Aha… Now I see why the military were running around there like madmen. If these papers are real — this is serious. I have heard about this project before, but I thought it was just stalker tales. But it turns out things are different…</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_4">
+    <text>What about Kaimanov?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_5">
+    <text>Kaimanov, hmm… I dug through the documents I had. From my information, I know that a man from the Clear Sky faction once worked side by side with him. They are sitting in the Swamps now.
+Their leader is a man named Lebedev - try to get in touch with him, he may know more. But they do not take outsiders just like that</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_6">
+    <text>Any idea how I can get acquainted with them?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_7">
+    <text>Earn their trust. Without that, they will not let you onto their base. So you have only one path — to the Swamps. nd you know, stalker… you surprised me. ot many return alive after running into the military. How about we keep working together?</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_8">
+    <text>I am listening</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_9">
+    <text>Here is the deal. Keep gathering all the information you can about Project 'The Seer', and I will dig into Kaimanov's trail on my side. If I find anything, I will let you know right away. But do not bring the papers to me anymore - deliver them to the Barkeep in the 'Stalker' bar, west of Agroprom. And get yourself some proper gear, not that rag you are wearing now. You have earned it — information like this is worth a lot...</text>
+  </string>
+  <string id="esc_quest_story_3_darkscape_end_10">
+    <text>Deal. If I find anything, I will pass it on</text>
+  </string>
+  <string id="esc_quest_joseph_start_0">
+    <text>Do you need any help?</text>
+  </string>
+  <string id="esc_quest_joseph_start_1">
+    <text>Well, well… look who’s come to see us! The Zone has a strange way of bringing people together, doesn't it?
+I'll be honest with you - don't take it the wrong way - but I overheard your conversation a little. Not on purpose, of course. I simply have good hearing, and you two weren't exactly quiet. Anyway, I've got a small job that needs doing, and you… you’re new here. Maybe even reliable. Help me out, and I'll put in a word for you that'll take you places - you'll be surprised where it comes up and how useful it'll turn out to be.</text>
+  </string>
+  <string id="esc_quest_joseph_start_2">
+    <text>I’m listening.</text>
+  </string>
+  <string id="esc_quest_joseph_start_3">
+    <text>Alright, listen. My situation is not exactly critical, but still... I need to get an artifact out of a local anomaly. Maybe you have seen it or heard of it. You are a smart guy, so you will figure out what I am talking about. There should be a Medusa there, just a regular gravitational artifact, but I need it urgently, like air to a dying man, you understand?</text>
+  </string>
+  <string id="esc_quest_joseph_start_4">
+    <text>Suppose I do.</text>
+  </string>
+  <string id="esc_quest_joseph_start_5">
+    <text>You might ask why I cannot go myself. My leg got cooked in one of the anomalies, so here I am, sitting like a proper man and waiting for help. If I try to climb in there again, the Zone will say: 'Idiot,' and take me for good - and honestly, I do not need that at all.</text>
+  </string>
+  <string id="esc_quest_joseph_start_6">
+    <text>Okay, I am off.</text>
+  </string>
+  <string id="esc_quest_joseph_start_7">
+    <text>Sorry, but maybe another time.</text>
+  </string>
+  <string id="esc_quest_joseph_end_0">
+    <text>Here, take it.</text>
+  </string>
+  <string id="esc_quest_joseph_end_1">
+    <text>Oh, just what I needed. Thank you for helping me out. I keep my word - I have already spoken for you where it mattered. Told them you are a decent man, someone you can actually do business with. If you ever want some interesting runs for trinkets and valuables — come see me. Name is Joseph</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_0">
+    <text>Got anything interesting?</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_end_0">
+    <text>Получите и распишитесь</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_1">
+    <text>Well, what can I tell you... I have heard a rumor that you took down that big old boar in Dark Hollow. Yes, yes, do not look at me like that -I told you, I have good 'ears.' Where there is a rustle, where there is a shot, where a boar takes his last breath - I know it all. Do not be surprised. That is how the Zone lives, and I live along with it.</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_2">
+    <text>Alright, I will do it.</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_3">
+    <text>Wait a moment.</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_end_1">
+    <text>Ох, ты Иосифа очень уважил, я тебе сразу скажу. Так… это именно то, шо мой посыльный нёс. Значит, не зря я на тебя рассчитывал - держи награду и заходи если шо.</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_4">
+    <text>Cut to the chase.</text>
+  </string>
+  <string id="esc_quest_joseph_after_boar_owner_start_5">
+    <text>Look here, I will show you, so you cannot say later that Joseph left something out. Right here, in this little area, that is where my courier was seen for the last time. The guy was walking fine, calm, even waved to me - like everything was under control. And then... silence, like a synagogue at night. And now the place where he was last seen is a resort for the fleshes. They walk around, eat, grunt - like they own the world, I am telling you. I need you to go there, clear out that little living corner, and bring back whatever is left of the guy. And most importantly - bring back what he was carrying. Because that is very important to me, you understand? Very important.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_0">
+    <text>Greetings</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_1">
+    <text>And good health to you as well, young man. I can even say I am glad you approached me - you do not seem like the kind who shies away from science as if it were radiation. I am Associate Professor Ivanov. To put it briefly, I work in observation... let us say it is delicate work, not something meant to be done inside four walls.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_2">
+    <text>Did something happen?</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_3">
+    <text>You see… hm, I am working in this area entirely alone. Our funding is… let us say, strictly limited, not to mention almost nonexistent. Because of that, all the field sensors - or more precisely, the compact autonomous spectral-registration units… Tfu, to put it simply, the 'Scanners' - I installed them myself as soon as I arrived here…</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_4">
+    <text>What do you want from me, Associate Professor?</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_5">
+    <text>The task is simple… well, relatively. Our scanners are placed near anomalies and record the parameters of local energy fluctuations. They collect information about how the anomalies behave, but the data is stored inside the devices themselves. So what I need is a person who can move through the scanner zones, approach each one, and retrieve the accumulated data through the interface module - especially after the Major Emission.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_6">
+    <text>So I just need to move carefully and retrieve the data from them?</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_7">
+    <text>Yes, yes, exactly! I would do it myself, by the way… but I fear the local nature and the anomalous emissions are far too unpredictable, and the budget does not include a spare Associate Professor Ivanov. I have marked the locations of the devices on your PDA. If you move carefully, there should not be any problems.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_8">
+    <text>Just so you know, if that scanner blows up, I will put it on your head myself.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_9">
+    <text>Ah… yes, yes, I understand, your concern is justified. I checked everything before installing the scanners - well, as much as that is even possible under these conditions. You will receive your payment, do not worry. Science is grateful to those who do not let it die</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_start_10">
+    <text>I think I will refuse for now.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_end_0">
+    <text>Here, the job is done.</text>
+  </string>
+  <string id="esc_quest_docent_ivanov_end_1">
+    <text>Thank you. Here is your reward for the work you have done.</text>
+  </string>
+  <string id="esc_issue_docent_ivanov_cayman_0">
+    <text>Do you know anything about Professor Kaimanov?</text>
+  </string>
+  <string id="esc_issue_docent_ivanov_cayman_1">
+    <text>No, young man. I do not know this professor, and I can even say that I have never heard of him. I advise you to visit our mobile bunker, which is located in the small swamp near the Yantar facility. Professor Sakharov and his team should be there - perhaps he will be able to help you.</text>
+  </string>
+  <string id="esc_issue_docent_ivanov_cayman_2">
+    <text>I will repeat myself, young man. I do not know this professor, and as I said earlier - you should speak with Professor Sakharov, who is at Yantar. He is far more likely to be able to help you.</text>
+  </string>
+  <string id="esc_quest_entry_stalker_end_4">
+    <text>I welcome you into our ranks! Welcome aboard!</text>
+  </string>
+</string_table>

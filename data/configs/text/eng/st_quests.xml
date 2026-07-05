@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+ <string id="ds_quest_high_speed_name1">
+    <text>[Speed measurements] Collect the car and arrive at the marked place</text>
+    </string>
+  <string id="ds_quest_high_speed_descr1">
+        <text>Gadfly, a farm hunter, asked me to become a crazy racer.Driving 8 points at full speed sounds like some kind of madness.However, why not try?But first you need to assemble or find a car...</text>
+  </string>
+  
+   <string id="ds_quest_sighted_name1">
+    <text>[Sighted] Find an unknown mutant in the Depot</text>
+    </string>
+  <string id="ds_quest_sighted_descr1">
+        <text>Snipe asked me to deal with the mutant he came across in the Depot.You need to inspect the area and understand what is happening there.</text>
+  </string>
+  
+    <string id="ds_quest_sighted_name2">
+    <text>[Sighted] Bring the PDA to Snipe</text>
+    </string>
+  <string id="ds_quest_sighted_descr2">
+        <text>I found Khomyak's PDA, but the records on it were broken.We need to return it to Bekas - maybe he will figure out what to do with it.</text>
+  </string>
+  
+   <string id="ds_quest_high_speed_name2">
+    <text>Arrive at the first point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr2">
+        <text>The starting point is right along the road.If I forgot something, then I have time to prepare.</text>
+  </string>   
+  
+  <string id="ds_quest_high_speed_name3">
+    <text>Arrive at the second point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr3">
+        <text>Time is limited!The second point is at the gas station!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name4">
+    <text>Arrive at the third point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr4">
+        <text>Time is limited!The third point is at the bridge!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name5">
+    <text>Arrive at the fourth point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr5">
+        <text>Time is limited!The fourth point is at the construction site!</text>
+  </string>  
+  
+    <string id="ds_quest_high_speed_name6">
+    <text>Arrive at the fifth point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr6">
+        <text>Time is limited!The fifth point is at the farm!</text>
+  </string>  
+  
+  
+  <string id="ds_quest_high_speed_name7">
+    <text>Arrive at the sixth point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr7">
+        <text>Time is limited!The sixth point is at the bus station!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name8">
+    <text>Arrive at the seventh point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr8">
+        <text>Time is limited!The seventh point is at the garages!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name9">
+    <text>Arrive at the eighth point</text>
+    </string>
+  <string id="ds_quest_high_speed_descr9">
+        <text>Time is limited!The eighth point is at the stop!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name10">
+    <text>Return to Gadfly for your reward</text>
+    </string>
+  <string id="ds_quest_high_speed_descr10">
+        <text>The trip is over, measurements have been received, Gadfly is satisfied.We must return for our well-deserved reward.</text>
+  </string>
+	
+
+    
+
+ <string id="ds_quest_yesterday_raining_name1">
+        <text>Explore the shore</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr1">
+        <text>St. John's wort asked to deal with the mutants and suggested that they might be in the coastal area.We need to check out this place.</text>
+    </string>
+    
+        <string id="ds_quest_yesterday_raining_name2">
+        <text>Destroy the dogs near the shore</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr2">
+        <text>And here are the mutants that St. John's wort was talking about.We need to shoot them, and apparently there is a hardened dog there, whose tail I will bring as evidence.</text>
+    </string>
+    
+            <string id="ds_quest_yesterday_raining_name3">
+        <text>Explore the railway tunnel.</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr3">
+        <text>St. John's wort contacted me and suggested that the snorks were in the railway tunnel.We need to inspect this area.</text>
+    </string>
+    
+                <string id="ds_quest_yesterday_raining_name4">
+        <text>Kill the snorks</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr4">
+        <text>There are actually snorks in the tunnel!You need to deal with them and bring 5 feet to St. John's wort as proof.</text>
+    </string>
+    
+     <string id="ds_quest_yesterday_raining_name5">
+        <text>Return to St. John's wort</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr5">
+        <text>Having dealt with the creatures, we need to return and inform St. John's Wort about the work done.</text>
+    </string>
+
+    <string id="esc_quest_moskvich_1_name2">
+        <text>Talk to "Stavor"</text>
+    </string>
+	    <string id="esc_quest_moskvich_1_descr2">
+        <text>So much has been done, but essentially nothing worthwhile.I'll talk to Stavor and see how it goes.</text>
+    </string>
+
+    <string id="esc_quest_moskvich_1_name">
+        <text>Find out any information about Moskvich</text>
+    </string>
+	    <string id="esc_quest_moskvich_1_descr">
+        <text>Interesting story.He went on his own, he disappeared on his own.It can't be that simple; we need to find eyewitnesses who can tell a little more than just a story.</text>
+    </string>
+	
+	 <string id="esc_quest_moskvich_info_1_name">
+        <text>Find information about Moskvich in the Newcomer Village</text>
+    </string>
+		<string id="esc_quest_moskvich_info_1_name2">
+        <text>Find out information about Moskvich from Sidorovich</text>
+    </string>
+	<string id="esc_quest_moskvich_info_1_descr">
+        <text>I don't think that beginners can know anything about the car, but old-timer Wolf will definitely tell you.</text>
+    </string>
+	<string id="esc_quest_moskvich_info_1_descr2">
+        <text>The wolf said that he should talk to Sidorovich about this car.Knowing this dealer, the investigation may drag on...</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_info_2_name">
+        <text>Find information about «Moskvich» on the Stalker Database</text>
+    </string>
+		<string id="esc_quest_moskvich_info_2_descr">
+        <text>The local merchant Shilov may know something about this car.You should ask him.</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_info_3_name">
+        <text>Find information about "Moskvich" at the Hunter Base</text>
+    </string>
+		<string id="esc_quest_moskvich_info_3_descr">
+        <text>Who, if not the hunters, should be the main eyewitnesses?You should visit their camp.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name">
+        <text>Find Sidorovich's case in "Dark Hollow"</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr">
+        <text>A simple errand.Apparently, it's somewhere near the bridge.Just go and pick it up.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name1">
+        <text>Find a rifle on "ATP"</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr1">
+        <text>Plans change.It's the same as looking for a needle in a haystack... I hope you get lucky.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name2">
+        <text>Take the storm to Sidorovich</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr2">
+        <text>Nice toy.It shoots really bad.Apparently this is what Sidorovich is waiting for now.</text>
+    </string>
+	
+	
+	<string id="esc_quest_moskvich_bubble_1_name">
+        <text>Explore the spatial bubble above the «Railway Embankment»</text>
+    </string>
+	<string id="esc_quest_moskvich_bubble_1_descr">
+        <text>The first destination is the Spatial Bubble above the Railway Embankment.Is it worth the risk...</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_bubble_2_name">
+        <text>Explore the space bubble in the Dark Hollow</text>
+    </string>
+	<string id="esc_quest_moskvich_bubble_2_descr">
+        <text>Another spatial bubble is located somewhere in the forests of Dark Hollow.You should take a look.</text>
+    </string>
+	
+	<string id="esc_quest_find_snork_legs_name">
+        <text>Collect 10 stacks of snorks and bring them to the hunters</text>
+    </string>
+	<string id="esc_quest_find_snork_legs_name1">
+        <text>Take 10 stacks of snorks to the hunters</text>
+    </string>
+	<string id="esc_quest_find_snork_legs_descr">
+        <text>Shoot local wildlife and get the coordinates of the cache for it.There really are a lot of snorkels around the gas station...</text>
+    </string>
+
+	<string id="esc_quest_moskvich_treasure_name">
+        <text>Inspect the hunter's cache</text>
+    </string>
+	<string id="esc_quest_moskvich_treasure_descr">
+        <text>Perhaps there will be something useful in this cache to at least somehow advance the investigation.</text>
+    </string>
+	
+
+    <string id="esc_quest_find_canister_give_name">
+        <text>Bring the fuel canister to Stavor</text>
+    </string>
+	    <string id="esc_quest_find_canister_none_name">
+        <text>Find a fuel canister</text>
+    </string>
+		   <string id="st_esc_quest_find_canister_descr">
+        <text>A stalker named Stavor from the stalker base asked me to find a canister of fuel.He's an unusual guy, though.Should I go to ATP, or look for it elsewhere?</text>
+    </string>
+	    <string id="esc_quest_find_food_none_name">
+        <text>Find a box with provisions</text>
+    </string>
+	    <string id="esc_quest_find_food_give_name">
+        <text>Bring a box of provisions</text>
+    </string>
+		   <string id="st_esc_quest_find_food_descr">
+        <text>The farm hunter offered me a job.You need to find a box of provisions and take it to the hunters' outpost, which is located across the bridge.</text>
+    </string>
+		<string id="car_test_quest_name">
+        <text>Test the cars</text>
+    </string>
+		<string id="car_test_quest_descr">
+        <text>Why not start testing tasks with car rides?To update the task, issue the info piston: "car_test_quest_info_next"</text>
+    </string>
+			<string id="car_test_quest_descr_next">
+        <text>Great ride!To complete the task, issue the information piston: "car_test_quest_info_end"</text>
+    </string>
+		<string id="esc_quest_story_beginning_name">
+        <text>Talk to people in the camp</text>
+		</string>
+		   <string id="esc_quest_story_beginning_descr">
+        <text>So I arrived.You should talk to the locals and look for some work.</text>
+		</string>
+		    <string id="esc_quest_story_beginning_wolf_name1">
+        <text>Explore the hill camp</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr1">
+        <text>A stalker named Wolf gave me a lot of work.I'll start by exploring this camp near the ATP, maybe there'll be some leads there.</text>
+    </string>
+		<string id="esc_quest_story_beginning_wolf_name2">
+        <text>Explore the elevator</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr2">
+        <text>Have you moved the meeting place?It seems there was a squad of bandits at the elevator.Something doesn't add up.There is no choice, you will have to go to the elevator and look for something there.</text>
+    </string>
+		<string id="esc_quest_story_beginning_wolf_name3">
+        <text>Find the box in the Old Ruins</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr3">
+        <text>Everything fell into place.These three stalkers worked together with the bandits.You will definitely have to tell the wolf about this.There remains hope that the box is still in ruins.</text>
+    </string>
+			<string id="esc_quest_story_beginning_wolf_name4">
+        <text>Take the box to the Wolf</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr4">
+        <text>I was lucky that the bandits didn't take the box.I wonder why?All that remains is to bring it to the Wolf and report on the work done.</text>
+    </string>
+	   <string id="esc_quest_story_find_container_name">
+        <text>Enter the Dark Hollow</text>
+    </string>
+		<string id="esc_quest_story_find_container_descr">
+        <text>Looks like serious work.I have a feeling that things are not so simple here.Okay, you need to get to Dark Hollow and then think about where this farm is and where these hunters are.</text>
+    </string>
+	
+	  <string id="esc_quest_story_find_container_ds_name1">
+        <text>Talk to the hunters</text>
+    </string>
+		<string id="esc_quest_story_find_container_ds_descr1">
+        <text>Great, here I am.You need to find out as much information as possible about the courier.</text>
+    </string>
+	
+	<string id="esc_quest_story_find_container_ds_name2">
+        <text>Find Courier</text>
+    </string>
+	<string id="esc_quest_story_find_container_ds_descr2">
+        <text>Hmm, not as much as I would like.So from the details - Bloodsucker and Burer live behind the «Bridge».I'm a fool, I probably should have asked the hunter a little more about them... Is the Courier really so stupid that he fell right into their clutches?</text>
+    </string>
+
+	<string id="esc_quest_story_find_container_ds_name3">
+        <text>Give the case to Sidorovich</text>
+    </string>
+	<string id="esc_quest_story_find_container_ds_descr3">
+        <text>Well, finally, I found a case!The courier is dead.We need to report everything to Sidorovich.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_1_name">
+        <text>Collect money</text>
+    </string>
+	<string id="esc_quest_vixhryn_1_descr">
+        <text>If this guy has been at the stalkers' base for so long, then perhaps we should work with him.It is necessary to collect 50,000 rubles and bring it to Vikhrun.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name">
+        <text>Find the Veles detector</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr">
+        <text>Almost a return on my investment.There's really just one question.Where to look for this detector?</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name1">
+        <text>Deliver the Veles detector</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr1">
+        <text>Great, I have the detector.We need to deliver him to the coordinates given by Vikhrun.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name2">
+        <text>Inform Vikhrun about the work done</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr2">
+        <text>Delivered.You need to report to Vikhrun about the work done and take your money.</text>
+    </string>
+	
+	<string id="esc_quest_owner_forest_name">
+        <text>[Master of the Forest] Kill the "Master of the Forest"</text>
+    </string>
+	<string id="esc_quest_owner_forest_descr">
+        <text>A seasoned boar creates a lot of trouble for stalkers in Dark Hollow.We need to deal with this carcass and bring the hoof to Sidorovich.</text>
+    </string>
+	
+	<string id="esc_quest_owner_forest_name2">
+        <text>[Master of the Forest] Take the hoof of the «Master of the Forest» to Sidorovich</text>
+    </string>
+	<string id="esc_quest_owner_forest_descr2">
+        <text>I have the hoof!It's hard though.All that remains is to hand it over to Sidorovich.</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name">
+        <text>[Joining the stalkers] Find the AK-74 and modules for it</text>
+    </string>
+	<string id="esc_quest_entry_stalker_descr">
+        <text>To join the group, I need to complete a small task, find an AK-74, Cobra and TGP-A.</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name2">
+        <text>[Joining the stalkers] Hide the AK-74 and modules in the marked place</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name3">
+        <text>[Joining the stalkers] Return to Valerian</text>
+    </string>
+	
+	<string id="esc_quest_entry_bandit_name">
+        <text>[Joining the Bandits] Find two sawn-off shotguns</text>
+    </string>
+	<string id="esc_quest_entry_bandit_descr">
+        <text>To join the group, you need to find a couple of sawn-off shotguns and bring them to Yoga.</text>
+    </string>
+	
+	<string id="esc_quest_entry_bandit_name2">
+        <text>[Joining the Bandits] Bring the Shotguns to Yoga</text>
+    </string>
+	
+	
+	
+	
+	
+		<string id="find_mutant_dog_tail_name_naiti">
+        <text>Find the tail of the Blind Dog</text>
+        </string>
+		<string id="find_mutant_dog_tail_name_otnesti">
+        <text>Take the tail of the Blind Dog</text>
+        </string>
+		<string id="find_mutant_dog_tail_descr">
+        <text>It is necessary to find the tail of a blind dog and give it to the customer.</text>
+        </string>
+		
+		<string id="find_mutant_pseudodog_tail_name_naiti">
+        <text>Find Pseudops tail</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_name_otnesti">
+        <text>Take Pseudops tail</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_descr">
+        <text>It is necessary to find the pseudodog's tail and give it to the customer.</text>
+        </string>
+		
+		<string id="find_mutant_boar_leg_name_naiti">
+        <text>Find Boar's Hoof</text>
+        </string>
+		<string id="find_mutant_boar_leg_name_otnesti">
+        <text>Take the Boar's Hoof</text>
+        </string>
+		<string id="find_mutant_boar_leg_descr">
+        <text>It is necessary to find a boar's hoof and give it to the customer.</text>
+        </string>
+		
+		<string id="find_af_medusa_name_naiti">
+        <text>Find the Medusa artifact</text>
+        </string>
+		<string id="find_af_medusa_name_otnesti">
+        <text>Take the artifact to Medusa</text>
+        </string>
+		<string id="find_af_medusa_descr">
+        <text>It is necessary to find the «Medusa» artifact and transfer it to the customer.</text>
+        </string>
+		
+		<string id="find_af_cristall_flower_name_naiti">
+        <text>Find the stone flower artifact</text>
+        </string>
+		<string id="find_af_cristall_flower_name_otnesti">
+        <text>Take the stone flower artifact</text>
+        </string>
+		<string id="find_af_cristall_flower_descr">
+        <text>It is necessary to find the «Stone Flower» artifact and transfer it to the customer.</text>
+        </string>
+		
+		<string id="find_af_night_star_name_naiti">
+        <text>Find the Night Star artifact</text>
+        </string>
+		<string id="find_af_night_star_name_otnesti">
+        <text>Take the Night Star artifact</text>
+        </string>
+		<string id="find_af_night_star_descr">
+        <text>It is necessary to find the «Night Star» artifact and transfer it to the customer.</text>
+        </string>
+	
+		<string id="find_rgm40_name_naiti">
+        <text>Find rare weapon "RGM-40"</text>
+        </string>
+		<string id="find_rgm40_name_otnesti">
+        <text>Take "RGM-40" to the customer</text>
+        </string>
+		<string id="find_rgm40_naiti_descr">
+        <text>The customer offered to work on searching for the rare weapon «RGM-40».</text>
+        </string>
+		
+		<string id="find_mutant_dog_tail_name_naiti_x10">
+        <text>Find 10 tail «Blind dog»</text>
+        </string>
+		<string id="find_mutant_dog_tail_name_otnesti_x10">
+        <text>Deliver 10 tail «Blind dog»</text>
+        </string>
+		<string id="find_mutant_dog_tail_descr_x10">
+        <text>The client has offered to search for 10 "Blind Dog" tails. It looks like a big order. They need to be found and delivered to the client.</text>
+        </string>
+		
+		<string id="find_mutant_pseudodog_tail_name_naiti_x5">
+		<text>Find 5 “Pseudodog” Tails</text>
+		</string>
+		<string id="find_mutant_pseudodog_tail_name_otnesti_x5">
+		<text>Deliver 5 “Pseudodog” Tails</text>
+		</string>
+		<string id="find_mutant_pseudodog_tail_descr_x5">
+		<text>The client has offered a job to find 5 “Pseudodog” Tails. Looks like a large order. You need to find them and deliver them to the client.</text>
+		</string>
+		
+		<string id="find_mutant_boar_leg_name_naiti_x15">
+		<text>Find 15 “Boar” Hooves</text>
+		</string>
+		<string id="find_mutant_boar_leg_name_otnesti_x15">
+		<text>Deliver 15 “Boar” Hooves</text>
+		</string>
+		<string id="find_mutant_boar_leg_descr_x15">
+		<text>The client has offered a job to find 15 “Boar” Hooves. Looks like a large order. You need to find them and deliver them to the client.</text>
+		</string>
+		
+		<string id="find_mutant_krovosos_jaw_name_naiti_x3">
+		<text>Find 3 “Bloodsucker” Tentacles</text>
+		</string>
+		<string id="find_mutant_krovosos_jaw_name_otnesti_x3">
+		<text>Deliver 3 “Bloodsucker” Tentacles</text>
+		</string>
+		<string id="find_mutant_krovosos_jaw_descr_x3">
+		<text>The client has offered a job to find 3 “Bloodsucker” Tentacles. Looks like a large order. You need to find them and deliver them to the client.</text>
+		</string>
+
+		
+		<string id="esc_story_pda_find_kaimanov_name">
+        <text>PDA with only one entry</text>
+        </string>
+		<string id="esc_story_pda_find_kaimanov_descr">
+        <text>This PDA contains one single entry: «You need to find Professor Kaimanov, and receive from him further instructions to ensure his safety.»Was I looking for some professor?So far this is my only lead.</text>
+        </string>
+		
+		<string id="af_quest_anomaly_pistol_name">
+        <text>Anomalous pistol</text>
+        </string>
+		<string id="af_quest_anomaly_pistol_descr">
+        <text>A stalker's pistol from a village that has turned into something unusual... Apparently, it's an artifact.Slightly radioactive.</text>
+        </string>
+		
+		<string id="st_treasure_moskvich_note_name">
+        <text>Notebook of an unknown hunter</text>
+        </string>
+		<string id="st_treasure_moskvich_note_descr">
+        <text>A large number of records about the general life of a hunter.Interesting and necessary - on the last pages there is information about Moskvich.«Gravity seems like a joke to this machine.You know, I think I can guess how it works, and how it drives.I need to talk to my friend about this idea.»</text>
+        </string>
+		
+		<string id="mutant_boar_leg_owner_name">
+        <text>Hoof of a seasoned boar</text>
+        </string>
+		<string id="mutant_boar_leg_owner_description">
+        <text>Compared to a regular hoof, it is much more fleshy and heavy.A rare trophy that has a high price among scientists.</text>
+        </string>
+		
+		<string id="seasoned_dog_tail_name">
+        <text>The tail of a seasoned dog</text>
+        </string>
+		<string id="seasoned_dog_tail_description">
+        <text>A rare trophy of a white dog, highly prized among hunters</text>
+        </string>
+		
+		<string id="mutant_boar_leg_owner">
+        <text>Hoof of a seasoned boar</text>
+        </string>
+		<string id="mutant_boar_leg_owner_description">
+        <text>Compared to a regular hoof, it is much more fleshy and heavy.A rare trophy that has a high price among scientists.</text>
+        </string>
+		
+		<string id="car_detector_name">
+		<text>Experimental device</text>
+		</string>
+		<string id="car_detector_descr">
+		<text>The device that the farm hunter gave me.There are only a couple of buttons, and the display shows nothing but unrelated numbers.</text>
+		</string>
+		
+		<string id="esc_quest_joseph_medusa_find_name">
+			<text>[Deal for a word] Find an artifact</text>
+		</string>
+		<string id="esc_quest_joseph_medusa_find_name2">
+			<text>[Deal for a word] Bring an artifact</text>
+		</string>
+		
+		<string id="esc_quest_joseph_medusa_find_descr">
+			<text>Experimental device</text>
+		</string>
+		<string id="esc_quest_joseph_medusa_find_descr2">
+			<text>Experimental device</text>
+		</string>
+		
+		<string id="esc_quest_joseph_after_boar_name">
+			<text>[Living Corner] Find the messenger</text>
+		</string>
+		<string id="esc_quest_joseph_after_boar_name2">
+			<text>[Living Corner] Return to Joseph</text>
+		</string>
+		
+		<string id="esc_quest_joseph_after_boar_descr">
+			<text>Oh... Joseph sent me for some messenger, who was most likely already devoured and stolen - I'll hope for the best</text>
+		</string>
+		<string id="esc_quest_joseph_after_boar_descr2">
+			<text>It's not usual, but the «best» turned out to be with me today - the body has been gone for a long time, but his backpack with the papers I needed was nearby.Interesting pieces of paper - probably Ioffis interesting pepper.Stalkers, bandits... I wonder who else he's dealing with?</text>
+		</string>
+		
+		<string id="esc_quest_docent_ivanov_scanner_name">
+			<text>[Help the poor and unfortunate] Get data from scanners</text>
+		</string>
+		<string id="esc_quest_docent_ivanov_scanner_name_end">
+			<text>[Helping the poor and unfortunate] Return to Associate Professor Ivanov</text>
+		</string>
+		
+		<string id="esc_quest_docent_ivanov_scanner_descr">
+			<text>Associate Professor Ivanov asked to bypass his anomalous activity scanners and collect results from them</text>
+		</string>
+		
+		
+		
+		<string id="ds_quest_find_groza_message_player_1">
+        <text>Sidorovich... There is nothing here.There's also a dead stalker nearby.</text>
+        </string>
+		<string id="ds_quest_find_groza_message_sidorovich_1">
+        <text>How is there nothing?!There you go.It's not surprising though.I think I can guess who took the cargo.This stalker owed a big debt to the bandits, so he paid.</text>
+        </string>
+		<string id="ds_quest_find_groza_message_player_2">
+        <text>Are there any options?</text>
+        </string>
+		<string id="ds_quest_find_groza_message_sidorovich_2">
+        <text>Go to ATP.This is the only place they could take my cargo.Change everything there!When you find it, bring it to me.</text>
+        </string>
+		
+		<string id="esc_quest_moskvich_bubble_1_message">
+        <text>Here we go...</text>
+        </string>
+
+		<string id="esc_quest_moskvich_bubble_2_message">
+        <text>Should I climb a tree?Although there is a sound coming from this bubble... You should think about it.</text>
+        </string>
+
+		<string id="ds_quest_raining_dog_1_message">
+        <text>St. John's wort, I eliminated the dogs, among them was a seasoned dog.But I don't see the snorks you were talking about.</text>
+        </string>   
+
+		<string id="ds_quest_raining_dog_2_message">
+        <text>Strange... Maybe they fled somewhere?Exactly!Check the railway tunnel up the coast, they are most likely there.</text>
+        </string>    		
+        
+        <string id="ds_quest_high_speed_1_message">
+        <text>Well, have you arrived at the place?Did you fill up the tank full?Have you changed the spark plugs?If not yet, you have time while you move to the first point.</text>
+        </string>  	
+
+        <string id="ds_quest_high_speed_2_message">
+        <text>And now... GO!GAS!You have less than 45 seconds to get to the gas station!If you don't have time, then everything is down the drain!</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_3_message">
+        <text>Hey!Do you see the road there?Or has the bureaucrat climbed under the hood again and is now steering for you?Drive further, the next point is at the old bridge.You have 50 seconds!!</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_4_message">
+        <text>ABOUT!Works!I thought it was just a flashing light.Come on, don't slow down!The next point is right along the road, in the construction area.You have just over a minute!</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_5_message">
+        <text>Your mother!Who planned this stupid route?!Stalker, drive to our sawmill!It's backwards.The device should work there.You have a little over 2 minutes.</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_6_message">
+        <text>Oh, I saw you!You're clearly faster than a hungry bloodsucker!The next point is right along the dirt road, at the bus station.You have 50 seconds!</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_7_message">
+        <text>Wow!Even the wild boars didn't make it!Although one of them seems to have written down your number - in case of «damage compensation».Continue into the garages, they should be on your right!You only have 20 seconds</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_8_message">
+        <text>The last mark is ahead!If you don't have time, I'll tell the scientists that the device was eaten by a Chernobyl cat.They will believe it.At a pace, back to the bus station, there is a bus at the stop, you need to do the measurement there.. You only have 25 seconds!</text>
+        </string> 
+		
+		<string id="ds_quest_high_speed_9_message">
+        <text>Great!It's done.If any of these smart guys asks, I'll say that you stuck a device in the chimera's teeth and showed where the tastiest stalkers live!Come back, I have something for you.</text>
+        </string> 
+		
+		<string id="ds_quest_high_speed_8_fail">
+		<text>Looks like I'll have to tell stories about the cat.Let's start again, what's left.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_7_fail">
+		<text>Oh... almost!Another second and there would have been a record, but now the device is pouting like flesh on a diet.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_6_fail">
+		<text>It's a pity it didn't work out. But it's okay, for a stalker the main thing is not speed, but perseverance.Let's do it again.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_5_fail">
+		<text>-Well, now you know where the potholes are on the road.All that remains is to drive there again - but faster.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_4_fail">
+		<text>The measurements are off.The device said goodbye and went into sleep mode out of boredom.Go back, whatever's left.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_3_fail">
+		<text>Well, the measurements were off.But now, somewhere not far away, a satisfied flesh is sitting, licking your license plate.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_2_fail">
+		<text>Are you slowing down or what?Didn't have time?Okay, let's do it again.Blow on the first point.</text>
+		</string> 
+		
+		<string id="ds_quest_high_speed_fun_1_message">
+        <text>Be careful, there's a chimera wandering nearby.They say it reacts to the sound of the engine.Although, maybe she's just jealous - she doesn't have that kind of power!</text>
+        </string>
+		
+		<string id="ds_quest_sighted_message">
+        <text>Hey stalker!Stop by my bus station, there's something to do...</text>
+        </string> 
+		
+		<string id="esc_quest_story_3_valerian_message">
+        <text>Come in, the merchant has put in a good word for you!</text>
+        </string> 
+		
+		
+		
+		
+			
+		<string id="esc_start_cutscene_message">
+        <text>Where am I... What happened?</text>
+        </string>		
+		
+		<string id="esc_start_cutscene_2">
+        <text>Again... the head...</text>
+        </string>	
+		
+		<string id="esc_quest_story_find_anomaly_pistol_event_2">
+        <text>Oops!What is it that we have hidden here?Now mine!</text>
+        </string>	
+		
+		<string id="esc_quest_story_find_anomaly_pistol_event_1">
+        <text>Hmm... They drank well.</text>
+        </string>
+		
+		<string id="ds_quest_archive_military_1_message">
+        <text>Patrol officers reported finding an intruder within the perimeter of the administrative complex.The command gave the order to raise the helicopter to search and eliminate the target.</text>
+        </string>
+		
+		<string id="ds_quest_archive_military_2_message">
+        <text>I see him.He's in the building!Open fire on the windows!</text>
+        </string>
+		
+		<string id="ds_quest_archive_sidorovich_1_message">
+        <text>Hey stalker!Can you hear me?On all military channels, you know - everyone is only talking about you.Get out of there immediately before the special forces arrive.How did you even get there?I'm waiting for you at my place, let's talk.</text>
+        </string>
+		
+		
+		
+		
+			
+		<string id="esc_quest_story_find_anomaly_pistol_tip">
+        <text>Research "$$ACTION_USE$$".</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_detector_tip">
+        <text>Pick up the «$$ACTION_USE$$» detector.</text>
+        </string>	
+		
+		<string id="esc_quest_story_1_backpack_tip">
+        <text>Examine the "$$ACTION_USE$$" backpack.</text>
+        </string>	
+		
+		
+		<string id="global_quest_find_kaimanov_name">
+        <text>Find Professor Kaymanov</text>
+        </string>
+		<string id="global_quest_find_kaimanov_descr">
+        <text>«You need to find Professor Kaimanov, and get further instructions from him to ensure his safety.»</text>
+        </string>
+		
+		<string id="esc_quest_start_name">
+        <text>Learn about yourself</text>
+        </string>
+		<string id="esc_quest_start_descr">
+        <text>What happened... Where am I?My head is still pounding...</text>
+        </string>
+		
+		<string id="esc_quest_start_name2">
+        <text>Search the place where I was found</text>
+        </string>
+		<string id="esc_quest_start_descr2">
+        <text>I don't understand anything.I need to examine the place where I was found, maybe then I'll be able to find out at least something about myself.</text>
+        </string>
+		
+		<string id="esc_quest_start_name3">
+        <text>Talk about the information found with the Wolf</text>
+        </string>
+		<string id="esc_quest_start_descr3">
+        <text>This strange PDA apparently belonged to me.Was I looking for some professor?</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name">
+        <text>Gain Sidorovich's trust</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr">
+        <text>To gain Sidorovich's trust, I need to find a person who can vouch for me.Perhaps we should look for people in the village...</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name2">
+        <text>Find a gun</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr2">
+        <text>After a serious drinking session, a stalker nicknamed «Kardan» lost his pistol somewhere in the village... Well, let's look for it.</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name3">
+        <text>Take the pistol to Cardan</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr3">
+        <text>Found!However, his pistol is unusual... I think Cardan will be delighted.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name">
+        <text>Talk to Sidorovich</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr">
+        <text>Cardan helped me gain Sidorovich's trust.I hope he can tell at least something about Caymanov.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name2">
+        <text>Talk to Father Valerian</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr2">
+        <text>Sidorovich promised to help with my question, but before that I will have to unravel what the military found on the territory of the «Dark Hollow».</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name3">
+        <text>Head to the administrative complex</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr3">
+        <text>The administrative complex in Dark Hollow is the military's main target.I wonder what they found there?</text>
+        </string>		
+		
+		<string id="esc_quest_story_darkscape_name4">
+        <text>Explore the administrative complex</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr4">
+        <text>I'm inside.There are probably some materials and documents here - otherwise why would the military stick their nose here?</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name5">
+        <text>Leave the archive area</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr5">
+        <text>It is not surprising that the military came here for these materials.We need to get out of here as quickly as possible.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name6">
+        <text>Talk to Sidorovich</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr6">
+        <text>Sighted, PSI installations, and God knows what else... It seems that this «Archive» was once a field laboratory of some group of scientists.I wonder if there might be someone among them who can shed light on my memory?We need to talk to Sidorovich about this.</text>
+        </string>
+		
+		
+		
+		<string id="esc_valerian_talk_hunters_name">
+        <text>Talk to the hunters in Dark Hollow</text>
+        </string>
+		<string id="esc_valerian_talk_hunters_descr">
+        <text>Valerian advised me to talk to the hunters and take the «Due» from them, which could help me in my business...</text>
+        </string>		
+		
+		<string id="st_boar_owner_forest">
+        <text>«Master of the Forest»</text>
+        </string>
+		<string id="st_seasoned_dog">
+        <text>«Skilled Dog»</text>
+        </string>
+
+</string_table>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_plug_check">
+		<text>Проверьте свечу зажигания</text>
+	</string>
+	<string id="st_car_engine_cond">
+		<text>Двигатель</text>
+	</string>
+	<string id="st_car_fuel">
+		<text>Топливо</text>
+	</string>
+	<string id="st_car_water">
+		<text>Радиатор</text>
+	</string>
+	<string id="st_car_accum">
+		<text>Аккумулятор</text>
+	</string>
+	<string id="st_car_cond">
+		<text>Общее состояние</text>
+	</string>
+	<string id="st_add_fuel">
+		<text>залить топливо</text>
+	</string>	
+	<string id="st_key_car">
+		<text>Установить пароль</text>
+	</string>
+</string_table>

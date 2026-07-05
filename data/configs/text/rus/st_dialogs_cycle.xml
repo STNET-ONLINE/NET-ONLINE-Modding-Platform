@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="cycle_quests_dialog_0">
+        <text>Мне нужна работа. Есть что-нибудь на примете?</text>
+    </string>
+    <string id="cycle_quests_dialog_1">
+        <text>Есть несколько простых заданий. Интересует?</text>
+    </string>
+    <string id="cycle_quests_dialog_10">
+        <text>По рукам!</text>
+    </string>
+    <string id="cycle_quests_dialog_11">
+        <text>Я ещё подумаю...</text>
+    </string>
+    <string id="cycle_quests_dialog_2">
+        <text>Найти хвост слепого пса.</text>
+    </string>
+    <string id="cycle_quests_dialog_3">
+        <text>Найти хвост псевдопса.</text>
+    </string>
+    <string id="cycle_quests_dialog_4">
+        <text>Найти копыто кабана.</text>
+    </string>
+    <string id="cycle_quests_dialog_5">
+        <text>Найти артефакт медуза.</text>
+    </string>
+    <string id="cycle_quests_dialog_6">
+        <text>Найти каменный цветок.</text>
+    </string>
+    <string id="cycle_quests_dialog_7">
+        <text>Найти ночную звезду.</text>
+    </string>
+    <string id="cycle_quests_dialog_8">
+        <text>Найти РГМ-40.</text>
+    </string>
+    <string id="cycle_quests_dialog_9">
+        <text>Ты серьёзно возьмёшься за это? Тогда слушай внимательно. Один очень влиятельный человек попросил раздобыть эту валыну, и пообещал огромнейшие деньги. Где такую искать - если честно без понятия. Но краем уха слышал, что у бандитов была такая штуковина. Если найдёшь, сразу тащи ко мне. Денег не пожалею.</text>
+    </string>
+    <string id="cycle_quests_dialog_99">
+        <text>Мне это не интересно.</text>
+    </string>
+    <string id="cycle_quests_dialog_end_0">
+        <text>Есть что-то для меня?</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_0">
+        <text>Мне нужна работа. Есть что-нибудь на примете?</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_1">
+        <text>Есть несколько крупных заказов. Вот, глянь</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_2">
+        <text>Найти 10 хвостов слепых псов</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_3">
+        <text>Найти 5 хвостов псевдособаки</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_4">
+        <text>Найти 15 копыт кабана</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_5">
+        <text>Найти 3 щупальца кровососа</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_7">
+        <text>Мне это не интересно.</text>
+    </string>
+    <string id="ds_cycle_quests_dialog_end_0">
+        <text>Есть что-то для меня?\n</text>
+    </string>
+</string_table>

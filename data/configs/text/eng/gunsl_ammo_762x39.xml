@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<string id="gunsl_ammo_7.62x39_fmj">
+     <text>7.62x39mm PS rounds</text>
+</string>
+<string id="gunsl_ammo_7.62x39_fmj_short">
+     <text>7.62x39mm PS</text>
+</string>
+<string id="gunsl_ammo_7.62x39_fmj_descr">
+     <text>The standard 7.62x39mm military cartridge with a soft steel core, designed for the defeat of personnel. It was produced in large quantities by Soviet factories for nearly half a century, and even though it was formally replaced by the more modern 5.45x39mm cartridge in the mid-1970s, it remains widely available both in military arsenals and on the black market.</text>
+</string>
+<string id="gunsl_ammo_7.62x39_ap">
+     <text>7.62x39mm BP rounds</text>
+</string>
+<string id="gunsl_ammo_7.62x39_ap_short">
+     <text>7.62x39mm BP</text>
+</string>
+<string id="gunsl_ammo_7.62x39_ap_descr">
+     <text>The modern 7.62x39mm 7N23 military cartridge with an armor-piercing bullet, adopted in 2002, is designed to defeat personnel wearing body armor and significantly outperforms the standard 7.62x39mm PS cartridge in this regard, without sacrificing ballistics.</text>
+</string>
+</string_table>

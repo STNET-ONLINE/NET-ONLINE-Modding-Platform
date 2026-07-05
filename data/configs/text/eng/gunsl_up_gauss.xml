@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_wpn_gauss_up_computer_name">
+		 <text>Weapon condition monitoring system</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_computer_descr">
+		 <text>This monitoring system is an on-board computer closely integrated with the main weapon systems, the software of which continuously monitors the status of all its components, displaying diagnostic results on the screen.Provides ample opportunity to customize behavior in accordance with the personal preferences of the shooter.\n \n%c[01,255,128,0](Hint: Use the shooting mode key to turn computer functions on and off.)</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_guard_name">
+		 <text>PAK "Snipe-Guard"</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_guard_descr">
+		 <text>Once installed on a weapon, this software and hardware complex, thanks to infrared radiation sensors, automatically recognizes targets on the battlefield and prevents a shot from being fired if there is an expected miss, blocking the trigger.The system is designed to fire exclusively at living targets.\n \n%c[01,255,128,0](Hint: to activate the function, you must turn on the on-board computer using the firing mode switch keys).</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_safari_name">
+		 <text>Complex "Safari-Snipe"</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_safari_descr">
+		 <text>This complex was developed primarily for experienced army snipers, in whose work maximum reliability of the weapon is extremely important.When the system is activated, the shot is fired after the point of intended impact is aligned with the captured target or after the trigger is released.This logic allows you to minimize the negative effect of failures in automatic target acquisition, regardless of the means of camouflage used by the enemy - even if the system does not recognize the target, simply release the trigger and the weapon is guaranteed to fire.The automation is designed to work exclusively against live targets.\n \n%c[01,255,128,0](Hint: to activate the function, you must turn on the on-board computer using the firing mode switch keys).</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_ideal_name">
+		 <text>Complex "Ideal-M"</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_ideal_descr">
+		 <text>An extremely effective continuous shooter assistance system.Complex in design, easy to use.Just hold the trigger and point the weapon at the target - then the rifle will do everything itself.Has high performance.Initially, the complex was created to destroy living targets, but in many cases it successfully recognizes non-living ones.It has been proven that using the system significantly reduces the number of mistakes, even for beginners.\n \n%c[01,255,128,0](Hint: to activate the function, you must turn on the on-board computer using the firing mode switch keys).</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_provoda_name">
+		 <text>Replacing wiring</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_provoda_descr">
+		 <text>Replacing aluminum wiring with high-quality copper helps reduce losses, which has a beneficial effect on the initial velocity of the bullet.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_katushki_name">
+		 <text>Low resistance acceleration coils</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_katushki_descr">
+		 <text>They reduce the heating of the weapon when fired, having a beneficial effect on service life and increasing the initial speed of the bullet.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_compensator_name">
+		 <text>Magnetic recoil compensator</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_compensator_descr">
+		 <text>Using the phenomenon of electromagnetic induction, when fired, the compensator creates a force opposite to the recoil, thereby making shooting a weapon more comfortable.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_fast_conders_name">
+		 <text>Fast charging capacitors</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_fast_conders_descr">
+		 <text>These capacitors charge to energy levels sufficient to fire a shot much faster, allowing for a significantly increased rate of fire.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_ionistori_name">
+		 <text>Ionistors</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_ionistori_descr">
+		 <text>Replacing standard capacitors with ionistors brings a lot of positive changes.First, the most important thing is to increase the service life and reliability of the weapon.Secondly, the initial speed of the bullet and the lethality of the weapon increases.Unfortunately, the weapon begins to spend more energy per shot, and the number of shots fired from one battery charge is reduced.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_lowesr_name">
+		 <text>Low ESR capacitors</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_lowesr_descr">
+		 <text>They have low resistance and low leakage current.Allows you to increase the number of shots from one battery charge and extend the service life.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_zoom_name">
+		 <text>Optical magnifier unit</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_zoom_descr">
+		 <text>Installing an optical magnifier block allows you to adjust the scope's magnification over a wide range.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_nv_name">
+		 <text>Photomultiplier unit</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_nv_descr">
+		 <text>The presence of a photomultiplier unit allows you to adjust the contrast, which greatly facilitates firing in the dark.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_kardan_ammo_name">
+		 <text>Refinement of the power unit</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_kardan_ammo_descr">
+		 <text>Increases the reliability of weapons and allows the use of non-factory batteries for shooting.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_priklad_weight_name">
+		 <text>Lightweight stock</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_priklad_weight_descr">
+		 <text>Allows you to reduce the weight of weapons, which any stalker will be happy about.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_priklad_ergonomics_name">
+		 <text>Ergonomic butt</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_priklad_ergonomics_descr">
+		 <text>Refinement of the stock can significantly reduce the recoil felt by the shooter.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_tsevie_ergonomics_name">
+		 <text>Anatomical handguard</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_tsevie_ergonomics_descr">
+		 <text>Replacing a standard forend with one individually tailored to the shooter makes shooting a weapon more convenient.</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_pokritie_name">
+		 <text>Special coating</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_pokritie_descr">
+		 <text>Applying a protective coating to the main components of the weapon prevents corrosion, reduces wear and extends service life.</text>
+	</string>
+
+	<string id="gunsl_wpn_gauss_up_zoom_speed_name">
+		 <text>Digital sight control unit</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_zoom_speed_descr">
+		 <text>Controls the focusing of the lens and image processing in it, allowing you to significantly speed up focusing when changing the magnification of the sight.</text>
+	</string>
+
+	<string id="gunsl_wpn_gauss_up_magnetic_shield_name">
+		 <text>Electromagnetic shielding</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_magnetic_shield_descr">
+		 <text>Oddly enough, thanks to electromagnetic shielding of the power part of the weapon, the number of misfires caused by ejection is practically reduced to zero.</text>
+	</string>
+	
+	<string id="gunsl_wpn_gauss_up_detector_name">
+		<text>Target acquisition system</text>
+	</string>
+	<string id="gunsl_wpn_gauss_up_detector_descr">
+		<text>Integration of the latest system of automatic recognition, acquisition and tracking of targets into the weapon’s sighting module.The system allows you to detect even the most carefully camouflaged opponents in any weather conditions.When a target is detected, the system creates a holographic projection in the form of a frame, informing the shooter of the presence of a target (even if the target does not fall within the current field of view of the sight) and thereby facilitating target acquisition.A nice bonus is the “friend or foe” target identification function.</text>
+	</string>	
+	
+</string_table>

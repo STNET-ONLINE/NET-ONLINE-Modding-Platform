@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="gunsl_outfit_novice_ginger_name">
+		<text>Ginger Cloak</text>
+	</string>
+	<string id="gunsl_outfit_novice_ginger_descr">
+		<text>A simple cloak made of heavy woolen fabric. It offers practically no protection—aside from keeping the wearer warm at night and slightly softening the bite of a blind dog. Ginger-colored cloaks are typically worn by bandit "pakhan" leaders and seasoned veterans who live strictly by the criminal code.</text>
+	</string>
+
+	<string id="gunsl_outfit_novice_jacket_name">
+		<text>Leather Jacket</text>
+	</string>
+	<string id="gunsl_outfit_novice_jacket_descr">
+		<text>Standard attire for a beginning stalker. Offers no protection from bullets or anomalies, but is comfortable to wear. Includes a built-in artifact container.</text>
+	</string>
+
+	<string id="gunsl_outfit_bandit_name">
+		<text>Bandit Jacket</text>
+	</string>
+	<string id="gunsl_outfit_bandit_descr">
+		<text>Traditional bandit clothing: a leather jacket reinforced with inserted armor plates. Provides some protection against harmful environmental effects—though still far from adequate for the harsh realities of the Zone. Comes with a built-in artifact container.</text>
+	</string>
+
+	<string id="gunsl_outfit_svoboda_warrior_name">
+		<text>"Freedom Warrior" Suit</text>
+	</string>
+	<string id="gunsl_outfit_svoboda_warrior_descr">
+		<text>A reinforced stalker suit crafted by the Freedom faction’s artisans. A mid-grade military vest combined with additional zirconium reinforcement plates offers solid protection from automatic rifle fire and shrapnel at various ranges. The suit itself consists of two layers: specially treated leather and asbestos-thread fabric. Provides only minimal defense against anomalies and radiation.</text>
+	</string>
+
+	<string id="gunsl_outfit_monolit_name">
+		<text>Monolith Suit</text>
+	</string>
+	<string id="gunsl_outfit_monolit_descr">
+		<text>A stalker suit used by members of the Monolith faction; its manufacturer is unknown. Structurally, it resembles the common protective suits worn by neutral stalkers, where a ballistic vest is integrated with anti-radiation protection. Although its performance is similar to that of widely available stalker armor, its price is significantly higher—due to its rarity and the difficulty of obtaining one. It is quite possible that this particular suit was taken off its previous owner… after his death.</text>
+	</string>
+
+	<string id="gunsl_outfit_killer_name">
+		<text>Mercenary Suit</text>
+	</string>
+	<string id="gunsl_outfit_killer_descr">
+		<text>A stalker suit used by the Mercenaries. Based on equipment models found in Western special-forces units. Special treatment of the fabric increases the armor's stability when its plates shift under impact.</text>
+	</string>
+
+	<string id="gunsl_outfit_csky_light_name">
+		<text>CS-1 body armor</text>
+	</string>
+	<string id="gunsl_outfit_csky_light_descr">
+		<text>This vest was designed for search and reconnaissance operations in areas with low anomalous activity. The use of high-quality materials increases durability and wear resistance. Equipped with an artifact container.</text>
+	</string>
+
+	<string id="gunsl_outfit_exo_freedom_name">
+		<text>Freedom Exoskeleton</text>
+	</string>
+	<string id="gunsl_outfit_exo_freedom_descr">
+		<text>A modified version of the standard exoskeleton. The use of lighter materials reduces the suit’s overall weight and improves its durability. Additionally equipped with a feeding valve for easier consumption of food while wearing the suit.</text>
+	</string>
+
+	<string id="gunsl_outfit_hazmat_name">
+		<text>SSP-99 "Ecologist"</text>
+	</string>
+	<string id="gunsl_outfit_hazmat_descr">
+		<text>A chemical protection suit designed specifically for work in the Zone. Used by scientific expeditions and the stalkers cooperating with them. Features an integrated air-filtration and conditioning system, as well as a feeding valve. Not intended for combat operations.</text>
+	</string>
+
+	<string id="gunsl_outfit_hazmat_elite_name">
+		<text>SSP-99M Suit</text>
+	</string>
+	<string id="gunsl_outfit_hazmat_elite_descr">
+		<text>A high-quality, upgraded version of the SSP-99 suit. Additional torso protection has been added to guard against bullets and shrapnel. Intended for scientific expedition security teams. Offers excellent protection from radiation and biological anomalies, and is highly resistant to chemically aggressive environments and other harmful effects.</text>
+	</string>
+
+	<string id="gunsl_outfit_scientific_dolg_name">
+		<text>PSZ-9Md "Universal Protection"</text>
+	</string>
+	<string id="gunsl_outfit_scientific_dolg_descr">
+		<text>An excellent protective suit for the Zone. Stalkers value it for combining strong anti-anomaly protection with substantial ballistic defense. Components include the PSZ-9d suit, a closed-cycle breathing system, and an integrated anomaly-field suppression module. Provides reliable protection from bullets and shrapnel. Equipped with a feeding valve allowing the wearer to eat without removing the suit.</text>
+	</string>
+
+	<string id="gunsl_up_headlamp_name">
+		<text>Headlamp</text>
+	</string>
+	<string id="gunsl_up_headlamp_descr">
+		<text>A head-mounted flashlight with a wide illumination angle, greatly improving visibility in the dark-though its use may reveal the shooter’s position in certain situations.</text>
+	</string>
+</string_table>

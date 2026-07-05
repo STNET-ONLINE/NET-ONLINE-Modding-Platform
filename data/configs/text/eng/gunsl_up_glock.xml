@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_glock17_up_reliability_name">
+		<text>Protective coating</text>
+	</string>
+	<string id="gunsl_glock17_up_reliability_descr">
+		<text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+	</string>
+	<string id="gunsl_glock17_up_mag19_name">
+		<text>Increased magazine capacity</text>
+	</string>
+	<string id="gunsl_glock17_up_mag19_descr">
+		<text>The high-capacity magazine (19 rounds) increases your chances of hitting the enemy without reloading.</text>
+	</string>	
+	<string id="gunsl_glock17_up_mag33_name">
+		<text>Replacing the magazine</text>
+	</string>
+	<string id="gunsl_glock17_up_mag33_descr">
+		<text>Installing a high-capacity magazine (33 rounds) can significantly reduce the number of reloads in battle and thereby increase the chances of hitting the enemy.</text>
+	</string>	
+	<string id="gunsl_glock17_up_sights_name">
+		<text>Tritium inserts</text>
+	</string>
+	<string id="gunsl_glock17_up_sights_descr">
+		<text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+	</string>
+	<string id="gunsl_glock17_up_barrel_sil_name">
+		<text>Muffler thread</text>
+	</string>
+	<string id="gunsl_glock17_up_barrel_sil_descr">
+		<text>Replacing the barrel with an elongated one, with a thread designed to install a silencer for 9x19 mm caliber.</text>
+	</string>
+	<string id="gunsl_glock17_up_barrel_kompensator_name">
+		<text>Muzzle compensator</text>
+	</string>
+	<string id="gunsl_glock17_up_barrel_kompensator_descr">
+		<text>Replacing the barrel with an extended one with an integrated compensator can significantly reduce recoil.</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_accuracy_name">
+		<text>USM calibration</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_accuracy_descr">
+		<text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_fullauto_name">
+		<text>Automatic fire mode</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_fullauto_descr">
+		<text>A complete replacement of the bolt frame and modification of the trigger mechanism parts adds the ability to fire automatic fire from the pistol.Due to the significantly increasing load on the pistol components, it is necessary to replace some of the components with non-standard ones, which significantly reduces the firing accuracy and reliability of the weapon.</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_3x_name">
+		<text>Fire mode with a cut-off of three shots</text>
+	</string>
+	<string id="gunsl_glock17_up_usm_3x_descr">
+		<text>A compromise between fully automatic and single-fire modes.The addition requires some modifications to the weapon (for example, replacing the bolt frame), but due to the slight increase in the load on the pistol components, their replacement is overwhelmingly not required.This allows, with much less loss of accuracy and reliability, to achieve efficiency comparable to a fully automatic version of the pistol.</text>
+	</string>
+	<string id="gunsl_glock17_up_laser_name">
+		<text>Laser pointer</text>
+	</string>	
+	<string id="gunsl_glock17_up_laser_descr">
+		<text>Visually indicates the location of the intended hit on the target, greatly facilitating and speeding up aiming, as well as having a demoralizing effect on the victim.Does not interfere with the installation of a tactical flashlight and can be used in conjunction with it.</text>
+	</string>		
+	<string id="gunsl_glock17_up_torch_name">
+		<text>Tactical flashlight</text>
+	</string>	
+	<string id="gunsl_glock17_up_torch_descr">
+		<text>A narrow-beam, long-range flashlight is indispensable for night forays, as well as when exploring unlit areas.Does not interfere with the installation of a laser pointer and can be used in conjunction with it.</text>
+	</string>	
+
+</string_table>

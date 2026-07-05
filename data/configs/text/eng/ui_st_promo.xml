@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_promo_sender">
+		<text>Server</text>
+	</string>
+	<string id="st_promo_usage">
+		<text>Usage: %s [code]</text>
+	</string>
+	<string id="st_promo_alive_only">
+		<text>Promo codes can only be activated by a living player.</text>
+	</string>
+	<string id="st_promo_character_loading">
+		<text>Character data is still loading. Try again in a few seconds.</text>
+	</string>
+	<string id="st_promo_service_unavailable">
+		<text>Promo code service is unavailable.</text>
+	</string>
+	<string id="st_promo_already_processing">
+		<text>Promo code is already being processed.</text>
+	</string>
+	<string id="st_promo_processing">
+		<text>Promo code accepted for processing.</text>
+	</string>
+	<string id="st_promo_auth_required">
+		<text>Promo codes are available only to authorized players.</text>
+	</string>
+	<string id="st_promo_not_found">
+		<text>Promo code not found.</text>
+	</string>
+	<string id="st_promo_disabled">
+		<text>Promo code is disabled.</text>
+	</string>
+	<string id="st_promo_not_started">
+		<text>Promo code is not active yet.</text>
+	</string>
+	<string id="st_promo_already_used">
+		<text>You have already used this promo code.</text>
+	</string>
+	<string id="st_promo_limit_reached">
+		<text>Promo code activation limit has been reached.</text>
+	</string>
+	<string id="st_promo_cooldown">
+		<text>Promo codes can be used once every 3 hours.</text>
+	</string>
+	<string id="st_promo_invalid_reward_section">
+		<text>Promo code reward is configured incorrectly: %s</text>
+	</string>
+	<string id="st_promo_empty_reward">
+		<text>Promo code reward is empty.</text>
+	</string>
+	<string id="st_promo_activation_cancelled">
+		<text>Activation cancelled: the player must be alive and fully loaded.</text>
+	</string>
+	<string id="st_promo_activation_failed">
+		<text>Failed to activate promo code.</text>
+	</string>
+	<string id="st_promo_reward_failed">
+		<text>Failed to grant promo code reward.</text>
+	</string>
+	<string id="st_promo_activated">
+		<text>Promo code activated successfully.</text>
+	</string>
+</string_table>

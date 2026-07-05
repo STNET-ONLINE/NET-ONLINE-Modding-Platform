@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="ls_header">
+		<text>"100 TIPS FOR SURVIVING IN THE ZONE"</text>
+	</string>
+	<string id="ls_mp_tip_16">
+		<text>A bullet in the eye is fatal, regardless of the level of armor protection.</text>
+	</string>
+	<string id="ls_mp_tip_19">
+		<text>AC96/2 has a unique firing mode with a two-round cut-off.In this mode, both bullets fired hit the same point.</text>
+	</string>
+	<string id="ls_mp_tip_21">
+		<text>Double-barreled shotguns can fire two shots almost simultaneously.</text>
+	</string>
+	<string id="ls_mp_tip_25">
+		<text>Don't underestimate pistols.They have a high lethal effect and are very effective against weakly armored opponents.</text>
+	</string>
+	<string id="ls_mp_tip_32">
+		<text>Sniper rifles, due to their high flexibility and accuracy, are ideal for destroying opponents at long distances.However, they are not as effective in close combat.</text>
+	</string>
+	<string id="ls_mp_tip_33">
+		<text>Shooting while moving is significantly less accurate than shooting from a stable standing or sitting position.</text>
+	</string>
+	<string id="ls_mp_tip_34">
+		<text>In the harsh conditions of the Zone, weapons and protective overalls quickly wear out.A worn-out weapon shoots less accurately and begins to misfire, and a worn-out jumpsuit loses its protective properties.</text>
+	</string>
+	<string id="ls_mp_tip_54">
+		<text>To take a screenshot, press the «$$ACTION_SCREENSHOT$$» key</text>
+	</string>
+	<string id="ls_mp_tip_9">
+		<text>The artifact or the player carrying it is displayed on the minimap.If an artifact is far away, the direction to it is displayed with an arrow on the minimap.</text>
+	</string>
+	<string id="ls_tip_37">
+		<text>AS-96/2 has a unique firing mode with a two-round cut-off.In this mode, both bullets fired hit the same point.</text>
+	</string>
+	<string id="ls_tip_39">
+		<text>Double-barreled shotguns can fire two shots almost simultaneously.</text>
+	</string>
+	<string id="ls_tip_43">
+		<text>Don't underestimate pistols.They have a high lethal effect and are very effective against weakly armored opponents.</text>
+	</string>
+	<string id="ls_tip_50">
+		<text>Sniper rifles, due to their high flexibility and accuracy, are ideal for destroying opponents at long distances.However, they are not as effective in close combat.</text>
+	</string>
+	<string id="ls_tip_52">
+		<text>In the harsh conditions of the Zone, weapons and protective overalls quickly wear out.A worn-out weapon shoots less accurately and begins to misfire, and a worn-out jumpsuit loses its protective properties.</text>
+	</string>
+	<string id="ls_tip_56">
+		<text>Some medications have unique properties - such as the Hercules drug, which allows you to temporarily increase the load you can carry, or a psi-blockade drug that increases resistance to effects on the psyche.</text>
+	</string>
+	<string id="ls_tip_83">
+		<text>To take a screenshot, press the «$$ACTION_SCREENSHOT$$» key</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>Tip no.</text>
+	</string>
+	<string id="ls_tip_1">
+		<text>Vodka is a cheap alternative to anti-radiation drugs and the most affordable way to reduce the effects of radiation on the body.</text>
+	</string>
+	<string id="ls_tip_10">
+		<text>Details of the current task can be found by holding "$$ACTION_SCORES$$".</text>
+	</string>
+	<string id="ls_tip_13">
+		<text>The detector is necessary to search for artifacts.Better detectors make searching easier and help uncover more valuable artifacts.</text>
+	</string>
+	<string id="ls_tip_14">
+		<text>Stalkers do not allow people with weapons at the ready into the camp.To hide a weapon, press the corresponding key («$$ACTION_WPN_1$$», «$$ACTION_WPN_2$$», «$$ACTION_WPN_3$$», «$$ACTION_WPN_4$$»).</text>
+	</string>
+	<string id="ls_tip_15">
+		<text>The boundaries of the anomaly can be determined by «probing» them with bolts.To prepare a bolt for throwing, press "$$ACTION_WPN_6$$".</text>
+	</string>
+	<string id="ls_tip_17">
+		<text>Food not only satisfies hunger, but also somewhat improves health.</text>
+	</string>
+	<string id="ls_tip_18">
+		<text>The energy drink temporarily speeds up stamina recovery, which increases potential mobility.</text>
+	</string>
+	<string id="ls_tip_20">
+		<text>Lack of stamina can result in loss of mobility at a critical moment and make you vulnerable to the enemy.</text>
+	</string>
+	<string id="ls_tip_21">
+		<text>The degree of visibility to the outside eye can be controlled using noise and visibility indicators.Both indicators are located in the upper left corner of the screen.</text>
+	</string>
+	<string id="ls_tip_22">
+		<text>The detector in one hand does not interfere with taking a knife, gun or bolt in the other.</text>
+	</string>
+	<string id="ls_tip_23">
+		<text>Some medications increase the body's resistance to harmful influences and may be the only salvation during forays into anomalous areas.</text>
+	</string>
+	<string id="ls_tip_27">
+		<text>For items in the backpack, you can call up an additional context menu by hovering the cursor over the desired item and pressing the right mouse button.</text>
+	</string>
+	<string id="ls_tip_28">
+		<text>Despite all the useful properties, most artifacts are radioactive.This effect can be compensated for by artifacts that absorb radiation.</text>
+	</string>
+	<string id="ls_tip_29">
+		<text>The knife is ineffective against enemies armed with firearms.Its area of application is hand-to-hand combat and silent elimination of the enemy.</text>
+	</string>
+	<string id="ls_tip_3">
+		<text>The amount of cargo carried directly affects the reduction in stamina.Heavy weight will limit mobility, and overload will not allow you to move at all.</text>
+	</string>
+	<string id="ls_tip_30">
+		<text>The detector is the only reliable way to check for artifacts in an anomalous area.</text>
+	</string>
+	<string id="ls_tip_31">
+		<text>Most artifacts migrate within anomalies and are not visible to the eye until they are detected using a detector.</text>
+	</string>
+	<string id="ls_tip_32">
+		<text>Night is the time when mutants are active, so stalkers prefer to make forays during daylight hours.</text>
+	</string>
+	<string id="ls_tip_33">
+		<text>In case of strong radiation exposure, it is necessary to use anti-radiation drugs or consult a doctor.If this is not possible, you can use a first aid kit to urgently reduce the negative effects of radiation on the body.</text>
+	</string>
+	<string id="ls_tip_34">
+		<text>Most stalkers can guide them around the surrounding area, but only an experienced guide will lead them to remote places quickly and safely.In any case, guides usually value their services at a considerable amount.</text>
+	</string>
+	<string id="ls_tip_35">
+		<text>Profit can be brought not only by artifacts, but also by selling surplus equipment.Please note that merchants will not pay the full cost of the equipment and will not buy damaged items.</text>
+	</string>
+	<string id="ls_tip_38">
+		<text>To disconnect a silencer, optical sight or grenade launcher installed on a weapon, you need to right-click on the weapon icon in the backpack and use the corresponding command in the context menu.</text>
+	</string>
+	<string id="ls_tip_40">
+		<text>To avoid making unnecessary noise, you can move by walking by pressing «$$ACTION_ACCEL$$», or crouching by pressing «$$ACTION_CROUCH$$».</text>
+	</string>
+	<string id="ls_tip_41">
+		<text>The shotgun is a short-range weapon: the further away the target is, the less effective its use will be.</text>
+	</string>
+	<string id="ls_tip_42">
+		<text>When choosing shelter from bullets, it is necessary to take into account the material of the barrier.A wooden board or thin sheet metal will not provide reliable protection - unlike a reinforced concrete wall.</text>
+	</string>
+	<string id="ls_tip_44">
+		<text>A direct bullet hit to the head is fatal to most opponents.</text>
+	</string>
+	<string id="ls_tip_45">
+		<text>Each type of mutant in the Zone has its own style of defense and attack.By taking this into account, you can significantly increase your chances of survival.</text>
+	</string>
+	<string id="ls_tip_46">
+		<text>The grenade throw range can be adjusted by holding "$$ACTION_WPN_ZOOM$$".</text>
+	</string>
+	<string id="ls_tip_47">
+		<text>Opponents can - and will - actively use grenades.If you notice a grenade symbol on the screen, immediately leave the expected affected area.</text>
+	</string>
+	<string id="ls_tip_48">
+		<text>Using a running jump, you can overcome large holes and cracks.</text>
+	</string>
+	<string id="ls_tip_49">
+		<text>Key indicators - health and stamina - are located in the lower right corner of the screen.</text>
+	</string>
+	<string id="ls_tip_53">
+		<text>The zone lives its own life.This means that there is always a chance to meet a mutant or a hostile stalker in an already cleared area.</text>
+	</string>
+	<string id="ls_tip_54">
+		<text>In the Zone, one must not lose vigilance and rely on old information.Finding yourself in a certain anomalous zone again, you may find that it cannot be overcome along the previous route.</text>
+	</string>
+	<string id="ls_tip_58">
+		<text>By communicating with ordinary stalkers, you can learn useful information about new places or events that have happened recently.</text>
+	</string>
+	<string id="ls_tip_60">
+		<text>Cells for placing weapons allow you to use any type of weapon.Try to choose the combination that is most convenient for you: machine gun and shotgun, pistol and sniper rifle, machine gun and grenade launcher, etc.</text>
+	</string>
+	<string id="ls_tip_61">
+		<text>Each merchant in the stalker camp can offer his own special range of goods.Let's say that the doctor will probably have the best choice of medications.</text>
+	</string>
+	<string id="ls_tip_62">
+		<text>If you find yourself in a stalker camp with radiation or a wound, you can count on free help from the local doctor.</text>
+	</string>
+	<string id="ls_tip_63">
+		<text>In order not to carry extra cargo with you, you can leave your belongings in a personal box on the camp site.As a rule, such boxes are located near recreation areas.</text>
+	</string>
+	<string id="ls_tip_64">
+		<text>If you need to pass the time until a certain hour, you can take a nap in the camp.To do this, find a place to rest, click «$$ACTION_USE$$» and select the duration of sleep.</text>
+	</string>
+	<string id="ls_tip_65">
+		<text>The basic night vision device on a helmet can be replaced with a more advanced second-generation device, the resolution of which is much higher.</text>
+	</string>
+	<string id="ls_tip_67">
+		<text>In the Zone, it is always better to have a couple of spare magazines with you, since they may be needed at any time.</text>
+	</string>
+	<string id="ls_tip_68">
+		<text>Periodically saving the game can save a lot of time, since if you die, you won't have to go through the same places again.</text>
+	</string>
+	<string id="ls_tip_69">
+		<text>To use medications rationally, it is necessary to know their properties.Carefully read the description of each drug.</text>
+	</string>
+	<string id="ls_tip_70">
+		<text>To reach the enemy in cover, you can use a grenade.In this case, it is necessary to take into account the radius of damage from the blast wave and fragments so as not to harm allies.</text>
+	</string>
+	<string id="ls_tip_71">
+		<text>To throw an item out of your backpack, you need to right-click on the desired item and use the corresponding command in the context menu.You can also simply drag the item to the left side of the screen.</text>
+	</string>
+	<string id="ls_tip_72">
+		<text>A separate item in the game settings allows you to enable automatic saving of the game at key points.</text>
+	</string>
+	<string id="ls_tip_73">
+		<text>After returning to the camp, it is recommended to repair equipment, sell unnecessary artifacts and replenish supplies of ammunition and medicine.</text>
+	</string>
+	<string id="ls_tip_75">
+		<text>To reduce the harmful effects on the body during forays into anomalous zones, you can improve your protective suit, use the protective properties of artifacts, or use appropriate medications.</text>
+	</string>
+	<string id="ls_tip_77">
+		<text>In addition to ammunition and weapons, other valuable items can be found on the corpses of opponents, such as a PDA with important information.</text>
+	</string>
+	<string id="ls_tip_78">
+		<text>Artifacts are not just valuable goods; they often have useful properties.</text>
+	</string>
+	<string id="ls_tip_79">
+		<text>In the Zone, many objects have an increased background radiation; approaching them without appropriate protection is dangerous.</text>
+	</string>
+	<string id="ls_tip_8">
+		<text>To stop bleeding, you can use a bandage, an army first aid kit, or the drug "Periwinkle".Bleeding that is not stopped in time can cause significant damage to the body and result in death.</text>
+	</string>
+	<string id="ls_tip_80">
+		<text>Some weapons may be equipped with an adjustable rangefinder sight.To adjust the aiming distance, use the mouse wheel.</text>
+	</string>
+	<string id="ls_tip_82">
+		<text>Some places do not allow movement even in a bent position.To crouch as low as possible, press "$$ACTION_CROUCH$$" and "$$ACTION_ACCEL$$" at the same time.</text>
+	</string>
+	<string id="ls_tip_84">
+		<text>To reduce the likelihood of being hit by enemy fire, you can shoot while looking around the corner.To do this, you need to hold down "$$ACTION_LLOOKOUT$$" or "$$ACTION_RLOOKOUT$$".</text>
+	</string>
+	<string id="ls_tip_85">
+		<text>Thanks to the built-in target designator, the binoculars allow you not only to view distant objects, but also to detect the enemy among them.To remove the binoculars, press «$$ACTION_WPN_5$$».</text>
+	</string>
+	<string id="ls_tip_86">
+		<text>To turn the flashlight on and off, press «$$ACTION_TORCH$$».</text>
+	</string>
+	<string id="ls_tip_87">
+		<text>To remove the bolt, press "$$ACTION_WPN_6$$".</text>
+	</string>
+	<string id="ls_tip_88">
+		<text>You can turn on and off the night vision device built into the helmet by clicking «$$ACTION_NIGHT_VISION$$».</text>
+	</string>
+	<string id="ls_tip_89">
+		<text>Pressing "$$ACTION_QUICK_USE_1$$", "$$ACTION_QUICK_USE_2$$", "$$ACTION_QUICK_USE_3$$" or "$$ACTION_QUICK_USE_4$$" allows you to use the corresponding item on the quick access panel.</text>
+	</string>
+	<string id="ls_tip_9">
+		<text>The effect of taking medications is not immediate, and some have a very long-lasting effect.Repeated administration of the drug overrides similar effects already in effect.</text>
+	</string>
+	<string id="ls_tip_90">
+		<text>The PDA stores a map of the area, information about current tasks, personal statistics and message history.To activate the PDA, click «$$ACTION_ACTIVE_JOBS$$».</text>
+	</string>
+	<string id="ls_tip_91">
+		<text>To search for artifacts, you need to get a detector.To do this, click "$$ACTION_SHOW_DETECTOR$$".</text>
+	</string>
+	<string id="ls_tip_92">
+		<text>To pause the game, click "$$ACTION_PAUSE$$".</text>
+	</string>
+	<string id="ls_tip_93">
+		<text>123</text>
+	</string>
+	<string id="ls_tip_94">
+		<text>Running is the fastest form of movement, although it leads to a rapid loss of stamina.To switch to this type of movement, click «$$ACTION_SPRINT_TOGGLE$$».</text>
+	</string>
+	<string id="ls_tip_95">
+		<text>In aiming mode, bullets hit the target much more accurately than when shooting offhand.To use the crosshair, click "$$ACTION_WPN_ZOOM$$".</text>
+	</string>
+	<string id="ls_tip_96">
+		<text>If the weapon has an under-barrel grenade launcher, switching between the grenade launcher and normal firing modes is done by pressing «$$ACTION_WPN_FUNC$$».</text>
+	</string>
+	<string id="ls_tip_97">
+		<text>If there are several types of ammunition for the current weapon, the desired type is selected by pressing «$$ACTION_WPN_NEXT$$».</text>
+	</string>
+	<string id="ls_tip_98">
+		<text>To reload a weapon without waiting for the ammo in the magazine to be completely depleted, press "$$ACTION_WPN_RELOAD$$".</text>
+	</string>
+	<string id="ls_tip_99">
+		<text>To drop your current weapon, press "$$ACTION_DROP$$".</text>
+	</string>
+	<string id="ls_tip_6">
+		<text>You can safely wait out the release in a reliable building or underground.As a release approaches, the location of the nearest cover will be displayed on the PDA.</text>
+	</string>
+	<string id="ls_tip_12">
+		<text>To quickly use an item, you need to drag it from the contents of the backpack to one of the four quick access slots.</text>
+	</string>
+	<string id="ls_tip_24">
+		<text>The blood drop symbol in the lower right corner of the screen warns of uncontrolled bleeding.The color of the symbol indicates the intensity of bleeding.</text>
+	</string>
+	<string id="ls_tip_25">
+		<text>The radiation hazard symbol in the lower right corner of the screen warns of radiation exposure to the body.The color of the symbol indicates the intensity of the radiation.</text>
+	</string>
+	<string id="ls_tip_4">
+		<text>Using filters in the PDA, you can hide and show various types of marks on the map.Filter control buttons are located between the map image and the active task line.</text>
+	</string>
+	<string id="ls_tip_55">
+		<text>Typically, artifacts are not static and gradually move within anomalous zones.As a result of mindlessly following an artifact, you can easily fall into an anomaly.</text>
+	</string>
+	<string id="ls_tip_57">
+		<text>Some stalkers may offer information, a unique product for sale, or provide an order for a specific artifact.</text>
+	</string>
+	<string id="ls_tip_59">
+		<text>After a release, new artifacts may appear in already explored areas.</text>
+	</string>
+	<string id="ls_tip_74">
+		<text>The difficulty level of the game can be adjusted at any time in the settings.</text>
+	</string>
+	<string id="ls_tip_2">
+		<text>The properties of a weapon, protective suit or helmet can be improved by technicians in stalker camps.</text>
+	</string>
+	<string id="ls_tip_66">
+		<text>Pay attention to the crackling sound of the Geiger counter - it signals radiation.React to an anomalous danger signal that begins to sound close to the anomaly.</text>
+	</string>
+	<string id="ls_tip_26">
+		<text>Relationships with others directly affect the price of the goods and services they offer.If your relationship is bad, you shouldn't hope for discounts;good relationships, on the contrary, will push the merchant to offer a unique product for sale.</text>
+	</string>
+	<string id="ls_tip_11">
+		<text>To replenish your ammo supply, unload the weapon you find.To do this, you need to right-click on the image of the weapon in the backpack, and then select the appropriate command in the context menu.</text>
+	</string>
+	<string id="ls_mp_tip_1">
+		<text>For killing opponents and obtaining artifacts, you are awarded points necessary for rank growth.Upon reaching the next rank, new weapons, armor and equipment become available.</text>
+	</string>
+	<string id="ls_mp_tip_11">
+		<text>Smoke grenades can be used to secretly steal an artifact or to hide from an enemy.</text>
+	</string>
+	<string id="ls_mp_tip_13">
+		<text>On the left side of the shopping menu there are five tabs (from top to bottom): pistols, main weapons, equipment, ammunition, medicine.Selecting the desired tab demonstrates the assortment available for the current game rank.</text>
+	</string>
+	<string id="ls_mp_tip_14">
+		<text>In the purchase menu on the right side of the screen there are four quick purchase slots.Clicking on the floppy disk image saves the current set of weapons and equipment, and clicking the corresponding number loads it.The last purchased set is automatically saved in the fourth slot.</text>
+	</string>
+	<string id="ls_mp_tip_15">
+		<text>If you have more than one weapon, you can switch between them by repeatedly pressing «$$ACTION_WPN_2$$» or «$$ACTION_WPN_3$$».</text>
+	</string>
+	<string id="ls_mp_tip_17">
+		<text>An artifact can be activated by creating an anomaly in its place.To do this, you need to extract the artifact by clicking «$$ACTION_ARTEFACT$$» and click «$$ACTION_WPN_FIRE$$».The resulting anomaly is dangerous both for opponents and for the creator and his team.</text>
+	</string>
+	<string id="ls_mp_tip_18">
+		<text>The SEVA overalls will help you survive in an anomaly or zone of radioactive contamination.</text>
+	</string>
+	<string id="ls_mp_tip_2">
+		<text>«ARTIFACT HUNT»: To win, you need to deliver a certain number of artifacts to your base.</text>
+	</string>
+	<string id="ls_mp_tip_20">
+		<text>To disconnect a silencer, optical sight or grenade launcher installed on a weapon, you need to right-click on the weapon image in the contents of the backpack and use the corresponding command in the context menu.</text>
+	</string>
+	<string id="ls_mp_tip_22">
+		<text>To avoid making unnecessary noise, you can move by walking by pressing «$$ACTION_ACCEL$$», or crouching by pressing «$$ACTION_CROUCH$$».</text>
+	</string>
+	<string id="ls_mp_tip_23">
+		<text>The shotgun is a short-range weapon: the further away the target is, the less effective its use will be.</text>
+	</string>
+	<string id="ls_mp_tip_24">
+		<text>When choosing shelter from bullets, it is necessary to take into account the material of the barrier.A wooden board or thin sheet metal will not provide reliable protection - unlike a reinforced concrete wall.</text>
+	</string>
+	<string id="ls_mp_tip_26">
+		<text>A direct bullet hit to the head is fatal to most opponents.</text>
+	</string>
+	<string id="ls_mp_tip_27">
+		<text>Accelerated movement, jumping and wounds significantly reduce your stamina.</text>
+	</string>
+	<string id="ls_mp_tip_28">
+		<text>The force of the grenade throw can be adjusted by holding "$$ACTION_WPN_ZOOM$$".</text>
+	</string>
+	<string id="ls_mp_tip_29">
+		<text>Opponents can - and will - actively use grenades.If you notice a grenade symbol on the screen, immediately leave the expected area affected by shrapnel.</text>
+	</string>
+	<string id="ls_mp_tip_3">
+		<text>DEATH MATCH: To win, you must score the most kills.</text>
+	</string>
+	<string id="ls_mp_tip_30">
+		<text>Using a running jump, you can overcome large holes and cracks.</text>
+	</string>
+	<string id="ls_mp_tip_31">
+		<text>Key indicators - health and stamina - are located in the lower right corner of the screen.</text>
+	</string>
+	<string id="ls_mp_tip_35">
+		<text>The mini-map schematically shows the position of the artifact relative to the player.If the arrow points up, the artifact is located above the player's position, if down, the artifact is below.</text>
+	</string>
+	<string id="ls_mp_tip_36">
+		<text>You can pick up the backpacks of the dead to earn extra money.Excess collected equipment can be sold at the base.</text>
+	</string>
+	<string id="ls_mp_tip_37">
+		<text>An ally who is carrying an artifact must be covered at all costs.</text>
+	</string>
+	<string id="ls_mp_tip_38">
+		<text>To reach the enemy in cover, you can use a grenade.In this case, it is necessary to take into account the radius of damage from the blast wave and fragments so as not to accidentally hit an ally.</text>
+	</string>
+	<string id="ls_mp_tip_39">
+		<text>You can maintain constant communication with your team using voice messages.The message menu is called up by pressing «$$ACTION_SPEECH_MENU_0$$» or «$$ACTION_SPEECH_MENU_1$$».</text>
+	</string>
+	<string id="ls_mp_tip_4">
+		<text>TEAM VS TEAM: To win, team members must score more kills than the opposing team.</text>
+	</string>
+	<string id="ls_mp_tip_40">
+		<text>Voting is initiated by pressing «$$ACTION_VOTE_BEGIN$$».</text>
+	</string>
+	<string id="ls_mp_tip_41">
+		<text>To view the game results, you must click «$$ACTION_SCORES$$».</text>
+	</string>
+	<string id="ls_mp_tip_42">
+		<text>To respawn after dying, press "$$ACTION_JUMP$$" after the timeout has expired.</text>
+	</string>
+	<string id="ls_mp_tip_43">
+		<text>To open the shopping menu, click «$$ACTION_BUY_MENU$$» while within the base.</text>
+	</string>
+	<string id="ls_mp_tip_44">
+		<text>General text chat can be opened by pressing "$$ACTION_CHAT$$".To chat only with members of your team, use "$$ACTION_CHAT_TEAM$$".</text>
+	</string>
+	<string id="ls_mp_tip_45">
+		<text>Running is the fastest form of movement, although it leads to a rapid loss of stamina.To switch to this type of movement, click «$$ACTION_SPRINT_TOGGLE$$».</text>
+	</string>
+	<string id="ls_mp_tip_46">
+		<text>In aiming mode, bullets hit the target much more accurately than when shooting offhand.To use the crosshair, click "$$ACTION_WPN_ZOOM$$".</text>
+	</string>
+	<string id="ls_mp_tip_47">
+		<text>If the weapon has an under-barrel grenade launcher, switching between the grenade launcher and normal firing modes is done by pressing «$$ACTION_WPN_FUNC$$».</text>
+	</string>
+	<string id="ls_mp_tip_48">
+		<text>If there are several types of ammunition for the current weapon, the desired type is selected by pressing «$$ACTION_WPN_NEXT$$».</text>
+	</string>
+	<string id="ls_mp_tip_49">
+		<text>To reload a weapon without waiting for the ammo in the magazine to be completely depleted, press "$$ACTION_WPN_RELOAD$$".</text>
+	</string>
+	<string id="ls_mp_tip_5">
+		<text>«ARTIFACT CAPTURE»: To win, you need to deliver a certain number of enemy artifacts to your base.</text>
+	</string>
+	<string id="ls_mp_tip_50">
+		<text>To drop your current weapon, press "$$ACTION_DROP$$".</text>
+	</string>
+	<string id="ls_mp_tip_51">
+		<text>To view the contents of your backpack, click "$$ACTION_INVENTORY$$".</text>
+	</string>
+	<string id="ls_mp_tip_52">
+		<text>Automatic weapons allow you to fire in two or three modes.To switch between modes, use "$$ACTION_WPN_FIREMODE_NEXT$$" or "$$ACTION_WPN_FIREMODE_PREV$$".</text>
+	</string>
+	<string id="ls_mp_tip_53">
+		<text>Some places do not allow movement even in a bent position.To crouch as low as possible, press "$$ACTION_CROUCH$$" and "$$ACTION_ACCEL$$" at the same time.</text>
+	</string>
+	<string id="ls_mp_tip_55">
+		<text>To peek around a corner, click "$$ACTION_LLOOKOUT$$" or "$$ACTION_RLOOKOUT$$".Please note that it is impossible to fire in this position.</text>
+	</string>
+	<string id="ls_mp_tip_6">
+		<text>«ARTIFACT CAPTURE»: To return the stolen artifact to the base, you need to kill the enemy carrying the artifact and pick up the latter by pressing «$$ACTION_USE$$».</text>
+	</string>
+	<string id="ls_mp_tip_7">
+		<text>«ARTIFACT HUNT»: An artifact can be destroyed by activating it.To do this, you need to get the artifact by pressing «$$ACTION_ARTEFACT$$», and then clicking «$$ACTION_WPN_FIRE$$».</text>
+	</string>
+	<string id="ls_mp_tip_8">
+		<text>While carrying an artifact, running is not possible.</text>
+	</string>
+	<string id="ls_tip_100">
+		<text>To view the contents of your backpack, click "$$ACTION_INVENTORY$$".</text>
+	</string>
+	<string id="ls_tip_36">
+		<text>To repair a weapon, suit or helmet, you need to find a technician and, by selecting the desired item in the upgrade window, click on the repair button.</text>
+	</string>
+	<string id="ls_tip_81">
+		<text>Automatic weapons allow you to fire in several modes.To switch between firing modes, use "$$ACTION_WPN_FIREMODE_NEXT$$" or "$$ACTION_WPN_FIREMODE_PREV$$".</text>
+	</string>
+	<string id="ls_tip_7">
+		<text>Flatness is a weapon parameter that affects the flight path of a bullet, and convenience affects the speed at which the sight returns to its original position.</text>
+	</string>
+	<string id="ls_tip_5">
+		<text>Some suits come with integrated helmets.Wearing other helmets with such suits is impossible.</text>
+	</string>
+	<string id="ls_tip_76">
+		<text>Each weapon has its own unique characteristics of accuracy, usability, damage and rate of fire.This allows everyone to choose the most suitable sample.</text>
+	</string>
+	<string id="ls_tip_19">
+		<text>When going on a long trip, you need to take a supply of food with you.Severe hunger negatively affects stamina and health.</text>
+	</string>
+	<string id="ls_tip_51">
+		<text>The accuracy of firing while moving is significantly lower than from a more stable position - standing or sitting.</text>
+	</string>
+	<string id="ls_mp_tip_10">
+		<text>The energy drink temporarily speeds up the process of restoring endurance, which allows you to increase the average duration of your run.</text>
+	</string>
+	<string id="ls_mp_tip_12">
+		<text>In the game mode "All against all" the supply of ammunition is unlimited.</text>
+	</string>
+	<string id="ls_tip_16">
+		<text>One of the most common dangers in the Zone is radiation.Strong exposure to radiation leads to deterioration of health, and without proper treatment, even death.</text>
+	</string>
+</string_table>

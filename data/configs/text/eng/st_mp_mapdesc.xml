@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="mp_autostation">
+		<text>Bus station</text>
+	</string>
+	<string id="ui_map_desc_mp_agroprom_large">
+		<text>Strange place.The silent building keeps its secrets, but it is not this that attracts stalkers here, but the artifacts with which the Zone in this area is very rich.Here you can get hold of some good samples, but you can also lose your life.Let your body be fast and your eye true, then luck will certainly smile on you.</text>
+	</string>
+	<string id="ui_map_desc_mp_agroprom_short">
+		<text>Strange place.The silent building keeps its secrets, but it is not this that attracts stalkers here, but the artifacts with which the Zone in this area is very rich.</text>
+	</string>
+	<string id="ui_map_desc_mp_atp_large">
+		<text>Bus and trolleybus depot located in the Zone's waiting room.Tractors, buses, trucks froze here forever... No artifacts were noticed among them, but this place is popular among looters who shoot newcomers and rob cold bodies.Shelter can be found in buildings and behind equipment.Beware of enemies on the rooftops!</text>
+	</string>
+	<string id="ui_map_desc_mp_atp_short">
+		<text>Bus and trolleybus depot located in the Zone's waiting room.Tractors, buses, trucks are frozen here forever...</text>
+	</string>
+	<string id="ui_map_desc_mp_autostation_large">
+		<text>Abandoned bus station building and surrounding area.If you look hard enough, you can find remnants of equipment and supplies.Here you need to be wary not only of powerful anomalies, but also of snipers on the roof of the bus station: almost all approaches are visible from there.</text>
+	</string>
+	<string id="ui_map_desc_mp_autostation_short">
+		<text>Abandoned bus station building and surrounding area.You need to be wary of powerful anomalies and enemy snipers.</text>
+	</string>
+	<string id="ui_map_desc_mp_bath_large">
+		<text>A mysterious place with a strange attractive force: an experimental pool, it is not known by whom and for what exactly it was built.No artifacts were found here, so stalkers come here only for the remains of outlandish units and devices.Watch the roofs carefully and remember that the radiation level here is very high.</text>
+	</string>
+	<string id="ui_map_desc_mp_bath_short">
+		<text>A mysterious place with a strange attractive force: an experimental pool, it is not known by whom and for what exactly it was built.</text>
+	</string>
+	<string id="ui_map_desc_mp_darkvalley_large">
+		<text>A long street and an abandoned institute are all the attractions of this dangerous place in the Dark Valley.What was taught at the institute is not known for certain, but now here you can only learn survival.One more thing: be very careful on rooftops.</text>
+	</string>
+	<string id="ui_map_desc_mp_darkvalley_short">
+		<text>A long street and an abandoned institute - that's all the attractions of this dangerous place in the Dark Valley...</text>
+	</string>
+	<string id="ui_map_desc_mp_factory_large">
+		<text>Gloomy abandoned factory.It's impossible to count how many people have died here.There are a lot of different anomalies, but this place attracts stalkers like a magnet.And all because there are valuable artifacts here... attention, radiation!</text>
+	</string>
+	<string id="ui_map_desc_mp_factory_short">
+		<text>Gloomy abandoned factory.It's impossible to count how many people have died here.</text>
+	</string>
+	<string id="ui_map_desc_mp_firestation_large">
+		<text>A fire station, all of whose forces were sent to save the Chernobyl nuclear power plant in 1986.The tower is an excellent fighting position with a view of the surrounding area.Few people visit the upper floors of houses and basements - but maybe this is for the better.The war for control of this strategic position has not subsided for many days.</text>
+	</string>
+	<string id="ui_map_desc_mp_firestation_short">
+		<text>A fire station, all of whose forces were sent to save the Chernobyl nuclear power plant in 1986.This is an excellent fighting position.</text>
+	</string>
+	<string id="ui_map_desc_mp_garbage_large">
+		<text>Part of a large landfill where mountains of radioactive waste were dumped after the 1986 accident.In addition to broken cranes, car skeletons and various equipment, you can find the frames of old buildings and a huge hangar.This part of the Zone is located not so far from Cordon, but there are quite a lot of artifacts here.Many stalkers are looking for easy money here.</text>
+	</string>
+	<string id="ui_map_desc_mp_garbage_short">
+		<text>Part of a large landfill where, after the 1986 accident, mountains of radioactive waste and equipment were dumped.</text>
+	</string>
+	<string id="ui_map_desc_mp_limansk_large">
+		<text>A small area of the mysterious city of Limansk: abandoned residential buildings and an unfinished building between them.The news of the expensive artifacts found here quickly became known to too many.Since the passages into the city opened, the shooting here has not subsided for a minute.</text>
+	</string>
+	<string id="ui_map_desc_mp_limansk_short">
+		<text>A small area of the mysterious city of Limansk: abandoned residential buildings and an unfinished building between them.</text>
+	</string>
+	<string id="ui_map_desc_mp_lost_village_large">
+		<text>An abandoned, God-forsaken village in the depths of the Zone.A small rusty lake filled with skeletons of cars gives rise to a subconscious fear of the surrounding reality.The zone loves the brave, but don't underestimate enemy snipers.</text>
+	</string>
+	<string id="ui_map_desc_mp_lost_village_short">
+		<text>An abandoned, godforsaken village in the depths of the Zone.A small rusty lake filled with skeletons of cars gives rise to a subconscious fear of the surrounding reality.</text>
+	</string>
+	<string id="ui_map_desc_mp_military_1_large">
+		<text>An abandoned army base: forever frozen trucks and armored personnel carriers, destroyed headquarters and barracks.However, this abandonment is deceptive: the richest deposit of artifacts has led to the fact that the enemy can be encountered anywhere.</text>
+	</string>
+	<string id="ui_map_desc_mp_military_1_short">
+		<text>An abandoned army base: forever frozen trucks and armored personnel carriers, destroyed headquarters and barracks.</text>
+	</string>
+	<string id="ui_map_desc_mp_military_2_large">
+		<text>This old village is a bad place.And although you managed to get here, it's too early to relax: be prepared to receive a bullet in the forehead at any moment.You can't feel safe anywhere here.Don't let your optics and muffler let you down!</text>
+	</string>
+	<string id="ui_map_desc_mp_military_2_short">
+		<text>This old village is a bad place.And although you managed to get here, it's too early to relax.</text>
+	</string>
+	<string id="ui_map_desc_mp_pool_large">
+		<text>This is not a swimming pool, but a blood bath.The echoes of gunshots and explosions, mixed with the screams of the dying, walk along the tiled corridors.Not many people know how to find this place, but even fewer managed to get out of there alive.</text>
+	</string>
+	<string id="ui_map_desc_mp_pool_short">
+		<text>This is not a swimming pool, but a blood bath.The echoes of gunshots and explosions echo through the tiled corridors.</text>
+	</string>
+	<string id="ui_map_desc_mp_railraod_short">
+		<text>Small railway station at the Rostock plant</text>
+	</string>
+	<string id="ui_map_desc_mp_railroad_large">
+		<text>A small railway station at the Rostock plant.Rusted carriages and locomotives are permanently laid up.Rich scatterings of artifacts lure desperate stalkers from all over the Zone here.</text>
+	</string>
+	<string id="ui_map_desc_mp_rembasa_large">
+		<text>Repair base near a small village.All the equipment that was in use was stolen to eliminate the consequences, and what remained was gradually stolen for spare parts.The area around is hazardous to health - marshy swamps and radioactive reeds, however, if you're lucky, you can find something really valuable here.</text>
+	</string>
+	<string id="ui_map_desc_mp_rembasa_short">
+		<text>Repair base near a small village.The area around is hazardous to health - swampy swamps and radioactive reeds.</text>
+	</string>
+	<string id="ui_map_desc_mp_rostok_large">
+		<text>Piles of metal behind concrete walls rust idle.In the last century, the work process was in full swing here, workers hurried to their shifts, accompanied by socialist slogans from loudspeakers.Now the plant has done its job.</text>
+	</string>
+	<string id="ui_map_desc_mp_rostok_short">
+		<text>An abandoned old factory: silent piles of metal behind blank concrete walls.</text>
+	</string>
+	<string id="ui_map_desc_mp_sport_center_large">
+		<text>Sports center in Pripyat, located near an abandoned school.The types of competitions have changed a lot since 1986;The number of people willing to participate in them has also changed.However, stalkers still come here for dubious fame, swag, artifacts - and often never leave here.</text>
+	</string>
+	<string id="ui_map_desc_mp_sport_center_short">
+		<text>The sports center in Pripyat is located not far from an abandoned school.</text>
+	</string>
+	<string id="ui_map_desc_mp_training_camp_large">
+		<text>A very strange place.Many people laugh at stalkers who allegedly saw it, but it really exists.Gravity anomalies have distorted the earth so much that the landscape looks unearthly.Three huge towers, the remains of army equipment and islands of soil torn out of the ground and hanging in the air.</text>
+	</string>
+	<string id="ui_map_desc_mp_training_camp_short">
+		<text>A very strange place.Gravity anomalies have distorted the earth so much that the landscape looks unearthly.</text>
+	</string>
+	<string id="ui_map_desc_mp_workshop_large">
+		<text>The outskirts of the Rostock plant before the arrival of Dolga.These dark places are very rich in artifacts.Empty hangars and warehouses are always fraught with danger.Be extremely careful and don't lose sight of the white tower!</text>
+	</string>
+	<string id="ui_map_desc_mp_workshop_short">
+		<text>The outskirts of the Rostock plant before the arrival of Dolga.These dark places are very rich in artifacts.</text>
+	</string>
+	<string id="ui_map_desc_mp_pripyat_large">
+		<text>Few people dare to enter the abandoned Pripyat - the former city of nuclear scientists and Chernobyl nuclear power plant workers.But even then, shots rang out among the dead walls: the part of the city between the Prometheus cinema, the pier and the houses along Kurchatov Street became the scene of a fierce firefight.</text>
+	</string>
+	<string id="ui_map_desc_mp_pripyat_short">
+		<text>The part of Pripyat between the Prometheus cinema, the pier and the houses on Kurchatov Street became a battlefield between those who managed to penetrate the dead city.</text>
+	</string>
+</string_table>

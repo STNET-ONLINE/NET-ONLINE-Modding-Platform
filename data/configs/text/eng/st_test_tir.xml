@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="tir_distance_none_tip">
+        <text>No distance selected</text>
+	</string>
+		
+	<string id="tir_distance_10m_tip">
+        <text>Selected distance: 10 Meters</text>
+		</string>
+			<string id="tir_distance_25m_tip">
+        <text>Selected distance: 25 Meters</text>
+		</string>
+			<string id="tir_distance_50m_tip">
+        <text>Selected distance: 50 Meters</text>
+		</string>
+			<string id="tir_distance_100m_tip">
+        <text>Selected distance: 100 Meters</text>
+		</string>
+			<string id="tir_distance_120m_tip">
+        <text>Selected distance: 120 Meters</text>
+		</string>
+			<string id="tir_distance_140m_tip">
+        <text>Selected distance: 140 Meters</text>
+		</string>
+			<string id="tir_distance_160m_tip">
+        <text>Selected distance: 160 Meters</text>
+		</string>
+			<string id="tir_distance_180m_tip">
+        <text>Selected distance: 180 Meters</text>
+		</string>
+			<string id="tir_distance_200m_tip">
+        <text>Selected distance: 200 Meters</text>
+		</string>
+		
+		  <string id="npc_created">
+        <text>Stalker created</text>
+		</string>
+			<string id="mutant_created">
+        <text>Mutant created</text>
+		</string>
+			<string id="object_created">
+        <text>Barrel created</text>
+		</string>
+		
+		<string id="tir_npc_none_tip">
+        <text>Creating a Stalker is not available.Specify the distance</text>
+		</string>
+		<string id="tir_mutant_none_tip">
+        <text>Mutant creation is not available.Specify the distance</text>
+		</string>
+		<string id="tir_object_none_tip">
+        <text>Barrel creation is not available.Specify the distance</text>
+		</string>
+		
+		<string id="tir_npc_create_tip">
+        <text>Create a Stalker</text>
+		</string>
+		<string id="tir_mutant_create_tip">
+        <text>Create a mutant</text>
+		</string>
+		
+		<string id="car_test_zone">
+        <text>Vehicle testing area</text>
+		</string>
+		<string id="tir_zone">
+        <text>Shooting range</text>
+		</string>
+		
+		
+		
+		
+		
+</string_table>

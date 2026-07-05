@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!-- Grenades -->
+	<string id="gunsl_wpn_lr300_unoff">
+		<text>LR-300</text>
+	</string>
+	<string id="gunsl_wpn_lr300_unoff_descr">
+		<text>A modern American assault rifle, introduced to the market at the turn of the millennium. Despite its relatively successful design, it failed to gain widespread popularity due to its high price and was discontinued after only six years of production. It boasts high accuracy, ease of use, and extensive customization options, but under the harsh conditions of the Zone, it lacks the reliability of more conventional weapons.</text>
+	</string>	
+</string_table>

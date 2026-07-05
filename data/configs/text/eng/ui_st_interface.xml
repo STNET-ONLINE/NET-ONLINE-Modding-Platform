@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="st_interface_inventory">
+    <text>INVENTORY</text>
+  </string>
+  <string id="st_interface_inventory_trade">
+    <text>TRADE</text>
+  </string>
+  <string id="st_interface_inventory_upgrade">
+    <text>MODERNIZATION</text>
+  </string>
+  <string id="st_interface_inventory_search">
+    <text>INSPECTION</text>
+  </string>
+  <string id="st_interface_inventory_exchange">
+    <text>EXCHANGE</text>
+  </string>
+  <string id="st_interface_mm_general">
+    <text>Basic</text>
+  </string>
+  <string id="st_interface_mm_squad">
+    <text>Squad</text>
+  </string>
+  <string id="st_interface_mm_faction">
+    <text>Grouping</text>
+  </string>
+  <string id="st_interface_chat_push">
+    <text>Send</text>
+  </string>
+  <string id="ui_mm_quit_windows_message_kuprin">
+    <text>You Dead</text>
+  </string>
+  <string id="st_ui_mm_opt_video_screenmode">
+	<text>Display type</text>
+  </string>
+  <string id="st_ui_mm_opt_video_fullscreen">
+	<text>Full</text>
+  </string>
+  <string id="st_ui_mm_opt_video_window">
+	<text>Window</text>
+  </string>
+  <string id="st_ui_mm_opt_video_adv">
+	<text>Detailed</text>
+  </string>
+  <string id="st_interface_error_whitelist">
+	<text>Your account is not in the access list.Contact the Administration</text>
+  </string>
+  <string id="st_interface_error_maintenance">
+	<text>Technical work.Wait for a message from the Administration</text>
+  </string>
+  <string id="st_interface_error_session">
+	<text>Session is active.Wait until the session ends</text>
+  </string>
+  <string id="st_interface_error_login">
+	<text>The authorization data is incorrect.Make sure the data is entered correctly</text>
+  </string>
+  <string id="st_interface_error_connect">
+	<text>The main server is down.Contact the Administration</text>
+  </string>
+  <string id="st_interface_search_match">
+  <text>CONNECT</text>
+  </string>
+</string_table>

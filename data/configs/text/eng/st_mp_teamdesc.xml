@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="team_1_desc">
+		<text>Anarchists of the Zone.They profess the idea that the Zone is a reserve of unlimited freedom for everyone, therefore the laws, rules and conventions of the outside world lose their force here.Their motto is: «Do what you want, just don't bother others.»They fight against attempts to take control of the Zone, as well as against a clan of mercenaries.They are equipped mainly with small arms produced in the former USSR and Russia.</text>
+	</string>
+	<string id="team_1_name">
+		<text>Group "Freedom" (Free stalkers)</text>
+	</string>
+	<string id="team_2_desc">
+		<text>Adventurers and thugs from all over the world, who do not disdain any work, even the dirtiest.The motto is logical and predictable: «Money doesn't smell.»As long as artifacts are well paid, mercenaries will fight for control of their deposits.They are equipped mainly with Western-made small arms.</text>
+	</string>
+	<string id="team_2_name">
+		<text>Group "Mercenaries" (Thugs)</text>
+	</string>
+</string_table>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_try_car_attach">
+	<text>Attach to car</text>
+	</string>
+	
+	<string id="spark_plug_name">
+		<text>Spark plug</text>
+	</string>
+		<string id="spark_plug_descr">
+		<text>A device for igniting the fuel-air mixture in a wide variety of engines.Without this element it will not be possible to start any car.</text>
+	</string>
+	<string id="radiator_name">
+		<text>car radiator</text>
+	</string>
+		<string id="radiator_descr">
+		<text>A metal product designed to cool the engine system and maintain the required temperature.Without it, the car will very quickly fail.</text>
+	</string>		
+		<string id="empty_canister_name">
+		<text>Empty canister</text>
+	</string>
+		<string id="empty_canister_descr">
+		<text>Empty 10 liter fuel canister.Very useful for storing fuel.</text>
+	</string>
+		<string id="veh_aid_kit_name">
+		<text>Automotive tools</text>
+	</string>
+		<string id="veh_aid_kit_descr">
+		<text>A set of correctly laid out various tools for working on cars.Includes wrenches, screwdrivers, various bolts and some adhesives</text>
+	</string>
+		<string id="accumulator_name">
+		<text>Car battery</text>
+	</string>
+		<string id="accumulator_descr">
+		<text>Electric "12V" battery used in passenger cars.</text>
+	</string>
+		<string id="canister_name">
+		<text>Canister</text>
+	</string>
+		<string id="canister_descr">
+		<text>An ordinary 10 liter canister.Suitable for storing fuel or any other liquid.</text>
+	</string>
+	
+	<string id="niva_back_door_name">
+	<text>Rear door of the car "NIVA"</text>
+	</string>
+	<string id="niva_back_door_descr">
+	<text>Rear door removed from the NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_front_door_name">
+	<text>Hood of the car "NIVA"</text>
+	</string>
+	<string id="niva_front_door_descr">
+	<text>The hood removed from the NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_left_door_name">
+	<text>Left door of the NIVA car</text>
+	</string>
+	<string id="niva_left_door_descr">
+	<text>A door removed from a NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_right_door_name">
+	<text>Right door of the car "NIVA"</text>
+	</string>
+	<string id="niva_right_door_descr">
+	<text>A door removed from a NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_front_bamper_1_name">
+	<text>Front bumper of the car "NIVA"</text>
+	</string>
+	<string id="niva_front_bamper_1_descr">
+	<text>Bumper removed from a NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_front_bamper_2_name">
+	<text>Kenguryatnik of the car "NIVA"</text>
+	</string>
+	<string id="niva_front_bamper_2_descr">
+	<text>Durable and reliable bumper guard removed from the NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_back_bamper_name">
+	<text>Rear bumper of the car "NIVA"</text>
+	</string>
+	<string id="niva_back_bamper_descr">
+	<text>Rear bumper removed from a NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="niva_wheel_name">
+	<text>NIVA car wheel</text>
+	</string>
+	<string id="niva_wheel_descr">
+	<text>A wheel removed from a NIVA car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="moskvich_wheel_name">
+	<text>Wheel of a Moskvich car</text>
+	</string>
+	<string id="moskvich_wheel_descr">
+	<text>A wheel removed from a Moskvich car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_wheel_name">
+	<text>Single wheel of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_wheel_descr">
+	<text>A wheel removed from a Kamaz truck.You can install it on the same machine, or combine them.</text>
+	</string>
+	
+	<string id="kamaz_wheel2_name">
+	<text>Sparking Kamaz truck wheels</text>
+	</string>
+	<string id="kamaz_wheel2_descr">
+	<text>A wheel removed from a Kamaz truck.You can install it on the same machine, as well as separate them.</text>
+	</string>
+	
+	<string id="bagage_name">
+	<text>Top rack</text>
+	</string>
+	<string id="bagage_descr">
+	<text>Universal roof rack for passenger cars.Can be used on almost all passenger cars.</text>
+	</string>
+		
+	<string id="figure_cat_name">
+	<text>Figurine "Cat"</text>
+	</string>
+	<string id="figure_cat_descr">
+	<text>A weighty stone figurine of a fat cat.Perhaps this is someone's talisman.Will fit well into any interior or your car.</text>
+	</string>
+	
+	<string id="key_car_name">
+	<text>«Vehicle» key</text>
+	</string>
+	<string id="key_car_descr">
+	<text>A universal car key that can be used to lock any car.</text>
+	</string>
+	
+	<string id="btr_wheel_green_name">
+	<text>Wheel "BTR"</text>
+	</string>
+	<string id="btr_wheel_green_descr">
+	<text>A wheel removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_yellow_wheel_name">
+	<text>Wheel "BTR"</text>
+	</string>
+	<string id="btr_yellow_wheel_descr">
+	<text>A wheel removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_left_green_door_name">
+	<text>Left armored door "BTR"</text>
+	</string>
+	<string id="btr_left_green_door_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_left_yellow_door_name">
+	<text>Left armored door "BTR"</text>
+	</string>
+	<string id="btr_left_yellow_door_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_right_green_door_name">
+	<text>Right armored door "BTR"</text>
+	</string>
+	<string id="btr_right_green_door_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_right_yellow_door_name">
+	<text>Right armored door "BTR"</text>
+	</string>
+	<string id="btr_right_yellow_door_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_front_door_green_name">
+	<text>Front armored door "BTR"</text>
+	</string>
+	<string id="btr_front_door_green_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="btr_front_door_yellow_name">
+	<text>Front armored door "BTR"</text>
+	</string>
+	<string id="btr_front_door_yellow_descr">
+	<text>A door removed from an armored personnel carrier.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="moskvich_left_door_name">
+	<text>Left door of the Moskvich car</text>
+	</string>
+	<string id="moskvich_left_door_descr">
+	<text>A door removed from a Moskvich car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="moskvich_right_door_name">
+	<text>Right door of the Moskvich car</text>
+	</string>
+	<string id="moskvich_right_door_descr">
+	<text>A door removed from a Moskvich car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="moskvich_front_door_name">
+	<text>The hood of the Moskvich car</text>
+	</string>
+	<string id="moskvich_front_door_descr">
+	<text>The hood removed from the Moskvich car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="moskvich_back_door_name">
+	<text>Trunk lid of a Moskvich car</text>
+	</string>
+	<string id="moskvich_back_door_descr">
+	<text>A cover removed from a Moskvich car.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_door_left_red_name">
+	<text>Left door of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_door_left_red_descr">
+	<text>A door removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_door_left_white_name">
+	<text>Left door of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_door_left_white_descr">
+	<text>A door removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_door_right_red_name">
+	<text>Right door of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_door_right_red_descr">
+	<text>A door removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_door_right_white_name">
+	<text>Right door of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_door_right_white_descr">
+	<text>A door removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	
+	<string id="kamaz_back_door_name">
+	<text>Rear door of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_back_door_descr">
+	<text>A door removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_front_bamper_name">
+	<text>Front bumper of a Kamaz truck</text>
+	</string>
+	<string id="kamaz_front_bamper_descr">
+	<text>Bumper removed from a Kamaz truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_tent_name">
+	<text>Awning for Kamaz trailer</text>
+	</string>
+	<string id="kamaz_tent_descr">
+	<text>An awning that can be used to wrap around a truck.Can be installed on the same machine.</text>
+	</string>
+	
+	<string id="kamaz_tent_name">
+	<text>Awning for Kamaz trailer</text>
+	</string>
+	<string id="kamaz_tent_descr">
+	<text>An awning that can be used to wrap a Kamaz</text>
+	</string>
+	
+	<string id="kamaz_mount_name">
+	<text>    «»</text>
+	</string>
+	<string id="kamaz_mount_descr">
+	<text>A mount that can be used to attach a trailer.</text>
+	</string>
+	
+	<string id="kamaz_mudguard_name">
+	<text>Mudguards for Kamaz</text>
+	</string>
+	<string id="kamaz_mudguard_descr">
+	<text>Mud flaps that can be installed on a Kamaz truck</text>
+	</string>
+	
+	<string id="kamaz_beams">
+	<text>Trailer beams for Kamaz</text>
+	</string>
+	<string id="kamaz_mudguard_descr">
+	<text>Beams for a flatbed trailer on which an awning can be installed.</text>
+	</string>
+	
+	<string id="kamaz_fuel_name">
+	<text>Gas tank for Kamaz</text>
+	</string>
+	<string id="kamaz_fuel_descr">
+	<text>An additional gas tank for Kamaz, which will increase the fuel capacity.</text>
+	</string>
+	
+	<string id="kamaz_snorkel_name">
+	<text>Snorkel for Kamaz</text>
+	</string>
+	<string id="kamaz_snorkel_descr">
+	<text>The snorkel will provide the truck with a constant supply of air to the engine, thanks to which the vehicle will no longer stall in deep waters.</text>
+	</string>
+	
+	<string id="kamaz_trailer_name">
+	<text>Kamaz flatbed trailer</text>
+	</string>
+	<string id="kamaz_trailer_descr">
+	<text>A flatbed trailer in which you can transport things.</text>
+	</string>
+	
+</string_table>

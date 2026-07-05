@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_wpn_usp_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_wpn_usp_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_wpn_usp_up_anatomic_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_wpn_usp_up_anatomic_handle_descr">
+     <text>Selecting and installing grip pads that are more suitable for a particular shooter on a weapon allows you to achieve better results when shooting.</text>
+</string>
+<string id="gunsl_wpn_usp_up_ramka_name">
+     <text>Reinforced frame</text>
+</string>
+<string id="gunsl_wpn_usp_up_ramka_descr">
+     <text>A frame made of more durable plastic has a beneficial effect on the wear resistance of the weapon.</text>
+</string>
+<string id="gunsl_wpn_usp_up_flashlaser_name">
+     <text>Combined tactical module</text>
+</string>
+<string id="gunsl_wpn_usp_up_flashlaser_descr">
+     <text>Combines the functions of a highly targeted tactical flashlight and a laser target designator.Particularly useful at night.</text>
+</string>
+<string id="gunsl_wpn_usp_up_light_mag_name">
+     <text>Lightweight magazine</text>
+</string>
+<string id="gunsl_wpn_usp_up_light_mag_descr">
+     <text>Allows you to slightly reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_usp_up_pokritie_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_wpn_usp_up_pokritie_descr">
+     <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+</string>
+<string id="gunsl_wpn_usp_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_wpn_usp_up_usm_rpm_descr">
+     <text>Reconfiguring the trigger and modifying some of its parts allows firing at a higher rate.Unfortunately, this causes the weapon to wear out a little faster.</text>
+</string>
+<string id="gunsl_wpn_usp_up_usm_recoil_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_wpn_usp_up_usm_recoil_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_accuracy_descr">
+     <text>Allows you to make shooting from weapons more accurate.</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_bullet_speed_name">
+     <text>Barrel with modified rifling pitch</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_bullet_speed_descr">
+     <text>Allows you to increase the initial speed of the bullet.</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_recoil_name">
+     <text>Recoil compensation system</text>
+</string>
+<string id="gunsl_wpn_usp_up_barrel_recoil_descr">
+     <text>The compensation system integrated into the design of the weapon significantly reduces felt recoil and contributes to more comfortable shooting.</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_ejector_name">
+     <text>Improved cutoff</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_ejector_descr">
+     <text>Improving the cartridge ejection system reduces the likelihood of delays during shooting due to the cartridge case sticking after the shot.</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_zapiratel_name">
+     <text>Adjusting the locking mechanism</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_zapiratel_descr">
+     <text>By locking the bore more tightly, the obturation of the bore improves and the muzzle velocity of the bullet increases.</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_rpm_name">
+     <text>Short shutter stroke</text>
+</string>
+<string id="gunsl_wpn_usp_up_zatvor_rpm_descr">
+     <text>Allows you to increase the rate of fire of a weapon by reducing the time required to feed a new cartridge.</text>
+</string>
+<string id="gunsl_wpn_usp_up_polymer_buffer_name">
+     <text>Polymer buffer</text>
+</string>
+<string id="gunsl_wpn_usp_up_polymer_buffer_descr">
+     <text>Equipping the pistol with a polymer buffer in addition to the standard recoil spring softens recoil.</text>
+</string>
+<string id="gunsl_wpn_usp_up_patronnik_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_wpn_usp_up_patronnik_descr">
+     <text>Allows you to achieve higher shooting accuracy.</text>
+</string>
+<string id="gunsl_wpn_usp_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_wpn_usp_up_light_details_descr">
+     <text>Replacing standard weapon parts with lightweight analogues allows you to reduce the weight of the weapon.</text>
+</string>
+</string_table>

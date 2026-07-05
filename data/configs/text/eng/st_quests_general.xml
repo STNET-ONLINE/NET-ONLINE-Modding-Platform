@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="hide_from_surge_message">
+		<text>Attention!Time left before ejection</text>
+	</string>
+	<string id="hide_from_surge_descr_1_a">
+		<text>It is necessary to urgently run to the nearest shelter and hide from the ejection.</text>
+	</string>
+	<string id="hide_from_surge_descr_2_a">
+		<text>During the release, you should never leave the shelter.</text>
+	</string>
+	<string id="hide_from_surge_name_1">
+		<text>Release: find cover</text>
+	</string>
+	<string id="hide_from_surge_name_2">
+		<text>Release: wait in cover</text>
+	</string>
+</string_table>

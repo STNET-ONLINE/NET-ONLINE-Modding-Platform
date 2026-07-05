@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="delete_this">
+    <text>1</text>
+  </string>
+  <string id="mar_provodnik_1_0">
+    <text>Пора на волю. Надевай</text>
+  </string>
+  <string id="mar_provodnik_1_1">
+    <text>Тебе подуже или как обычно?</text>
+  </string>
+  <string id="mar_provodnik_1_2">
+    <text>Как обычно. Затягивай и пошли</text>
+  </string>
+  <string id="mar_provodnik_1_3">
+    <text>Обожди. Свои дела еще не закончил. Позже подойду</text>
+  </string>
+  <string id="mar_provodnik_2_0">
+    <text>Куда можешь провести?</text>
+  </string>
+  <string id="mar_provodnik_2_1">
+    <text>Выбор не большой. Могу отвести к северной вышке, но там тебе уже дальше своим ходом. Если готов, то вот повязка - затягиваю и пошли</text>
+  </string>
+  <string id="mar_provodnik_2_2">
+    <text>Пошли</text>
+  </string>
+  <string id="mar_provodnik_3_0">
+    <text>В лагерь проведешь?</text>
+  </string>
+  <string id="mar_provodnik_3_1">
+    <text>Ну ты и так в лагере куда тебе еще дальше?</text>
+  </string>
+  <string id="mar_provodnik_3_10">
+    <text>Ну гуляй тогда</text>
+  </string>
+  <string id="mar_provodnik_3_11">
+    <text>Глазки закрываем, сейчас будет темно. Повязачку не снимаем пока я не скажу или сам не сниму.</text>
+  </string>
+  <string id="mar_provodnik_3_12">
+    <text>Ожидай. Сейчас повязачку надену и пойдем.</text>
+  </string>
+  <string id="mar_provodnik_3_13">
+    <text>Ожидаем</text>
+  </string>
+  <string id="mar_provodnik_3_14">
+    <text>Хорошо</text>
+  </string>
+  <string id="mar_provodnik_3_2">
+    <text>Не местный я - не видишь? От торговца пришел - сказал что все уже обговорено</text>
+  </string>
+  <string id="mar_provodnik_3_3">
+    <text>А куда еще можно?</text>
+  </string>
+  <string id="mar_provodnik_3_4">
+    <text>Можно и в аномалию. Но тебе лучше идти на все четыре стороны. Бывай</text>
+  </string>
+  <string id="mar_provodnik_3_5">
+    <text>И тебе не хворать</text>
+  </string>
+  <string id="mar_provodnik_3_6">
+    <text>И то правда. Я пожалуй пойду</text>
+  </string>
+  <string id="mar_provodnik_3_7">
+    <text>Ну вот - другое дело. Показываем билет и проходим в вагоны</text>
+  </string>
+  <string id="mar_provodnik_3_8">
+    <text>Вот держи</text>
+  </string>
+  <string id="mar_provodnik_3_9">
+    <text>Билета у меня и нету</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_0">
+    <text>Дня доброго, уважаемый! Помощь не требуется?</text>
+  </string>
+  <string id="mar_quest_darkskinner_wiedzmin_end_0">
+    <text>Вот забирай трофей - сказано было тебе отдать</text>
+  </string>
+  <string id="mar_quest_darkskinner_wiedzmin_end_1">
+    <text>Че за мерзость ты приволок? Убери это со стола! Ты прям как тот мужик седовласый из книг польских! Вот тебе от нашего брата-сталкера - может быть не так много, как ты ожидал, но с душой</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_alt_end_0">
+    <text>Вот твоя папка - Курьера твой сгинул. Готовь награду</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_alt_end_1">
+    <text>Эх... Жаль его. Вот твоя награда, как и обещал - часть суммы</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_0">
+    <text>Вот держи посылку с болот</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_1">
+    <text>Не темни, сталкер, что за посылка?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_2">
+    <text>Не знаю. От Суслова - документы какие-то вроде. Сказал что ты в курсе</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_3">
+    <text>Да, я то в курсе, но не твоего лица в этом деле. Что случилось с курьером?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_4">
+    <text>Погиб. Только один рюкзак и остался. Что внутри - бог его знает, не смотрел, не проверял.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_5">
+    <text>Ну и правильно, в чужих делах свой нос держать не стоит. Если что-то тебе обещали - возвращайся к тем кто обещал, я уже все выплатил.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_6">
+    <text>Ну как и думал - сдуешься. Надеюсь никто ни знает что в ней?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_7">
+    <text>Да хрен его знает - пакет вроде целый, а от курьера только рюкзак и остался</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_8">
+    <text>Вот тебе твоя половина, как и обещал</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_0">
+    <text>Есть что-то для меня?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_1">
+    <text>Только проблему взял себе на голову... Извиняй, не заметил - ты о чем? А работе? Да вот есть... Пусть будет проблемой и её нужно решить.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_10">
+    <text>Ну и?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_11">
+    <text>Вот и решил спросить. Заметил-ли он что-то приметное. Так все приметы сходились, как карты «Таро». Вот я и понял, кто и что умерло - курьер это мой был... Что случилось точно - не знаю, да сам и не узнаю, ведь наши после Большого выброса, как мышки в норках сидят.\nВот в общем-то сходи, проверь, что там с этим курьером, если мертв, то принеси все что есть Сидоровичу, я и заплачу полную суммы с процентами, а если влом, то просто верни - часть от суммы, так уж и быть заплачу. Ну так что, согласен?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_12">
+    <text>Можно и попробовать.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_13">
+    <text>Далеко и не по пути - верну что найду.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_14">
+    <text>Пока повремени, я сейчас слегка занят.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_15">
+    <text>Записываю.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_16">
+    <text>Ну хотя-бы так.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_17">
+    <text>Ты, смотри оно вечно ждать тебя не будет - не спящая красавица.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_2">
+    <text>Что за проблема, то?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_3">
+    <text>Ну... Все-же наши знают, что в последнее время у нас с заказами полный голяк и так последнее время подошву жуем, а вчера неожиданно пришёл от жирной жабы...</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_4">
+    <text>Ох... Не томи... выкладывай.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_5">
+    <text>Ну раз торопишь... Постараюсь в двух слова - Всего-то требовалось, Курьеру смотаться до «Деревни Новичков», к старому хрычу. Ну... Передать ему какую-то папку, но... Как ты понимаешь... Всё пошло через одно место.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_6">
+    <text>Курьер сбежал?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_7">
+    <text>Да, нет. Ещё лучше! Он сука, здох в аномалии.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_8">
+    <text>А, ты, туда знаешь?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_9">
+    <text>Прям как в анекдоте - заходит сталкер и говорит. А говорит не как в анекдоте - что типо видел труп нашего, а я знаю, что все «Наши» сидят по домам.</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_0">
+    <text>Ну и задачу вы дали профессор. Держите данные</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_1">
+    <text>Что случилось с вами?</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_2">
+    <text>Да как только я включил первый-же сканер началась какая муть - на меня стали нападать мутанты. И с каждым так повторилось</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_3">
+    <text>Хм… Интересная теория получается. Что-то не обычно было пока работал сканер помимо мутантов? Звуки? Вибрации?</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_4">
+    <text>Своими ногами и ушами ничего ни чувствовал</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_end_5">
+    <text>Мм… Возможно другой диапазон… Молодой человек, вы очень сильно помогли науки, не только собрали данные, но и получили доказательств наших размышлений о пропаже научных групп. Вот ваша награда. Ожидаем вас еще в наших топях</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_start_0">
+    <text>Здравствуйте, есть что-то на примете?</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_start_1">
+    <text>И вам не хворать молодой человек. Работы у нас как моря и сколько бы мы не изучали бы Зону ответов и вопрос с каждым днем не уменьшается. Вот и после последнего выброса хотелось бы на заполучить данные аномальной активности. Не мог-ли бы с этим нам помочь?</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_start_2">
+    <text>А чего бы и не помочь науке?</text>
+  </string>
+  <string id="mar_quest_kalancha_scanner_start_3">
+    <text>Побольше бы таких сталкеров, как вы. Опуская подробности вам потребуется разместить в трех точках наши сканеры аномальной активности. Вот кстати и они - будут тяжеловаты, но наградой не обделим - дадим вам немного «на карманные расходы» и один артефакт электрического типа</text>
+  </string>
+  <string id="mar_quest_novikov_details_end_0">
+    <text>Держи свои побрякушки - ели нашел их</text>
+  </string>
+  <string id="mar_quest_novikov_details_end_1">
+    <text>Невероятно, даже практически не тронуты. Большая благодарность тебе сталкер. Яж прям из этого и пулемет могу сделать теперь!</text>
+  </string>
+  <string id="mar_quest_novikov_details_end_2">
+    <text>А награда?</text>
+  </string>
+  <string id="mar_quest_novikov_details_end_3">
+    <text>Ах… Извиняй, забыл что на одном «спасибо» далеко не уедешь. Вот держи тебе прицельчик не плохой под советское, а также денежек с горочкой</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_0">
+    <text>Привет технарям, нужна помощь?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_1">
+    <text>Подожди… Не отвлекай… Секундочку… Ниточку в иголочку - вот и получился подсумочек мой - смотри, прям прелесть! Ах да… Чего тебе вольный?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_2">
+    <text>Говорю, привет. Есть с чем тебе помочь?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_3">
+    <text>И тебе не хворать! Даже думать не буду - детали нужны конечно. Наши после тряски бояться высунуть нос за заборчик, а по тебе видно что ты не «местный» - авось подсобишь?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_4">
+    <text>А чего бы и не подсобить?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_5">
+    <text>Ну и нашли общую волную. Смотри мне нужны не просто детальки, а все что сгодится для пайки - платы, конденсаторы и всякие транзисторы. Их можно найти в старых армейских ящика по всем Болотам - по информации их особо не растащили… Понял что у нас проблема нарисовалась…</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_6">
+    <text>Что случилось?</text>
+  </string>
+  <string id="mar_quest_novikov_details_start_7">
+    <text>Да я понял что мне еще нужна проволока медная и канифоль, но я боюсь что их там нету в ящиках - стаклеры уж поди растащили на всякие мелочи. Кратко - ищи в рюкзаках, ящика и во всем что не приколочено, да хоть в машинах - зная брата-сталкера даже там спрячет</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_descr">
+    <text>Суслов попросил вас найти Документы. Необходимо найти труп курьера на Болотах и забрать с него документы</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_give_name">
+    <text>Суслов: передать документы</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_none_name">
+    <text>Суслов: найти документы</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_descr">
+    <text>Суслов попросил вас найти Документы и отнести их Сидоровичу. Необходимо найти труп курьера на Болотах и забрать с него документы. После чего передать их Сидоровичу</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_give_name">
+    <text>Тайна информации: передать документы Сидоровичу</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_none_name">
+    <text>Тайна информации: найти документы</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_1">
+    <text>Новые лица на нашем болоте! Ты прям во время – у меня тут патруль один срывается.</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_2">
+    <text>А чего своих не отправишь?</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_3">
+    <text>Вопрос правильный, но не в моей ситуации. После этого клятого выброса больше половины моих ребят погибла. Опытных практически не осталось, а зеленых я отправлять не стану - не дурак и не идиот. А ты по виду уж и не опытный, но точно уже видал зону, раз своим ходом приплыл</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_4">
+    <text>И правильно - не дурак. Что делать нужно?</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_5">
+    <text>Вот карта… Ам… Вот здесь расположен бывший наш пост – вышка что севернее нашего хутора. Хочу проверить её и после занять нашими силами - если будет такая возможность. Вторая точка – Насосная станция. Мои разведчики говорят что там засели ренегаты, но точного количества у меня нету. Твоей задачей будет посмотреть что и сколько там – без вмешательств! Так, а третья точна находится между первой и второй, но севернее - вот она. Там говорят обитает нечесть какая-то, если разберешься, то накину деньжат хороших, абы нет, то просто за информацию спасибо отсыплю. Вроде все… </text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_6">
+    <text>Точки поставил – пройдусь пожалуй</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_start_7">
+    <text>Удачной дороги, сталкер</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_end_0">
+    <text>А вот и я за наградой</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_end_1">
+    <text>Интересный ты паря – а быстро та-как! Спасибо тебе за информацию, ребятам уже сообщил о ней. Вот тебе монет за работу, надеюсь не обидел суммой.</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_end_2">
+    <text>Чуть не забыл - вот трофей с твари той что на островке была.</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_end_3">
+    <text>Не обидел. Будет работа - зови</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_end_4">
+    <text>Необычно… Расцветка не местная, да и что-то крупновата деталька. Вот тебе еще с барского плеча за истребление новой болото-книжной фауны</text>
+  </string>
+  <string id="mar_provodnik_2_3">
+    <text>У меня еще есть дела</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_sub_1">
+    <text>Ало. Я на вышке. Рядом все чисто - только кабанчики бегают. Но вид тут хороший</text>
+  </string>
+  <string id="mar_quest_darkskinner_patrol_sub_2">
+    <text>Смуглый у аппарата. Рад что вид пришелся по вкусу. Видишь насосную станцию - дальше тебе туда</text>
+  </string>
+</string_table>

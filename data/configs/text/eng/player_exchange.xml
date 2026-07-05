@@ -1,0 +1,38 @@
+<string_table>
+	<string id="player_exchange_confirm">
+		<text>Confirm</text>
+	</string>
+	<string id="player_exchange_cancel">
+		<text>Cancel</text>
+	</string>
+	<string id="player_exchange_state_editing">
+		<text>editing</text>
+	</string>
+	<string id="player_exchange_state_confirmed">
+		<text>confirmed</text>
+	</string>
+	<string id="player_exchange_status_you">
+		<text>You: %s</text>
+	</string>
+	<string id="player_exchange_status_partner">
+		<text>Partner: %s</text>
+	</string>
+	<string id="player_exchange_phase_build_offer">
+		<text>Build offer</text>
+	</string>
+	<string id="player_exchange_phase_waiting_confirm">
+		<text>Waiting</text>
+	</string>
+	<string id="player_exchange_phase_completing">
+		<text>Completing</text>
+	</string>
+	<string id="player_exchange_caption">
+		<text>Exchange</text>
+	</string>
+	<string id="player_exchange_send_invite">
+		<text>Exchange invite sent to %s.</text>
+	</string>
+	<string id="player_exchange_receive_invite">
+		<text>[EXCHANGE]\n \nPlayer %s wants to trade with you. If you reject, new exchange invites will be blocked for 2 minutes.</text>
+	</string>
+</string_table>

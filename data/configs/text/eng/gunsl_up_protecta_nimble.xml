@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_protecta_nimble_up_rail_name">
+     <text>Rail fastening</text>
+</string>
+<string id="gunsl_protecta_nimble_up_rail_descr">
+     <text>Allows you to install various types of sights on weapons.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_barrel_voronenie_name">
+     <text>Barrel bluing</text>
+</string>
+<string id="gunsl_protecta_nimble_up_barrel_voronenie_descr">
+     <text>A special heat-resistant coating makes the weapon barrel more resistant to adverse environmental conditions, increasing the reliability of the weapon.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_usm_rpm_name">
+     <text>Soft descent</text>
+</string>
+<string id="gunsl_protecta_nimble_up_usm_rpm_descr">
+     <text>Allows you to increase the rate of fire.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_ejector_name">
+     <text>Improved cutoff</text>
+</string>
+<string id="gunsl_protecta_nimble_up_ejector_descr">
+     <text>Modification of the cartridge ejection system reduces the likelihood of delays during shooting.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_barrel_narezka_name">
+     <text>Rifled barrel</text>
+</string>
+<string id="gunsl_protecta_nimble_up_barrel_narezka_descr">
+     <text>Rifling the barrel can significantly improve shooting accuracy and increases the initial speed of the bullet, but makes it impossible to fire shotguns.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_protecta_nimble_up_light_details_descr">
+     <text>Replacing standard weapon parts with lightweight analogues made from modern alloys makes it possible to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_laser_name">
+     <text>Tactical module</text>
+</string>
+<string id="gunsl_protecta_nimble_up_laser_descr">
+     <text>Installation of a special tactical unit on a weapon, which combines the functions of a laser target designator and a tactical flashlight.An indispensable thing for fighting at night.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_plastic_mag_name">
+     <text>Plastic drum</text>
+</string>
+<string id="gunsl_protecta_nimble_up_plastic_mag_descr">
+     <text>A drum made of modern wear-resistant plastic allows you to reduce the weight of the weapon without compromising its other characteristics.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_protecta_nimble_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_protecta_nimble_up_body_reliability_descr">
+     <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_stock_name">
+     <text>Folding stock</text>
+</string>
+<string id="gunsl_protecta_nimble_up_stock_descr">
+     <text>By installing the buttstock, it becomes much easier for the shooter to parry recoil.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_usm_recoil_name">
+     <text>Recoil compensator</text>
+</string>
+<string id="gunsl_protecta_nimble_up_usm_recoil_descr">
+     <text>The introduction of a special polymer damper into the design of the weapon makes it possible to slightly reduce the recoil felt by the shooter.</text>
+</string>
+<string id="gunsl_protecta_nimble_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_protecta_nimble_up_handle_descr">
+     <text>Provides the right hand with a more comfortable grip.</text>
+</string>
+</string_table>

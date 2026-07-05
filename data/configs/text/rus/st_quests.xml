@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+ <string id="ds_quest_high_speed_name1">
+    <text>[Скоростные замеры] Собрать машину и прибыть на отмеченное место</text>
+    </string>
+  <string id="ds_quest_high_speed_descr1">
+        <text>Овод, охотник с фермы, попросил меня стать безумным гонщиком. Проехать 8 точек на полной скорости звучит как какое-то безумие. Впрочем, почему бы не попробовать? Но для начала нужно собрать, или найти машину…</text>
+  </string>
+  
+   <string id="ds_quest_sighted_name1">
+    <text>[Зрячая] Найти неизвестного мутанта в Депо</text>
+    </string>
+  <string id="ds_quest_sighted_descr1">
+        <text>Бекас попросил меня разобраться с мутантом, на которого он наткнулся в Депо. Нужно осмотреть территорию и понять, что там происходит.</text>
+  </string>
+  
+    <string id="ds_quest_sighted_name2">
+    <text>[Зрячая] Принести КПК Бекасу</text>
+    </string>
+  <string id="ds_quest_sighted_descr2">
+        <text>Нашёл КПК Хомяка, но записи на нём побились. Нужно вернуть его Бекасу - может, он придумает что с ним сделать.</text>
+  </string>
+  
+   <string id="ds_quest_high_speed_name2">
+    <text>Приехать на первую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr2">
+        <text>Стартовая точка находится прямо по дороге. Если я что-то забыл, то у меня есть время на подготовку.</text>
+  </string>   
+  
+  <string id="ds_quest_high_speed_name3">
+    <text>Приехать на вторую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr3">
+        <text>Время ограничено! Вторая точка у заправки!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name4">
+    <text>Приехать на третью точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr4">
+        <text>Время ограничено! Третья точка у моста!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name5">
+    <text>Приехать на четвертую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr5">
+        <text>Время ограничено! Четвёртая точка у стройки!</text>
+  </string>  
+  
+    <string id="ds_quest_high_speed_name6">
+    <text>Приехать на пятую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr6">
+        <text>Время ограничено! Пятая точка у фермы!</text>
+  </string>  
+  
+  
+  <string id="ds_quest_high_speed_name7">
+    <text>Приехать на шестую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr7">
+        <text>Время ограничено! Шестая точка у автостанции!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name8">
+    <text>Приехать на седьмую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr8">
+        <text>Время ограничено! Седьмая точка у гаражей!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name9">
+    <text>Приехать на восьмую точку</text>
+    </string>
+  <string id="ds_quest_high_speed_descr9">
+        <text>Время ограничено! Восьмая точка у остановки!</text>
+  </string>  
+  
+  <string id="ds_quest_high_speed_name10">
+    <text>Вернуться к Оводу за наградой</text>
+    </string>
+  <string id="ds_quest_high_speed_descr10">
+        <text>Поездка окончилась, замеры получены, Овод – доволен. Нужно вернуться за своей заслуженной наградой.</text>
+  </string>
+	
+
+    
+
+ <string id="ds_quest_yesterday_raining_name1">
+        <text>Осмотреть берег</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr1">
+        <text>Зверобой попросил расправится с мутантами и предположил что они могут быть в районе берега. Нужно осмотреть это место.</text>
+    </string>
+    
+        <string id="ds_quest_yesterday_raining_name2">
+        <text>Уничтожить собак у берега</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr2">
+        <text>А вот и мутанты о которых говорил Зверобой. Нужно перестрелять их, и судя по всему там находится матерый пёс, чей хвост я принесу в качестве доказательства.</text>
+    </string>
+    
+            <string id="ds_quest_yesterday_raining_name3">
+        <text>Исследовать Ж/Д туннель.</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr3">
+        <text>Зверобой связался со мной, и предположил о том что снорки находятся в Ж\Д тоннеле. Нужно осмотреть эту область.</text>
+    </string>
+    
+                <string id="ds_quest_yesterday_raining_name4">
+        <text>Убить снорков</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr4">
+        <text>В тоннеле в действительности находятся снорки! Нужно с ними расправится, и принести Зверобою 5 стоп в качестве доказательства.</text>
+    </string>
+    
+     <string id="ds_quest_yesterday_raining_name5">
+        <text>Вернутся к Зверобою</text>
+    </string>
+        <string id="ds_quest_yesterday_raining_descr5">
+        <text>Расправился с тварями, нужно вернуться и сообщить Зверобою о проделанной работе.</text>
+    </string>
+
+    <string id="esc_quest_moskvich_1_name2">
+        <text>Переговорить со «Ставором»</text>
+    </string>
+	    <string id="esc_quest_moskvich_1_descr2">
+        <text>Столько всего пройдено, а по существу - ничего стоящего. Переговорю со Ставором, а дальше как пойдёт.</text>
+    </string>
+
+    <string id="esc_quest_moskvich_1_name">
+        <text>Узнать любую информацию о «Москвиче»</text>
+    </string>
+	    <string id="esc_quest_moskvich_1_descr">
+        <text>Интересная история. Сам поехал, сам пропал. Не может быть всё так просто, следует найти очевидцев которые смогут поведать чуть больше, чем просто байку.</text>
+    </string>
+	
+	 <string id="esc_quest_moskvich_info_1_name">
+        <text>Найти информацию о «Москвиче» в Деревне Новичков</text>
+    </string>
+		<string id="esc_quest_moskvich_info_1_name2">
+        <text>Узнать информацию о «Москвиче» у Сидоровича</text>
+    </string>
+	<string id="esc_quest_moskvich_info_1_descr">
+        <text>Не думаю что новички могут что-то знать о машине, но старожила Волк точно подскажет.</text>
+    </string>
+	<string id="esc_quest_moskvich_info_1_descr2">
+        <text>Волк сказал, что следует поговорить с сидоровичем насчёт этого автомобиля. Зная этого торговца - расследование может затянуться...</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_info_2_name">
+        <text>Найти информацию о «Москвиче» на Базе Сталкеров</text>
+    </string>
+		<string id="esc_quest_moskvich_info_2_descr">
+        <text>Местный торговец Шилов может что-то знать об этой машине. Следует спросить у него.</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_info_3_name">
+        <text>Найти информацию о «Москвиче» на Базе Охотников</text>
+    </string>
+		<string id="esc_quest_moskvich_info_3_descr">
+        <text>Кому если не охотникам, быть главными очевидцами? Следует наведуться к ним в лагерь.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name">
+        <text>Найти кейс Сидоровича в «Тёмной лощине»</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr">
+        <text>Простецкое поручение. Судя по всему, это где-то в районе моста. Просто сходить и забрать.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name1">
+        <text>Найти винтовку на «АТП»</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr1">
+        <text>Планы меняются. Это тоже самое, что искать иголку в стоге сена... Надеюсь что повезёт.</text>
+    </string>
+	
+	<string id="esc_quest_sid_groza_name2">
+        <text>Отнести грозу Сидоровичу</text>
+    </string>
+	<string id="esc_quest_sid_groza_descr2">
+        <text>Хорошая игрушка. Стреляет правда плоховато. Судя по всему это то, что сейчас ждёт Сидорович.</text>
+    </string>
+	
+	
+	<string id="esc_quest_moskvich_bubble_1_name">
+        <text>Исследовать пространственный пузырь над «ЖД Насыпью»</text>
+    </string>
+	<string id="esc_quest_moskvich_bubble_1_descr">
+        <text>Первый пункт назначения - Пространственный пузырь над ЖД Насыпью. Стоит ли рисковать...</text>
+    </string>
+	
+	<string id="esc_quest_moskvich_bubble_2_name">
+        <text>Исследовать пространственный пузырь в «Тёмной лощине»</text>
+    </string>
+	<string id="esc_quest_moskvich_bubble_2_descr">
+        <text>Ещё один пространственный пузырь находится где-то в лесах Тёмной Лощины. Следует глянуть.</text>
+    </string>
+	
+	<string id="esc_quest_find_snork_legs_name">
+        <text>Собрать 10 стоп «снорков» и принести их охотникам</text>
+    </string>
+	<string id="esc_quest_find_snork_legs_name1">
+        <text>Отнести 10 стоп «снорков» охотникам</text>
+    </string>
+	<string id="esc_quest_find_snork_legs_descr">
+        <text>Пострелять местную живность - и получить за это координаты тайника. Снорков действительно многовато около заправки...</text>
+    </string>
+
+	<string id="esc_quest_moskvich_treasure_name">
+        <text>Осмотреть тайник охотника</text>
+    </string>
+	<string id="esc_quest_moskvich_treasure_descr">
+        <text>Возможно в этом тайнике будет что-то полезное, чтоб хоть как-то продвинуться в расследование.</text>
+    </string>
+	
+
+    <string id="esc_quest_find_canister_give_name">
+        <text>Принести канистру с топливом Ставору</text>
+    </string>
+	    <string id="esc_quest_find_canister_none_name">
+        <text>Найти канистру с топливом</text>
+    </string>
+		   <string id="st_esc_quest_find_canister_descr">
+        <text>Сталкер по кличке Ставор с базы сталкеров попросил меня найти канистру с топливом. Необычный он мужик однако. Смотаться на АТП, или поискать её в другом месте?</text>
+    </string>
+	    <string id="esc_quest_find_food_none_name">
+        <text>Найти ящик с провизией</text>
+    </string>
+	    <string id="esc_quest_find_food_give_name">
+        <text>Принести ящик с провизией</text>
+    </string>
+		   <string id="st_esc_quest_find_food_descr">
+        <text>Охотник с фермы предложил мне работу. Нужно отыскать ящик с провизией и отнести его на форпост охотников, который находится за мостом.</text>
+    </string>
+		<string id="car_test_quest_name">
+        <text>Протестировать машинки</text>
+    </string>
+		<string id="car_test_quest_descr">
+        <text>Почему бы не начать тестирование заданий с покатушек на машине? Для обновления задания выдать инфопоршень: "car_test_quest_info_next"</text>
+    </string>
+			<string id="car_test_quest_descr_next">
+        <text>Отлично покатались! Для выполнения задания выдать инфопоршень: "car_test_quest_info_end"</text>
+    </string>
+		<string id="esc_quest_story_beginning_name">
+        <text>Поговорить с людьми в лагере</text>
+		</string>
+		   <string id="esc_quest_story_beginning_descr">
+        <text>Вот я и прибыл. Следует поговорить с местными, и поискать какую-нибудь работу.</text>
+		</string>
+		    <string id="esc_quest_story_beginning_wolf_name1">
+        <text>Исследовать лагерь на холме</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr1">
+        <text>Многовато работенки мне подкинул сталкер по кличке Волк. Начну с исследования этого лагеря вблизи АТП, может быть там найдётся какая-нибудь наводка.</text>
+    </string>
+		<string id="esc_quest_story_beginning_wolf_name2">
+        <text>Исследовать элеватор</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr2">
+        <text>Перенесли место встречи? Кажется на элеваторе был отряд бандитов. Чего-то не сходится. Выбора нет, придётся отправиться на элеватор и поискать что-нибудь там.</text>
+    </string>
+		<string id="esc_quest_story_beginning_wolf_name3">
+        <text>Найти ящик на Старых развалинах</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr3">
+        <text>Всё встало на свои места. Эти трое сталкеров работали вместе с бандитами. Надо будет обязательно рассказать об этом волку. Остаётся надежда что ящик по прежнему на развалинах.</text>
+    </string>
+			<string id="esc_quest_story_beginning_wolf_name4">
+        <text>Отнести ящик Волку</text>
+		</string>
+		   <string id="esc_quest_story_beginning_wolf_descr4">
+        <text>Повезло, ящик бандиты не унесли. Интересно, почему? Осталось донести его Волку и доложить о проделанной работе.</text>
+    </string>
+	   <string id="esc_quest_story_find_container_name">
+        <text>Попасть в Тёмную Лощину</text>
+    </string>
+		<string id="esc_quest_story_find_container_descr">
+        <text>Похоже, серьёзная работа. Чувствуется мне что здесь не всё так просто. Ладно, нужно добраться до Тёмной Лощины и уже после думать где эта ферма, и где эти охотники.</text>
+    </string>
+	
+	  <string id="esc_quest_story_find_container_ds_name1">
+        <text>Поговорить с охотниками</text>
+    </string>
+		<string id="esc_quest_story_find_container_ds_descr1">
+        <text>Отлично, вот я и здесь. Нужно разузнать как можно больше информации о курьере.</text>
+    </string>
+	
+	<string id="esc_quest_story_find_container_ds_name2">
+        <text>Найти Курьера</text>
+    </string>
+	<string id="esc_quest_story_find_container_ds_descr2">
+        <text>Мда, не так уж и много, как хотелось бы. Значит из подробностей - За «Мостом» живёт Кровосос и Бюрер. Вот я дурак, наверное следовало бы расспросить у охотника чуть побольше о них... Неужели Курьер настолько глуп что попался прямо им в лапы?</text>
+    </string>
+
+	<string id="esc_quest_story_find_container_ds_name3">
+        <text>Передать кейс Сидоровичу</text>
+    </string>
+	<string id="esc_quest_story_find_container_ds_descr3">
+        <text>Ну наконец-то, нашёлся кейс! Курьер мёртв. Нужно доложить обо всём Сидоровичу.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_1_name">
+        <text>Собрать деньги</text>
+    </string>
+	<string id="esc_quest_vixhryn_1_descr">
+        <text>Если этот мужик так давно находится на базе сталкеров - значит возможно следует с ним с поработать. Необходимо собрать 50000 рублей, и пренести Вихруну.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name">
+        <text>Найти детектор «Велес»</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr">
+        <text>Почти что окуп моих вложений. Правда ровно один вопрос. Где искать этот детектор?</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name1">
+        <text>Доставить детектор «Велес»</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr1">
+        <text>Прекрасно, детектор у меня. Надо доставить его по координатам, которые дал Вихрун.</text>
+    </string>
+	
+	<string id="esc_quest_vixhryn_2_name2">
+        <text>Сообщить Вихруну о проделанной работе</text>
+    </string>
+	<string id="esc_quest_vixhryn_2_descr2">
+        <text>Доставлено. Нужно доложить Вихруну о проделанной работе, и забрать свои деньги.</text>
+    </string>
+	
+	<string id="esc_quest_owner_forest_name">
+        <text>[Хозяин Леса] Убить «Хозяина Леса»</text>
+    </string>
+	<string id="esc_quest_owner_forest_descr">
+        <text>Матёрый кабан создаёт большое число неприятностей сталкерам в Тёмной Лощине. Нужно разобраться с этой тушей, и принести копыто Сидоровичу.</text>
+    </string>
+	
+	<string id="esc_quest_owner_forest_name2">
+        <text>[Хозяин Леса] Отнести копыто «Хозяина Леса» Сидоровичу</text>
+    </string>
+	<string id="esc_quest_owner_forest_descr2">
+        <text>Копыто у меня! Тяжёлое однако. Осталось передать его Cидоровичу.</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name">
+        <text>[Вступление в сталкеры] Найти АК-74 и модули к нему</text>
+    </string>
+	<string id="esc_quest_entry_stalker_descr">
+        <text>Для вступление в группировку мне нужно выполнить небольшое задание, найти АК-74, «Кобру» и «ТГП-А».</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name2">
+        <text>[Вступление в сталкеры] Спрятать АК-74 и модули в отмеченном месте</text>
+    </string>
+	
+	<string id="esc_quest_entry_stalker_name3">
+        <text>[Вступление в сталкеры] Вернуться к Валерьяну</text>
+    </string>
+	
+	<string id="esc_quest_entry_bandit_name">
+        <text>[Вступление в бандиты] Найти два обреза</text>
+    </string>
+	<string id="esc_quest_entry_bandit_descr">
+        <text>Для вступление в группировку нужно найти пару обрезов и принести их Йоге.</text>
+    </string>
+	
+	<string id="esc_quest_entry_bandit_name2">
+        <text>[Вступление в бандиты] Принести обрезы Йоге</text>
+    </string>
+	
+	
+	
+	<!-- Cycle Quests -->
+	
+		<string id="find_mutant_dog_tail_name_naiti">
+        <text>Найти хвост Слепого пса</text>
+        </string>
+		<string id="find_mutant_dog_tail_name_otnesti">
+        <text>Отнести хвост Слепого пса</text>
+        </string>
+		<string id="find_mutant_dog_tail_descr">
+        <text>Необходимо найти хвост слепого пса, и передать его заказчику.</text>
+        </string>
+		
+		<string id="find_mutant_pseudodog_tail_name_naiti">
+        <text>Найти хвост Псевдопса</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_name_otnesti">
+        <text>Отнести хвост Псевдопса</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_descr">
+        <text>Необходимо найти хвост псевдопса, и передать его заказчику.</text>
+        </string>
+		
+		<string id="find_mutant_boar_leg_name_naiti">
+        <text>Найти Копыто кабана</text>
+        </string>
+		<string id="find_mutant_boar_leg_name_otnesti">
+        <text>Отнести Копыто кабана</text>
+        </string>
+		<string id="find_mutant_boar_leg_descr">
+        <text>Необходимо найти копыто кабана, и передать его заказчику.</text>
+        </string>
+		
+		<string id="find_af_medusa_name_naiti">
+        <text>Найти артефакт Медуза</text>
+        </string>
+		<string id="find_af_medusa_name_otnesti">
+        <text>Отнести артефакт Медуза</text>
+        </string>
+		<string id="find_af_medusa_descr">
+        <text>Необходимо найти артефакт «Медуза», и передать его заказчику.</text>
+        </string>
+		
+		<string id="find_af_cristall_flower_name_naiti">
+        <text>Найти артефакт каменный цветок</text>
+        </string>
+		<string id="find_af_cristall_flower_name_otnesti">
+        <text>Отнести артефакт каменный цветок</text>
+        </string>
+		<string id="find_af_cristall_flower_descr">
+        <text>Необходимо найти артефакт «Каменный цветок», и передать его заказчику.</text>
+        </string>
+		
+		<string id="find_af_night_star_name_naiti">
+        <text>Найти артефакт Ночная звезда</text>
+        </string>
+		<string id="find_af_night_star_name_otnesti">
+        <text>Отнести артефакт Ночная звезда</text>
+        </string>
+		<string id="find_af_night_star_descr">
+        <text>Необходимо найти артефакт «Ночная звезда», и передать его заказчику.</text>
+        </string>
+	
+		<string id="find_rgm40_name_naiti">
+        <text>Найти редкое оружие «РГМ-40»</text>
+        </string>
+		<string id="find_rgm40_name_otnesti">
+        <text>Отнести «РГМ-40» заказчику</text>
+        </string>
+		<string id="find_rgm40_naiti_descr">
+        <text>Заказчик предложил работу по поиску редкого оружия «РГМ-40».</text>
+        </string>
+		
+		<string id="find_mutant_dog_tail_name_naiti_x10">
+        <text>Найти 10 Хвостов «Слепого пса»</text>
+        </string>
+		<string id="find_mutant_dog_tail_name_otnesti_x10">
+        <text>Передать 10 Хвостов «Слепого пса»</text>
+        </string>
+		<string id="find_mutant_dog_tail_descr_x10">
+        <text>Заказчик предложил работу на поиск 10 Хвостов «Слепого пса». Похоже, крупный заказ. Нужно найти и передать заказчику.</text>
+        </string>
+		
+		<string id="find_mutant_pseudodog_tail_name_naiti_x5">
+        <text>Найти 5 Хвостов «Псевдособаки»</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_name_otnesti_x5">
+        <text>Передать 5 Хвостов «Псевдособаки»</text>
+        </string>
+		<string id="find_mutant_pseudodog_tail_descr_x5">
+        <text>Заказчик предложил работу на поиск 5 Хвостов «Псевдособаки». Похоже, крупный заказ. Нужно найти и передать заказчику.</text>
+        </string>
+		
+		<string id="find_mutant_boar_leg_name_naiti_x15">
+        <text>Найти 15 Копыт «Кабана»</text>
+        </string>
+		<string id="find_mutant_boar_leg_name_otnesti_x15">
+        <text>Передать 15 Копыт «Кабана»</text>
+        </string>
+		<string id="find_mutant_boar_leg_descr_x15">
+        <text>Заказчик предложил работу на поиск 15 Копыт «Кабана». Похоже, крупный заказ. Нужно найти и передать заказчику.</text>
+        </string>
+		
+		<string id="find_mutant_krovosos_jaw_name_naiti_x3">
+        <text>Найти 3 Щупальца «Кровососа»</text>
+        </string>
+		<string id="find_mutant_krovosos_jaw_name_otnesti_x3">
+        <text>Передать 3 Щупальца «Кровососа»</text>
+        </string>
+		<string id="find_mutant_krovosos_jaw_descr_x3">
+        <text>Заказчик предложил работу на поиск 3 Щупалец «Кровососа». Похоже, крупный заказ. Нужно найти и передать заказчику.</text>
+        </string>
+		
+		
+		<!-- Quest Items -->
+		<string id="esc_story_pda_find_kaimanov_name">
+        <text>КПК c единственной записью</text>
+        </string>
+		<string id="esc_story_pda_find_kaimanov_descr">
+        <text>В этом КПК содержится одна единственная запись: “Вам требуется найти Профессора Кайманова, и получить у него дальнейшие инструкции по обеспечению его безопасности.” Я искал какого-то профессора? Пока что это моя единственная зацепка.
+		</text>
+        </string>
+		
+		<string id="af_quest_anomaly_pistol_name">
+        <text>Аномальный пистолет</text>
+        </string>
+		<string id="af_quest_anomaly_pistol_descr">
+        <text>Пистолет сталкера из деревни, превратившийся в нечто необычное... Судя по всему - это артефакт. Немного радиоактивен.</text>
+        </string>
+		
+		<string id="st_treasure_moskvich_note_name">
+        <text>Блокнот неизвестного охотника</text>
+        </string>
+		<string id="st_treasure_moskvich_note_descr">
+        <text>Большое число записей о общей жизни охотника. Из интересных и нужных - на последних страничках есть информация о Москвиче. «Гравитация для этой машины кажется какой-то шуткой. Знаете, кажется я догадываюсь как она устроена, и каким-образом она едет. Нужно поговорить насчёт этой идеи с моим другом.»</text>
+        </string>
+		
+		<string id="mutant_boar_leg_owner_name">
+        <text>Копыто матёрого кабана</text>
+        </string>
+		<string id="mutant_boar_leg_owner_description">
+        <text>По сравнению с обычным копытом - куда более мясистое, и тяжёлое. Редкий трофей, имеющий большую цену среди учёных.</text>
+        </string>
+		
+		<string id="seasoned_dog_tail_name">
+        <text>Хвост матёрого пса</text>
+        </string>
+		<string id="seasoned_dog_tail_description">
+        <text>Редкий трофей белого пса, сильно ценится среди охотников</text>
+        </string>
+		
+		<string id="mutant_boar_leg_owner">
+        <text>Копыто матёрого кабана</text>
+        </string>
+		<string id="mutant_boar_leg_owner_description">
+        <text>По сравнению с обычным копытом - куда более мясистое, и тяжёлое. Редкий трофей, имеющий большую цену среди учёных.</text>
+        </string>
+		
+		<string id="car_detector_name">
+		<text>Эксперементальный прибор</text>
+		</string>
+		<string id="car_detector_descr">
+		<text>Прибор, который мне выдал охотник с фермы. В наличии лишь пара кнопок, а на дисплее ничего кроме безсвязанных цифр.</text>
+		</string>
+		
+		<string id="esc_quest_joseph_medusa_find_name">
+			<text>[Дело за слово] Найти артефакт</text>
+		</string>
+		<string id="esc_quest_joseph_medusa_find_name2">
+			<text>[Дело за слово] Принести артефакт</text>
+		</string>
+		
+		<string id="esc_quest_joseph_medusa_find_descr">
+			<text>Эксперементальный прибор</text>
+		</string>
+		<string id="esc_quest_joseph_medusa_find_descr2">
+			<text>Эксперементальный прибор</text>
+		</string>
+		
+		<string id="esc_quest_joseph_after_boar_name">
+			<text>[Живой уголок] Найти посыльного</text>
+		</string>
+		<string id="esc_quest_joseph_after_boar_name2">
+			<text>[Живой уголок] Вернуться к Иосифу</text>
+		</string>
+		
+		<string id="esc_quest_joseph_after_boar_descr">
+			<text>Ох... Иосиф послал меня за каким-то посыльным, которого вероятнее уже сожрали и растащили - буду надеяться на лучшее</text>
+		</string>
+		<string id="esc_quest_joseph_after_boar_descr2">
+			<text>Не привычно, но "лучшее" оказалось сегодня со мной - тела уже давно нет, а вот его рюкзак с нужными мне бумагами оказался рядом. Интересные бумажки - вероятно Иофис интерсные перец. Сталкеры, бандиты... Интересно с кем еще он имеет дело?</text>
+		</string>
+		
+		<string id="esc_quest_docent_ivanov_scanner_name">
+			<text>[Помощь бедным и несчастным] Получить данные со сканеров</text>
+		</string>
+		<string id="esc_quest_docent_ivanov_scanner_name_end">
+			<text>[Помощь бедным и несчастным] Вернуться к Доценту Иванову</text>
+		</string>
+		
+		<string id="esc_quest_docent_ivanov_scanner_descr">
+			<text>Доцент Иванов попросил обойти его сканеры аномальной активности и собрать с них результаты</text>
+		</string>
+		
+		<!-- Messages -->
+		
+		<string id="ds_quest_find_groza_message_player_1">
+        <text>Сидорович... Здесь ничего нет. Тут ещё рядом мёртвый сталкер.</text>
+        </string>
+		<string id="ds_quest_find_groza_message_sidorovich_1">
+        <text>Как это ничего нет?! Вот же. Хотя, неудивительно. Кажется я догадываюсь, кто забрал груз. Этот сталкер имел большой должок перед бандитами, вот и поплатился.</text>
+        </string>
+		<string id="ds_quest_find_groza_message_player_2">
+        <text>Есть какие-либо варианты?</text>
+        </string>
+		<string id="ds_quest_find_groza_message_sidorovich_2">
+        <text>Двигай на АТП. Это единственное место, куда они могли отнести мой груз. Всё там перерой! Как найдёшь, тащи ко мне.</text>
+        </string>
+		
+		<string id="esc_quest_moskvich_bubble_1_message">
+        <text>Вот же...</text>
+        </string>
+
+		<string id="esc_quest_moskvich_bubble_2_message">
+        <text>Мне что, на дерево лезть? Хотя от этого пузыря идёт звук... Следует подумать.</text>
+        </string>
+
+		<string id="ds_quest_raining_dog_1_message">
+        <text>Зверобой, я ликвидировал собак, среди них был матерый пес. Но я не вижу снорков о которых ты говорил.</text>
+        </string>   
+
+		<string id="ds_quest_raining_dog_2_message">
+        <text>Странно… Может разбежались куда? Точно! Проверь Ж/Д туннель выше по берегу, они скорее всего находятся там.</text>
+        </string>    		
+        
+        <string id="ds_quest_high_speed_1_message">
+        <text>Ну как, прибыл на место? Полный бак заправил? Свечи поменял? Если ещё нет, у тебя есть время, пока ты движешься на первую точку.</text>
+        </string>  	
+
+        <string id="ds_quest_high_speed_2_message">
+        <text>А вот теперь… ВПЕРЁД! ГАЗУ! У тебя меньше 45 секунд, чтобы доехать до заправки! Если не успеешь, то всё коту под хвост!</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_3_message">
+        <text>Эй! Ты там дорогу видишь? Или опять бюрер под капот залез и теперь рулит вместо тебя? Гони дальше, следующая точка у старого моста. У тебя 50 секунд!!</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_4_message">
+        <text>О! Работает! Я уж думал, он просто лампочкой мигает. Давай, не сбавляй! Следующая точка прямо по дороге, в районе стройки. У тебя чуть больше минуты!</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_5_message">
+        <text>Твою ж мать! Кто составлял этот дурацкий маршрут?! Сталкер, гони к нашей лесопилке! Это обратно. Прибор должен отработать там. У тебя чуть больше 2 минут.</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_6_message">
+        <text>О, я тебя видел! Ты явно быстрее голодного кровососа! Следующая точка прямо по просёлке, у автостанции. У тебя 50 секунд!</text>
+        </string>  	
+		
+		<string id="ds_quest_high_speed_7_message">
+        <text>Вот это да! Даже кабаны не успели! Хотя один из них, кажется, записал твой номер - на случай «возмещения ущерба». Дальше в гаражи, должны быть справа от тебя! У тебя всего 20 секунд</text>
+        </string>
+		
+		<string id="ds_quest_high_speed_8_message">
+        <text>Последняя метка впереди! Если не успеешь - я скажу учёным, что прибор съел чернобыльский кот. Они поверят. В темпе, обратно на автостанцию, на остановке стоит автобус, замер нужно сделать там.. У тебя всего 25 секунд!</text>
+        </string> 
+		
+		<string id="ds_quest_high_speed_9_message">
+        <text>Отлично! Дело сделано. Если кто спросит из этих умников, скажу, что ты в зубы химере прибор засунул и показал, где живут самые вкусные сталкеры! Возвращайся, у меня есть кое-что есть для тебя.</text>
+        </string> 
+		
+		<string id="ds_quest_high_speed_8_fail">
+		<text>Похоже придётся рассказывать байки про кота. Давай по новой, что уж остаётся.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_7_fail">
+		<text>Ох… почти! Ещё секунда и был бы рекорд, а теперь прибор дуется, как плоть на диете.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_6_fail">
+		<text>Жаль, не вышло.Но ничего, для сталкера главное не скорость, а настойчивость. Давай ещё раз.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_5_fail">
+		<text>-Ну, зато теперь знаешь, где ямы на дороге. Осталось только проехать туда ещё раз - но побыстрее.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_4_fail">
+		<text>Замеры сбились. Прибор сказал «прощай» и ушёл в спящий режим от скуки. Едь обратно, что остаётся.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_3_fail">
+		<text>Ну, замеры сбились. Зато теперь где-то не подалёку сидит довольная плоть, облизывает твой номерной знак.</text>
+		</string>
+		
+		<string id="ds_quest_high_speed_2_fail">
+		<text>Ты что, тормозишь что ли? Не успел? Ладно, давай по новой. Дуй на первую точку.</text>
+		</string> 
+		
+		<string id="ds_quest_high_speed_fun_1_message">
+        <text>Ты аккуратней, там химера рядом бродит. Она, говорят, на звук двигателя реагирует. Хотя, может, просто ревнует - у неё-то такой мощности нет!</text>
+        </string>
+		
+		<string id="ds_quest_sighted_message">
+        <text>Эй, сталкер! Загляни ко мне на автостанцию, дело есть...</text>
+        </string> 
+		
+		<string id="esc_quest_story_3_valerian_message">
+        <text>Проходи, торговец замолвил за тебя словечко!</text>
+        </string> 
+		
+		
+		
+		<!-- STORY SEND_TIP -->
+			
+		<string id="esc_start_cutscene_message">
+        <text>Где я... Что произошло?</text>
+        </string>		
+		
+		<string id="esc_start_cutscene_2">
+        <text>Опять... голова...</text>
+        </string>	
+		
+		<string id="esc_quest_story_find_anomaly_pistol_event_2">
+        <text>Опа! А что это у нас здесь спрятано? Теперь моё!</text>
+        </string>	
+		
+		<string id="esc_quest_story_find_anomaly_pistol_event_1">
+        <text>Мда.. Хорошо они выпили.</text>
+        </string>
+		
+		<string id="ds_quest_archive_military_1_message">
+        <text>Патрульные доложили об обнаружении постороннего в периметре административного комплекса. Командование дало приказ поднять вертолёт для поиска и ликвидации цели.</text>
+        </string>
+		
+		<string id="ds_quest_archive_military_2_message">
+        <text>Вижу его. Он в здании! Открыть огонь по окнам!</text>
+        </string>
+		
+		<string id="ds_quest_archive_sidorovich_1_message">
+        <text>Эй, сталкер! Ты меня слышишь? По всем военным каналам шухер - все только про тебя говорят. Уходи оттуда немедленно, пока не прилетел спецназ. Как ты туда вообще забрался? Жду тебя у себя, поговорим.</text>
+        </string>
+		
+		
+		
+		<!-- STORY TIPs -->
+			
+		<string id="esc_quest_story_find_anomaly_pistol_tip">
+        <text>Изучить «$$ACTION_USE$$».</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_detector_tip">
+        <text>Подобрать детектор «$$ACTION_USE$$».</text>
+        </string>	
+		
+		<string id="esc_quest_story_1_backpack_tip">
+        <text>Осмотреть рюкзак «$$ACTION_USE$$».</text>
+        </string>	
+		
+		<!-- STORY QUESTS -->
+		<string id="global_quest_find_kaimanov_name">
+        <text>Найти Профессора Кайманова</text>
+        </string>
+		<string id="global_quest_find_kaimanov_descr">
+        <text>«Вам требуется найти Профессора Кайманова, и получить у него дальнейшие инструкции по обеспечению его безопасности»</text>
+        </string>
+		
+		<string id="esc_quest_start_name">
+        <text>Узнать о себе</text>
+        </string>
+		<string id="esc_quest_start_descr">
+        <text>Что произошло... Где я? Ещё голова раскалывается...</text>
+        </string>
+		
+		<string id="esc_quest_start_name2">
+        <text>Обыскать место, в котором меня нашли</text>
+        </string>
+		<string id="esc_quest_start_descr2">
+        <text>Ничего не понимаю. Нужно осмотреть место, где меня нашли, может быть тогда мне получится узнать о себе хоть что-нибудь.</text>
+        </string>
+		
+		<string id="esc_quest_start_name3">
+        <text>Поговорить о найденной информации с Волком</text>
+        </string>
+		<string id="esc_quest_start_descr3">
+        <text>Этот странный КПК судя по всему принадлежал мне. Я искал какого-то профессора?</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name">
+        <text>Получить доверие Сидоровича</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr">
+        <text>Чтобы завоевать доверие Сидоровича, нужно найти человека, который сможет за меня поручиться. Наверное следует поискать людей в деревне...</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name2">
+        <text>Найти пистолет</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr2">
+        <text>После серьёзной попойки сталкер по кличке «Кардан» потерял свой пистолет где-то в деревне... Чтож, поищем.</text>
+        </string>
+		
+		<string id="esc_quest_story_find_anomaly_pistol_name3">
+        <text>Отнести пистолет Кардану</text>
+        </string>
+		<string id="esc_quest_story_find_anomaly_pistol_descr3">
+        <text>Нашёлся! Необычный у него пистолет однако... Думаю, Кардан будет в восторге.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name">
+        <text>Поговорить с Сидоровичем</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr">
+        <text>Кардан помог мне получить доверие Сидоровича. Надеюсь, он сможет хоть что-то рассказать о Кайманове.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name2">
+        <text>Поговорить с Отцом Валерьяном</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr2">
+        <text>Сидорович пообещал помочь с моим вопросом, но перед этим придётся разгадать то, что нашли военные на территории «Тёмной Лощины».</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name3">
+        <text>Направиться к административному комплексу</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr3">
+        <text>Административный комплекс в «Тёмной Лощине» – главная цель военных. Интересно, что они там нашли?</text>
+        </string>		
+		
+		<string id="esc_quest_story_darkscape_name4">
+        <text>Изучить административный комплекс</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr4">
+        <text>Я внутри. Здесь наверняка есть какие-то материалы и документы - иначе зачем военным совать сюда свой нос?</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name5">
+        <text>Покинуть территорию архива</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr5">
+        <text>Неудивительно, что военные пришли сюда за этими материалами. Нужно валить отсюда как можно быстрее.</text>
+        </string>
+		
+		<string id="esc_quest_story_darkscape_name6">
+        <text>Поговорить с Сидоровичем</text>
+        </string>
+		<string id="esc_quest_story_darkscape_descr6">
+        <text>Зрячая, ПСИ-установки, и ещё чёрт знает что… Похоже, этот "Архив" когда-то был полевой лабораторией какой-то группы учёных. Интересно, мог ли среди них быть тот, кто способен пролить свет на мою память? Нужно поговорить об этом с Сидоровичем.</text>
+        </string>
+		
+		<!-- STORY SIDE QUESTS -->
+		
+		<string id="esc_valerian_talk_hunters_name">
+        <text>Поговорить с охотниками в «Тёмной Лощине»</text>
+        </string>
+		<string id="esc_valerian_talk_hunters_descr">
+        <text>Валерьян посоветовал поговорить с охотниками, и забрать у них «Должок», который сможет помочь мне в моём деле...</text>
+        </string>		
+		
+		<string id="st_boar_owner_forest">
+        <text>«Хозяин Леса»</text>
+        </string>
+		<string id="st_seasoned_dog">
+        <text>«Матёрый пёс»</text>
+        </string>
+		
+	<string id="st_tushkano_owner">
+		<text>«Король Тушканчиков»</text>
+    </string>
+		
+	<string id="st_mar_quest_novikov_details_title">
+		<text>[За гаечкой - деталька] Найти детали для Новикова</text>
+    </string>
+	
+	<string id="st_mar_quest_novikov_details_title_end">
+		<text>[За гаечкой - деталька] Принести детали Новикову</text>
+    </string>
+	
+	<string id="st_mar_quest_novikov_details_descr">
+		<text>Новиков сказал что ему требуются детали - всякая радиоэлектроника. Он посоветовал пошариться по армейским ящикам, авось что-то и должно было остаться. Также он предупредил что часть деталей по всем фактам расхватали сталкеры и их стоит искать в тайниках</text>
+    </string>
+	
+	<string id="st_mar_quest_darkskinner_wiedzmin_title">
+		<text>[Привет из Хамельна] Разобраться с Королем тушканов</text>
+	</string>
+	
+	<string id="st_mar_quest_darkskinner_wiedzmin_title_end">
+		<text>[Привет из Хамельна] Принести доказательства смерти Короля тушканов</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_wiedzmin_descr">
+		<text>Кто хочет заработать и помочь брату-сталкеру!\n \nСевернее насосной станции обнаружили группу Тушканчиков. Со слов очевидцев - они видели там редкий вид - «Короля тушканов». Просим откликнуться и уничтожить данную тварь за достойную награду. В качестве доказательства просим голову данной штуковины.\n \nСмуглый</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_wiedzmin_object_title">
+		<text>Объявление</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_wiedzmin_object_take">
+		<text>Взять объявление «$$ACTION_USE$$»</text>
+	</string>
+	
+	<string id="mar_quest_novikov_details_object_take">
+		<text>Забрать деталь «$$ACTION_USE$$»</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_title_1">
+		<text>[Пешая прогулка] Осмотреть северную вышку</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_desrc_1">
+		<text>Смуглый просил обойти несколько точек и вот одна из них - северная вышка. По его словам там ранее был блокпост. Последний выброс сильно изменил позиции группировки из-за чего они хотя вернуть под контроль данную вышку. Думаю стоит залезть наверх чтобы найти подход к следующей точке</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_title_2">
+		<text>[Пешая прогулка] Провести разведку у Насосной станции</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_desrc_2">
+		<text>Как он и говорил - отбросы заняли Насосную станцию. С вышке всю картину увидеть не получилось, но получится если я подойду поближе. Смуглый просил не вмешиваться - пожалуй так и сделаю</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_title_3">
+		<text>[Пешая прогулка] Узнать что происходит на полу-островке</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_desrc_3">
+		<text>Осталась последняя точка - полу-остров. Не знаю зачем он им, но вероятнее их больше беспокоит наличие некой твари на острове, о которой ходят слухи. Смуглый оставил мне выбор как поступить - уничтожить тварь или вернуться в лагерь к нему за наградой.</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_title_4">
+		<text>[Пешая прогулка] Вернуться к Смуглому</text>
+	</string>
+	
+	<string id="mar_quest_darkskinner_patrol_desrc_4">
+		<text>Смуглый сообщил что можно возвращаться в лагерь за наградой. Надеюсь что он хорошо заплатит за работу</text>
+	</string>
+
+</string_table>

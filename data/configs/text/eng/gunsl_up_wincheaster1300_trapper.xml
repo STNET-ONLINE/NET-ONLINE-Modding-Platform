@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_short_name">
+     <text>Shortened barrel</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_short_descr">
+     <text>Makes the weapon more compact and reduces its weight - unfortunately, at the cost of reducing accuracy and increasing the spread of bullets, as well as depriving the weapon of the ability to install a silencer.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_voronenie_name">
+     <text>Barrel bluing</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_voronenie_descr">
+     <text>A special heat-resistant coating makes the weapon barrel more resistant to adverse environmental conditions, increasing the reliability of the weapon.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_speed_name">
+     <text>Refinement of the bore</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_speed_descr">
+     <text>Allows you to increase the initial speed of the bullet, due to which it deviates less from the expected trajectory and reaches the target faster.Useful for long range shooting.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_body_reliability_descr">
+     <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_reliability_details_name">
+     <text>Wear-resistant USM</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_reliability_details_descr">
+     <text>Replacing standard trigger parts with high-strength analogues allows you to extend the service life of the weapon and ensure its trouble-free operation in the harsh conditions of the Zone.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_tactical_handle_name">
+     <text>Tactical grip</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_tactical_handle_descr">
+     <text>Installing an under-barrel grip allows you to make the weapon more convenient to handle, making shooting and compensating for recoil much easier.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_accuracy_descr">
+     <text>Individual fitting of the trigger mechanism parts allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_flashlaser_name">
+     <text>Tactical module</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_flashlaser_descr">
+     <text>Installation of a special tactical unit on a weapon, which combines the functions of a laser target designator and a tactical flashlight.An indispensable thing for fighting at night.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_mag_name">
+     <text>Store expansion</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_mag_descr">
+     <text>Installing an extender that makes the magazine longer allows you to load more rounds into the weapon, making reloads less frequent.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_rail_name">
+     <text>Rail fastening</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_rail_descr">
+     <text>Allows you to install various types of sights on weapons.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_pompa_kompensator_name">
+     <text>Recoil compensator</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_pompa_kompensator_descr">
+     <text>The introduction of a special polymer damper into the design of the weapon makes it possible to slightly reduce the recoil felt by the shooter.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_recoil_name">
+     <text>USM balancing</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_recoil_descr">
+     <text>Balancing the standard parts of the trigger mechanism reduces the barrel moving away from the line of sight when firing.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_shell_ejector_name">
+     <text>Improved cutoff</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_shell_ejector_descr">
+     <text>Modification of the cartridge ejection system reduces the likelihood of delays during shooting due to the cartridge case sticking after the shot.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_light_stock_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_light_stock_descr">
+     <text>Cavities in the butt allow the weapon to be lighter.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_soft_trigger_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_soft_trigger_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_light_details_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_usm_light_details_descr">
+     <text>Replacing standard parts with analogues made of light alloys allows you to reduce the weight of the weapon without significant harm to its other tactical and technical characteristics.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_patronnik_accuracy_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_patronnik_accuracy_descr">
+     <text>Allows you to improve obturation and achieve higher shooting accuracy.</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_dispersion_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wincheaster1300_trapper_up_barrel_dispersion_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+</string_table>

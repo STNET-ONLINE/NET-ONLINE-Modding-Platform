@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<string id="gunsl_wpn_rg6_unoff">
+     <text>RG-6</text>
+</string>
+<string id="gunsl_wpn_rg6_unoff_descr">
+     <text>A Russian six-shot revolver-type hand-held grenade launcher. Rarely used by lone stalkers due to its weight and limited practicality, it is prized by checkpoint guards and hunter squads for its high rate of fire, allowing the shooter to create a solid wall of fire and shrapnel, covering an attack wave or clearing a mutant lair with a single salvo. Its simple design makes it highly reliable and easy to maintain.</text>
+</string>
+
+</string_table>

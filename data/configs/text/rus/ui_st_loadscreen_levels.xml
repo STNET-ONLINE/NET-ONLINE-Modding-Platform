@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_ls_mode_0">
+		<text>Неизвестно</text>
+	</string>
+	<string id="st_ls_mode_1">
+		<text>Одиночная кампания</text>
+	</string>
+	<string id="st_ls_mode_2">
+		<text>Все против всех</text>
+	</string>
+	<string id="st_ls_mode_4">
+		<text>Командный бой</text>
+	</string>
+	<string id="st_ls_mode_8">
+		<text>Охота за артефактом</text>
+	</string>
+	<string id="st_ls_mode_16">
+		<text>Захват артефакта</text>
+	</string>
+	<string id="st_ls_mode_32">
+		<text>Классический</text>
+	</string>
+	<string id="st_ls_title_escape">
+		<text>КОРДОН</text>
+	</string>
+	<string id="st_ls_desc_escape">
+		<text>«Ну, это предбанник Зоны. Армейский кордон. Относительно спокойно, разве военные иногда развлекаются, шмон наводят. Опытные сталкеры тут в редкость, только новички засиживаются, а кто и навечно остаётся» - Сидорович</text>
+	</string>
+	<string id="st_ls_title_marsh">
+		<text>БОЛОТО</text>
+	</string>
+	<string id="st_ls_desc_marsh">
+		<text>Заболоченная территория, долгое время являвшаяся труднодоступной. Место базирования группировки «Чистое небо», куда путь открылся после Большого выброса. Вместе с этим грязевые топи являют собой большое скопление радиации, аномалий и мутантов</text>
+	</string>
+	<string id="st_ls_title_darkscape">
+		<text>ТЁМНАЯ ЛОЩИНА</text>
+	</string>
+	<string id="st_ls_desc_darkscape">
+		<text>Крупная пригородная промышленная территория, примыкающая к Тёмной Долине. Через всю местность проходят автомобильные, железнодорожные, и просёлочные дороги, ранее служившими транспортными развязками.</text>
+	</string>
+	<string id="st_ls_title_car_test">
+		<text>ПОЛИГОН</text>
+	</string>
+	<string id="st_ls_desc_car_test">
+		<text>Место, где хочется срать...</text>
+	</string>
+	<string id="st_ls_title_lobby">
+		<text>НЕИЗВЕСТНОЕ МЕСТО</text>
+	</string>
+	<string id="st_ls_desc_lobby">
+		<text>Старое здание, в котором собираются сталкеры после дальнего рейда.</text>
+	</string>
+	<string id="st_ls_title_jupiter_stnet_v2">
+		<text>ОКРЕСТНОСТИ ЮПИТЕРА</text>
+	</string>
+	<string id="st_ls_desc_jupiter_stnet_v2">
+		<text>Знаешь, здесь будто всё давно умерло, но кто-то или что-то всё равно продолжает шевелиться. Ржавые цеха, заброшенные Копачи, старая станция, ставшая прибежищем для сталкеров… Каждый день группировки грызутся за территорию и выгоду, а Зона покоя не даёт: шагнёшь не туда — и поминай как звали. И уже неважно, кем ты был: новичком или бывалым ветераном</text>
+	</string>
+</string_table>

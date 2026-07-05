@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_wpn_svd_up_bayonet_name">
+     <text>Bayonet</text>
+</string>
+<string id="gunsl_wpn_svd_up_bayonet_descr">
+     <text>Installing a standard 6x5 bayonet on the weapon allows you to use the rifle as a melee weapon.Due to the design features of the weapon, it is impossible to use a bayonet simultaneously with a silencer.</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_reliability_name">
+     <text>Wear-resistant USM</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_reliability_descr">
+     <text>Replacing standard trigger parts with high-strength analogues allows you to extend the service life of the weapon and ensure its trouble-free operation in the harsh conditions of the Zone.</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_accuracy_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_wpn_svd_up_usm_rpm_descr">
+     <text>Allows you to significantly increase the rate of fire of weapons.</text>
+</string>
+<string id="gunsl_wpn_svd_up_kompensator_name">
+     <text>Replacing the DTK</text>
+</string>
+<string id="gunsl_wpn_svd_up_kompensator_descr">
+     <text>Replacing the muzzle brake-compensator with a more modern analogue allows you to reduce the felt recoil, which has a beneficial effect on shooting accuracy.</text>
+</string>
+<string id="gunsl_wpn_svd_up_zatvor_balanser_name">
+     <text>Balanced bolt carrier</text>
+</string>
+<string id="gunsl_wpn_svd_up_zatvor_balanser_descr">
+     <text>Balancing the bolt frame allows you to reduce the weapon moving away from the aiming line during a shot.</text>
+</string>
+<string id="gunsl_wpn_svd_up_zatvor_reliability_name">
+     <text>High-strength bolt carrier.</text>
+</string>
+<string id="gunsl_wpn_svd_up_zatvor_reliability_descr">
+     <text>Replacing a standard bolt carrier with a similar one made of a high-strength alloy allows you to perform a significantly larger number of firing and reloading cycles of the weapon without the need to service the part.</text>
+</string>
+<string id="gunsl_wpn_svd_up_plastic_mag_name">
+     <text>Lightweight magazine</text>
+</string>
+<string id="gunsl_wpn_svd_up_plastic_mag_descr">
+     <text>Replacing a standard metal magazine with a light-alloy counterpart allows you to reduce the overall weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_svd_up_podavatel_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_wpn_svd_up_podavatel_descr">
+     <text>Precise fitting of the parts of the cartridge feeding mechanism allows you to minimize the number of delays associated with the failure to feed a new cartridge after a shot.</text>
+</string>
+<string id="gunsl_wpn_svd_up_gascam_name">
+     <text>Gas outlet modification</text>
+</string>
+<string id="gunsl_wpn_svd_up_gascam_descr">
+     <text>The modified gas outlet allows for an increase in the initial velocity of the bullet while reducing recoil.</text>
+</string>
+<string id="gunsl_wpn_svd_up_light_priklad_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_wpn_svd_up_light_priklad_descr">
+     <text>Replacing a standard stock with a lightweight, hollow analogue allows you to reduce the overall weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_svd_up_tilnik_name">
+     <text>Improved backplate</text>
+</string>
+<string id="gunsl_wpn_svd_up_tilnik_descr">
+     <text>The anatomical rubber butt pad helps soften the felt recoil from a weapon shot.</text>
+</string>
+<string id="gunsl_wpn_svd_up_light_tsevie_name">
+     <text>Lightweight handguard</text>
+</string>
+<string id="gunsl_wpn_svd_up_light_tsevie_descr">
+     <text>Allows you to reduce the weight of weapons</text>
+</string>
+<string id="gunsl_wpn_svd_up_pokritie_name">
+     <text>Special coating</text>
+</string>
+<string id="gunsl_wpn_svd_up_pokritie_descr">
+     <text>Applying a protective coating helps slow down the wear of weapon mechanisms.</text>
+</string>
+<string id="gunsl_wpn_svd_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_wpn_svd_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_wpn_svd_up_sheka_name">
+     <text>Cheek pad</text>
+</string>
+<string id="gunsl_wpn_svd_up_sheka_descr">
+     <text>Installing a special pad on the butt allows you to reduce the felt recoil of the weapon.</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_reliability_name">
+     <text>High strength barrel</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_reliability_descr">
+     <text>Replacing the barrel with a high-strength analogue has a beneficial effect on the reliability of the weapon, slowing down the rate of wear from fired shots.</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_accuracy_name">
+     <text>Barrel with rifling pitch 320mm</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_accuracy_descr">
+     <text>The standard barrel has a rifling pitch of 240mm, which allows you to fire any type of ammunition (including armor-piercing incendiary), but has a negative impact on the accuracy of fire.Due to the fact that of all the ammunition for SVD in the Zone, only the special sniper version of the cartridges has become widespread, it seems reasonable to replace the barrel with a rifling pitch of 320 mm.Thanks to this replacement, it becomes possible to shoot more accurately when using sniper cartridges.</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_bullet_speed_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wpn_svd_up_barrel_bullet_speed_descr">
+     <text>Increases the initial speed of the bullet and the killing distance.</text>
+</string>
+</string_table>

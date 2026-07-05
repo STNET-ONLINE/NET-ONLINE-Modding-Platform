@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<string id="gunsl_wpn_sks">
+     <text>SKS</text>
+</string>
+<string id="gunsl_wpn_sks_descr">
+     <text>A semi-automatic carbine designed by Soviet designer Simonov for mass-produced infantry units of the Red Army and adopted for service in 1949. Despite its superior accuracy, it was subsequently supplanted by the Kalashnikov assault rifle, which boasted a significantly superior firepower. Nevertheless, a large number of already produced carbines remained in military warehouses, from where they gradually found their way into the Zone through various routes.</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_recoil_name">
+     <text>Polymer buffer</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_recoil_descr">
+     <text>Addition of a polymer buffer to the return mechanism reduces felt recoil.</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_accuracy_name">
+     <text>Trigger calibration</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_accuracy_descr">
+     <text>Individual adjustment and balancing of the standard parts of the trigger mechanism improve accuracy, while simultaneously lowering recoil.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_speed_name">
+     <text>Faster twist rate</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_speed_descr">
+     <text>Increases muzzle velocity, thus improving the flatness of the trajectory. Useful for long range fire.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_accuracy_descr">
+     <text>Reduces bullet dispersion, which improves accuracy.</text>
+</string>
+<string id="gunsl_wpn_sks_up_bayonet_name">
+     <text>Bayonet</text>
+</string>
+<string id="gunsl_wpn_sks_up_bayonet_descr">
+     <text>Equipping a weapon with a long bayonet allows you to expand the range of melee attacks and significantly increase the damage inflicted in them - especially if words like "humanity" and "mercy" towards your opponents don't mean much to you in practice.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_compensator_name">
+     <text>Improved muzzle brake</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_compensator_descr">
+     <text>Significantly reduces felt recoil and muzzle climb.</text>
+</string>
+<string id="gunsl_wpn_sks_up_gascam_name">
+     <text>Improved gas block</text>
+</string>
+<string id="gunsl_wpn_sks_up_gascam_descr">
+     <text>The modification of the gas-operated mechanism increases the reliability of the automatic operation, reducing the number of misfires.</text>
+</string>
+<string id="gunsl_wpn_sks_up_laser_name">
+     <text>Tactical device</text>
+</string>
+<string id="gunsl_wpn_sks_up_laser_descr">
+     <text>Insight AN/PEQ-16a tactical block combines the functions of a laser sight and a tactical flashlight. Particularly useful in night conditions.</text>
+</string>
+<string id="gunsl_wpn_sks_up_sights_name">
+     <text>Tritium sights</text>
+</string>
+<string id="gunsl_wpn_sks_up_sights_descr">
+     <text>Tritium-illuminated sights increase speed and comfort of aiming in poorly-lit environments.</text>
+</string>
+<string id="gunsl_wpn_sks_up_dovetail_name">
+     <text>Dovetail rail</text>
+</string>
+<string id="gunsl_wpn_sks_up_dovetail_descr">
+     <text>Equipping the weapon with a standard Soviet-type mount allows the installation of most optical sights adopted by Warsaw Pact countries.</text>
+</string>
+<string id="gunsl_wpn_sks_up_pokritie_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_wpn_sks_up_pokritie_descr">
+     <text>Application of a protective coating to the internal parts significantly reduces wear.</text>
+</string>
+<string id="gunsl_wpn_sks_up_rail_name">
+     <text>Picatinny rail</text>
+</string>
+<string id="gunsl_wpn_sks_up_rail_descr">
+     <text>Equipping the weapon with a standard Picatinny mount allows it to be fitted with most NATO optical sights.</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_accuracy_name">
+     <text>Bolt adjustment</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_accuracy_descr">
+     <text>Exact fit of the bolt carrier group reduces play, which improves accuracy.</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_balance_name">
+     <text>Balanced bolt</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_balance_descr">
+     <text>Balanced bolt carrier group reduces the muzzle climb, as well as reduces the probability of malfunctions.</text>
+</string>
+<string id="gunsl_wpn_sks_up_mag20_name">
+     <text>Magazine feed system</text>
+</string>
+<string id="gunsl_wpn_sks_up_mag20_descr">
+     <text>Converting the standard cartridge feed mechanism to a magazine feed system allows for significantly faster reloads in combat, while a larger magazine, holding 20 rounds, reduces the number of such reloads.</text>
+</string>
+<string id="gunsl_wpn_sks_up_tactical_set_name">
+     <text>Tactical set</text>
+</string>
+<string id="gunsl_wpn_sks_up_tactical_set_descr">
+     <text>Replacing standard wooden components with modern plastic ones reduces the weapon's weight and improves handling. Furthermore, the inclusion of Weaver mounts allows for the subsequent installation of additional tactical accessories and compatible sights.</text>
+</string>
+<string id="gunsl_wpn_sks_up_rpm_increase_name">
+     <text>Match trigger</text>
+</string>
+<string id="gunsl_wpn_sks_up_rpm_increase_descr">
+     <text>Allows to significantly increase the practical rate of fire.</text>
+</string>
+<string id="gunsl_wpn_sks_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_wpn_sks_up_light_details_descr">
+     <text>Reduces weight by replacing weapon parts with their light-alloy counterparts without any significant loss in other performance characteristics.</text>
+</string>
+<string id="gunsl_wpn_sks_up_hard_details_name">
+     <text>More durable parts</text>
+</string>
+<string id="gunsl_wpn_sks_up_hard_details_descr">
+     <text>Parts have increased wear-resistance, which makes the gun more durable.</text>
+</string>
+</string_table>

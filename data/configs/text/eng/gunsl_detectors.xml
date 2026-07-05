@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="gunsl_detector_simple">
+		<text>Echo Detector</text>
+	</string>
+	<string id="gunsl_detector_simple_descr">
+		<text>An outdated model of anomaly detector. It emits an audible signal when anomalous particles enter its reaction chamber as the user approaches anomalies. The device can also register the presence of artifacts and estimate distance to the nearest one — the signal frequency reflects this distance. Artifact-search mode is enabled by lifting the front antenna cover. Due to its simple construction, it can detect only the most common artifacts.</text>
+	</string>
+
+	<string id="gunsl_detector_advanced">
+		<text>Bear Detector</text>
+	</string>
+	<string id="gunsl_detector_advanced_descr">
+		<text>A previous-generation anomaly detector. Equipped with an anomaly locator and an LED indicator panel that shows the direction to an artifact. It can detect artifacts and determine their distance. Artifact-search mode is enabled by lifting the antenna cover on the device’s front. Unfortunately, its detection list is permanently hardcoded into the device hardware, making it incapable of recognizing newer or rare artifact types.</text>
+	</string>
+
+	<string id="gunsl_detector_elite">
+		<text>Veles Detector</text>
+	</string>
+	<string id="gunsl_detector_elite_descr">
+		<text>A new-generation scientific scanner. Using three advanced detection chambers, it displays the artifact’s relative position on a built-in screen. It can register both anomalies and artifact emissions. Artifact-search mode is activated by raising the indicator panel on the device’s front; in this mode, it can detect all artifact types currently known to science.</text>
+	</string>
+
+	<string id="gunsl_detector_scientific">
+		<text>Svarog Detector</text>
+	</string>
+	<string id="gunsl_detector_scientific_descr">
+		<text>A prototype advanced anomaly-zone scanner with expanded capabilities. It includes software for recognizing static anomaly fields stored in its database, while still supporting artifact detection. The relative positions of anomalies and artifacts are displayed on a built-in screen. The improved artifact-search program—activated by raising the indicator panel—can theoretically detect anomalous formations not yet documented by scientists.</text>
+	</string>
+
+	<string id="gunsl_detector_torch">
+		<text>Flashlight</text>
+	</string>
+	<string id="gunsl_detector_torch_descr">
+		<text>A standard handheld flashlight: lightweight, comfortable to hold, and not designed for weapon mounting. Despite this limitation, it can be used together with a pistol as a substitute for an artifact detector. Its illumination range surpasses that of the commonly used headlamps found in the Zone.</text>
+	</string>
+</string_table>

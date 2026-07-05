@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="stavor_find_canister_tip">
+        <text>Pick up a canister</text>
+    </string>
+    <string id="wolf_quest_begining_1_tip">
+        <text>Pick up the Courier's PDA</text>
+    </string>		
+    <string id="esc_quest_end_help">
+        <text>A completed story quest does not mark the end of the story line.Explore the world and you will definitely come across a continuation of the story.</text>
+    </string>
+	  <string id="esc_help_1">
+        <text>From this moment on, you can go through the storyline, additional tasks, and also participate in world events and faction wars together with other players, including your friends.Shared survival is the main key to your success.</text>
+    </string>
+	 <string id="ds_quest_find_food_info_tip">
+        <text>Choose a container</text>
+    </string>	
+	<string id="esc_quest_task_vixhryn_2_tip">
+        <text>Put down the detector</text>
+    </string>
+	<string id="esc_quest_task_vixhryn_2_tip">
+        <text>Put down the detector</text>
+    </string>
+	<string id="esc_quest_entry_stalker_object_tip">
+        <text>Hide item "$$ACTION_USE$$"</text>
+    </string>
+	<string id="esc_quest_docent_ivanov_scanner_tip">
+        <text>Enable scanner "$$ACTION_USE$$"</text>
+    </string>	
+	<string id="ds_quest_pda_tip">
+        <text>Pick up the PDA «$$ACTION_USE$$»</text>
+    </string>
+	<string id="ds_groza_find_tip">
+        <text>Search the box</text>
+    </string>		
+	<string id="ds_groza_find_nil">
+        <text>Empty...</text>
+    </string>	
+	<string id="ds_treasure_moskvich_tip">
+        <text>Inspect the cache</text>
+    </string>	
+	<string id="st_read_note">
+        <text>Read "$$ACTION_USE$$"</text>
+    </string>	
+	<string id="st_code">
+        <text>Code required</text>
+    </string>
+	<string id="tip_lift_start">
+		<text>[$$ACTION_USE$$] Lower the elevator</text>
+	</string>
+	<string id="tip_lift_wait">
+		<text>The elevator is descending, please wait...</text>
+	</string>
+	<string id="tip_lift_backward">
+		<text>The elevator is ascending, please wait...</text>
+	</string>
+	<string id="jup_control_panel_wait">
+		<text>The elevator will descend in 15 seconds.</text>
+	</string>
+</string_table>

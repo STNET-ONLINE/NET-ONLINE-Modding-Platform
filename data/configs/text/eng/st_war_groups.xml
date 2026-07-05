@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_capture_name">
+        <text>Name</text>
+	</string>    
+	<string id="st_fast_travel">
+        <text>Are you sure you want to fast travel?</text>
+	</string>	
+	<string id="st_fast_travel_money">
+        <text>Price:</text>
+	</string>
+    <string id="st_capture_type">
+        <text>Type</text>
+	</string>
+	   <string id="st_zones_captured">
+        <text>Must be captured</text>
+	</string>
+	<string id="st_capture_owner">
+        <text>Belongs</text>
+	</string>
+	<string id="st_capture_nil">
+        <text>Neutral</text>
+	</string>
+	<string id="base">
+        <text>Base</text>
+	</string>
+	<string id="resource">
+        <text>Resource</text>
+	</string>
+	<string id="central">
+        <text>Key</text>
+	</string>
+	<string id="neutral">
+        <text>Neutral</text>
+	</string>	
+	
+	<string id="st_capture_progress">
+        <text>Capture progress</text>
+	</string>	
+	<string id="st_war_groups">
+        <text>Faction War</text>
+	</string>	
+	<string id="st_capture_central">
+        <text>The key point is captured by the group</text>
+	</string>
+	<string id="st_capture_resource">
+        <text>The resource point is captured by the group</text>
+	</string>
+		<string id="st_capture_neutral">
+        <text>The neutral point is captured by the group</text>
+	</string>
+		<string id="st_capture_base">
+        <text>The group's base is captured</text>
+	</string>
+	<string id="st_captured">
+        <text>Belongs to the group</text>
+	</string>
+
+</string_table>

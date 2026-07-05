@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_wpn_pm_up_sights_name">
+		<text>Tritium inserts</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_sights_descr">
+		<text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_usm_accuracy_name">
+		 <text>USM calibration</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_usm_accuracy_descr">
+		 <text>Individual fitting of weapon parts allows you to achieve higher accuracy of hits when shooting.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_usm_rpm_name">
+		 <text>Forcing USM</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_usm_rpm_descr">
+		 <text>Reconfiguring the trigger and modifying some of its parts makes the trigger travel shorter and the trigger itself softer.This allows you to fire at a higher rate.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_barrel_sil_name">
+		 <text>Muffler thread</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_barrel_sil_descr">
+		 <text>Replacing the barrel with an elongated one, with a special thread designed for screwing on a muffler.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_barrel_hp_name">
+		 <text>Barrel replacement</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_barrel_hp_descr">
+		 <text>Replacing a standard barrel with an analogue made of a modern special alloy of increased strength makes it possible to achieve greater pressure of powder gases and, therefore, increase the speed of the bullet.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_plastic_mag_name">
+		 <text>Plastic store</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_plastic_mag_descr">
+		 <text>This product of modern technology allows you to carry a little more with you than other useful things.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_plastic_details_name">
+		 <text>Plastic parts</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_plastic_details_descr">
+		 <text>Replacing some standard metal body parts with analogues made of heat-resistant plastic can significantly reduce the weight of the weapon.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_handle_recoil_name">
+		 <text>Rubberized handle</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_handle_recoil_descr">
+		 <text>Replacing the linings with more modern foreign analogues has a beneficial effect on the ease of holding the weapon and the accuracy of firing from it.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_reliability_name">
+		 <text>Protective coating</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_reliability_descr">
+		 <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_recoil_name">
+		 <text>Recoil compensation system</text>
+	</string>
+	<string id="gunsl_wpn_pm_up_recoil_descr">
+		 <text>Allows you to significantly reduce recoil, facilitating more accurate shooting.</text>
+	</string>
+	
+	<string id="gunsl_wpn_pmm_up_sights_name">
+		 <text>Tritium inserts</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_sights_descr">
+		 <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_usm_accuracy_name">
+		 <text>USM calibration</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_usm_accuracy_descr">
+		 <text>Individual fitting of weapon parts allows you to achieve higher accuracy of hits when shooting.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_usm_rpm_name">
+		 <text>Forcing USM</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_usm_rpm_descr">
+		 <text>Reconfiguring the trigger and modifying some of its parts makes the trigger travel shorter and the trigger itself softer.This allows you to fire at a higher rate.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_barrel_sil_name">
+		 <text>Muffler thread</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_barrel_sil_descr">
+		 <text>Replacing the barrel with an elongated one, with a special thread designed for screwing on a muffler.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_barrel_hp_name">
+		 <text>Barrel replacement</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_barrel_hp_descr">
+		 <text>Replacing a standard barrel with an analogue made of a modern special alloy of increased strength makes it possible to achieve greater pressure of powder gases and, therefore, increase the speed of the bullet.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_alter_mag_name">
+		 <text>Replacing the magazine</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_alter_mag_descr">
+		 <text>Due to a design miscalculation, the magazine of the original PMM wears out quite quickly, causing misfires in the weapon.Changing the magazine can reduce the likelihood of misfires.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_plastic_details_name">
+		 <text>Plastic parts</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_plastic_details_descr">
+		 <text>Replacing some standard metal body parts with analogues made of heat-resistant plastic can significantly reduce the weight of the weapon.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_handle_recoil_name">
+		 <text>Rubberized handle</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_handle_recoil_descr">
+		 <text>Replacing the linings with more modern foreign analogues has a beneficial effect on the ease of holding the weapon and the accuracy of firing from it.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_reliability_name">
+		 <text>Protective coating</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_reliability_descr">
+		 <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_recoil_name">
+		 <text>Recoil compensation system</text>
+	</string>
+	<string id="gunsl_wpn_pmm_up_recoil_descr">
+		 <text>Allows you to significantly reduce recoil, facilitating more accurate shooting.</text>
+	</string>
+	
+</string_table>

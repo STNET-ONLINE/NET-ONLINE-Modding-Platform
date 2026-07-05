@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="af_neutral">
+		<text>Artifact</text>
+	</string>
+	<string id="friend">
+		<text>Ally</text>
+	</string>
+	<string id="mm_mp_max_ping">
+		<text>Max.ping</text>
+	</string>
+	<string id="mm_mp_profile">
+		<text>Profile</text>
+	</string>
+	<string id="modes">
+		<text>Modes</text>
+	</string>
+	<string id="mp_art_destroyed">
+		<text>The artifact was destroyed</text>
+	</string>
+	<string id="mp_art_spowned">
+		<text>The artifact appeared.Bring it back to base to score a point.</text>
+	</string>
+	<string id="mp_artefact_dropped">
+		<text>The artifact is lost</text>
+	</string>
+	<string id="mp_artefact_on_base">
+		<text>Artifact at our base</text>
+	</string>
+	<string id="mp_artefact_on_enemy_base">
+		<text>Artifact at the enemy base</text>
+	</string>
+	<string id="mp_artefacts">
+		<text>Artifacts</text>
+	</string>
+	<string id="mp_artefacts_upcase">
+		<text>Artifacts</text>
+	</string>
+	<string id="mp_auto_select">
+		<text>Auto select</text>
+	</string>
+	<string id="mp_back">
+		<text>Back</text>
+	</string>
+	<string id="mp_ban">
+		<text>4. Block</text>
+	</string>
+	<string id="mp_by_anomaly">
+		<text>An anomaly</text>
+	</string>
+	<string id="mp_cancel">
+		<text>Cancel</text>
+	</string>
+	<string id="mp_captured_artefact">
+		<text>captured the artifact</text>
+	</string>
+	<string id="mp_change_map">
+		<text>5. Change map</text>
+	</string>
+	<string id="mp_change_weather">
+		<text>6. Change the weather</text>
+	</string>
+	<string id="mp_change_weather_header">
+		<text>Change the weather to</text>
+	</string>
+	<string id="mp_chat">
+		<text>Chat</text>
+	</string>
+	<string id="mp_connected">
+		<text>Connected</text>
+	</string>
+	<string id="mp_deaths">
+		<text>Deaths</text>
+	</string>
+	<string id="mp_description">
+		<text>Description</text>
+	</string>
+	<string id="mp_disconnected">
+		<text>disconnected</text>
+	</string>
+	<string id="mp_enter_text">
+		<text>Enter text to vote</text>
+	</string>
+	<string id="mp_entered_game">
+		<text>entered the game</text>
+	</string>
+	<string id="mp_firestation">
+		<text>Fire station</text>
+	</string>
+	<string id="mp_first_eye">
+		<text>(First person)</text>
+	</string>
+	<string id="mp_frags">
+		<text>frags</text>
+	</string>
+	<string id="mp_frags_upcase">
+		<text>Fragov</text>
+	</string>
+	<string id="mp_free_fly">
+		<text>(Free flight)</text>
+	</string>
+	<string id="mp_free_look">
+		<text>(Third person)</text>
+	</string>
+	<string id="mp_from">
+		<text>from</text>
+	</string>
+	<string id="mp_gamemode">
+		<text>7. Mode</text>
+	</string>
+	<string id="mp_garbage">
+		<text>Dump</text>
+	</string>
+	<string id="mp_go">
+		<text>FORWARD!</text>
+	</string>
+	<string id="mp_has_drop_art">
+		<text>lost%s Artifact</text>
+	</string>
+	<string id="mp_has_dropped_artefact">
+		<text>lost the artifact</text>
+	</string>
+	<string id="mp_has_tak_art">
+		<text>took%s Artifact</text>
+	</string>
+	<string id="mp_headhuntrs">
+		<text>Mercenaries</text>
+	</string>
+	<string id="mp_is_now">
+		<text>Now</text>
+	</string>
+	<string id="mp_joined">
+		<text>joined the team</text>
+	</string>
+	<string id="mp_kick">
+		<text>3. Throw it away</text>
+	</string>
+	<string id="mp_limansk">
+		<text>Limansk</text>
+	</string>
+	<string id="mp_loading_awards">
+		<text>Loading awards...</text>
+	</string>
+	<string id="mp_loading_best_scores">
+		<text>Loading best results...</text>
+	</string>
+	<string id="mp_look_at">
+		<text>(Free-tied)</text>
+	</string>
+	<string id="mp_map_desc">
+		<text>Description of the map</text>
+	</string>
+	<string id="mp_match_started">
+		<text>The fight has begun!</text>
+	</string>
+	<string id="mp_military_2">
+		<text>Old village</text>
+	</string>
+	<string id="mp_modes">
+		<text>Modes</text>
+	</string>
+	<string id="mp_name">
+		<text>Name</text>
+	</string>
+	<string id="mp_next">
+		<text>Further</text>
+	</string>
+	<string id="mp_no_voted">
+		<text>Didn't vote</text>
+	</string>
+	<string id="mp_ping">
+		<text>Ping</text>
+	</string>
+	<string id="mp_player_wins">
+		<text>Player %s won the battle!</text>
+	</string>
+	<string id="mp_players">
+		<text>Players</text>
+	</string>
+	<string id="mp_press_fire2spectator">
+		<text>Press "Fire" to enter observation mode</text>
+	</string>
+	<string id="mp_press_jump2pay_spaw">
+		<text>Click "Jump" to buy instant birth</text>
+	</string>
+	<string id="mp_press_jump2select_skin">
+		<text>Click "Jump" to select a uniform</text>
+	</string>
+	<string id="mp_press_jump2select_team">
+		<text>Click Jump to select commands</text>
+	</string>
+	<string id="mp_press_jump2spawn">
+		<text>Click "Jump" to be born</text>
+	</string>
+	<string id="mp_press_jump2start">
+		<text>Click "Jump" to start</text>
+	</string>
+	<string id="mp_press_to_buy">
+		<text>Click "$$ACTION_BUY_MENU$$" to access the buy menu</text>
+	</string>
+	<string id="mp_press_yes2pay">
+		<text>You have %d$.You can buy a birth for %d$.Click "Yes" to pay</text>
+	</string>
+	<string id="mp_ready">
+		<text>Attention...</text>
+	</string>
+	<string id="mp_rembasa">
+		<text>Repair base</text>
+	</string>
+	<string id="mp_restart">
+		<text>1. Restart</text>
+	</string>
+	<string id="mp_restart_fast">
+		<text>2. Quick restart</text>
+	</string>
+	<string id="mp_returned_artefact">
+		<text>returned the artifact</text>
+	</string>
+	<string id="mp_scores">
+		<text>earn a point</text>
+	</string>
+	<string id="mp_select_ban">
+		<text>Select the player to be voted on to block</text>
+	</string>
+	<string id="mp_select_category">
+		<text>Select voting category</text>
+	</string>
+	<string id="mp_select_kick">
+		<text>Select the player to be voted out</text>
+	</string>
+	<string id="mp_select_kick_player">
+		<text>Select the player to be voted out</text>
+	</string>
+	<string id="mp_select_map">
+		<text>Select a voting card</text>
+	</string>
+	<string id="mp_si_afbearer_cant_sprint">
+		<text>Don't run around with an artifact</text>
+	</string>
+	<string id="mp_si_afcount">
+		<text>- Quantity</text>
+	</string>
+	<string id="mp_si_afrespawntime">
+		<text>- Appearance</text>
+	</string>
+	<string id="mp_si_afstaytime">
+		<text>- Time</text>
+	</string>
+	<string id="mp_si_anomalies">
+		<text>Anomalies</text>
+	</string>
+	<string id="mp_si_anomalies_period">
+		<text>Period of anomalies</text>
+	</string>
+	<string id="mp_si_any_time">
+		<text>Any time</text>
+	</string>
+	<string id="mp_si_artefact_captured">
+		<text>Artifact captured</text>
+	</string>
+	<string id="mp_si_artefacts">
+		<text>Artifacts:</text>
+	</string>
+	<string id="mp_si_autoteam_balance">
+		<text>Automatic command balance</text>
+	</string>
+	<string id="mp_si_autoteam_swap">
+		<text>Automatic command change</text>
+	</string>
+	<string id="mp_si_battleye">
+		<text>BattleEye</text>
+	</string>
+	<string id="mp_si_disabled">
+		<text>Off</text>
+	</string>
+	<string id="mp_si_enabled">
+		<text>On</text>
+	</string>
+	<string id="mp_si_first_eye">
+		<text>- First person</text>
+	</string>
+	<string id="mp_si_forcerespawn">
+		<text>Will force.birth</text>
+	</string>
+	<string id="mp_si_fraglimit">
+		<text>Frag limit</text>
+	</string>
+	<string id="mp_si_free_fly">
+		<text>- Free flight</text>
+	</string>
+	<string id="mp_si_free_look">
+		<text>- Free review</text>
+	</string>
+	<string id="mp_si_friendly_fire">
+		<text>Friendly fire</text>
+	</string>
+	<string id="mp_si_friendly_indicators">
+		<text>Ally indicators</text>
+	</string>
+	<string id="mp_si_friendly_names">
+		<text>Ally names</text>
+	</string>
+	<string id="mp_si_infinite">
+		<text>Endless</text>
+	</string>
+	<string id="mp_si_invinsibility">
+		<text>Invisibility:</text>
+	</string>
+	<string id="mp_si_invinsibility_indicators">
+		<text>- Indicators</text>
+	</string>
+	<string id="mp_si_invinsibility_time">
+		<text>- Time</text>
+	</string>
+	<string id="mp_si_look_at">
+		<text>- Third person</text>
+	</string>
+	<string id="mp_si_maprotation">
+		<text>Changing cards</text>
+	</string>
+	<string id="mp_si_max_ping">
+		<text>Max.ping</text>
+	</string>
+	<string id="mp_si_min">
+		<text>min.</text>
+	</string>
+	<string id="mp_si_no">
+		<text>No</text>
+	</string>
+	<string id="mp_si_players_respawn">
+		<text>The birth of players</text>
+	</string>
+	<string id="mp_si_return_players">
+		<text>Return to bases</text>
+	</string>
+	<string id="mp_si_sec">
+		<text>sec.</text>
+	</string>
+	<string id="mp_si_servername">
+		<text>Server name:</text>
+	</string>
+	<string id="mp_si_shielded_bases">
+		<text>Protected bases</text>
+	</string>
+	<string id="mp_si_spectatormodes">
+		<text>Surveillance Modes:</text>
+	</string>
+	<string id="mp_si_team_only">
+		<text>- Team only</text>
+	</string>
+	<string id="mp_si_time_limit">
+		<text>Time limit</text>
+	</string>
+	<string id="mp_si_version">
+		<text>Version:</text>
+	</string>
+	<string id="mp_si_voting">
+		<text>Vote</text>
+	</string>
+	<string id="mp_si_warmuptime">
+		<text>Warm-up</text>
+	</string>
+	<string id="mp_si_yes">
+		<text>Yes</text>
+	</string>
+	<string id="mp_skin_selection">
+		<text>Choice of uniform</text>
+	</string>
+	<string id="mp_spectator">
+		<text>Observer</text>
+	</string>
+	<string id="mp_spectators">
+		<text>OBSERVERS</text>
+	</string>
+	<string id="mp_sport_center">
+		<text>Sports center</text>
+	</string>
+	<string id="mp_status">
+		<text>Status</text>
+	</string>
+	<string id="mp_switched_to">
+		<text>joined the team</text>
+	</string>
+	<string id="mp_team_free_stalkers">
+		<text>"Freedom"</text>
+	</string>
+	<string id="mp_team_selection">
+		<text>Team selection</text>
+	</string>
+	<string id="mp_team_wins">
+		<text>Team %s WINS!</text>
+	</string>
+	<string id="mp_text">
+		<text>Text</text>
+	</string>
+	<string id="mp_time2respawn">
+		<text>Time before birth</text>
+	</string>
+	<string id="mp_time2start">
+		<text>Time before start:</text>
+	</string>
+	<string id="mp_timeleft">
+		<text>Time left: %d:%d;Agreed: %.2f</text>
+	</string>
+	<string id="mp_training_camp">
+		<text>Training camp</text>
+	</string>
+	<string id="mp_vote_hint">
+		<text>Vote FOR-[$$ACTION_VOTE_YES$$]\nVote AGAINST-[$$ACTION_VOTE_NO$$]\nResults-[$$ACTION_VOTE$$]</text>
+	</string>
+	<string id="mp_vote_no">
+		<text>Against</text>
+	</string>
+	<string id="mp_vote_yes">
+		<text>For</text>
+	</string>
+	<string id="mp_voted">
+		<text>Voted</text>
+	</string>
+	<string id="mp_voted_no">
+		<text>"Against"</text>
+	</string>
+	<string id="mp_voted_yes">
+		<text>"For"</text>
+	</string>
+	<string id="mp_voting_broken">
+		<text>The vote was canceled by the server!</text>
+	</string>
+	<string id="mp_voting_started">
+		<text>Voting '%s' has been started by %s.</text>
+	</string>
+	<string id="mp_voting_started_msg">
+		<text>Voting has begun!</text>
+	</string>
+	<string id="mp_weather_clear">
+		<text>1. Clean</text>
+	</string>
+	<string id="mp_weather_cloudy">
+		<text>4. Cloud</text>
+	</string>
+	<string id="mp_weather_night">
+		<text>3. Night</text>
+	</string>
+	<string id="mp_weather_rain">
+		<text>2. Rain</text>
+	</string>
+	<string id="mp_with_backstab">
+		<text>stabbed to death!</text>
+	</string>
+	<string id="mp_with_headshot">
+		<text>to the head!</text>
+	</string>
+	<string id="mp_you_captured_artefact">
+		<text>You captured an enemy artifact, bring it to yours!</text>
+	</string>
+	<string id="mp_you_captured_own_artefact">
+		<text>You picked up your artifact.Activate it to return to base!</text>
+	</string>
+	<string id="mp_your_rank">
+		<text>Your rank is now</text>
+	</string>
+	<string id="self">
+		<text>Tagged</text>
+	</string>
+	<string id="st_mp_disabled_voting">
+		<text>Voting is not available on this server</text>
+	</string>
+	<string id="st_mp_no_current_voting">
+		<text>There are currently no active polls</text>
+	</string>
+	<string id="st_mp_only_one_voting">
+		<text>Only one active vote allowed</text>
+	</string>
+	<string id="st_mp_ready">
+		<text>Ready</text>
+	</string>
+	<string id="st_mp_say_to_all">
+		<text>Everyone</text>
+	</string>
+	<string id="st_mp_say_to_team">
+		<text>Team</text>
+	</string>
+	<string id="st_mp_voting_failed">
+		<text>Voting failed!</text>
+	</string>
+	<string id="st_mp_voting_succeed">
+		<text>The voting was successful!</text>
+	</string>
+	<string id="team_base_1">
+		<text>Freedom Base</text>
+	</string>
+	<string id="team_base_2">
+		<text>Mercenary base</text>
+	</string>
+	<string id="ui_mp_ah">
+		<text>2. Hunt for the artifact</text>
+	</string>
+	<string id="ui_mp_cta">
+		<text>4. Artifact Capture</text>
+	</string>
+	<string id="ui_mp_dm">
+		<text>1. Everyone against everyone</text>
+	</string>
+	<string id="ui_mp_gamespy_creating_new_profile">
+		<text>Creating a new profile...</text>
+	</string>
+	<string id="ui_mp_gamespy_getting_account_profiles">
+		<text>Getting account profiles...</text>
+	</string>
+	<string id="ui_mp_gamespy_loading_rewards_hello">
+		<text>Hello,</text>
+	</string>
+	<string id="ui_mp_gamespy_logining_to_profile">
+		<text>Connect to profile...</text>
+	</string>
+	<string id="ui_mp_gamespy_profile_created">
+		<text>The profile has been successfully created.Please connect to it.</text>
+	</string>
+	<string id="ui_mp_gamespy_suggesting_unique_name">
+		<text>Checking unique name...</text>
+	</string>
+	<string id="ui_mp_gamespy_use_existing_profile">
+		<text>Do you want to use an existing profile named</text>
+	</string>
+	<string id="ui_mp_gamespy_verify_account_profiles">
+		<text>Account found.Receiving registered profiles...</text>
+	</string>
+	<string id="ui_mp_gamespy_verify_account_profiles_error1">
+		<text>Your profile has already been created.Please connect to it.</text>
+	</string>
+	<string id="ui_mp_gamespy_verify_email">
+		<text>Checking the existence of an account...</text>
+	</string>
+	<string id="ui_mp_gamespy_verify_nickname_error1">
+		<text>This unique name is already in use.Please select one from the drop-down list below, or enter another.</text>
+	</string>
+	<string id="ui_mp_gamespy_verify_password_error1">
+		<text>The entered passwords do not match!</text>
+	</string>
+	<string id="ui_mp_tdm">
+		<text>3. Team vs team</text>
+	</string>
+	<string id="ui_st_btn_copy_url">
+		<text>Copy link</text>
+	</string>
+	<string id="ui_st_btn_download_map">
+		<text>Download map</text>
+	</string>
+	<string id="ui_st_description">
+		<text>Description</text>
+	</string>
+	<string id="ui_st_map_data_corrupted">
+		<text>The card is incorrect or damaged</text>
+	</string>
+	<string id="ui_st_map_not_found">
+		<text>Card not found</text>
+	</string>
+	<string id="ui_st_mp_awards">
+		<text>Awards</text>
+	</string>
+	<string id="ui_st_mp_best_results">
+		<text>Best results</text>
+	</string>
+	<string id="ui_st_mp_check_avaliability">
+		<text>Check</text>
+	</string>
+	<string id="ui_st_mp_confirm_password">
+		<text>Confirm your password</text>
+	</string>
+	<string id="ui_st_mp_email">
+		<text>Email</text>
+	</string>
+	<string id="ui_st_mp_forgot_password">
+		<text>Forgot your password?</text>
+	</string>
+	<string id="ui_st_mp_gamespy_account_creation">
+		<text>GameSpy ID creation page</text>
+	</string>
+	<string id="ui_st_mp_password">
+		<text>Password</text>
+	</string>
+	<string id="ui_st_mp_remember_me">
+		<text>Remember login details</text>
+	</string>
+	<string id="ui_st_mp_unique_nickname">
+		<text>Unique name</text>
+	</string>
+	<string id="ui_st_mp_unique_nickname_change">
+		<text>The unique name was successfully changed to</text>
+	</string>
+	<string id="ui_st_team">
+		<text>Team</text>
+	</string>
+	<string id="ui_st_team1_name">
+		<text>"Freedom"</text>
+	</string>
+	<string id="ui_st_team2_name">
+		<text>Mercenaries</text>
+	</string>
+	<string id="ui_st_mp_create_new_account">
+		<text>New profile</text>
+	</string>
+	<string id="ui_st_mp_gamespy_login_page">
+		<text>Authorization on GameSpy</text>
+	</string>
+	<string id="mpd_play">
+		<text>play</text>
+	</string>
+	<string id="mpd_rewind">
+		<text>rewind</text>
+	</string>
+	<string id="mpd_restart">
+		<text>restart</text>
+	</string>
+	<string id="mpd_rewind_until_start">
+		<text>before the start</text>
+	</string>
+	<string id="mpd_rewind_until_kill">
+		<text>before the murder</text>
+	</string>
+	<string id="mpd_rewind_until_die">
+		<text>until death</text>
+	</string>
+	<string id="mpd_rewind_until_arttake">
+		<text>before capturing the artifact</text>
+	</string>
+	<string id="mpd_rewind_until_artdrop">
+		<text>before losing the artifact</text>
+	</string>
+	<string id="mpd_rewind_until_artdeliver">
+		<text>before bringing the artifact</text>
+	</string>
+	<string id="mpd_any_player">
+		<text>any</text>
+	</string>
+	<string id="mm_mp_login">
+		<text>Login</text>
+	</string>
+	<string id="ui_mp_am_screen_all">
+		<text>Screenshots from everyone</text>
+	</string>
+	<string id="ui_mp_am_config_all">
+		<text>Configs from all</text>
+	</string>
+	<string id="ui_mp_am_ping_limit">
+		<text>Ping Limit:</text>
+	</string>
+	<string id="ui_mp_am_set_ping_limit">
+		<text>Ping Limit</text>
+	</string>
+	<string id="ui_mp_am_screen_selected">
+		<text>Screenshot selectedplayer</text>
+	</string>
+	<string id="ui_mp_am_config_selected">
+		<text>Config selectplayer</text>
+	</string>
+	<string id="ui_mp_am_kick_selected">
+		<text>Discard selectionplayer</text>
+	</string>
+	<string id="ui_mp_am_ban_selected">
+		<text>Ban selectedplayer</text>
+	</string>
+	<string id="ui_mp_am_restart">
+		<text>Restart</text>
+	</string>
+	<string id="ui_mp_am_fast_restart">
+		<text>Quick restart</text>
+	</string>
+	<string id="ui_mp_am_change_weather">
+		<text>Change the weather</text>
+	</string>
+	<string id="ui_mp_am_set_change_rate">
+		<text>Speed of weather change</text>
+	</string>
+	<string id="ui_mp_am_change_game_type">
+		<text>Change game type</text>
+	</string>
+	<string id="ui_mp_am_change_game_limits">
+		<text>Change game settings</text>
+	</string>
+	<string id="ui_mp_am_stop_cur_voting">
+		<text>Stop currentvote</text>
+	</string>
+	<string id="ui_mp_am_set_time_limit">
+		<text>Limitedtime (0, 180)</text>
+	</string>
+	<string id="ui_mp_am_set_frag_limit">
+		<text>Limitedfrags (0, 1000)</text>
+	</string>
+	<string id="ui_mp_am_set_art_limit">
+		<text>Limitedartifacts (0, 100)</text>
+	</string>
+	<string id="ui_mp_am_set_warm_up_time">
+		<text>Warm-up time (0, 3600)</text>
+	</string>
+	<string id="ui_mp_am_set_invincible_time">
+		<text>Time is invulnerable.(0.60 CTA)</text>
+	</string>
+	<string id="ui_mp_am_set_damage_block_time">
+		<text>Time is invulnerable.(0, 600 T/DM)</text>
+	</string>
+	<string id="ui_mp_am_set_reinforcement_time">
+		<text>Time for reinforcement(-1, 3600)</text>
+	</string>
+	<string id="mp_gp_unknown_error_4">
+		<text>Unknown profile error (code: 4)</text>
+	</string>
+	<string id="ui_mp_am_10_minutes">
+		<text>10 minutes</text>
+	</string>
+	<string id="ui_mp_am_30_minutes">
+		<text>30 minutes</text>
+	</string>
+	<string id="ui_mp_am_1_hour">
+		<text>1 hour</text>
+	</string>
+	<string id="ui_mp_am_6_hours">
+		<text>6 hours</text>
+	</string>
+	<string id="ui_mp_am_1_day">
+		<text>1 day</text>
+	</string>
+	<string id="ui_mp_am_1_week">
+		<text>1 week</text>
+	</string>
+	<string id="ui_mp_am_1_month">
+		<text>1 month</text>
+	</string>
+	<string id="ui_mp_am_3_monthes">
+		<text>3 months</text>
+	</string>
+	<string id="ui_mp_am_forever">
+		<text>Forever</text>
+	</string>
+	<string id="mp_gp_unique_nick_too_short">
+		<text>Unique name too short</text>
+	</string>
+	<string id="mp_gp_unknown_error_512">
+		<text>Error creating profile</text>
+	</string>
+</string_table>

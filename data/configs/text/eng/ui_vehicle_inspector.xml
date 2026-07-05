@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_plug_check">
+		<text>Check the spark plug</text>
+	</string>
+	<string id="st_car_engine_cond">
+		<text>Engine</text>
+	</string>
+	<string id="st_car_fuel">
+		<text>Fuel</text>
+	</string>
+	<string id="st_car_water">
+		<text>Radiator</text>
+	</string>
+	<string id="st_car_accum">
+		<text>Battery</text>
+	</string>
+	<string id="st_car_cond">
+		<text>General condition</text>
+	</string>
+	<string id="st_add_fuel">
+		<text>add fuel</text>
+	</string>
+</string_table>

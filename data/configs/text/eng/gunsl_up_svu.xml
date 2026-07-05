@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_wpn_svu_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_wpn_svu_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_wpn_svu_up_mag_name">
+     <text>Lightweight magazine</text>
+</string>
+<string id="gunsl_wpn_svu_up_mag_descr">
+     <text>Replacing a standard magazine with a light-alloy analogue allows you to reduce the total weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_svu_up_priklad_weight_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_wpn_svu_up_priklad_weight_descr">
+     <text>Replacing a standard stock with a lightweight, hollow analogue allows you to reduce the overall weight of the weapon.</text>
+</string>
+<string id="gunsl_wpn_svu_up_handle_anatomic_name">
+     <text>Rubberized handle</text>
+</string>
+<string id="gunsl_wpn_svu_up_handle_anatomic_descr">
+     <text>Provides a more comfortable grip.</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_recoil_name">
+     <text>Muzzle recoil compensator</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_recoil_descr">
+     <text>Replacing a standard flash suppressor with an analogue with an improved DTK provides a significant reduction in recoil.</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_bullet_speed_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_bullet_speed_descr">
+     <text>Increases the initial speed of a bullet, thereby increasing its lethal range and stopping power.</text>
+</string>
+<string id="gunsl_wpn_svu_up_pokritie_name">
+     <text>Special coating</text>
+</string>
+<string id="gunsl_wpn_svu_up_pokritie_descr">
+     <text>Applying a protective coating helps slow down the wear of weapon mechanisms.</text>
+</string>
+<string id="gunsl_wpn_svu_up_gascam_name">
+     <text>Gas outlet modification</text>
+</string>
+<string id="gunsl_wpn_svu_up_gascam_descr">
+     <text>The modified gas outlet allows for an increase in the initial velocity of the bullet while reducing recoil.</text>
+</string>
+<string id="gunsl_wpn_svu_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_wpn_svu_up_usm_rpm_descr">
+     <text>Allows you to significantly increase the rate of fire of a weapon, unfortunately, with a simultaneous increase in wear of trigger parts.</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_accuracy_name">
+     <text>Barrel with rapid rifling pitch</text>
+</string>
+<string id="gunsl_wpn_svu_up_barrel_accuracy_descr">
+     <text>Allows for more accurate shooting.</text>
+</string>
+<string id="gunsl_wpn_svu_up_mag_lock_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_wpn_svu_up_mag_lock_descr">
+     <text>Precise fitting of the parts of the cartridge feeding mechanism allows you to minimize the number of delays associated with the failure to feed a new cartridge after a shot.</text>
+</string>
+<string id="gunsl_wpn_svu_up_light_tsevie_name">
+     <text>Lightweight handguard</text>
+</string>
+<string id="gunsl_wpn_svu_up_light_tsevie_descr">
+     <text>Allows you to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_reliability_name">
+     <text>Heavy duty bolt carrier</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_reliability_descr">
+     <text>Replacing a standard bolt carrier with a similar one made of a high-strength alloy allows you to perform a significantly larger number of firing and reloading cycles of the weapon without the need to service the part.</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_accuracy_name">
+     <text>Bolt carrier adjustment</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_accuracy_descr">
+     <text>Allows you to increase the accuracy of firing.</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_balancer_recoil_name">
+     <text>Balanced bolt carrier</text>
+</string>
+<string id="gunsl_wpn_svu_up_zatvor_balancer_recoil_descr">
+     <text>Balancing the bolt frame allows you to reduce the weapon moving away from the aiming line during a shot.</text>
+</string>
+<string id="gunsl_wpn_svu_up_usm_reliability_name">
+     <text>Wear-resistant USM</text>
+</string>
+<string id="gunsl_wpn_svu_up_usm_reliability_descr">
+     <text>Replacing standard trigger parts with high-strength analogues allows you to extend the service life of the weapon and ensure its trouble-free operation in the harsh conditions of the Zone.</text>
+</string>
+<string id="gunsl_wpn_svu_up_anatomic_pokritie_tsevie_name">
+     <text>Rubberized forend coating</text>
+</string>
+<string id="gunsl_wpn_svu_up_anatomic_pokritie_tsevie_descr">
+     <text>Makes the grip of the weapon more comfortable.</text>
+</string>
+<string id="gunsl_wpn_svu_up_prujina_name">
+     <text>Reinforced spring</text>
+</string>
+<string id="gunsl_wpn_svu_up_prujina_descr">
+     <text>Allows you to increase the rate of fire.</text>
+</string>
+<string id="gunsl_wpn_svu_up_priclad_rezina_name">
+     <text>Improved backplate</text>
+</string>
+<string id="gunsl_wpn_svu_up_priclad_rezina_descr">
+     <text>The anatomical rubber butt pad helps soften the felt recoil from a weapon shot.</text>
+</string>
+<string id="gunsl_wpn_svu_up_sheka_name">
+     <text>Cheek pad</text>
+</string>
+<string id="gunsl_wpn_svu_up_sheka_descr">
+     <text>Significantly reduces perceived recoil during aimed fire.</text>
+</string>
+<string id="gunsl_wpn_svu_up_titan_details_name">
+     <text>Reinforced receiver</text>
+</string>
+<string id="gunsl_wpn_svu_up_titan_details_descr">
+     <text>Increases weapon reliability.</text>
+</string>
+</string_table>

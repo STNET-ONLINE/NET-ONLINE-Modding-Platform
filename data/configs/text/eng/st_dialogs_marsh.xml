@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="delete_this">
+    <text>1</text>
+  </string>
+  <string id="mar_provodnik_1_0">
+    <text>I want to leave Clear Sky Base.Can you show me the way?</text>
+  </string>
+  <string id="mar_provodnik_1_1">
+    <text>Of course, wear a bandage.Ready?</text>
+  </string>
+  <string id="mar_provodnik_1_2">
+    <text>Yes, let's go.</text>
+  </string>
+  <string id="mar_provodnik_1_3">
+    <text>No, I'm not ready yet.</text>
+  </string>
+  <string id="mar_provodnik_2_0">
+    <text>who the fuck are you</text>
+  </string>
+  <string id="mar_provodnik_2_1">
+    <text>I don't eat myself.I haven't been prescribed any action yet.</text>
+  </string>
+  <string id="mar_provodnik_2_2">
+    <text>lan bye</text>
+  </string>
+  <string id="mar_provodnik_3_0">
+    <text>I need you to take me to Clear Sky Base.Can you show me the way?</text>
+  </string>
+  <string id="mar_provodnik_3_1">
+    <text>Of course, wear a bandage.Ready?</text>
+  </string>
+  <string id="mar_provodnik_3_2">
+    <text>Yes, let's go.</text>
+  </string>
+  <string id="mar_provodnik_3_3">
+    <text>No, I'm not ready yet.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_alt_end_0">
+    <text>Here is your folder - Your courier has disappeared.Prepare your reward</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_alt_end_1">
+    <text>Eh... I feel sorry for him.Here is your reward, as promised - part of the amount</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_0">
+    <text>Here's a parcel from the swamps</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_1">
+    <text>Don't be dark, stalker, what kind of package is this?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_2">
+    <text>Don't know.From Suslov - some kind of documents.He said that you are aware</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_3">
+    <text>Yes, I am aware of that, but not your face in this matter.What happened to the courier?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_4">
+    <text>DiedOnly one backpack remained.What's inside - God knows, I didn't look, I didn't check.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_5">
+    <text>Well, that's right, you shouldn't keep your nose in other people's affairs.If they promised you something, return to those who promised, I have already paid everything.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_0">
+    <text>Is there something for me?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_1">
+    <text>I just took the problem to my head... Sorry, I didn't notice - what are you talking about?What about work?Yes, there is... Let it be a problem and it needs to be solved.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_10">
+    <text>So?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_11">
+    <text>So I decided to ask.Did he notice anything noticeable?So all the signs converged, like Tarot cards.So I realized who and what died - it was my courier... I don't know exactly what happened, and I won't find out myself, because after the Big Blowout, our people are like mice sitting in holes.\nBasically, go and check what's wrong with this courier, if he's dead, then bring everything you have to Sidorovich, I'll pay the full amount with interest, and if it's broken, then just return it - part of the amount, so be itI'll pay.So, do you agree?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_12">
+    <text>You can try it.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_13">
+    <text>It's far away and out of the way - I'll return whatever I find.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_14">
+    <text>Wait a minute, I'm a little busy right now.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_15">
+    <text>I'm writing it down.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_16">
+    <text>Well, at least that's it.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_17">
+    <text>You, look, it won't wait for you forever - not a sleeping beauty.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_2">
+    <text>What's the problem then?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_3">
+    <text>Well... All our people know that lately we have been completely overwhelmed with orders, and lately we have been chewing on the sole, and yesterday I unexpectedly came from a fat toad...</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_4">
+    <text>Oh... Don't be tormented... lay it out.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_5">
+    <text>Well, since you're in a hurry... I'll try in two words - All that was required was for the Courier to hit the road to the «Village of Beginners», to the old bastard.Well... Give him some folder, but... As you understand... Everything went through one place.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_6">
+    <text>Did the courier escape?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_7">
+    <text>Not really.Even better!He's a bitch, he died in an anomaly.</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_8">
+    <text>Oh, do you know there?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_start_9">
+    <text>Just like in the joke - a stalker comes in and says.But he doesn't say as in a joke - that he supposedly saw our corpse, but I know that all «Ours» are sitting at home.</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_descr">
+    <text>Suslov asked you to find the Documents.It is necessary to find the corpse of the courier in the Swamps and take documents from him</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_give_name">
+    <text>Suslov: hand over documents</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_none_name">
+    <text>Suslov: find documents</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_descr">
+    <text>Suslov asked you to find the Documents and take them to Sidorovich.You need to find the corpse of the courier in the Swamps and take documents from him.Then hand them over to Sidorovich</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_give_name">
+    <text>Secret information: hand over documents to Sidorovich</text>
+  </string>
+  <string id="st_mar_quest_find_documents_suslov_sidorovich_none_name">
+    <text>Mystery information: find documents</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_6">
+    <text>Well, as I thought, you'll be blown away.I hope no one knows what's in it?</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_7">
+    <text>Who the hell knows - the package seems to be intact, but all that's left from the courier is the backpack</text>
+  </string>
+  <string id="mar_quest_find_documents_suslov_end_8">
+    <text>Here's your half, as promised</text>
+  </string>
+</string_table>

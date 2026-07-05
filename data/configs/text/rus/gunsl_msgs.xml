@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="gunsl_msg_sil_restricts_scope">
+		<text>Снимите глушитель!</text>
+	</string>
+
+	<string id="gunsl_msg_gl_restricts_scope">
+		<text>Снимите подствольный гранатомет!</text>
+	</string>
+
+	<string id="gunsl_msg_scope_restricts_sil">
+		<text>Снимите прицел!</text>
+	</string>
+
+	<string id="gunsl_msg_gl_restricts_sil">
+		<text>Снимите подствольный гранатомет!</text>
+	</string>
+
+	<string id="gunsl_msg_scope_restricts_gl">
+		<text>Снимите прицел!</text>
+	</string>
+
+	<string id="gunsl_msg_sil_restricts_gl">
+		<text>Снимите глушитель!</text>
+	</string>
+
+	<string id="gunsl_msg_weapon_jammed">
+		<text>Оружие заклинило! Нажмите «$$ACTION_WPN_RELOAD$$».</text>
+	</string>
+
+	<string id="gunsl_light_misfire">
+		<text>Осечка! Попробуйте выстрелить еще раз.</text>
+	</string>
+
+	<string id="gunsl_msg_weapon_empty">
+		<text>В оружии кончились боеприпасы! </text>
+	</string>
+
+	<string id="gunsl_msg_take_wpn_into_hands">
+		<text>Возьмите оружие в руки!</text>
+	</string>
+
+	<string id="gunsl_msg_stop_actions">
+		<text>Руки заняты другим действием! Дождитесь завершения.</text>
+	</string>
+
+	<string id="gunsl_corpse_overweighted">
+		<text>Труп слишком тяжелый!</text>
+	</string>
+
+	<string id="gunsl_load_incompatible_save_confirm">
+		<text>Выбранное сохранение создано в отличной от текущей версии (сборке) игры или мода. Загрузка может привести к непредсказуемым последствиям вплоть до аварийного завершения игры. Продолжить и попытаться загрузить данное сохранение?</text>
+	</string>
+
+</string_table>

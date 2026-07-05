@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<string id="gunsl_wpn_sks">
+     <text>СКС</text>
+</string>
+<string id="gunsl_wpn_sks_descr">
+     <text>Самозарядный карабин, созданный советским конструктором Симоновым для массового оснащения пехотных частей Красной Армии и принятый на вооружение в 1949 году. Впоследствии, несмотря на более высокую точность ведения огня, был вытеснен автоматом Калашникова, который обладал значительным превосходством по огневой плотности. Тем не менее, большое количество уже произведенных карабинов осталось дожидаться своего часа на армейских складах, откуда постепенно и попадает в Зону разными путями.</text>
+</string>
+<string id="gunsl_wpn_sks_zombie">
+     <text>СКС «Зомбированного»</text>
+</string>
+<string id="gunsl_wpn_sks_zombie_descr">
+     <text>Самозарядный карабин, созданный советским конструктором Симоновым для массового оснащения пехотных частей Красной Армии и принятый на вооружение в 1949 году. Но этот экземпляр - особенный, и был найден у очень необычного зомбированного...</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_recoil_name">
+     <text>Полимерный буфер</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_recoil_descr">
+     <text>Внедрение в возвратный механизм дополнительного полимерного буфера снижает ощущаемую стрелком отдачу.</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_accuracy_name">
+     <text>Калибровка УСМ</text>
+</string>
+<string id="gunsl_wpn_sks_up_usm_accuracy_descr">
+     <text>Индивидуальная подгонка и балансировка стандартных деталей ударно-спускового механизма позволяет добиться более высокой точности стрельбы при одновременном уменьшении отдачи.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_speed_name">
+     <text>Изменение шага нарезки ствола</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_speed_descr">
+     <text>Увеличивает начальную скорость пули, благодаря чему пуля меньше отклоняется от ожидаемой траектории и быстрее достигает цели. Полезно для стрельбы на большие дистанции.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_accuracy_name">
+     <text>Юстировка ствола</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_accuracy_descr">
+     <text>Позволяет снизить разброс пуль, что благоприятным образом сказывается на точности ведения огня.</text>
+</string>
+<string id="gunsl_wpn_sks_up_bayonet_name">
+     <text>Штык</text>
+</string>
+<string id="gunsl_wpn_sks_up_bayonet_descr">
+     <text>Оснащение оружия длинным штыком позволяет расширить радиус рукопашных атак и значительно увеличить наносимый в них урон - в особености если такие слова, как "гуманность" и "милосердие" по отношению к противникам на практике значат для Вас не слишком много.</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_compensator_name">
+     <text>Дульный тормоз-компенсатор</text>
+</string>
+<string id="gunsl_wpn_sks_up_barrel_compensator_descr">
+     <text>Установка на ствол специальной насадки, частично компенсирующей отдачу оружия при стрельбе.</text>
+</string>
+<string id="gunsl_wpn_sks_up_gascam_name">
+     <text>Доработка газоотвода</text>
+</string>
+<string id="gunsl_wpn_sks_up_gascam_descr">
+     <text>Модификация газоотводного механизма повышает надежность работы автоматики, снижая число задержек при стрельбе.</text>
+</string>
+<string id="gunsl_wpn_sks_up_laser_name">
+     <text>Тактический модуль</text>
+</string>
+<string id="gunsl_wpn_sks_up_laser_descr">
+     <text>Тактический блок Insight AN/PEQ-16a сочетает в себе функции лазерного целеуказателя и тактического фонаря. Незаменимая вещь для ведения боя в ночных условиях.</text>
+</string>
+<string id="gunsl_wpn_sks_up_sights_name">
+     <text>Тритиевые вставки</text>
+</string>
+<string id="gunsl_wpn_sks_up_sights_descr">
+     <text>Установка светящихся вставок в прицельные приспособления позволяет повысить скорость прицеливания и удобство ведения огня в темноте.</text>
+</string>
+<string id="gunsl_wpn_sks_up_dovetail_name">
+     <text>Крепление типа "Ласточкин хвост"</text>
+</string>
+<string id="gunsl_wpn_sks_up_dovetail_descr">
+     <text>Оснащение оружия креплением стандартного советского типа позволяет устанавливать на оружие большую часть оптических прицелов, принятых на вооружение в странах Варшавского договора.</text>
+</string>
+<string id="gunsl_wpn_sks_up_pokritie_name">
+     <text>Защитное покрытие</text>
+</string>
+<string id="gunsl_wpn_sks_up_pokritie_descr">
+     <text>Нанесение специального напыления на внутренние детали позволяет замедлить износ оружия.</text>
+</string>
+<string id="gunsl_wpn_sks_up_rail_name">
+     <text>Крепление типа Picatinny</text> <!--Picatinny rail-->
+</string>
+<string id="gunsl_wpn_sks_up_rail_descr">
+     <text>Оснащение оружия стандартным для блока НАТО креплением позволяет устанавливать на оружие большую часть зарубежных оптических прицелов.</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_accuracy_name">
+     <text>Юстировка затворного механизма</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_accuracy_descr">
+     <text>Точная подгонка элементов затворного механизма уменьшает люфты и позволяет достичь более высокой точности стрельбы.</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_balance_name">
+     <text>Балансировка затвора</text>
+</string>
+<string id="gunsl_wpn_sks_up_zatvor_balance_descr">
+     <text>Балансировка деталей затворной группы уменьшает увод ствола с линии прицеливания при выстреле, а также снижает вероятность возникновения задержек при стрельбе.</text>
+</string>
+<string id="gunsl_wpn_sks_up_mag20_name">
+     <text>Магазинное питание</text>
+</string>
+<string id="gunsl_wpn_sks_up_mag20_descr">
+     <text>Переделка штатного механизма подачи патронов на магазинное питание позволяет значительно ускорить перезарядки в бою, а более емкий магазин, вмещающий 20 патронов, сокращает количество таких перезарядок.</text>
+</string>
+<string id="gunsl_wpn_sks_up_tactical_set_name">
+     <text>Тактический обвес</text>
+</string>
+<string id="gunsl_wpn_sks_up_tactical_set_descr">
+     <text>Замена стандартных деревянных компонентов на современные пластиковые снижает массу оружия и повышает удобство обращения с ним, изменяя внешний вид оружия до неузнаваемости. Кроме того, наличие креплений Weaver позволяет впоследствии устанавливать на оружие дополнительные тактические аксессуары и совместимые прицелы.</text>
+</string>
+<string id="gunsl_wpn_sks_up_rpm_increase_name">
+     <text>Механизм мягкого спуска</text>
+</string>
+<string id="gunsl_wpn_sks_up_rpm_increase_descr">
+     <text>Позволяет значительно повысить практическую скорострельность.</text>
+</string>
+<string id="gunsl_wpn_sks_up_light_details_name">
+     <text>Легкосплавные детали</text>
+</string>
+<string id="gunsl_wpn_sks_up_light_details_descr">
+     <text>Замена стандартных деталей на аналоги из легких сплавов позволяет снизить массу оружия без существенного вреда для его остальных тактико-технических характеристик.</text>
+</string>
+<string id="gunsl_wpn_sks_up_hard_details_name">
+     <text>Детали повышенной прочности</text>
+</string>
+<string id="gunsl_wpn_sks_up_hard_details_descr">
+     <text>Новые детали из современных тугоплавких сплавов обладают более высокой прочностью, что замедляет износ оружия и благоприятно влияет на его надежность.</text>
+</string>
+</string_table>

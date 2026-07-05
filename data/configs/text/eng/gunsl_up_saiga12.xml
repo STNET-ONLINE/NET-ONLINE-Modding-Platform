@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_saiga12_up_barrel_narezka_name">
+     <text>Rifled barrel</text>
+</string>
+<string id="gunsl_saiga12_up_barrel_narezka_descr">
+     <text>Rifling the barrel can significantly improve shooting accuracy and increases the initial speed of the bullet, but makes it impossible to fire shotguns.</text>
+</string>
+<string id="gunsl_saiga12_up_barrel_dtk_name">
+     <text>DTK</text>
+</string>
+<string id="gunsl_saiga12_up_barrel_dtk_descr">
+     <text>Installing a muzzle brake-compensator reduces the recoil felt by the shooter.</text>
+</string>
+<string id="gunsl_saiga12_up_sights_name">
+     <text>Tritium insert</text>
+</string>
+<string id="gunsl_saiga12_up_sights_descr">
+     <text>Installing a luminous insert in the sighting device allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_saiga12_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_saiga12_up_handle_descr">
+     <text>Provides the right hand with a more comfortable grip.</text>
+</string>
+<string id="gunsl_saiga12_up_titan_details_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_saiga12_up_titan_details_descr">
+     <text>Replacing standard parts from the main components of the weapon with analogues made of wear-resistant alloys allows you to extend the service life of the weapon and reduce the number of delays that occur during firing.</text>
+</string>
+<string id="gunsl_saiga12_up_lightdetails_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_saiga12_up_lightdetails_descr">
+     <text>Replacing weapon parts with their light-alloy counterparts allows you to reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_saiga12_up_light_stock_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_saiga12_up_light_stock_descr">
+     <text>Replacing a standard stock with a lighter one reduces the weight of the weapon.</text>
+</string>
+<string id="gunsl_saiga12_up_stock_nakladka_name">
+     <text>Butt pad</text>
+</string>
+<string id="gunsl_saiga12_up_stock_nakladka_descr">
+     <text>Reduces the recoil felt by the shooter from a weapon shot.</text>
+</string>
+<string id="gunsl_saiga12_up_mag10_name">
+     <text>High capacity magazine</text>
+</string>
+<string id="gunsl_saiga12_up_mag10_descr">
+     <text>Allows you to reduce the number of reloads in battle, increasing your chances of staying alive.</text>
+</string>
+<string id="gunsl_saiga12_up_mag_fix_name">
+     <text>Refinement of the cartridge feeding mechanism</text>
+</string>
+<string id="gunsl_saiga12_up_mag_fix_descr">
+     <text>Allows you to reduce the number of delays that occur during the feeding of the next cartridge from the magazine into the chamber.</text>
+</string>
+<string id="gunsl_saiga12_up_patronnik_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_saiga12_up_patronnik_descr">
+     <text>Careful adjustment of parts and minimization of backlash allows for higher shooting accuracy.</text>
+</string>
+<string id="gunsl_saiga12_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_saiga12_up_usm_rpm_descr">
+     <text>Allows the shooter to achieve a higher rate of fire when firing a weapon.</text>
+</string>
+<string id="gunsl_saiga12_up_light_foregrip_name">
+     <text>Lightweight handguard</text>
+</string>
+<string id="gunsl_saiga12_up_light_foregrip_descr">
+     <text>Allows you to reduce the total weight of the weapon.</text>
+</string>
+<string id="gunsl_saiga12_up_usm_recoil_name">
+     <text>Soft release mechanism</text>
+</string>
+<string id="gunsl_saiga12_up_usm_recoil_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_saiga12_up_accurate_details_name">
+     <text>Fitting mechanisms</text>
+</string>
+<string id="gunsl_saiga12_up_accurate_details_descr">
+     <text>Fitting and careful grinding of the main components helps to minimize backlash, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+</string_table>

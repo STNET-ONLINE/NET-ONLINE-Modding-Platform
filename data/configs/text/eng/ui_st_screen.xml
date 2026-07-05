@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="actor_inventory_box_use">
+		<text>Open personal account ($$ACTION_USE$$)</text>
+	</string>
+	<string id="cant_walk">
+		<text>You're too exhausted to move</text>
+	</string>
+	<string id="cant_walk_weight">
+		<text>You're too overwhelmed to move</text>
+	</string>
+	<string id="car_character_use">
+		<text>Open door ($$ACTION_USE$$)</text>
+	</string>
+	<string id="character_use">
+		<text>Talk ($$ACTION_USE$$)</text>
+	</string>
+	<string id="dead_character_use">
+		<text>Search the corpse ($$ACTION_USE$$)</text>
+	</string>
+	<string id="dead_character_use_or_drag">
+		<text>Search corpse ($$ACTION_USE$$)\nDrag corpse (SHIFT+$$ACTION_USE$$)</text>
+	</string>
+	<string id="general_complete_task">
+		<text>Task completed:</text>
+	</string>
+	<string id="general_fail_task">
+		<text>Mission failed:</text>
+	</string>
+	<string id="general_in_item">
+		<text>Item received:</text>
+	</string>
+	<string id="general_in_money">
+		<text>Money received:</text>
+	</string>
+	<string id="general_new_task">
+		<text>New task:</text>
+	</string>
+	<string id="general_out_item">
+		<text>Lost item:</text>
+	</string>
+	<string id="general_out_money">
+		<text>Lost money:</text>
+	</string>
+	<string id="general_reverse_task">
+		<text>Mission cancelled:</text>
+	</string>
+	<string id="general_update_task">
+		<text>Quest updated:</text>
+	</string>
+	<string id="gun_jammed">
+		<text>The weapon jammed.Need to recharge.</text>
+	</string>
+	<string id="inventory_box_use">
+		<text>Search the box ($$ACTION_USE$$)</text>
+	</string>
+	<string id="inventory_item_use">
+		<text>Pick up item ($$ACTION_USE$$)</text>
+	</string>
+	<string id="jup_b10_ufo_searching_tips">
+		<text>Search the aircraft ($$ACTION_USE$$)</text>
+	</string>
+	<string id="jup_b1_bar_door">
+		<text>The door is jammed</text>
+	</string>
+	<string id="jup_b1_door_is_closed">
+		<text>The door is locked from the inside</text>
+	</string>
+	<string id="jup_b202_treasures_closed">
+		<text>Safe is closed</text>
+	</string>
+	<string id="jup_b205_tip_door_closed">
+		<text>Code required</text>
+	</string>
+	<string id="jup_b205_tip_door_decode">
+		<text>Enter code ($$ACTION_USE$$)</text>
+	</string>
+	<string id="jup_b206_use_plant">
+		<text>Pick a plant ($$ACTION_USE$$)</text>
+	</string>
+	<string id="jup_b209_scanner_place_tips">
+		<text>Install scanner ($$ACTION_USE$$)</text>
+	</string>
+	<string id="jup_b209_scanner_remove_tips">
+		<text>Pick up scanner ($$ACTION_USE$$)</text>
+	</string>
+	<string id="lx8_raduga">
+		<text>Aggression suppressor "Rainbow"\nmodel of the external radiation complex\nscale 1:20</text>
+	</string>
+	<string id="pas_b400_tip_switcher">
+		<text>Enable switch ($$ACTION_USE$$)</text>
+	</string>
+	<string id="pri_a18_use_idol">
+		<text>Inspect the structure ($$ACTION_USE$$)</text>
+	</string>
+	<string id="pri_a25_blow_up_enter_door">
+		<text>Plant explosives ($$ACTION_USE$$)</text>
+	</string>
+	<string id="pri_a28_talk_with_stupid_medic">
+		<text>Bring to life ($$ACTION_USE$$)</text>
+	</string>
+	<string id="pri_b306_elevator_door_locked_used">
+		<text>The elevator is de-energized</text>
+	</string>
+	<string id="pri_b306_generator_use">
+		<text>Run generator ($$ACTION_USE$$)</text>
+	</string>
+	<string id="sleep_ok_button">
+		<text>Sleep</text>
+	</string>
+	<string id="sleep_warning_all_pleasures">
+		<text>You can't sleep!You have dangerous bleeding and a high level of radiation exposure in the body.Use medications or consult a doctor.</text>
+	</string>
+	<string id="sleep_warning_bleeding">
+		<text>You can't sleep!You are bleeding dangerously.Use medications or consult a doctor.</text>
+	</string>
+	<string id="sleep_warning_radiation">
+		<text>You can't sleep!You have a high level of radiation exposure in your body.Use medications or consult a doctor.</text>
+	</string>
+	<string id="sleep_zone_tip">
+		<text>Sleep ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_ach_balance_advocate">
+		<text>Achievement "Proponent of Balance" has been achieved.</text>
+	</string>
+	<string id="st_ach_battle_systems_master">
+		<text>Achievement "Master of Combat Systems" has been achieved.</text>
+	</string>
+	<string id="st_ach_detective">
+		<text>Achievement "Sleuth" obtained.</text>
+	</string>
+	<string id="st_ach_diplomat">
+		<text>Achievement "Diplomat" has been achieved.</text>
+	</string>
+	<string id="st_ach_friend_of_duty">
+		<text>Achievement "Friend of Duty" has been achieved.</text>
+	</string>
+	<string id="st_ach_friend_of_freedom">
+		<text>Achievement "Friend of Freedom" has been achieved.</text>
+	</string>
+	<string id="st_ach_friend_of_stalkers">
+		<text>Achievement "Friend of Stalkers" has been achieved.</text>
+	</string>
+	<string id="st_ach_herald_of_justice">
+		<text>Achievement "Messenger of Justice" has been achieved.</text>
+	</string>
+	<string id="st_ach_high_tech_master">
+		<text>Achieved the achievement "Master of High Technologies".</text>
+	</string>
+	<string id="st_ach_information_dealer">
+		<text>Achievement "Information Merchant" has been achieved.</text>
+	</string>
+	<string id="st_ach_keeper_of_secrets">
+		<text>Achievement "Keeper of Secrets" has been achieved.</text>
+	</string>
+	<string id="st_ach_kingpin">
+		<text>Achievement "Authority" has been achieved.</text>
+	</string>
+	<string id="st_ach_leader">
+		<text>Achieved "Leader".</text>
+	</string>
+	<string id="st_ach_mutant_hunter">
+		<text>Obtained the achievement "Mutant Hunter".</text>
+	</string>
+	<string id="st_ach_one_of_the_lads">
+		<text>Achieved the achievement "My Boyfriend".</text>
+	</string>
+	<string id="st_ach_pioneer">
+		<text>Obtained the achievement "Pathfinder".</text>
+	</string>
+	<string id="st_ach_research_man">
+		<text>Achievement "Research Fellow" has been achieved.</text>
+	</string>
+	<string id="st_ach_seeker">
+		<text>Achievement "Seeker" obtained.</text>
+	</string>
+	<string id="st_ach_skilled_stalker">
+		<text>Obtained the "Experienced Stalker" achievement.</text>
+	</string>
+	<string id="st_ach_wealthy">
+		<text>Achieved "Wealthy Client" achievement.</text>
+	</string>
+	<string id="st_autosave">
+		<text>Autosave...</text>
+	</string>
+	<string id="st_can_use_weapon_now">
+		<text>Now you can get your weapon.</text>
+	</string>
+	<string id="st_codelock">
+		<text>Combination lock ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_detective_news">
+		<text>For solving the case of missing stalkers, medications have been added to the personal box at Skadovsk.</text>
+	</string>
+	<string id="st_duty_first_reward_news">
+		<text>For helping «Duty», the PS5-M «Universal Protection» suit was placed in the personal box on «Yanov».</text>
+	</string>
+	<string id="st_duty_second_reward_news">
+		<text>For helping «Dolg», the PSZ-9d «Dolg Armor» suit was placed in the personal box on «Yanov».</text>
+	</string>
+	<string id="st_freedom_first_reward_news">
+		<text>For helping «Svoboda», the «Wind of Freedom» suit was placed in the personal box on «Yanov».</text>
+	</string>
+	<string id="st_freedom_second_reward_news">
+		<text>For helping «Svoboda», the «Guardian of Freedom» suit was placed in the personal box on «Yanov».</text>
+	</string>
+	<string id="st_freeplay_text_ok">
+		<text>You didn't have time to get to the helicopters.The evacuation group left the Zone without you.</text>
+	</string>
+	<string id="st_freeplay_text_yes_no">
+		<text>Are you ready to leave the Zone?There will be no turning back.</text>
+	</string>
+	<string id="st_game_over">
+		<text>Game over.</text>
+	</string>
+	<string id="st_game_over_press_jump">
+		<text>Press ($$ACTION_JUMP$$) to exit to the main menu</text>
+	</string>
+	<string id="st_game_paused">
+		<text>Pause</text>
+	</string>
+	<string id="st_game_saved">
+		<text>Game saved</text>
+	</string>
+	<string id="st_herald_of_justice_news">
+		<text>For help in exposing Soroka, an artifact was placed in a personal box at Skadovsk.</text>
+	</string>
+	<string id="st_jup_b41_door_locked">
+		<text>It is necessary to wait until the gateway is sealed</text>
+	</string>
+	<string id="st_lx8_button_press_true">
+		<text>Access allowed</text>
+	</string>
+	<string id="st_lx8_lift_button">
+		<text>Take the elevator ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_pri_b306_go_down">
+		<text>Take the elevator ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_psy_danger">
+		<text>Critical level of psi radiation.Leave the danger area immediately.</text>
+	</string>
+	<string id="st_radiation_danger">
+		<text>Dangerous levels of radiation.Protection is required for passage.</text>
+	</string>
+	<string id="st_search_helicopter">
+		<text>Inspect the helicopter ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_search_treasure">
+		<text>Search cache ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_sleep_hours">
+		<text>h</text>
+	</string>
+	<string id="st_tip">
+		<text>Message</text>
+	</string>
+	<string id="tip_door_blocked">
+		<text>The door is locked</text>
+	</string>
+	<string id="tip_door_close">
+		<text>Close door ($$ACTION_USE$$)</text>
+	</string>
+	<string id="tip_door_closed_base_alarm">
+		<text>The door is locked - there is an alarm in the camp</text>
+	</string>
+	<string id="tip_door_closed_hide_weapon">
+		<text>The door is locked - you need to hide your weapon</text>
+	</string>
+	<string id="tip_door_locked">
+		<text>The door is locked</text>
+	</string>
+	<string id="tip_door_no_electricity">
+		<text>The door is de-energized</text>
+	</string>
+	<string id="tip_door_open">
+		<text>Open door ($$ACTION_USE$$)</text>
+	</string>
+	<string id="tip_gate_locked">
+		<text>The gate is locked</text>
+	</string>
+	<string id="tip_need_access_card">
+		<text>Use an access card ($$ACTION_USE$$)</text>
+	</string>
+	<string id="tip_no_access_card">
+		<text>Access card required</text>
+	</string>
+	<string id="tip_open_another_site">
+		<text>The door cannot be opened from this side</text>
+	</string>
+	<string id="ui_st_mp_experience_grow">
+		<text>-</text>
+	</string>
+	<string id="zat_b12_conteiner_full_locked">
+		<text>Container is locked - two keys required</text>
+	</string>
+	<string id="zat_b12_conteiner_has_one_key">
+		<text>Use key ($$ACTION_USE$$)</text>
+	</string>
+	<string id="zat_b12_conteiner_has_two_key">
+		<text>Use Keys ($$ACTION_USE$$)</text>
+	</string>
+	<string id="zat_b12_conteiner_locked">
+		<text>Container is locked - second key required</text>
+	</string>
+	<string id="zat_b12_conteiner_open">
+		<text>Open container ($$ACTION_USE$$)</text>
+	</string>
+	<string id="zat_b14_door_locked_hint">
+		<text>The door mechanism is locked from the inside</text>
+	</string>
+	<string id="zat_b57_balon_use_hint">
+		<text>Connect gas cylinder ($$ACTION_USE$$)</text>
+	</string>
+	<string id="zat_b57_gas_warning">
+		<text>Carefully!Chemical hazard!</text>
+	</string>
+	<string id="zat_b57_vintil_press">
+		<text>Turn valve ($$ACTION_USE$$)</text>
+	</string>
+	<string id="zat_b33_car_searching_tip">
+		<text>Search "Zaporozhets" ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_resupply_ready">
+		<text>Before the operation, you can replenish your supply of medicines and ammunition from lieutenants Rogovets and Kirillov.</text>
+	</string>
+	<string id="st_surge_while_asleep">
+		<text>There has recently been an outburst in the Zone.</text>
+	</string>
+	<string id="st_ach_marked_by_zone">
+		<text>Achievement "Marked by the Zone" obtained</text>
+	</string>
+	<string id="st_mutant_hunter_news">
+		<text>For the destruction of dangerous mutants, ammunition is placed in the personal box on Yanov.</text>
+	</string>
+	<string id="st_found_old_treasure">
+		<text>The coordinates of a previously found cache were obtained</text>
+	</string>
+	<string id="st_got_treasure">
+		<text>Cache found</text>
+	</string>
+	<string id="st_found_new_treasure">
+		<text>Cache coordinates received</text>
+	</string>
+	<string id="st_press_any_key">
+		<text>Press any key to go to the game</text>
+	</string>
+	<string id="st_test_notes">
+		<text>Sov.secret\nCopy.No. 1\n \nTo the commander of the operational group "South"\nfrom Captain Sokolov A.I.\n \nREPORT\n \nI would like to inform you that on the night of June 13-14, 198_, the personnel of unit 7425-B were on duty at the northern hangars of the warehouse complex.\n \nAt 02 o'clock.47 min.duty officers recorded a sharp drop in air temperature to +3 °C.At the same time, short-term failures in radio communications and the appearance of interference of an unknown nature were noted.\n \nA few minutes later, from the dense fog at a distance of about 40-50 m, an object of a humanoid type, presumably of a female constitution, about 180 cm tall, was visually observed. The object moved silently, did not respond to the commands «Stop» and «Back», and had no signs of weapons.\n \nAfter receiving the order to open firethree rounds were produced.The bullets were reflected at right angles; no traces of hitting the target were recorded.At the time of firing, short-term interruptions in the power supply of the searchlights and distortions in the radio communication channel were observed.\n \nRow located at post No. 2.Romanov did not get in touch after the shooting started.During an inspection of the territory at his post, only a service weapon and traces of movement on wet ground were found, leading towards an open area.The fighter himself is missing.\n \nOn my order, a retreat was made to warehouse No. 3. After turning on the searchlights, the observation object disappeared.Re-discovery was not possible.\n \nPersonnel losses amount to 4 people.of which:\n- 1 person.- missing (row. Romanov S.P.);\n- 2 people.- shell-shocked (Efr. Kozlov A.N., row. Belov I.R.);\n- 1 person.- woundeasy.(Sergeant Levchenko V.D.).\n \nAccording to preliminary data, the incident is not related to the actions of the enemy or civilians.An anomaly of atmospheric or man-made origin is possible.I consider it necessary to send an engineering and technical commission to check the radiation and electromagnetic background in the area of the complex.\n \nCommander of unit 7425-B\nCaptain Sokolov A.I.\nJune 14, 198_</text>
+	</string>
+	<string id="st_disclamer">
+		<text>ATTENTION!</text>
+	</string>
+	<string id="st_disclamer_text">
+		<text>NET Online is a multiplayer modification created based on the game Call of Pripyat and is not an official product or work of the authors of the original game.The modification uses materials created by other modifications and members of the gaming community, including elements protected by copyright, with the permission of their copyright holders.\n \nAll rights to the original Call of Pripyat game belong to their rightful owners.</text>
+	</string>
+	<string id="st_disclamer_press">
+		<text>Press the "$$ACTION_QUIT$$" key to continue</text>
+	</string>
+</string_table>

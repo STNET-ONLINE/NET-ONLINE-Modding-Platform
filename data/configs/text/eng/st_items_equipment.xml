@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_antirad">
+		<text>Anti-radiation drug</text>
+	</string>
+	<string id="st_antirad_descr">
+		<text>The radioprotective drug «Mexamine» is widely distributed throughout the Zone.When used, it causes constriction of peripheral blood vessels and oxygen starvation, which in this case is a means of preventing and treating radiation sickness.Well tolerated by the vast majority of people;in some cases, mild nausea, dizziness, pain, and less often vomiting are possible.</text>
+	</string>
+	<string id="st_bandage">
+		<text>Bandage</text>
+	</string>
+	<string id="st_bandage_descr">
+		<text>Aseptic bandage to stop bleeding and prevent infection from entering the wound.In case of normal bleeding, it allows you to bandage the wound; in case of arterial bleeding, it allows you to tighten the artery.</text>
+	</string>
+	<string id="st_binocular_descr">
+		<text>Military binoculars with adjustable magnification (up to 7.5 diopters).Allows you to view the terrain and buildings in detail from a great distance.</text>
+	</string>
+	<string id="st_binocular_name">
+		<text>Binoculars</text>
+	</string>
+	<string id="st_bread">
+		<text>Bread</text>
+	</string>
+	<string id="st_bread_descr">
+		<text>It is unknown who manages to bake loaves of bread in the Zone, or how they are smuggled across the border.However, this bread is not contaminated, not radioactive, quite fresh and quite edible.In any case, none of the stalkers have complained yet.</text>
+	</string>
+	<string id="st_conserva">
+		<text>Canned food "Tourist's Breakfast"</text>
+	</string>
+	<string id="st_conserva_descr">
+		<text>Presumably, canned food from an army food warehouse stolen by stalkers;It is not possible to accurately determine due to the lack of any label.The main thing is that the expiration date does not seem to have expired.</text>
+	</string>
+	<string id="st_detector1">
+		<text>Detector "Response"</text>
+	</string>
+	<string id="st_detector1_descr">
+		<text>Outdated model of anomalous activity detector.Reacts with a sound signal when anomalous particles enter a special chamber when approaching anomalies;in addition, it can register the presence of artifacts and measure the distance to the nearest one.The distance to the artifact is determined by the frequency of the sound supplied.The artifact search mode is activated by lifting the antenna cover on the front panel of the device.Due to the simplicity of its design, it is capable of finding only the most common artifacts.</text>
+	</string>
+	<string id="st_detector2">
+		<text>Detector "Bear"</text>
+	</string>
+	<string id="st_detector3">
+		<text>Detector "Veles"</text>
+	</string>
+	<string id="st_detector3_descr">
+		<text>A new generation detector-scanner used by scientists.Thanks to three advanced recording cameras, the location of the artifact relative to the detector is shown on a special screen.Capable of detecting radiation and the presence of anomalies.The artifact search mode is activated by raising the display indicator on the front side of the device;in this mode it is capable of detecting all artifacts known to science.</text>
+	</string>
+	<string id="st_detector4">
+		<text>Svarog detector prototype</text>
+	</string>
+	<string id="st_detector4_descr">
+		<text>A prototype of an anomalous zone scanner with expanded functionality.Added a program for recognizing static zones of anomalous activity that are in the database;At the same time, the ability to detect artifacts is preserved.The location of anomalous zones and artifacts relative to the detector are displayed on a special screen.The artifact search program, which is activated when the display indicator on the front side of the device is raised, has been improved;theoretically, this makes it possible to detect anomalous formations not yet known to science.</text>
+	</string>
+	<string id="st_device_torch_descr">
+		<text>Flashlight with head mount.It will be useful to a stalker who is caught on the road at night;on the other hand, it may attract someone's unwanted attention.</text>
+	</string>
+	<string id="st_device_torch_name">
+		<text>Flashlight</text>
+	</string>
+	<string id="st_drug_anabiotic">
+		<text>Anabiotic</text>
+	</string>
+	<string id="st_drug_antidot">
+		<text>Antidote</text>
+	</string>
+	<string id="st_drug_antidot_descr">
+		<text>The drug «Antitoxicant IP2» is a complex of antidotes: metoclopramide, pyridoxine, thiamine, riboxia and others.Introduces into the blood substances capable of decomposing protein poisons, as well as absorbents of synthetic poisons.It is not particularly popular, since most stalkers rely on a gas mask and overalls.Has a long lasting effect.</text>
+	</string>
+	<string id="st_drug_booster">
+		<text>"Hercules"</text>
+	</string>
+	<string id="st_drug_coagulant">
+		<text>"Periwinkle"</text>
+	</string>
+	<string id="st_drug_coagulant_descr">
+		<text>"Vikasol" is a synthetic analogue of vitamin K. The main effect is to increase blood clotting.It is in demand among stalkers because it allows the body to heal lacerated wounds faster.Has a long lasting effect.</text>
+	</string>
+	<string id="st_drug_psy_blockade">
+		<text>Psi blockade</text>
+	</string>
+	<string id="st_drug_psy_blockade_descr">
+		<text>A narcotic drug that blocks avalanche-like nerve impulses.An interesting side effect: after taking the drug, there is a short-term blocking of any emotions.In the Zone it is used to counteract anomalous fields of increased psi activity;I have not found any use outside the Zone.Has a long lasting effect.</text>
+	</string>
+	<string id="st_drug_radioprotector">
+		<text>Radio protector</text>
+	</string>
+	<string id="st_energy_drink">
+		<text>Energy drink "Stalker"</text>
+	</string>
+	<string id="st_energy_drink_descr">
+		<text>Often used by stalkers on multi-day hikes when there is no opportunity to stop and rest.Contains easily digestible carbohydrates, as well as drugs that cause the release of adrenaline into the blood.</text>
+	</string>
+	<string id="st_guitar_descr">
+		<text>Just talk to me, seven-string guitar!..</text>
+	</string>
+	<string id="st_guitar_name">
+		<text>Guitar</text>
+	</string>
+	<string id="st_harmonica_descr">
+		<text>A cheap accordion that has survived more than one owner.It sounds rough, but it's loud.</text>
+	</string>
+	<string id="st_harmonica_name">
+		<text>Harmonica</text>
+	</string>
+	<string id="st_kolbasa">
+		<text>Sausage "Dietary"</text>
+	</string>
+	<string id="st_kolbasa_descr">
+		<text>Often, for lack of anything better, this sausage - a mixture of chicken and soy substitute - becomes the stalker's breakfast, lunch and dinner.Thanks to the large amount of preservatives, it does not spoil for quite a long time.</text>
+	</string>
+	<string id="st_medkit">
+		<text>First aid kit</text>
+	</string>
+	<string id="st_medkit_army">
+		<text>Army first aid kit</text>
+	</string>
+	<string id="st_medkit_army_descr">
+		<text>A specialized medical kit for providing first aid for wounds on the battlefield.The set includes means to accelerate blood clotting based on Menadione, painkillers, antibiotics and immune stimulants;In addition, there is a simple surgical kit for removing shrapnel and bullets.Standard army first aid kit;is less common in the equipment of «Dolgovtsy».</text>
+	</string>
+	<string id="st_medkit_descr">
+		<text>Universal medical kit for one-time use.Allows you to cope with injuries of various types and degrees of complexity: wounds, soft tissue bruises, thermal and chemical burns, various types of poisoning.Always popular among stalkers.</text>
+	</string>
+	<string id="st_medkit_science">
+		<text>Scientific first aid kit</text>
+	</string>
+	<string id="st_medkit_science_descr">
+		<text>A medical kit designed specifically for scientists who work in the Zone.Contains agents for both healing mechanical injuries and preventing the development of radiation sickness.Unlike other sets, this one contains Vikasol, Batilol and S-naphthyzin.</text>
+	</string>
+	<string id="st_pda_descr">
+		<text>No data saved.</text>
+	</string>
+	<string id="st_pda_name">
+		<text>PDA</text>
+	</string>
+	<string id="st_vodka">
+		<text>Vodka "Cossacks"</text>
+	</string>
+	<string id="st_vodka_descr">
+		<text>Vodka produced by GSC.It drinks well and significantly reduces the effects of radiation on the body, although it should not be abused.</text>
+	</string>
+	<string id="st_detector2_descr">
+		<text>Anomalous activity detector of the previous generation.It is equipped with a locator of anomalous formations and an LED display for displaying the direction to an artifact, and is capable of not only detecting artifacts, but also determining the distance to them.The artifact search mode is activated by lifting the antenna cover on the front side of the device.Unfortunately, a somewhat outdated list of detected artifacts is built into the device at the hardware level.</text>
+	</string>
+	<string id="st_drug_anabiotic_descr">
+		<text>An experimental drug developed for research groups operating in the Zone.The underlying tetradotoxin, known as «zombie powder,» causes complete paralysis of the central nervous system, which could presumably help survive a release outside of shelter.The drug has not been field tested or clinically tested, casting doubt on its effectiveness and raising questions about possible side effects.</text>
+	</string>
+	<string id="st_bolt">
+		<text>Bolt</text>
+	</string>
+	<string id="st_drug_booster_descr">
+		<text>The main component is an artificially created steroid, chemically similar to testosterone.Used by stalkers during long marches to increase the threshold for muscle fatigue.Helps significantly increase your weight carrying capacity.Long-acting drug.</text>
+	</string>
+	<string id="st_drug_radioprotector_descr">
+		<text>The Indralin-B190 radio protector was part of the personal first aid kits of nuclear power plant workers.Appeared in the Zone as a replacement for the too toxic cystamine hydrochloride PC1.Reduces the impact of gamma radiation on the tissues of a living organism.It is advisable to use it preventively, before irradiation, since the effect of the drug is not immediate.Long-acting drug.</text>
+	</string>
+    <string id="st_esc_military_box_name">
+		<text>Case with documents</text>
+	</string>
+	<string id="st_esc_military_box_descr">
+		<text>Case with documents.Made from fireproof material.</text>
+	</string>
+	<string id="st_mar_document_1_name">
+		<text>Documents</text>
+	</string>
+	<string id="st_mar_document_1_descr">
+		<text>Documents from the swamps, taken from the stalker's corpse.</text>
+	</string>
+		<string id="mutant_boar_leg">
+		<text>Boar's hoof</text>
+	</string>
+	<string id="mutant_boar_leg_description">
+		<text>Boar hoof is used by scientists to make a number of medicines, the most common of which is anti-radiation serum.</text>
+	</string>
+	<string id="mutant_dog_tail">
+		<text>Dog tail</text>
+	</string>
+	<string id="mutant_dog_tail_description">
+		<text>The resistance of the skin of mutated dogs to chemical and electrical influences has long attracted the attention of scientists.Due to the lack of fat deposits, dog tails are most suitable for laboratory research.</text>
+	</string>
+	<string id="mutant_flesh_eye">
+		<text>Eye of Flesh</text>
+	</string>
+	<string id="mutant_flesh_eye_description">
+		<text>After mutation, the enlarged eye of the flesh acquired a number of properties, the most useful of which is the ability to regenerate the lens.The exact details of this mechanism are unknown, but this discovery promises a revolution in medicine.You can contribute to science by selling the eye of flesh to scientists for research.</text>
+	</string>
+	<string id="mutant_krovosos_jaw">
+		<text>Bloodsucker Tentacles</text>
+	</string>
+	<string id="mutant_krovosos_jaw_description">
+		<text>The bloodsucker's tentacles contain a special gland: it secretes an enzyme that dissolves the victim's skin and at the same time prevents blood clotting.If scientists manage to determine the structure of the enzyme, this will help to achieve a breakthrough in medicine.</text>
+	</string>
+	<string id="mutant_psevdodog_tail">
+		<text>Pseudodog tail</text>
+	</string>
+	<string id="mutant_psevdodog_tail_description">
+		<text>The resistance of the skin of mutated dogs to chemical and electrical influences has long attracted the attention of scientists.Due to the lack of fat deposits, dog tails are most suitable for laboratory research.</text>
+	</string>
+	<string id="mutant_snork_leg">
+		<text>Snorkel foot</text>
+	</string>
+	<string id="mutant_snork_leg_description">
+		<text>The snork's foot, unlike the human one, contains a larger number of tendons that have amazing elasticity.This explains the ability of snorkels to make incredible jumps.</text>
+	</string>
+	<string id="mutant_hand_kontroler">
+		<text>Controller's hand</text>
+	</string>
+	<string id="mutant_hand_kontroler_description">
+		<text>The controller has psionic abilities.At a distance, he can only intimidate and create various hallucinations, but when you get closer, he deals damage.Scientists believe that their power lies in his hand, but the controller's hand has not yet been fully explored.</text>
+	</string>
+	<string id="mutant_psevdogigant_hand">
+		<text>Pseudo-giant's hand</text>
+	</string>
+	<string id="mutant_psevdogigant_hand_description">
+		<text>The pseudo-giant's hand has properties that scientists have not yet revealed, but they can pay well for it.</text>
+	</string>
+	<string id="mutant_poltergeist_glas">
+		<text>Poltergeist Eye</text>
+	</string>
+	<string id="mutant_poltergeist_glas_description">
+		<text>No one knows why they need a poltergeist's eye, but they pay well for it.</text>
+	</string>
+	<string id="mutant_face_tushkano">
+		<text>Jerboa head</text>
+	</string>
+	<string id="mutant_face_tushkano_description">
+		<text>Jerboas have a highly developed intellect, and scientists are trying to figure out how a large amount of information and everything else fits into a tiny brain.Scientists make medicine from their brains, but they take them out of the zone, and the stalkers don't know what they are doing.</text>
+	</string>	
+	<string id="mutant_burer_hand">
+		<text>Burer's hand</text>
+	</string>
+	<string id="mutant_burer_hand_description">
+		<text>The burer's hand has acquired a number of properties, the most useful of which is strong resistance to radiation.The details of this mechanism are not precisely known.You can contribute to science by selling the burer's hand to scientists for research.</text>
+	</string>
+	<string id="mutant_chimera_nail">
+		<text>Chimera Claw</text>
+	</string>
+	<string id="mutant_chimera_nail_description">
+		<text>The chimera can easily cut a metal plate with its claws, so the molecular structure of the mutant's nail tissue is of exceptional interest to scientists.</text>
+	</string>
+		<string id="ds_food_box_name">
+		<text>Provision box</text>
+	</string>
+		<string id="ds_food_box_descr">
+		<text>The box with provisions is quite heavy.Why?</text>
+	</string>
+</string_table>

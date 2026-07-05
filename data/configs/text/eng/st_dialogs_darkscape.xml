@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="ds_quest_food_end_0">
+    <text>Я принёс провизию.</text>
+  </string>
+  <string id="ds_quest_food_end_1">
+    <text>А, ты за этим... Спасибо сталкер, вот твоя награда.</text>
+  </string>
+  <string id="ds_quest_food_start_0">
+    <text>Что-то беспокоит?</text>
+  </string>
+  <string id="ds_quest_food_start_1">
+    <text>Здравствуй сталкер. Есть одна несложная работа. Интересует?</text>
+  </string>
+  <string id="ds_quest_food_start_2">
+    <text>Предлагай.</text>
+  </string>
+  <string id="ds_quest_food_start_3">
+    <text>У меня нету времени на это.</text>
+  </string>
+  <string id="ds_quest_food_start_4">
+    <text>На нашем форпосте, который чуть дальше этой фермы за мостом, кончаются припасы. Нужно чтобы кто-нибудь их доставил, возьмёшься?</text>
+  </string>
+  <string id="ds_quest_food_start_5">
+    <text>В чём сложность?</text>
+  </string>
+  <string id="ds_quest_food_start_6">
+    <text>Припасы я спрятал на заправке, она совсем недалеко отсюда. Но только там снорки поселились, неизвестно откуда пришли. В этой местности проходит очень много новичков, им такое не доверить. А по твоему лицу вижу - опытный. Ну так что?</text>
+  </string>
+  <string id="ds_quest_food_start_7">
+    <text>Я берусь.</text>
+  </string>
+  <string id="ds_quest_food_start_8">
+    <text>Замечательно! Ах да, там ещё машина стоит, вроде как даже на ходу... Всякие отребье боится туда ходить, снорков боятся. Так что провизию не пешком тащить будешь.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_0">
+    <text>Приветствую. Мне нужно узнать информацию.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_1">
+    <text>Здрав будь сталкер! Редко видим здесь новые лица. Как я понимаю, ты здесь по делу Сидоровича?</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_2">
+    <text>Вас уже предупредили?</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_3">
+    <text>Конечно, у нас с Сидоровичем хорошие связи. Значит - насчёт твоего курьера, доложили мне о нём, но точно сказать куда он пошёл я не могу. Мои сказали что видели его за мостом, видать так он и не дошёл до нашей фермы. За тем мостом самый настоящий ужас, местные байки травят что там сталкера пропадают.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_4">
+    <text>Звучит жутковато, но не верю я во всю эту мистику.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_5">
+    <text>Ага, я вот тоже. В высохшем болотце кровосос поселился, а в лесах я бюрера видел. Ночью это было, ничего толком не видел, всадил в этого карлика всё что было - и свалил. Так что мне кажется не успел он свои раны зализать. Если твой курьер там проходил - то он мог попасть только в лапых двух этих тварей.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_6">
+    <text>Спасибо за наводку!</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_7">
+    <text>Закупись патронами, и советую поискать тебе машину. Мы в помине не представляем, как по этой территории без Ивы обойтись. И да, если какой трофей со зверушки снимешь - тащи к нам всегда купим или обменяем по выгодной цене. Как тебе будет удобно.</text>
+  </string>
+  <string id="ds_quest_story_find_container_start_8">
+    <text>Приму во внимание!</text>
+  </string>
+  <string id="ds_valerian_talk_hunters_end_0">
+    <text>I am coming from Valeryan. He said I could pick up the 'debt' from you</text>
+  </string>
+  <string id="ds_valerian_talk_hunters_end_1">
+    <text>Ah, his shotgun, right? About time he sent someone. You can take it… but payment first</text>
+  </string>
+  <string id="ds_valerian_talk_hunters_end_2">
+    <text>Are you serious? What payment are you talking about?</text>
+  </string>
+  <string id="ds_valerian_talk_hunters_end_3">
+    <text>I am kidding. A debt is a debt. Here, take it. Tell him not to disappear again</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_0">
+    <text>Did something happen?</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_1">
+    <text>It rained yesterday, and when I woke up this morning - there were tracks by the river near the gas station. Could be snorks, could be dogs - hard to tell. The whole lower part of the Hollow is knee-deep in mud. I have a feeling something got washed out somewhere. Maybe a tunnel, maybe a cave…</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_2">
+    <text>Too many beasts around? Why not send your own people to check it out?</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_3">
+    <text>No manpower. Everyone is either down south or has not returned yet.
+And I cannot handle this alone. The ones who are here already have more than enough to deal with</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_4">
+    <text>I can help. What needs to be done?</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_5">
+    <text>Walk along the riverbank - there seemed to be dogs there. If you see anything, shoot it and bring me the trophies as proof. And while you are at it, maybe you will spot where all those creatures crawled out from</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_end_0">
+    <text>I went through the area and killed the mutants. Here, take the trophies.</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_end_1">
+    <text>Well then, show me what you managed to shoot down</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_end_2">
+    <text>Here... A mature dog's tail, and the paws.</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_end_3">
+    <text>So my gut feeling did not fail me. Damn. If mutants started crawling out, then other creatures might follow… And you - thank you. We would not have handled this without you. As promised, here is some food, some cash, and the coordinates of a stash with good gear. And stay in touch - we will look for the hole they came out of ourselves, and if we need your help, we will let you know.</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_end_4">
+    <text>Just call me if you need me again</text>
+  </string>
+  <string id="ds_quest_yesterday_raining_start_6">
+    <text>I will see what I can do</text>
+  </string>
+  <string id="ds_quest_high_speed_start_3">
+    <text>Эй сталкер, не хочешь вместе со мной подумать?
+</text>
+  </string>
+  <string id="ds_quest_high_speed_start_4">
+    <text>Над чем? Я явно не отличаюсь большим умом.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_5">
+    <text>Я тут заказы выполняю различные, от группы учёных с болот –“Чистым Небом” себя кличут. То животинку какую пристрелить, артефакты найти, то кабану что-нибудь отрезать.. Разной степени сложности и загруженности, так сказать, и платят, к удивлению, хорошо, но вот беда – последний заказ от них переплюнул все возможные границы! И сроки на выполнение дали ужасные. Только пиликающий прибор</text>
+  </string>
+  <string id="ds_quest_high_speed_start_6">
+    <text>И над чем же тут думать? Если дали прибор, значит им нужно что-то замерить</text>
+  </string>
+  <string id="ds_quest_high_speed_start_7">
+    <text>В точку сталкер! В точку… А говоришь, ума нет. А теперь подумай, что тут может быть не так?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_8">
+    <text>Нужно провести замеры в логове мутантов?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_9">
+    <text>Логово, шмогово… Да хрен с этим! Хоть в сердце зоны этот прибор кинуть! Да, были уже такие задачи, но нет, ты не угадал, и я с ними прекрасно справлялся… А вот с этим – хрен там, намудрили слишком сильно</text>
+  </string>
+  <string id="ds_quest_high_speed_start_10">
+    <text>Не томи уже! Я не детектив, чтобы в твои загадки разгадывать</text>
+  </string>
+  <string id="ds_quest_high_speed_start_11">
+    <text>Ну, если сильно потребуется, этот прибор можно просто выкинуть. Нет прибора, нет заказа! </text>
+  </string>
+  <string id="ds_quest_high_speed_start_12">
+    <text>Так что же с твоим прибором делать то?! Может это детектор новый, который артефакты сам создаёт? От того и пиликает?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_13">
+    <text>Сразу к делу значит? Впрочем да, ты прав. Ладно, слушай. Самому надоел этот пустой трёп. Авось ударит тебе что-нибудь в голову…</text>
+  </string>
+  <string id="ds_quest_high_speed_start_14">
+    <text>Мне нравится как ты мыслишь сталкер! Боюсь что уже за замеры моей головы, с тушки, могут назначить солидную награду, если я этот прибор раздеребаню… Собственность какой-то научной компании, и стоит дороже нас обоих вместе взятых. Ладно, слушай. Может глядишь ударит что-нибудь в голову</text>
+  </string>
+  <string id="ds_quest_high_speed_start_15">
+    <text>Хах, а с с чувством юмора у тебя всё впорядке! Поверь, еслиб эта бандура так умела – меня здесь давным-давно не было. Ладно, слушай. Может глядишь ударит идея в голову.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_16">
+    <text>Боишься неуклюже стать ещё одним потерянным с этим прибором?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_17">
+    <text>Думаешь мне страшно замеры провести? За кого ты меня держишь? Я всю Лощину в доль и поперёк излазил, каждый закуток знаю! Мне страшно от того, какие условия мне эти придурки дали…</text>
+  </string>
+  <string id="ds_quest_high_speed_start_18">
+    <text>Так что же это за условия то такие?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_19">
+    <text>Ты выглядишь так, будто просто не хочешь за это браться. </text>
+  </string>
+  <string id="ds_quest_high_speed_start_20">
+    <text>Давай глянем, что это за прибор, и просто продадим его! Деньги поделим. Идея здравая?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_21">
+    <text>Сразу к делу значит? Впрочем да, ты прав. Ладно, слушай. Самому надоел этот пустой трёп. Авось ударит тебе что-нибудь в голову</text>
+  </string>
+  <string id="ds_quest_high_speed_start_22">
+    <text>Да, за такой бред я точно браться не хочу! Впрочем да, ты прав. Ладно, слушай. Самому надоел этот пустой трёп. Авось ударит тебе что-нибудь в голову…</text>
+  </string>
+  <string id="ds_quest_high_speed_start_23">
+    <text>Идея здравая, жаль правда, что поделят затем меня. Не особо желаю, знаешь ли? Ладно, слушай. Самому надоел этот пустой трёп. Авось ударит тебе что-нибудь в голову…</text>
+  </string>
+  <string id="ds_quest_high_speed_start_25">
+    <text>Так, и чего сложного?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_26">
+    <text>Я говорю ему – без вопросов, задачу принял. Вручает мне карту с отметками, и говорит с ухмылкой “Между замерами этих точек не должно пройти более 2 минут!” И уходит. Всё. Я тогда ещё пьянный сидел – нифига не понял. Ну отметки и отметки, 2 минуты так 2 минуты – не вопрос. А как протрезвел – допёрло… Отметки то в разных углах лощины находятся! Чёрт возьми, где ты видел сталкера, который успеет от реки до депо за 2 минуты добежать сможет?
+</text>
+  </string>
+  <string id="ds_quest_high_speed_start_27">
+    <text>Если такой сталкер найдётся – кличка у него будет “NON-STOP”. Меня так явно не кличут.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_28">
+    <text>Ага, дошло что дело дрянь? Заказ через неделю сдавать, и если запорю его, деньги им возвращать, такой у меня контракт между ними. Это издевательство какое-то! Как это замерить за такое короткое время?! Хотя… Слушай, есть одна идейка! Ты как, с рулём дружишь?</text>
+  </string>
+  <string id="ds_quest_high_speed_start_30">
+    <text>Есть навыки. 
+</text>
+  </string>
+  <string id="ds_quest_high_speed_start_31">
+    <text>Отлично, я вот вообще не дружу. И отбитых на такое явно больше не найду. Значит так, ты официально подписан на первый в истории ЧЗО авто-кросс! Даже если не сможешь, то давай попробуем. В теории можем успеть. С меня деньжата и помощь в любых твоих начинаниях.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_32">
+    <text>Так… Секунду. Ты предлагаешь промчаться на развалюхе по всей Лощине?! Местные машины глядишь глохнут от любой кочки!</text>
+  </string>
+  <string id="ds_quest_high_speed_start_33">
+    <text>Давай к делу.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_34">
+    <text>Слушай внимательно. Заваливается ко мне их посыльный, вручает прибор – говорит:
+“Задача такая: Нужно взять этот прибор, и замерить им 8 точек. И сделать это нужно быстро!”
+</text>
+  </string>
+  <string id="ds_quest_high_speed_start_35">
+    <text>Мне нравится, как ты мыслишь. Сталкер, ты угадал в точности до мелочей что я от тебя хочу! Вперёд собирать свой болит, и отправляйся на точку, которую я тебя отметил в КПК. Когда будешь на месте, я с тобой свяжусь. Держи прибор. Да, и ещё… Может быть тебе это будет полезно. Я отметил ещё одну точку, видел там сталкера по кличке “Мавик”, слыхал о таком? Он как-то свой москвич разбил тут недавно. Может найдёшь там что-то полезное для своей машины. Считай этот тайник моим авансом за выполненную работу.</text>
+  </string>
+  <string id="ds_quest_high_speed_start_36">
+    <text>Ладно, попробую собрать что-нибудь. Впервые наука требует скорость…</text>
+  </string>
+  <string id="ds_quest_high_speed_end_0">
+    <text>Принимай свои замеры! Чтож, это было реально весело! Мутанты правда разозлись на такую наглость…</text>
+  </string>
+  <string id="ds_quest_high_speed_end_1">
+    <text>А вот и наша звезда чернобыльского автокросса! Ты великолепно проехал, и даже не разбился в хлам! Замеры приняли, я уже получил свои деньги. Держи свою долю. И да, насчёт чернобыльского кота…</text>
+  </string>
+  <string id="ds_quest_high_speed_end_2">
+    <text>Нужно замерить его скорость?</text>
+  </string>
+  <string id="ds_quest_high_speed_end_3">
+    <text>Нет, не требуется. У меня есть вот такой кот – в самый раз в твою машину! Поставишь себе на приборную панель. Пускай напоминает тебе об этом безумном дне. Кстати, если этим людям понадобятся замеры на других территориях, я могу на тебя рассчитывать? Мне сказали, что мы первые, кто смогли их выполнить!</text>
+  </string>
+  <string id="ds_quest_high_speed_end_4">
+    <text>Без проблем! Только дай знать, куда и сколько времени даётся. Тем более, если ты управляешь этим прибором удалённо.</text>
+  </string>
+  <string id="ds_quest_high_speed_end_5">
+    <text>Нет, я против. Не втягивай больше меня в это. Хватит с меня ваших чернобыльских гонок!</text>
+  </string>
+  <string id="ds_quest_high_speed_end_6">
+    <text>Ладно дружище, я тебя услышал. Больше не буду тревожить. Спасибо чтоб хотябы с этим помог! Удачи, надеюсь не обидел наградой!</text>
+  </string>
+  <string id="ds_quest_high_speed_end_7">
+    <text>Так и знал что ты не откажешься! Держи машину на готове, возможно твоя помощь потребуется на кордоне. Всё так же: Точки, время, и прибор. Я дам тебе знать, когда что-то появится!</text>
+  </string>
+  <string id="ds_quest_sighted_start_0">
+    <text>Why did you call me?</text>
+  </string>
+  <string id="ds_quest_sighted_start_1">
+    <text>At last, a living soul around here… Thanks for answering the call</text>
+  </string>
+  <string id="ds_quest_sighted_start_2">
+    <text>What happened?</text>
+  </string>
+  <string id="ds_quest_sighted_start_3">
+    <text>It is a problem, stalker. I lost my friend - in the depot nearby. We went out to look for loot, the place is not exactly well-traveled. We have been through a lot together, many good runs… and then some damn madness happened out there!</text>
+  </string>
+  <string id="ds_quest_sighted_start_4">
+    <text>I do not see why you are surprised. These are dangerous places</text>
+  </string>
+  <string id="ds_quest_sighted_start_5">
+    <text>Yeah, but listen till the end. It was late in the evening, already dark. We went into the hangar - zombies were wandering around, but we did not touch them. We slipped past them carefully, searched the tables, packed everything valuable into our backpacks </text>
+  </string>
+  <string id="ds_quest_sighted_start_6">
+    <text>And then what?</text>
+  </string>
+  <string id="ds_quest_sighted_start_7">
+    <text>Something lit up in the window. Looked like a teleport - a hole that was not there before. My head started hurting, like someone was tearing my brain out from the inside. The zombies came at us — we screamed, started shooting, but everything was spinning. I remember only fragments: a roar, some creature jumping at my friend - not tall, but with very long arms. And it started tearing and biting him. We kept shooting, but the bullets flew everywhere. Then it stretched its arms and opened that portal even wider - and dragged my friend inside. I woke up under a train car, no idea how I crawled there. Zombies were nearby, reaching for me… I snapped out of it fast and ran. I tried to go back - but the headache becomes unbearable.</text>
+  </string>
+  <string id="ds_quest_sighted_start_8">
+    <text>What do you want from me?</text>
+  </string>
+  <string id="ds_quest_sighted_start_9">
+    <text>Maybe you can try to figure something out? I will give you everything I found there, just help me. Maybe my partner can still be pulled out. His nickname is Hamster. And they call me Bekas.</text>
+  </string>
+  <string id="ds_quest_sighted_start_10">
+    <text>I will take a look. If I find anything, I will bring it back. Wait here.</text>
+  </string>
+  <string id="ds_quest_sighted_end_0">
+    <text>I checked the place. There is nothing left there except zombies.</text>
+  </string>
+  <string id="ds_quest_sighted_end_1">
+    <text>It is great you even managed to get in there! Did you find anything?</text>
+  </string>
+  <string id="ds_quest_sighted_end_2">
+    <text>Only this PDA. But the data in it is damaged. And there are no traces of your friend</text>
+  </string>
+  <string id="ds_quest_sighted_end_3">
+    <text>Damn... Alright. But listen &#x30FC; there are technicians in the Zone who can extract information even from dead electronics. Maybe Hamster still managed to leave something behind. Give me the PDA, I will try to find out what I can. As soon as I learn anything - I will let you know right away.</text>
+  </string>
+  <string id="ds_quest_sighted_end_4">
+    <text>What about the reward?</text>
+  </string>
+  <string id="ds_quest_sighted_end_5">
+    <text>And about the belongings... Back in the depot we found a guitar and some junk. Here, stalker. Stuff like this is valuable these days. Maybe it will come in handy for you</text>
+  </string>
+  <string id="ds_quest_sighted_end_6">
+    <text>Thanks for the guitar! I will be waiting for your message if you need me again</text>
+  </string>
+</string_table>

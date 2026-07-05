@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--Интерфейс-->	
+	<string id="st_animation_set_idle">
+		<text>IDLE</text>
+	</string>
+	<string id="st_animation_set_state">
+		<text>STATE</text>
+	</string>
+	<string id="st_animation_set_battle">
+		<text>BATTLE</text>
+	</string>
+	<string id="st_animation_set_scenario">
+		<text>SCENARIO</text>
+	</string>
+	<string id="st_animation_set_other">
+		<text>OTHER</text>
+	</string>
+	
+	<string id="st_fail_play_animation">
+		<text>Не удалось запустить анимацию. Возможно не выполнено условие или отсутствует предмет.</text>
+	</string>
+		<string id="st_not_animation">
+		<text>Анимация отсутствует.</text>
+	</string>
+		<string id="st_stop_animation_was_actived">
+		<text>Остановка анимации уже запущена. Подождите</text>
+	</string>
+		<string id="st_fail_stop_animation">
+		<text>Не удалось остановить анимацию, либо анимация не запущена.</text>
+	</string>	
+	
+<!--Описание анимаций-->	
+	<string id="st_sit_1_animation">
+		<text>Сидеть полубоком</text>
+	</string>
+	<string id="st_sit_2_animation">
+		<text>Сидеть на корточках</text>
+	</string>
+	<string id="st_sit_3_animation">
+		<text>Сидеть на заднице</text>
+	</string>
+	<string id="st_guitar_play_animation">
+		<text>Играть на гитаре [Необходимо: Сидеть полубоком]</text>
+	</string>
+	<string id="st_harmonica_play_animation">
+		<text>Играть на гармошке [Необходимо: Сидеть на заднице]</text>
+	</string>
+	<string id="st_sleeping_1_animation">
+		<text>Спать</text>
+	</string>
+	<string id="st_refuse_1_animation">
+		<text>"Не знаю!"</text>
+	</string>
+	<string id="st_prisoner_1_animation">
+		<text>Пленный (На коленях, руки за головой)</text>
+	</string>
+	<string id="st_caution_1_animation">
+		<text>Осмотр (Полусогнувшись, руки на коленях)</text>
+	</string>
+	<string id="st_press_1_animation">
+		<text>Показать пальцем</text>
+	</string>
+	<string id="st_press_1_animation">
+		<text>Показать пальцем</text>
+	</string>
+	<string id="st_hand_up_1_animation">
+		<text>Пленный (Руки вверх!)</text>
+	</string>
+	<string id="st_hello_1_animation">
+		<text>"Привет!"</text>
+	</string>
+	<string id="st_search_corpse_1_animation">
+		<text>Установить</text>
+	</string>
+	<string id="st_ohrana_1_animation">
+		<text>Занять позу охраника</text>
+	</string>
+	<string id="st_komandir_1_animation">
+		<text>Занять позу командира</text>
+	</string>
+		<string id="st_trans_1_animation">
+		<text>Транс - Лёгкий</text>
+	</string>
+	<string id="st_trans_2_animation">
+		<text>Транс - Тяжёлый</text>
+	</string>
+		<string id="st_psy_1_animation">
+		<text>Пси-Излучение!</text>
+	</string>
+		<string id="st_psy_1_animation">
+		<text>Пси-Излучение!</text>
+	</string>
+		<string id="st_bread_play_animation">
+		<text>Съесть хлеб [Необходимо: Сидеть полубоком]</text>
+	</string>
+		<string id="st_kolbasa_play_animation">
+		<text>Съесть колбасу [Необходимо: Сидеть полубоком]</text>
+	</string>
+		<string id="st_water_play_animation">
+		<text>Пить воду [Необходимо: Сидеть полубоком]</text>
+	</string>
+		<string id="st_energy_drink_play_animation">
+		<text>Пить энергетик [Необходимо: Сидеть полубоком]</text>
+	</string>
+		<string id="st_vodka_play_animation">
+		<text>Пить водку [Необходимо: Сидеть полубоком]</text>
+	</string>
+</string_table>

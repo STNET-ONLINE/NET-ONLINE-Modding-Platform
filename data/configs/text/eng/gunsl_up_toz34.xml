@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_toz34_up_reliability_name">
+		<text>Protective coating</text>
+	</string>
+	<string id="gunsl_toz34_up_reliability_descr">
+		<text>Applying a special coating helps slow down barrel wear.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_sights_name">
+		<text>Tritium insert</text>
+	</string>
+	<string id="gunsl_toz34_up_sights_descr">
+		<text>Installing a luminous insert in the sighting device allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+	</string>
+
+	<string id="gunsl_toz34_up_calibration_name">
+		<text>USM calibration</text>
+	</string>
+	<string id="gunsl_toz34_up_calibration_descr">
+		<text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_barrel_name">
+		<text>Trimming trunks</text>
+	</string>
+	<string id="gunsl_toz34_up_barrel_descr">
+		<text>Significantly shortening the barrels reduces the weight of the gun, increases maneuverability and dispersion, but at the same time reduces the firing range and accuracy.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_stock_name">
+		<text>Butt cutting</text>
+	</string>
+	<string id="gunsl_toz34_up_stock_descr">
+		<text>Without the buttstock, the gun weighs significantly less, increases maneuverability, but at the same time increases recoil.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_plate_name">
+		<text>Improved backplate</text>
+	</string>
+	<string id="gunsl_toz34_up_plate_descr">
+		<text>Replacing the standard butt plate with a softer one with improved shock absorption increases the ease of handling the gun.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_weaver_name">
+		<text>Weaver bar</text>
+	</string>
+	<string id="gunsl_toz34_up_weaver_descr">
+		<text>The Weaver type rail makes it possible to install a sight on a gun with a bracket designed for this type.</text>
+	</string>
+	
+	<string id="gunsl_toz34_up_usm_name">
+		<text>Heavy duty parts</text>
+	</string>
+	<string id="gunsl_toz34_up_usm_descr">
+		<text>Replacing some parts with stronger ones slows down wear.</text>
+	</string>
+
+	<string id="gunsl_toz34_up_barrel_narezka_name">
+		 <text>Rifled barrel</text>
+	</string>
+	<string id="gunsl_toz34_up_barrel_narezka_descr">
+		 <text>Rifling the barrel can significantly improve shooting accuracy and increases the initial speed of the bullet, but makes it impossible to fire shotguns.</text>
+	</string>	
+	
+</string_table>

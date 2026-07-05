@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_aks74u_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_aks74u_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_aks74u_up_nakladka_priklad_name">
+     <text>Butt pad</text>
+</string>
+<string id="gunsl_aks74u_up_nakladka_priklad_descr">
+     <text>Allows you to soften the recoil from a weapon shot.</text>
+</string>
+<string id="gunsl_aks74u_up_tsevie_name">
+     <text>Replacing the handguard</text>
+</string>
+<string id="gunsl_aks74u_up_tsevie_descr">
+     <text>Installing a plastic forend with Weaver-type mounts allows you to install additional sights, a flashlight and a laser laser on the weapon.</text>
+</string>
+<string id="gunsl_aks74u_up_lastochka_name">
+     <text>Dovetail mount</text>
+</string>
+<string id="gunsl_aks74u_up_lastochka_descr">
+     <text>Allows installation on weapons of most sights manufactured in Warsaw Pact countries.</text>
+</string>
+<string id="gunsl_aks74u_up_laser_name">
+     <text>Laser pointer</text>
+</string>
+<string id="gunsl_aks74u_up_laser_descr">
+     <text>Visually indicates the location of the intended hit on the target, greatly facilitating and speeding up aiming, as well as having a demoralizing effect on the victim.Does not interfere with the installation of a tactical flashlight and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_aks74u_up_torch_name">
+     <text>Tactical flashlight</text>
+</string>
+<string id="gunsl_aks74u_up_torch_descr">
+     <text>A long-range, narrowly focused flashlight is indispensable for night trips, as well as for exploring dark rooms.Does not interfere with the installation of a laser pointer and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_aks74u_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_aks74u_up_handle_descr">
+     <text>Allows you to increase the ease of use of weapons.</text>
+</string>
+<string id="gunsl_aks74u_up_mag45_black_name">
+     <text>High capacity magazine (black, 45 rounds)</text>
+</string>
+<string id="gunsl_aks74u_up_mag45_black_descr">
+     <text>Allows you to reduce the number of reloads in battle, increasing your chances of staying alive.</text>
+</string>
+<string id="gunsl_aks74u_up_mag45_brown_name">
+     <text>High capacity magazine (brown, 45 rounds)</text>
+</string>
+<string id="gunsl_aks74u_up_mag45_brown_descr">
+     <text>Allows you to reduce the number of reloads in battle, increasing your chances of staying alive.</text>
+</string>
+<string id="gunsl_aks74u_up_mag60_name">
+     <text>High capacity magazine (60 rounds)</text>
+</string>
+<string id="gunsl_aks74u_up_mag60_descr">
+     <text>Allows you to send even more opponents to the best of two worlds with one burst.</text>
+</string>
+<string id="gunsl_aks74u_up_lightdetails_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_aks74u_up_lightdetails_descr">
+     <text>Replacing weapon parts with their light-alloy counterparts allows you to reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_aks74u_up_barrel_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_aks74u_up_barrel_descr">
+     <text>Increases the initial speed of a bullet's departure and has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_aks74u_up_usm_accuracy_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_aks74u_up_usm_accuracy_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_aks74u_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_aks74u_up_usm_rpm_descr">
+     <text>Refinement of trigger units makes it possible to increase the rate of fire of weapons, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_aks74u_up_reliability_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_aks74u_up_reliability_descr">
+     <text>Replacing weapon parts with their counterparts made of more durable alloys can significantly increase the reliability of weapons.</text>
+</string>
+</string_table>

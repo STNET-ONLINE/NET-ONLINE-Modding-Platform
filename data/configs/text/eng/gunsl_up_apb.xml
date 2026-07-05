@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_apb_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_apb_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets when firing a weapon, which increases the accuracy and accuracy of fire.</text>
+</string>
+<string id="gunsl_apb_up_barrel_speed_name">
+     <text>Re-rifling the barrel</text>
+</string>
+<string id="gunsl_apb_up_barrel_speed_descr">
+     <text>Changing the pitch of the rifling in the bore of a weapon allows you to increase the initial speed of the bullet and reduce the spread of hits when firing.</text>
+</string>
+<string id="gunsl_apb_up_barrel_silencer_name">
+     <text>Barrel with silencer mount</text>
+</string>
+<string id="gunsl_apb_up_barrel_silencer_descr">
+     <text>Installing a barrel from an APB pistol allows you to install an appropriate silent shooting device on the weapon.</text>
+</string>
+<string id="gunsl_apb_up_zaschelka_name">
+     <text>Modification of the magazine latch</text>
+</string>
+<string id="gunsl_apb_up_zaschelka_descr">
+     <text>Reduces magazine play inside the weapon handle, facilitating trouble-free feeding of cartridges from the magazine to the chamber.</text>
+</string>
+<string id="gunsl_apb_up_prujina_name">
+     <text>Retarder modification</text>
+</string>
+<string id="gunsl_apb_up_prujina_descr">
+     <text>Modification of the retarder, coupled with the installation of a stiffer mainspring, makes it possible to increase the rate of fire of the weapon.</text>
+</string>
+<string id="gunsl_apb_up_light_mag_name">
+     <text>Lightweight store</text>
+</string>
+<string id="gunsl_apb_up_light_mag_descr">
+     <text>Replacing a standard magazine with a lightweight modern analogue allows you to slightly reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_apb_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_apb_up_usm_rpm_descr">
+     <text>Reconfiguring the trigger and modifying some of its parts allows the shooter to fire at a higher rate.Unfortunately, this causes the weapon to wear out a little faster.</text>
+</string>
+<string id="gunsl_apb_up_perevodchik_name">
+     <text>Auto cut-off</text>
+</string>
+<string id="gunsl_apb_up_perevodchik_descr">
+     <text>Installing an automatic cut-off mechanism limits the maximum burst length to three bullets.In this automatic fire mode, it is much easier to control the weapon, which significantly reduces the consumption of ammunition required to hit each individual target.</text>
+</string>
+<string id="gunsl_apb_up_handle_name">
+     <text>Anatomical pad</text>
+</string>
+<string id="gunsl_apb_up_handle_descr">
+     <text>Handle overlay, created taking into account the individual characteristics and preferences of the shooter.Thanks to the pad, the grip of the weapon becomes much more convenient, and shooting - more comfortable.</text>
+</string>
+<string id="gunsl_apb_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_apb_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_apb_up_usm_recoil_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_apb_up_usm_recoil_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_apb_up_shell_ejector_name">
+     <text>Refinement of the extractor</text>
+</string>
+<string id="gunsl_apb_up_shell_ejector_descr">
+     <text>Allows you to reduce the number of delays associated with the sticking of cartridges ejected from the pistol after firing.It has a beneficial effect on the reliability of the weapon.</text>
+</string>
+<string id="gunsl_apb_up_zapiratel_name">
+     <text>Improved bore locking mechanism</text>
+</string>
+<string id="gunsl_apb_up_zapiratel_descr">
+     <text>By locking the bore more tightly, the obturation of the bore improves and the muzzle velocity of the bullet increases.</text>
+</string>
+<string id="gunsl_apb_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_apb_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the line of sight when firing and reduces felt recoil.</text>
+</string>
+<string id="gunsl_apb_up_pokritie_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_apb_up_pokritie_descr">
+     <text>Applying a special coating to weapon parts can significantly slow down its wear.</text>
+</string>
+<string id="gunsl_apb_up_zatvor_dispersion_name">
+     <text>Adjusting the bolt mechanism</text>
+</string>
+<string id="gunsl_apb_up_zatvor_dispersion_descr">
+     <text>Precise fitting of the bolt mechanism elements reduces backlash and allows for higher shooting accuracy.</text>
+</string>
+<string id="gunsl_apb_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_apb_up_light_details_descr">
+     <text>Replacing standard weapon parts with lightweight analogues made from modern alloys makes it possible to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_apb_up_titan_details_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_apb_up_titan_details_descr">
+     <text>New parts made from modern refractory alloys have higher strength, which slows down the wear of the weapon and has a beneficial effect on its reliability.</text>
+</string>
+</string_table>

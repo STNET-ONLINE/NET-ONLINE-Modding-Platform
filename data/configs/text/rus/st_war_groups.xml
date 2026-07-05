@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="st_capture_name">
+        <text>Название</text>
+	</string>    
+	<string id="st_fast_travel">
+        <text>Вы уверены что хотите совершить быстрое перемещение?</text>
+	</string>	
+	<string id="st_fast_travel_money">
+        <text>Стоимость:</text>
+	</string>
+    <string id="st_capture_type">
+        <text>Тип</text>
+	</string>
+	   <string id="st_zones_captured">
+        <text>Необходимо захватить</text>
+	</string>
+	<string id="st_capture_owner">
+        <text>Принадлежит</text>
+	</string>
+	<string id="st_capture_nil">
+        <text>Нейтральная</text>
+	</string>
+	<string id="base">
+        <text>База</text>
+	</string>
+	<string id="resource">
+        <text>Ресурсная</text>
+	</string>
+	<string id="central">
+        <text>Ключевая</text>
+	</string>
+	<string id="neutral">
+        <text>Нейтральная</text>
+	</string>	
+	
+	<string id="st_capture_progress">
+        <text>Прогресс захвата</text>
+	</string>	
+	<string id="st_war_groups">
+        <text>Война группировок</text>
+	</string>	
+	<string id="st_capture_central">
+        <text>Захватывается ключевая точка группировкой</text>
+	</string>
+	<string id="st_capture_resource">
+        <text>Захватывается ресурсная точка группировкой</text>
+	</string>
+		<string id="st_capture_neutral">
+        <text>Захватывается нейтральная точка группировкой</text>
+	</string>
+		<string id="st_capture_base">
+        <text>Захватывается база группировки</text>
+	</string>
+	<string id="st_captured">
+        <text>Принадлежит группировке</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<string id="gunsl_unoff_lr300_up_barrel_accuracy_name">
+     <text>Юстировка ствола</text>
+</string>
+<string id="gunsl_unoff_lr300_up_barrel_accuracy_descr">
+     <text>Позволяет снизить разброс пуль, что благоприятным образом сказывается на точности ведения огня.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_barrel_bullet_speed_name">
+     <text>Изменение шага нарезки ствола</text>
+</string>
+<string id="gunsl_unoff_lr300_up_barrel_bullet_speed_descr">
+     <text>Увеличивает начальную скорость пули, благодаря чему пуля меньше отклоняется от ожидаемой траектории и быстрее достигает цели. Полезно для стрельбы на большие дистанции.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_barrel_compensator_name">
+     <text>Компенсатор отдачи</text>
+</string>
+<string id="gunsl_unoff_lr300_up_barrel_compensator_descr">
+     <text>Интегрированный в ствол улучшенный компенсатор отдачи значительно снижает ощущаемую от выстрела из оружия отдачу и способствует ведению более комфортной стрельбы.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_body_reliability_name">
+     <text>Защитное покрытие</text>
+</string>
+<string id="gunsl_unoff_lr300_up_body_reliability_descr">
+     <text>Нанесение специального напыления позволяет замедлить износ оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_accuracy_name">
+     <text>Калибровка УСМ</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_accuracy_descr">
+     <text>Индивидуальная подгонка и балансировка стандартных деталей ударно-спускового механизма позволяет добиться более высокой точности стрельбы при одновременном уменьшении отдачи.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_gascam_recoil_name">
+     <text>Демпфер отдачи</text>
+</string>
+<string id="gunsl_unoff_lr300_up_gascam_recoil_descr">
+     <text>Доработка газоотводного механизма позволяет снизить подброс оружия при ведении огня.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_anatomic_handle_name">
+     <text>Прорезиненная рукоять</text>
+</string>
+<string id="gunsl_unoff_lr300_up_anatomic_handle_descr">
+     <text>Обеспечивает более удобный хват.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_flashlaser_name">
+     <text>Тактический модуль</text>
+</string>
+<string id="gunsl_unoff_lr300_up_flashlaser_descr">
+     <text>Тактический блок Insight AN/PEQ-16a сочетает в себе функции лазерного целеуказателя и тактического фонаря. Незаменимая вещь для ведения боя в ночных условиях.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_mag40_name">
+     <text>Магазин повышенной емкости (40 патронов)</text>
+</string>
+<string id="gunsl_unoff_lr300_up_mag40_descr">
+     <text>Использование магазина PMAG 40 AR сокращает число перезарядок в бою.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_mag60_name">
+     <text>Магазин высокой емкости (60 патронов)</text>
+</string>
+<string id="gunsl_unoff_lr300_up_mag60_descr">
+     <text>Использование магазина SureFire MAG5-60 значительно облегчает ведение боя с превосходящим числом противников.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_podacha_reliability_name">
+     <text>Доработка узла подачи патронов</text>
+</string>
+<string id="gunsl_unoff_lr300_up_podacha_reliability_descr">
+     <text>Доработка узла боепитания позволяет снизить количество задержек, связанных с неподачей и перекосом патрона.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_rpm_name">
+     <text>Форсирование УСМ</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_rpm_descr">
+     <text>Доработка узлов ударно-спускового механизма позволяет повысить скорострельность оружия, к сожалению, ценой некоторого снижения надежности.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_stock_recoil_name">
+     <text>Амортизирующий приклад</text>
+</string>
+<string id="gunsl_unoff_lr300_up_stock_recoil_descr">
+     <text>Установка телескопического приклада с амортизирующим механизмом внутри значительно снижает ощущемую отдачу и делает ведение огня более комфортным.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_tacticalset_name">
+     <text>Штурмовой обвес</text>
+</string>
+<string id="gunsl_unoff_lr300_up_tacticalset_descr">
+     <text>Оснащение оружия специальными кронштейнами позволяет устанавливать подствольный гранатомет, а тактическая рукоять снижает ощущаемую при выстреле отдачу.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_zatvor_balancer_name">
+     <text>Балансировка затвора</text>
+</string>
+<string id="gunsl_unoff_lr300_up_zatvor_balancer_descr">
+     <text>Балансировка деталей затворной группы уменьшает увод ствола с линии прицеливания при выстреле, а также снижает вероятность возникновения задержек при стрельбе</text>
+</string>
+<string id="gunsl_unoff_lr300_up_zatvor_reliability_name">
+     <text>Усиленный затворный механизм</text>
+</string>
+<string id="gunsl_unoff_lr300_up_zatvor_reliability_descr">
+     <text>Снижает вероятность возникновения задержек при стрельбе, а также значительно менее подвержен износу по сравнению со штатным.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_rpm_down_name">
+     <text>Уменьшение темпа стрельбы</text>
+</string>
+<string id="gunsl_unoff_lr300_up_usm_rpm_down_descr">
+     <text>Упрощает контроль стрельбы, снижает расход боеприпасов в бою, а также замедляет износ оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_sights_name">
+     <text>Тритиевая вставка</text>
+</string>
+<string id="gunsl_unoff_lr300_up_sights_descr">
+     <text>Установка светящейся вставки в мушку позволяет повысить скорость прицеливания и удобство ведения огня в темноте.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_foregrip_weight_name">
+     <text>Облегченное цевье</text>
+</string>
+<string id="gunsl_unoff_lr300_up_foregrip_weight_descr">
+     <text>Позволяет снизить массу оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_light_details_name">
+     <text>Легкосплавные детали</text>
+</string>
+<string id="gunsl_unoff_lr300_up_light_details_descr">
+     <text>Замена стандартных деталей на аналоги из легких сплавов позволяет снизить массу оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_hard_details_name">
+     <text>Детали повышенной прочности</text>
+</string>
+<string id="gunsl_unoff_lr300_up_hard_details_descr">
+     <text>Замена стандартных деталей на аналоги из высокопрочных сплавов позволяет повысить износостойкость оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_sniper_set_name">
+     <text>Снайперский обвес</text>
+</string>
+<string id="gunsl_unoff_lr300_up_sniper_set_descr">
+     <text>Комплексная переделка, включающая в себя установку более длинного ствола и переработку размещенного внутри цевья газоотводного механизма, позволяет повысить начальную скорость пули одновременно с увеличением точности стрельбы. Благодаря увеличению убойной дальности модификация делает возможным использование автомата в качестве снайперской винтовки начального уровня.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_stock_light_name">
+     <text>Облегченный приклад</text>
+</string>
+<string id="gunsl_unoff_lr300_up_stock_light_descr">
+     <text>Установка пластикового приклада позволяет снизить общую массу оружия.</text>
+</string>
+<string id="gunsl_unoff_lr300_up_recoil_dempfer_name">
+     <text>Улучшенный демпфер отдачи</text>
+</string>
+<string id="gunsl_unoff_lr300_up_recoil_dempfer_descr">
+     <text>Интегрированный внутрь ствольной коробки демпфер снижает ощущаемую стрелком отдачу и делает ведение огня более комфортным.</text>
+</string>
+</string_table>

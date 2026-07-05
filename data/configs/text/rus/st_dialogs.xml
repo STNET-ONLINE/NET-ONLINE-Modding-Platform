@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="actor_break_dialog_0">
+    <text>До встречи.</text>
+  </string>
+  <string id="actor_break_dialog_1">
+    <text>Бывай.</text>
+  </string>
+  <string id="actor_break_dialog_2">
+    <text>До встречи.</text>
+  </string>
+  <string id="actor_break_dialog_3">
+    <text>Пока.</text>
+  </string>
+  <string id="trade_dialog_0">
+    <text>[Торговля]Показывай что у тебя есть.</text>
+  </string>
+  <string id="trade_dialog_1">
+    <text>Выбирай.</text>
+  </string>
+  <string id="trade_dialog_2">
+    <text>Это всё.</text>
+  </string>
+  <string id="medic_heal_dialog_0">
+    <text>Мне нужна медицинская помощь.</text>
+  </string>
+  <string id="medic_heal_dialog_1">
+    <text>Ну всё, здоров как бюрер!</text>
+  </string>
+  <string id="actor_to_bandit_dialog_0">
+    <text>Я хочу присоединиться к вашей группировке.</text>
+  </string>
+  <string id="actor_to_bandit_dialog_1">
+    <text>Решил в бандиты податься? Ладно, место найдём. Но запомни: выбрал нас - пути назад нет.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_0">
+    <text>Я хочу присоединиться к вашей группировке.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_1">
+    <text>В нашем деле главное - честность и взаимовыручка. Если согласен - считай, ты с нами.</text>
+  </string>
+  <string id="actor_to_stalker_dialog_2">
+    <text>До встречи.</text>
+  </string>
+  <string id="actor_to_bandit_dialog_2">
+    <text>До встречи.</text>
+  </string>
+</string_table>

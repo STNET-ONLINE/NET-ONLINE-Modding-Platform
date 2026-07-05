@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="tir_distance_none_tip">
+        <text>Дистанция не выбрана</text>
+	</string>
+		
+	<string id="tir_distance_10m_tip">
+        <text>Выбранная дистанция: 10 Метров</text>
+		</string>
+			<string id="tir_distance_25m_tip">
+        <text>Выбранная дистанция: 25 Метров</text>
+		</string>
+			<string id="tir_distance_50m_tip">
+        <text>Выбранная дистанция: 50 Метров</text>
+		</string>
+			<string id="tir_distance_100m_tip">
+        <text>Выбранная дистанция: 100 Метров</text>
+		</string>
+			<string id="tir_distance_120m_tip">
+        <text>Выбранная дистанция: 120 Метров</text>
+		</string>
+			<string id="tir_distance_140m_tip">
+        <text>Выбранная дистанция: 140 Метров</text>
+		</string>
+			<string id="tir_distance_160m_tip">
+        <text>Выбранная дистанция: 160 Метров</text>
+		</string>
+			<string id="tir_distance_180m_tip">
+        <text>Выбранная дистанция: 180 Метров</text>
+		</string>
+			<string id="tir_distance_200m_tip">
+        <text>Выбранная дистанция: 200 Метров</text>
+		</string>
+		
+		  <string id="npc_created">
+        <text>Сталкер создан</text>
+		</string>
+			<string id="mutant_created">
+        <text>Мутант создан</text>
+		</string>
+			<string id="object_created">
+        <text>Бочка создана</text>
+		</string>
+		
+		<string id="tir_npc_none_tip">
+        <text>Создание Сталкера недоступно. Укажите дистанцию</text>
+		</string>
+		<string id="tir_mutant_none_tip">
+        <text>Создание Мутанта недоступно. Укажите дистанцию</text>
+		</string>
+		<string id="tir_object_none_tip">
+        <text>Создание Бочки недоступно. Укажите дистанцию</text>
+		</string>
+		
+		<string id="tir_npc_create_tip">
+        <text>Создать Сталкера</text>
+		</string>
+		<string id="tir_mutant_create_tip">
+        <text>Создать мутанта</text>
+		</string>
+		
+		<string id="car_test_zone">
+        <text>Зона тестирования автомобилей</text>
+		</string>
+		<string id="tir_zone">
+        <text>Стрельбище</text>
+		</string>
+		
+		
+		
+		
+		
+</string_table>

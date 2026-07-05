@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_sig552_up_buffer_name">
+     <text>Polymer buffer</text>
+</string>
+<string id="gunsl_sig552_up_buffer_descr">
+     <text>The introduction of an additional polymer buffer into the recoil mechanism reduces the recoil felt by the shooter.</text>
+</string>
+<string id="gunsl_sig552_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_sig552_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_sig552_up_barrel_speed_name">
+     <text>Changing the barrel cutting pitch</text>
+</string>
+<string id="gunsl_sig552_up_barrel_speed_descr">
+     <text>Increases the initial speed of the bullet, due to which the bullet deviates less from the expected trajectory and reaches the target faster.Useful for long range shooting.</text>
+</string>
+<string id="gunsl_sig552_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_sig552_up_body_reliability_descr">
+     <text>Applying a special coating to internal parts helps slow down the wear of the weapon.</text>
+</string>
+<string id="gunsl_sig552_up_usm_recoil_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_sig552_up_usm_recoil_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_sig552_up_flashlaser_name">
+     <text>Tactical module</text>
+</string>
+<string id="gunsl_sig552_up_flashlaser_descr">
+     <text>The Insight AN/PEQ-16a tactical unit combines the functions of a laser designator and a tactical flashlight.An indispensable thing for fighting at night.</text>
+</string>
+<string id="gunsl_sig552_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_sig552_up_handle_descr">
+     <text>Provides the right hand with a more comfortable grip.</text>
+</string>
+<string id="gunsl_sig552_up_korobka_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_sig552_up_korobka_descr">
+     <text>Replacing standard parts with analogues made of light alloys allows you to reduce the weight of the weapon without significant harm to its other tactical and technical characteristics.</text>
+</string>
+<string id="gunsl_sig552_up_mag_custom_prujina_name">
+     <text>Spring replacement</text>
+</string>
+<string id="gunsl_sig552_up_mag_custom_prujina_descr">
+     <text>Replacing the standard spring in the magazine with one of similar stiffness, but with a significantly smaller cross-section, allows you to slightly increase the number of cartridges the magazine can hold.</text>
+</string>
+<string id="gunsl_sig552_up_mag_lock_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_sig552_up_mag_lock_descr">
+     <text>Refinement of the ammunition supply unit makes it possible to reduce the number of delays associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+<string id="gunsl_sig552_up_shell_ejector_name">
+     <text>Improved cutoff</text>
+</string>
+<string id="gunsl_sig552_up_shell_ejector_descr">
+     <text>Modification of the cartridge ejection system reduces the likelihood of delays during shooting due to the cartridge case sticking after the shot.</text>
+</string>
+<string id="gunsl_sig552_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_sig552_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_sig552_up_tactic_handle_name">
+     <text>Tactical grip</text>
+</string>
+<string id="gunsl_sig552_up_tactic_handle_descr">
+     <text>Equipping the forend of a weapon with Piccatiny rails and installing a tactical handle on one of them increases the convenience of firing from a weapon, and also allows you to install additional tactical modules on the weapon.</text>
+</string>
+<string id="gunsl_sig552_up_usm_rpm_up_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_sig552_up_usm_rpm_up_descr">
+     <text>Refinement of the firing mechanism components makes it possible to increase the weapon's rate of fire, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_sig552_up_light_grip_name">
+     <text>Lightweight forend</text>
+</string>
+<string id="gunsl_sig552_up_light_grip_descr">
+     <text>Allows you to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_sig552_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_sig552_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the line of sight when firing, and also reduces the likelihood of delays when firing.</text>
+</string>
+<string id="gunsl_sig552_up_patronnik_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_sig552_up_patronnik_descr">
+     <text>Allows you to improve obturation and achieve higher shooting accuracy.</text>
+</string>
+<string id="gunsl_sig552_up_light_stock_name">
+     <text>Lightweight stock</text>
+</string>
+<string id="gunsl_sig552_up_light_stock_descr">
+     <text>Allows you to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_sig552_up_stock_name">
+     <text>Improved backplate</text>
+</string>
+<string id="gunsl_sig552_up_stock_descr">
+     <text>Installation of an anatomical rubberized butt plate reduces the felt recoil from shots fired by the shooter.</text>
+</string>
+<string id="gunsl_sig552_up_zatvor_accuracy_name">
+     <text>Adjusting the bolt mechanism</text>
+</string>
+<string id="gunsl_sig552_up_zatvor_accuracy_descr">
+     <text>Precise fitting of the bolt mechanism elements reduces backlash and allows for higher shooting accuracy.</text>
+</string>
+<string id="gunsl_sig552_up_rpm_speed_down_name">
+     <text>Rate of fire retarder</text>
+</string>
+<string id="gunsl_sig552_up_rpm_speed_down_descr">
+     <text>Allows you to make shooting more stable by reducing the spread of bullets, and contributes to more economical consumption of ammunition.It also reduces the heating of the barrel, which has a beneficial effect on the life of the weapon.</text>
+</string>
+</string_table>

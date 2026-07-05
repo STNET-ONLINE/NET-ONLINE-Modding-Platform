@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="gunsl_wpn_l85_as_lr300_name">
+		<text>L85A2 (Special Variant, Type 1)</text>
+	</string>	
+	<string id="gunsl_wpn_l85_as_lr300_descr">
+		<text>This L85A2 has been modified in Freedom’s weapon workshops to improve both accuracy and overall reliability under field conditions. Refined internal fitting and reinforced components make it a noticeably more stable and predictable rifle compared to the standard model.</text>
+	</string>
+
+	<string id="gunsl_wpn_l85_as_f2000_name">
+		<text>L85A2 (Special Variant, Type 2)</text>
+	</string>	
+	<string id="gunsl_wpn_l85_as_f2000_descr">
+		<text>This L85A2 belongs to a small batch commissioned by several mercenary teams. Equipped with a grenade launcher and an optical sight. Unfortunately, removing these add-ons—or installing them on another weapon—is impossible outside of a specialized workshop. It is believed this limitation was intentionally introduced to discourage mercenaries from dismantling «trophy» weapons for upgrades.</text>
+	</string>
+	
+	<string id="gunsl_wpn_ak74_as_sig550_strelok_name">
+		<text>AK-101 (Strelok’s Rifle)</text>
+	</string>
+	<string id="gunsl_wpn_ak74_as_sig550_strelok_descr">
+		<text>Although this assault rifle is clearly not newly manufactured, its previous owner maintained it with remarkable care. The weapon has been completely disassembled, cleaned, and hand-fitted, resulting in improved lethality and smoother operation. On the stock, one can see a carefully carved letter «S» and sixteen small crosses-a mute testimony to its history.</text>
+	</string>
+	
+	<string id="gunsl_wpn_ak74_as_g36_name">
+		<text>AK-101 (Special Variant)</text>
+	</string>	
+	<string id="gunsl_wpn_ak74_as_g36_descr">
+		<text>A Freedom-customized version of the AK-101, adapted for the harsh realities of the Zone. Compared to the standard model, accuracy has been improved and perceived recoil reduced, making it more controllable in extended firefights.</text>
+	</string>	
+	
+	<string id="gunsl_wpn_val_as_groza_name">
+		<text>AS «Val» (Special Variant)</text>
+	</string>	
+	<string id="gunsl_wpn_val_as_groza_descr">
+		<text>An assault-oriented variant of the AS Val, factory-equipped with a tactical foregrip to enhance control during sustained automatic fire.</text>
+	</string>	
+	
+	<string id="gunsl_wpn_val_as_groza_nimble_name">
+		<text>«Storm»</text>
+	</string>
+	<string id="gunsl_wpn_val_as_groza_nimble_descr">
+		<text>An experimental assault rifle developed from the AS Val specifically for special-forces units operating within the Zone. Enhanced reliability and tuned ballistics make it a formidable weapon in trained hands.</text>
+	</string>	
+
+	<string id="gunsl_wpn_ak74_as_pkm_name">
+		<text>AK-74M (Special Variant)</text>
+	</string>
+	<string id="gunsl_wpn_ak74_as_pkm_descr">
+		<text>No one knows for certain who decided to fit an AK-74M with a barrel designed for a machine-gun cartridge, but the resulting hybrid has earned the respect of many stalker squads who have faced it in combat. The increased stopping power leaves targets with virtually no chance of survival, while the large magazine capacity compensates for the weapon’s reduced accuracy. Unfortunately, the modification makes it impossible to mount an underbarrel grenade launcher.</text>
+	</string>	
+
+	<string id="gunsl_wpn_ak74_as_pkm_zulus_name">
+		<text>AK-74M (Zulus’ Rifle)</text>
+	</string>
+	<string id="gunsl_wpn_ak74_as_pkm_zulus_descr">
+		<text>This weapon once belonged to Zulus. A 7.62 mm barrel paired with an extended-capacity magazine turn it into an extremely dangerous tool in skilled hands. Controlling the recoil requires considerable strength—though for the previous owner this was never much of an obstacle.</text>
+	</string>	
+	
+</string_table>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_promo_sender">
+		<text>Сервер</text>
+	</string>
+	<string id="st_promo_usage">
+		<text>Использование: %s [код]</text>
+	</string>
+	<string id="st_promo_alive_only">
+		<text>Промокод можно активировать только живым игроком.</text>
+	</string>
+	<string id="st_promo_character_loading">
+		<text>Данные персонажа еще загружаются. Повторите через несколько секунд.</text>
+	</string>
+	<string id="st_promo_service_unavailable">
+		<text>Сервис промокодов недоступен.</text>
+	</string>
+	<string id="st_promo_already_processing">
+		<text>Промокод уже обрабатывается.</text>
+	</string>
+	<string id="st_promo_processing">
+		<text>Промокод принят в обработку.</text>
+	</string>
+	<string id="st_promo_auth_required">
+		<text>Промокоды доступны только авторизованным игрокам.</text>
+	</string>
+	<string id="st_promo_not_found">
+		<text>Промокод не найден.</text>
+	</string>
+	<string id="st_promo_disabled">
+		<text>Промокод отключен.</text>
+	</string>
+	<string id="st_promo_not_started">
+		<text>Промокод еще не активен.</text>
+	</string>
+	<string id="st_promo_already_used">
+		<text>Вы уже использовали этот промокод.</text>
+	</string>
+	<string id="st_promo_limit_reached">
+		<text>Лимит активаций промокода исчерпан.</text>
+	</string>
+	<string id="st_promo_cooldown">
+		<text>Промокоды можно использовать один раз в 3 часа.</text>
+	</string>
+	<string id="st_promo_invalid_reward_section">
+		<text>Награда промокода настроена некорректно: %s</text>
+	</string>
+	<string id="st_promo_empty_reward">
+		<text>Награда промокода пуста.</text>
+	</string>
+	<string id="st_promo_activation_cancelled">
+		<text>Активация отменена: игрок должен быть жив и полностью загружен.</text>
+	</string>
+	<string id="st_promo_activation_failed">
+		<text>Не удалось активировать промокод.</text>
+	</string>
+	<string id="st_promo_reward_failed">
+		<text>Не удалось выдать награду промокода.</text>
+	</string>
+	<string id="st_promo_activated">
+		<text>Промокод успешно активирован.</text>
+	</string>
+</string_table>

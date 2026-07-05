@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="war_jup_administration_name">
+		<text>База группировки «Наёмники»</text>
+	</string>	
+	<string id="war_jup_jupiter_name">
+		<text>Завод «Юпитер»</text>
+	</string>	
+	<string id="war_jup_cement_plant_name">
+		<text>Цеметный завод</text>
+	</string>
+	<string id="war_jup_tunnel_spectrum_name">
+		<text>База группировки «Спектрум»</text>
+	</string>
+	<string id="war_jup_container_warehouse_name">
+		<text>Склад контейнеров</text>
+	</string>
+	<string id="war_jup_tunnel_bandit_name">
+		<text>Подземное депо</text>
+	</string>	
+	<string id="war_jup_yanov_name">
+		<text>Станция «Янов»</text>
+	</string>	
+	<string id="war_jup_tower_block_name">
+		<text>Градирня</text>
+	</string>	
+	<string id="war_jup_fluid_name">
+		<text>Аномалия «Плавни»</text>
+	</string>	
+	<string id="war_jup_west_bridge_name">
+		<text>Западный мост</text>
+	</string>	
+	<string id="war_jup_center_bridge_name">
+		<text>Центральный мост</text>
+	</string>	
+	<string id="war_jup_camp_2_name">
+		<text>Лагерь водителя</text>
+	</string>	
+	<string id="war_jup_concrete_bath_name">
+		<text>Аномалия «Бетонная ванна»</text>
+	</string>	
+	<string id="war_jup_east_tunnel_name">
+		<text>Восточный туннель</text>
+	</string>	
+	<string id="war_jup_anomaly_grove_name">
+		<text>Аномальная роща</text>
+	</string>	
+	<string id="war_jup_helicopter_1_name">
+		<text>Упавший вертолёт</text>
+	</string>	
+	<string id="war_jup_zulus_name">
+		<text>Башня «Зулуса»</text>
+	</string>	
+	<string id="war_jup_bitum_name">
+		<text>Аномалия «Битум»</text>
+	</string>	
+	<string id="war_jup_helicopter_2_name">
+		<text>Упавший вертолёт</text>
+	</string>	
+	<string id="war_jup_depot_dolg_name">
+		<text>Склад «Долга»</text>
+	</string>	
+	<string id="war_jup_helipad_name">
+		<text>Вертолётная площадка</text>
+	</string>	
+	<string id="war_jup_structures_name">
+		<text>Сооружения Юпитера</text>
+	</string>	
+	<string id="war_jup_marsh_name">
+		<text>Аномалия «Топь»</text>
+	</string>	
+	<string id="war_jup_ash_anomaly_name">
+		<text>Аномалия «Пепелище»</text>
+	</string>	
+	<string id="war_jup_bridge_1_name">
+		<text>Мост у «Склада контейнеров»</text>
+	</string>	
+	<string id="war_jup_bunker_name">
+		<text>Бункер «Учёных»</text>
+	</string>	
+	<string id="war_jup_drone_name">
+		<text>Упавший беспилотник</text>
+	</string>	
+	<string id="war_jup_kpp_name">
+		<text>КПП</text>
+	</string>	
+	<string id="war_jup_parking_name">
+		<text>Стоянка</text>
+	</string>	
+	<string id="war_jup_ventilation_complex_name">
+		<text>Вентялиционный комплекс</text>
+	</string>	
+	<string id="war_jup_stop_name">
+		<text>Полустанок</text>
+	</string>	
+	<string id="war_jup_administrative_name">
+		<text>Администрация</text>
+	</string>	
+	<string id="war_jup_career_name">
+		<text>Карьер</text>
+	</string>	
+	<string id="war_jup_village_name">
+		<text>Копачи</text>
+	</string>	
+	<string id="war_jup_zrk_name">
+		<text>ЗРК «Волхов»</text>
+	</string>
+</string_table>

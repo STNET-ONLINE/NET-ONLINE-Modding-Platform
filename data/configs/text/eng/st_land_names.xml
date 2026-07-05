@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_zat_b55_name">
+		<text>Anomaly "Claw"</text>
+	</string>
+	<string id="st_zat_b100_name">
+		<text>Anomaly "Iron Forest"</text>
+	</string>
+	<string id="st_zat_b104_name">
+		<text>Sawmill</text>
+	</string>
+	<string id="st_zat_b38_name">
+		<text>VNZ "Circle"</text>
+	</string>
+	<string id="st_zat_b40_name">
+		<text>Waste recycling station</text>
+	</string>
+	<string id="st_zat_b56_name">
+		<text>Anomaly "Circus"</text>
+	</string>
+	<string id="st_zat_b5_name">
+		<text>Forestry</text>
+	</string>
+	<string id="st_zat_a2_name">
+		<text>"Skadovsk"</text>
+	</string>
+	<string id="st_zat_b20_name">
+		<text>Burnt out farm</text>
+	</string>
+	<string id="st_zat_b53_name">
+		<text>Anomaly "Cauldron"</text>
+	</string>
+	<string id="st_zat_b101_name">
+		<text>Swamp</text>
+	</string>
+	<string id="st_zat_b106_name">
+		<text>"Emerald"</text>
+	</string>
+	<string id="st_zat_b7_name">
+		<text>"Shevchenko"</text>
+	</string>
+	<string id="st_zat_b14_name">
+		<text>dredger</text>
+	</string>
+	<string id="st_zat_b52_name">
+		<text>Port cranes</text>
+	</string>
+	<string id="st_zat_b39_name">
+		<text>Anomaly "Sosnodub"</text>
+	</string>
+	<string id="st_zat_b33_name">
+		<text>Refueling</text>
+	</string>
+	<string id="st_zat_b18_name">
+		<text>Old barge</text>
+	</string>
+	<string id="st_zat_b54_name">
+		<text>Anomaly "Scar"</text>
+	</string>
+	<string id="st_zat_b12_name">
+		<text>Bridge named afterPreobrazhensky</text>
+	</string>
+	<string id="st_zat_b28_name">
+		<text>Southern Plateau</text>
+	</string>
+	<string id="st_zat_b103_name">
+		<text>Substation workshops</text>
+	</string>
+	<string id="st_jup_b1_name">
+		<text>Anomaly "Ashes"</text>
+	</string>
+	<string id="st_jup_b46_name">
+		<text>cooling tower</text>
+	</string>
+	<string id="st_jup_b202_name">
+		<text>Stop station</text>
+	</string>
+	<string id="st_jup_b211_name">
+		<text>Anomaly "Plavni"</text>
+	</string>
+	<string id="st_jup_b200_name">
+		<text>Cement plant</text>
+	</string>
+	<string id="st_jup_b19_name">
+		<text>Kopachi</text>
+	</string>
+	<string id="st_jup_a6_name">
+		<text>"Yanov"</text>
+	</string>
+	<string id="st_jup_b25_name">
+		<text>Career</text>
+	</string>
+	<string id="st_jup_b6_name">
+		<text>Scientists Bunker</text>
+	</string>
+	<string id="st_jup_b205_name">
+		<text>SAM "Volkhov"</text>
+	</string>
+	<string id="st_jup_b206_name">
+		<text>Anomalous Grove</text>
+	</string>
+	<string id="st_jup_b32_name">
+		<text>Parking</text>
+	</string>
+	<string id="st_jup_a10_name">
+		<text>checkpoint</text>
+	</string>
+	<string id="st_jup_b209_name">
+		<text>Anomaly "Bitumen"</text>
+	</string>
+	<string id="st_jup_b208_name">
+		<text>Eastern tunnel</text>
+	</string>
+	<string id="st_jup_a12_name">
+		<text>Container warehouse</text>
+	</string>
+	<string id="st_jup_b212_name">
+		<text>Ventilation complex</text>
+	</string>
+	<string id="st_jup_b9_name">
+		<text>Helipads</text>
+	</string>
+	<string id="st_jup_b201_name">
+		<text>Anomaly "Concrete Bath"</text>
+	</string>
+	<string id="st_jup_a9_name">
+		<text>Jupiter plant</text>
+	</string>
+	<string id="st_pri_a28_name">
+		<text>Cinema "Prometheus"</text>
+	</string>
+	<string id="st_pri_b36_name">
+		<text>River port</text>
+	</string>
+	<string id="st_pri_b303_name">
+		<text>Old KBO</text>
+	</string>
+	<string id="st_pri_b301_name">
+		<text>School</text>
+	</string>
+	<string id="st_pri_a17_name">
+		<text>Hospital</text>
+	</string>
+	<string id="st_pri_b306_name">
+		<text>KBO "Yubileiny"</text>
+	</string>
+	<string id="st_pri_a16_name">
+		<text>Laundry</text>
+	</string>
+	<string id="st_pri_a25_name">
+		<text>Kindergarten</text>
+	</string>
+	<string id="st_pri_b35_name">
+		<text>Dormitory</text>
+	</string>
+	<string id="st_pri_a21_name">
+		<text>Deli</text>
+	</string>
+	<string id="st_pri_b304_name">
+		<text>Department store</text>
+	</string>
+	<string id="st_pri_a18_name">
+		<text>Books Store</text>
+	</string>
+	<string id="st_pri_b307_name">
+		<text>Anomaly "Vulcan"</text>
+	</string>
+	<string id="st_pri_b302_name">
+		<text>Anomaly "Vine"</text>
+	</string>
+	
+	<string id="ds_camp_name">
+		<text>Camp in the forest</text>
+	</string>
+	<string id="ds_farm_name">
+		<text>Farm</text>
+	</string>
+	<string id="ds_bridge_name">
+		<text>Old Bridge</text>
+	</string>
+	<string id="ds_azs_name">
+		<text>gas station</text>
+	</string>
+	<string id="ds_terminal_name">
+		<text>Railway Station</text>
+	</string>
+		<string id="ds_depot_name">
+		<text>Hangar</text>
+	</string>
+		<string id="ds_storage_name">
+		<text>Warehouse</text>
+	</string>
+		<string id="ds_fuelstation">
+		<text>Fuel station</text>
+	</string>
+	
+	<string id="esc_base_bandit_name">
+		<text>ATP</text>
+	</string>	
+	<string id="esc_base_stalker_name">
+		<text>Stalkers base</text>
+	</string>	
+	<string id="esc_anomal_zone_road_name">
+		<text>Anomaly at the northern checkpoint</text>
+	</string>	
+	<string id="esc_camp_1_name">
+		<text>Halt in a ravine</text>
+	</string>
+	<string id="esc_north_kpp_name">
+		<text>"Northern Checkpoint"</text>
+	</string>	
+	<string id="esc_camp_2_name">
+		<text>Camp at the bridge</text>
+	</string>	
+	<string id="esc_old_train_name">
+		<text>Old train</text>
+	</string>
+	<string id="esc_jd_nasip_name">
+		<text>"Railway" Embankment</text>
+	</string>
+	<string id="esc_old_houses_name">
+		<text>Old ruins</text>
+	</string>	
+	<string id="esc_tunnel_name">
+		<text>Tunnel under the bridge</text>
+	</string>
+	<string id="esc_camp_3_name">
+		<text>Camp at ATP</text>
+	</string>
+	<string id="esc_elevator_name">
+		<text>Elevator</text>
+	</string>
+	<string id="esc_camp_4_name">
+		<text>Tunnel camp</text>
+	</string>
+	<string id="esc_tunnel_darkscape_name">
+		<text>Transition to "Dark Hollow"</text>
+	</string>
+	<string id="esc_camp_5_name">
+		<text>Cars at the “Newcomer Village”</text>
+	</string>	
+	<string id="esc_anomal_zone_villiage_name">
+		<text>Anomaly at the “Newcomer Village”</text>
+	</string>	
+	<string id="esc_camp_6_name">
+		<text>Camp near the “Southern Checkpoint”</text>
+	</string>
+	<string id="esc_camp_6_name">
+		<text>Camp near the “Southern Checkpoint”</text>
+	</string>		
+	<string id="esc_camp_7_name">
+		<text>Camp at the “Newcomer Village”</text>
+	</string>	
+	<string id="esc_viilliage_name">
+		<text>"Village of Newcomers"</text>
+	</string>	
+	<string id="esc_south_kpp_name">
+		<text>"Southern Checkpoint"</text>
+	</string>
+	
+	<string id="war_ds_base_hunters_name">
+		<text>"Hunter Base"</text>
+	</string>
+	<string id="war_ds_forest_garbage_name">
+		<text>"Abandoned construction site"</text>
+	</string>
+	<string id="war_ds_camp_2_name">
+		<text>Camp in the forest</text>
+	</string>
+	<string id="war_ds_anomaly_stonehenge_name">
+		<text>Anomaly "Stonehedge"</text>
+	</string>
+	<string id="war_ds_station_garage_name">
+		<text>Garages near the bus station</text>
+	</string>
+	<string id="war_ds_water_tower_name">
+		<text>water tower</text>
+	</string>
+	<string id="war_ds_station_name">
+		<text>Bus station</text>
+	</string>
+	<string id="war_ds_depot_name">
+		<text>Hangar</text>
+	</string>
+	<string id="war_ds_old_tunnel_name">
+		<text>Old tunnel</text>
+	</string>
+	<string id="war_ds_camp_3_name">
+		<text>Camp near the warehouse</text>
+	</string>
+	<string id="ds_storage_containers_name">
+		<text>Container warehouse</text>
+	</string>
+	<string id="war_ds_storage_name">
+		<text>Warehouse</text>
+	</string>
+	<string id="war_ds_construction_name">
+		<text>Construction</text>
+	</string>
+	<string id="war_ds_fuelstation_name">
+		<text>Fuel base</text>
+	</string>
+	<string id="war_ds_garage_name">
+		<text>Garage</text>
+	</string>
+	<string id="war_ds_helicopter_name">
+		<text>Downed helicopter</text>
+	</string>
+	<string id="war_ds_archive_name">
+		<text>Archive</text>
+	</string>
+	<string id="war_ds_camp_4_name">
+		<text>Camp in the field</text>
+	</string>
+	<string id="war_ds_river_pripyat_name">
+		<text>Transition to the Pripyat River</text>
+	</string>
+	<string id="war_ds_bridge_name">
+		<text>Old Bridge</text>
+	</string>
+	<string id="war_ds_destroyed_train_name">
+		<text>Destroyed composition</text>
+	</string>
+	<string id="war_ds_old_vagons_name">
+		<text>Old carriages</text>
+	</string>
+	<string id="war_ds_camp_1_name">
+		<text>Camp near the shore</text>
+	</string>
+	<string id="war_ds_pier_name">
+		<text>Berth</text>
+	</string>
+	<string id="war_ds_anomaly_heli_name">
+		<text>Anomalies at the helicopter</text>
+	</string>
+	<string id="war_ds_azs_name">
+		<text>Refueling</text>
+	</string>
+	
+</string_table>

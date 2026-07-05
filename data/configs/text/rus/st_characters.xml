@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+		<string id="barmen_military_jup_name">
+		<text>Александр</text>
+	</string>
+	<string id="medic_military_jup_name">
+		<text>Фельдшер</text>
+	</string>
+		<string id="trader_military_jup_name">
+		<text>Оружейник</text>
+	</string>
+	<string id="tech_military_jup_name">
+		<text>Владислав</text>
+	</string>
+		<string id="mart_stalker_trader_name">
+		<text>Дионис</text>
+	</string>
+		<string id="mart_stalker_armor_name">
+		<text>Флиппер</text>
+	</string>
+		<string id="mart_stalker_barmen_name">
+		<text>Комар</text>
+	</string>
+		<string id="jup_base_bandit_barmen_name">
+		<text>Руль</text>
+	</string>
+		<string id="jup_base_bandit_armor_name">
+		<text>Утюг</text>
+	</string>
+		<string id="jup_base_bandit_trader_name">
+		<text>Бульдозер</text>
+	</string>
+		<string id="jup_base_duty_barmen_name">
+		<text>Хвост</text>
+	</string>
+		<string id="jup_base_duty_barmen_name">
+		<text>Слон</text>
+	</string>
+		<string id="jup_base_duty_armor_name">
+		<text>Пельмень</text>
+	</string>
+		<string id="jup_base_killer_trader_name">
+		<text>Джой</text>
+	</string>
+		<string id="jup_base_killer_barmen_name">
+		<text>Сайгон</text>
+	</string>
+		<string id="jup_base_killer_armor_name">
+		<text>Танк</text>
+	</string>
+		<string id="scientist_artefacts_name">
+		<text>Проф.Дремезов</text>
+	</string>
+		<string id="scientist_barmen_name">
+		<text>Проф.Петров</text>
+	</string>
+		<string id="scientist_guard_name">
+		<text>Ст.Сотр.Охр.Липович</text>
+	</string>
+		<string id="jup_base_freedom_barmen_name">
+		<text>Яга</text>
+	</string>
+		<string id="jup_base_freedom_trader_name">
+		<text>Френк</text>
+	</string>
+		<string id="jup_base_freedom_armor_name">
+		<text>Беций</text>
+	</string>
+		<string id="jup_base_freedom_armor_name">
+		<text>Беций</text>
+	</string>
+		<string id="jup_base_cs_barmen_name">
+		<text>Циклон</text>
+	</string>
+		<string id="jup_base_cs_trader_name">
+		<text>Лекс</text>
+	</string>
+		<string id="jup_base_cs_armor_name">
+		<text>Шаргон</text>
+	</string>
+		<string id="dungeon_master_1_name">
+		<text>Яма</text>
+	</string>
+		<string id="dungeon_master_2_name">
+		<text>Мастер</text>
+	</string>
+		<string id="jup_base_sin_armor_name">
+		<text>Безумец</text>
+	</string>
+		<string id="scientist_armor_name">
+		<text>Проф.Сергей</text>
+	</string>	
+		<string id="mart_stalker_ammo_name">
+		<text>Достаевский</text>
+	</string>
+		<string id="predbannik_barmen_name">
+		<text>Бармен</text>
+	</string>
+		<string id="predbannik_trader_armor_name">
+		<text>Клинов</text>
+	</string>
+		<string id="predbannik_zombie_trader_name">
+		<text>Неизвестный зомбированный</text>
+	</string>
+		<string id="jup_b6_scientist_novikov">
+		<text>Новиков</text>
+	</string>
+		<string id="jup_b217_stalker_tech">
+		<text>Азот</text>
+	</string>
+		<string id="stalker_monolith_trader_name">
+		<text>Блиц</text>
+	</string>
+		<string id="stalker_monolith_drugers_name">
+		<text>Герцог</text>
+	</string>
+		<string id="stalker_spectrum_armor_name">
+		<text>Гауст</text>
+	</string>
+		<string id="stalker_spectrum_trader_name">
+		<text>Бэком</text>
+	</string>
+		<string id="stalker_spectrum_drugers_name">
+		<text>Бургут</text>
+	</string>
+		<string id="jup_base_duty_trader_name">
+		<text>Бегемот</text>
+	</string>		
+		<string id="st_jup_zombied_boss">
+		<text>«Старый зомбированный»</text>
+	</string>
+</string_table>

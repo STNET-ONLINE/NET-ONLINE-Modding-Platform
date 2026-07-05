@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+  <string id="st_interface_inventory">
+    <text>ИНВЕНТАРЬ</text>
+  </string>
+  <string id="st_interface_inventory_trade">
+    <text>ТОРГОВЛЯ</text>
+  </string>
+  <string id="st_interface_inventory_upgrade">
+    <text>МОДЕРНИЗАЦИЯ</text>
+  </string>
+  <string id="st_interface_inventory_search">
+    <text>ОСМОТР</text>
+  </string>
+  <string id="st_interface_inventory_exchange">
+    <text>ОБМЕН</text>
+  </string>
+  <string id="st_interface_mm_general">
+    <text>Основной</text>
+  </string>
+  <string id="st_interface_mm_squad">
+    <text>Отряд</text>
+  </string>
+  <string id="st_interface_mm_faction">
+    <text>Группировка</text>
+  </string>
+  <string id="st_interface_chat_push">
+    <text>Отправить</text>
+  </string>
+  <string id="ui_mm_quit_windows_message_kuprin">
+    <text>Вы погибли</text>
+  </string>
+  <string id="st_ui_mm_opt_video_screenmode">
+	<text>Тип отображение</text>
+  </string>
+  <string id="st_ui_mm_opt_video_fullscreen">
+	<text>Полный</text>
+  </string>
+  <string id="st_ui_mm_opt_video_window">
+	<text>Оконный</text>
+  </string>
+  <string id="st_ui_mm_opt_video_adv">
+	<text>Детальные</text>
+  </string>
+  <string id="st_interface_error_whitelist">
+	<text>Ваш аккаунт отсутствует в списке доступа. Обратитесь к Администрации</text>
+  </string>
+  <string id="st_interface_error_maintenance">
+	<text>Технические работы. Ожидайте сообщение от Администрации</text>
+  </string>
+  <string id="st_interface_error_session">
+	<text>Сессия активна. Дождитесь окончания сессии</text>
+  </string>
+  <string id="st_interface_error_login">
+	<text>Данные авторизации неверны. Убедитесь что данные введены правильно</text>
+  </string>
+  <string id="st_interface_error_connect">
+	<text>Основной сервер отключен. Обратитесь к Администрации</text>
+  </string>
+  <string id="st_interface_search_match">
+  <text>ПОДКЛЮЧИТЬСЯ</text>
+  </string>
+</string_table>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_ls_mode_0">
+		<text>Unknown</text>
+	</string>
+	<string id="st_ls_mode_1">
+		<text>Single player campaign</text>
+	</string>
+	<string id="st_ls_mode_2">
+		<text>Everyone against everyone</text>
+	</string>
+	<string id="st_ls_mode_4">
+		<text>Team fight</text>
+	</string>
+	<string id="st_ls_mode_8">
+		<text>Artifact Hunt</text>
+	</string>
+	<string id="st_ls_mode_16">
+		<text>Artifact Capture</text>
+	</string>
+	<string id="st_ls_mode_32">
+		<text>Classical</text>
+	</string>
+	<string id="st_ls_title_escape">
+		<text>CORDON</text>
+	</string>
+	<string id="st_ls_desc_escape">
+		<text>«Well, this is the Zone's dressing room.Army cordon.It's relatively calm, maybe the military sometimes have fun and carry out a search.Experienced stalkers are rare here, only newcomers stay too long, and some stay forever» - Sidorovich</text>
+	</string>
+	<string id="st_ls_title_marsh">
+		<text>SWAMP</text>
+	</string>
+	<string id="st_ls_desc_marsh">
+		<text>A wetland that has long been inaccessible.The location of the Clear Sky group, where the path opened after the Big Blowout.At the same time, mud swamps are a large accumulation of radiation, anomalies and mutants</text>
+	</string>
+	<string id="st_ls_title_darkscape">
+		<text>DARK HOLLOW</text>
+	</string>
+	<string id="st_ls_desc_darkscape">
+		<text>A large suburban industrial area adjacent to the Dark Valley.Automobiles, railways, and country roads, which previously served as transport interchanges, pass through the entire area.</text>
+	</string>
+	<string id="st_ls_title_car_test">
+		<text>POLYGON</text>
+	</string>
+	<string id="st_ls_desc_car_test">
+		<text>A place where you want to shit...</text>
+	</string>
+	<string id="st_ls_title_lobby">
+		<text>UNKNOWN LOCATION</text>
+	</string>
+	<string id="st_ls_desc_lobby">
+		<text>An old building where stalkers gather after a long-distance raid.</text>
+	</string>
+</string_table>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_fort_up_barrel_sil_name">
+     <text>Barrel with thread for silencer</text>
+</string>
+<string id="gunsl_fort_up_barrel_sil_descr">
+     <text>Replacing the barrel with an elongated one, with a thread intended for installing a muffler.</text>
+</string>
+<string id="gunsl_fort_up_barrel_speed_name">
+     <text>Barrel with modified rifling pitch</text>
+</string>
+<string id="gunsl_fort_up_barrel_speed_descr">
+     <text>Changing the pitch of the rifling in the bore of a weapon allows you to increase the initial speed of the bullet and reduce the spread of hits when firing.</text>
+</string>
+<string id="gunsl_fort_up_body_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_fort_up_body_descr">
+     <text>Applying a special coating to weapon parts can significantly slow down its wear.</text>
+</string>
+<string id="gunsl_fort_up_ejector_name">
+     <text>Refinement of the extractor</text>
+</string>
+<string id="gunsl_fort_up_ejector_descr">
+     <text>Allows you to reduce the number of delays associated with the sticking of cartridges ejected from the pistol after firing.It has a beneficial effect on the reliability of the weapon.</text>
+</string>
+<string id="gunsl_fort_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_fort_up_handle_descr">
+     <text>Created taking into account the individual characteristics and preferences of the shooter, making the grip of the weapon much more convenient and shooting more comfortable.</text>
+</string>
+<string id="gunsl_fort_up_usm_recoil_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_fort_up_usm_recoil_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_fort_up_light_mag_name">
+     <text>Lightweight magazine</text>
+</string>
+<string id="gunsl_fort_up_light_mag_descr">
+     <text>Replacing a standard weapon magazine with a lightweight one allows you to slightly reduce the total weight.</text>
+</string>
+<string id="gunsl_fort_up_patronnik_accuracy_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_fort_up_patronnik_accuracy_descr">
+     <text>Allows you to improve obturation and achieve higher shooting accuracy.</text>
+</string>
+<string id="gunsl_fort_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_fort_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the line of sight when firing and reduces felt recoil.</text>
+</string>
+<string id="gunsl_fort_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_fort_up_light_details_descr">
+     <text>Replacing standard weapon parts with lightweight analogues made from modern alloys makes it possible to reduce the weight of weapons.</text>
+</string>
+<string id="gunsl_fort_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_fort_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_fort_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_fort_up_usm_rpm_descr">
+     <text>Reconfiguring the trigger and modifying some of its parts allows the shooter to fire at a higher rate.Unfortunately, this causes the weapon to wear out a little faster.</text>
+</string>
+<string id="gunsl_fort_up_podacha_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_fort_up_podacha_descr">
+     <text>Individual fitting of the power supply parts allows you to reduce the likelihood of delays during shooting associated with non-feeding and misalignment of the cartridge.</text>
+</string>
+</string_table>

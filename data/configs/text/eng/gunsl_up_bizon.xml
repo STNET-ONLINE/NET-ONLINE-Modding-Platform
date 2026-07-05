@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_bizon_up_mag_shnek_name">
+     <text>Wear-resistant screw</text>
+</string>
+<string id="gunsl_bizon_up_mag_shnek_descr">
+     <text>Rebuilding the screw mechanism and replacing its parts with wear-resistant analogues significantly increases the reliability of its operation and reduces the number of misfires.</text>
+</string>
+<string id="gunsl_bizon_up_mag_lock_name">
+     <text>Modification of the cartridge supply unit</text>
+</string>
+<string id="gunsl_bizon_up_mag_lock_descr">
+     <text>Refinement of the ammunition supply unit makes it possible to reduce the number of delays associated with non-feeding of the cartridge and its misalignment during reloading.</text>
+</string>
+<string id="gunsl_bizon_up_pokritie_reliability_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_bizon_up_pokritie_reliability_descr">
+     <text>Replacing standard parts with analogues made from high-strength alloys increases the weapon's resistance to wear and extends its service life.</text>
+</string>
+<string id="gunsl_bizon_up_rail_name">
+     <text>Rail fastenings</text>
+</string>
+<string id="gunsl_bizon_up_rail_descr">
+     <text>Installing rail mounts on the forend allows you to equip the weapon with various tactical equipment.</text>
+</string>
+<string id="gunsl_bizon_up_light_tsevie_name">
+     <text>Lightweight forend</text>
+</string>
+<string id="gunsl_bizon_up_light_tsevie_descr">
+     <text>Replacing the standard forend with a lightweight one allows you to slightly reduce the weight of the weapon.</text>
+</string>
+<string id="gunsl_bizon_up_laser_name">
+     <text>Laser pointer</text>
+</string>
+<string id="gunsl_bizon_up_laser_descr">
+     <text>Visually indicates the location of the intended hit on the target, greatly facilitating and speeding up aiming, as well as having a demoralizing effect on the victim.Does not interfere with the installation of a tactical flashlight and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_bizon_up_flash_name">
+     <text>Tactical flashlight</text>
+</string>
+<string id="gunsl_bizon_up_flash_descr">
+     <text>A narrowly focused, long-range flashlight is indispensable in night forays, as well as when exploring and clearing dark rooms.Does not interfere with the installation of a laser pointer and can be used in conjunction with it.</text>
+</string>
+<string id="gunsl_bizon_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_bizon_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_bizon_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_bizon_up_handle_descr">
+     <text>The handle, custom-made taking into account the anatomical features of the hand, provides a more comfortable grip for the right hand.</text>
+</string>
+<string id="gunsl_bizon_up_nakladka_name">
+     <text>Butt pad</text>
+</string>
+<string id="gunsl_bizon_up_nakladka_descr">
+     <text>Allows you to soften the felt recoil from a weapon shot.</text>
+</string>
+<string id="gunsl_bizon_up_barrel_bullet_speed_name">
+     <text>Changing the barrel cutting pitch</text>
+</string>
+<string id="gunsl_bizon_up_barrel_bullet_speed_descr">
+     <text>Increases the initial speed of the bullet, due to which the bullet deviates less from the expected trajectory and reaches the target faster.Useful for long range shooting.</text>
+</string>
+<string id="gunsl_bizon_up_barrel_dispersion_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_bizon_up_barrel_dispersion_descr">
+     <text>Allows you to reduce the spread of bullets, which has a beneficial effect on the accuracy of firing.</text>
+</string>
+<string id="gunsl_bizon_up_barrel_9x19_name">
+     <text>Change caliber</text>
+</string>
+<string id="gunsl_bizon_up_barrel_9x19_descr">
+     <text>Comprehensive modification of weapons for a more powerful 9x19 mm caliber cartridge.It should be especially noted that during this alteration, exclusively new and original parts are installed, produced at the plant for other, less common, modifications of the Bison (don’t even ask through what channels they enter the Zone).The final result fully complies with the factory canons and is devoid of the disadvantages inherent in artisanal alterations.Due to the fact that 9x19 mm ammunition is long, the magazine capacity after conversion is 53 rounds.</text>
+</string>
+<string id="gunsl_bizon_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_bizon_up_usm_rpm_descr">
+     <text>Refinement of the firing mechanism components makes it possible to increase the weapon's rate of fire, unfortunately, at the cost of some reduction in reliability.</text>
+</string>
+<string id="gunsl_bizon_up_usm_recoil_name">
+     <text>USM calibration</text>
+</string>
+<string id="gunsl_bizon_up_usm_recoil_descr">
+     <text>Individual fitting and balancing of standard parts of the firing mechanism allows for higher shooting accuracy while reducing recoil.</text>
+</string>
+<string id="gunsl_bizon_up_shell_ejector_name">
+     <text>Improved extractor</text>
+</string>
+<string id="gunsl_bizon_up_shell_ejector_descr">
+     <text>This modification to the spent cartridge ejection unit allows us to reduce the number of delays that occur during shooting due to the stuck cartridge case.</text>
+</string>
+<string id="gunsl_bizon_up_zatvor_balancer_name">
+     <text>Shutter Balancing</text>
+</string>
+<string id="gunsl_bizon_up_zatvor_balancer_descr">
+     <text>Balancing the bolt group parts reduces the barrel moving away from the aiming line when firing.</text>
+</string>
+<string id="gunsl_bizon_up_zatvor_prujina_name">
+     <text>Spring replacement</text>
+</string>
+<string id="gunsl_bizon_up_zatvor_prujina_descr">
+     <text>Allows the bolt group to return to its original position faster, due to which the rate of fire from the weapon increases slightly.</text>
+</string>
+<string id="gunsl_bizon_up_light_details_name">
+     <text>Light alloy parts</text>
+</string>
+<string id="gunsl_bizon_up_light_details_descr">
+     <text>Replacing standard parts with analogues made of light alloys significantly reduces the weight of the weapon.</text>
+</string>
+</string_table>

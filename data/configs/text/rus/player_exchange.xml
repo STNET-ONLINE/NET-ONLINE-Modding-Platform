@@ -1,0 +1,38 @@
+<string_table>
+	<string id="player_exchange_confirm">
+		<text>Подтвердить</text>
+	</string>
+	<string id="player_exchange_cancel">
+		<text>Отмена</text>
+	</string>
+	<string id="player_exchange_state_editing">
+		<text>выбор</text>
+	</string>
+	<string id="player_exchange_state_confirmed">
+		<text>готов</text>
+	</string>
+	<string id="player_exchange_status_you">
+		<text>Вы: %s</text>
+	</string>
+	<string id="player_exchange_status_partner">
+		<text>Игрок: %s</text>
+	</string>
+	<string id="player_exchange_phase_build_offer">
+		<text>Предложение</text>
+	</string>
+	<string id="player_exchange_phase_waiting_confirm">
+		<text>Ожидание</text>
+	</string>
+	<string id="player_exchange_phase_completing">
+		<text>Завершение</text>
+	</string>
+	<string id="player_exchange_caption">
+		<text>Обмен</text>
+	</string>
+	<string id="player_exchange_send_invite">
+		<text>Приглашение на обмен игроку %s отправлено.</text>
+	</string>
+	<string id="player_exchange_receive_invite">
+		<text>[ОБМЕН]\n \n%s предлагает обмен. При отказе новые приглашения обмена будут заблокированы на 2 мин.</text>
+	</string>
+</string_table>

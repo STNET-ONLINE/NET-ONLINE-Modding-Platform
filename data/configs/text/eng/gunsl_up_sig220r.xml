@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+<string id="gunsl_sig220r_up_barrel_sil_name">
+     <text>Barrel with thread for silencer</text>
+</string>
+<string id="gunsl_sig220r_up_barrel_sil_descr">
+     <text>Replacing the barrel with an elongated one, with a thread intended for installing a muffler.</text>
+</string>
+<string id="gunsl_sig220r_up_barrel_accuracy_name">
+     <text>Barrel adjustment</text>
+</string>
+<string id="gunsl_sig220r_up_barrel_accuracy_descr">
+     <text>Allows you to reduce the spread of bullets when firing a weapon, which increases the accuracy and accuracy of fire.</text>
+</string>
+<string id="gunsl_sig220r_up_barrel_speed_name">
+     <text>Barrel with modified rifling pitch</text>
+</string>
+<string id="gunsl_sig220r_up_barrel_speed_descr">
+     <text>Allows you to increase the initial speed of the bullet.</text>
+</string>
+<string id="gunsl_sig220r_up_body_reliability_name">
+     <text>Protective coating</text>
+</string>
+<string id="gunsl_sig220r_up_body_reliability_descr">
+     <text>Applying a protective coating to weapon parts increases its service life.</text>
+</string>
+<string id="gunsl_sig220r_up_polymer_buffer_name">
+     <text>Polymer buffer</text>
+</string>
+<string id="gunsl_sig220r_up_polymer_buffer_descr">
+     <text>The introduction of an additional polymer buffer into the recoil mechanism reduces the recoil felt by the shooter.</text>
+</string>
+<string id="gunsl_sig220r_up_handle_name">
+     <text>Anatomical handle</text>
+</string>
+<string id="gunsl_sig220r_up_handle_descr">
+     <text>Selecting and installing grip pads that are more suitable for a particular shooter on a weapon allows you to achieve better results when shooting.</text>
+</string>
+<string id="gunsl_sig220r_up_zatvor_zapiratel_name">
+     <text>Adjusting the locking mechanism</text>
+</string>
+<string id="gunsl_sig220r_up_zatvor_zapiratel_descr">
+     <text>By locking the bore more tightly, the obturation of the bore improves and the muzzle velocity of the bullet increases.</text>
+</string>
+<string id="gunsl_sig220r_up_usm_recoil_name">
+     <text>Soft trigger trigger</text>
+</string>
+<string id="gunsl_sig220r_up_usm_recoil_descr">
+     <text>Allows you to reduce recoil, facilitating more accurate shooting.</text>
+</string>
+<string id="gunsl_sig220r_up_flashlaser_name">
+     <text>Combined tactical module</text>
+</string>
+<string id="gunsl_sig220r_up_flashlaser_descr">
+     <text>Combines the functions of a highly targeted tactical flashlight and a laser target designator.Particularly useful at night.</text>
+</string>
+<string id="gunsl_sig220r_up_patonnik_name">
+     <text>Chamber adjustment</text>
+</string>
+<string id="gunsl_sig220r_up_patonnik_descr">
+     <text>Eliminating backlash makes it possible to improve sealing and achieve higher shooting accuracy.</text>
+</string>
+<string id="gunsl_sig220r_up_polymer_ramka_name">
+     <text>Lightweight frame</text>
+</string>
+<string id="gunsl_sig220r_up_polymer_ramka_descr">
+     <text>Replacing a standard weapon frame with a lightweight analogue allows you to gain weight in the weapon, without losing in reliability and other characteristics.</text>
+</string>
+<string id="gunsl_sig220r_up_titan_details_name">
+     <text>Heavy Duty Parts</text>
+</string>
+<string id="gunsl_sig220r_up_titan_details_descr">
+     <text>They have a higher resistance to wear, making the weapon more reliable.</text>
+</string>
+<string id="gunsl_sig220r_up_shell_ejector_name">
+     <text>Refinement of the extractor</text>
+</string>
+<string id="gunsl_sig220r_up_shell_ejector_descr">
+     <text>Allows you to reduce the number of delays associated with the sticking of cartridges ejected from the pistol after firing.</text>
+</string>
+<string id="gunsl_sig220r_up_sights_name">
+     <text>Tritium inserts</text>
+</string>
+<string id="gunsl_sig220r_up_sights_descr">
+     <text>Installing luminous inserts in sights allows you to increase the speed of aiming and the convenience of firing in the dark.</text>
+</string>
+<string id="gunsl_sig220r_up_usm_rpm_name">
+     <text>Forcing USM</text>
+</string>
+<string id="gunsl_sig220r_up_usm_rpm_descr">
+     <text>Reconfiguring the trigger and modifying some of its parts makes the trigger travel shorter and the trigger itself softer.This allows you to fire at a higher rate.</text>
+</string>
+<string id="gunsl_sig220r_up_light_details_name">
+     <text>Lightweight parts</text>
+</string>
+<string id="gunsl_sig220r_up_light_details_descr">
+     <text>Replacing parts in the main components of the weapon with their light-alloy counterparts makes it possible to reduce the weight of the weapon without significant harm to its other tactical and technical characteristics.</text>
+</string>
+</string_table>

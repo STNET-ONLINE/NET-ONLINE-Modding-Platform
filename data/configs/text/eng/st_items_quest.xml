@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="jup_a9_conservation_info">
+		<text>Papers with notes</text>
+	</string>
+	<string id="jup_a9_conservation_info_desc">
+		<text>The papers say that, according to the order of the head of the First Department, the Pripyat-1 overpass, after sealing the transport gateway, was filled with carbon dioxide with a certain admixture.The personnel were required to use chemical protective suits with a closed breathing system.</text>
+	</string>
+	<string id="jup_a9_delivery_info">
+		<text>Letter of delivery of «item No. 62»</text>
+	</string>
+	<string id="jup_a9_delivery_info_desc">
+		<text>«Due to anomalous phenomena, transportation of product No. 62 in open areas is impossible.Under these conditions, it is necessary to use the Pripyat-1 underground overpass.The scheme for the delivery and subsequent conservation of the overpass has been sent to the First Department.»</text>
+	</string>
+	<string id="jup_a9_evacuation_info">
+		<text>Folder with an order</text>
+	</string>
+	<string id="jup_a9_evacuation_info_desc">
+		<text>The documents talk about the evacuation of the production complex from the territory of the Jupiter plant to underground laboratories.The discussion of this issue was to take place in the laboratory building.</text>
+	</string>
+	<string id="jup_a9_losses_info">
+		<text>Delivery schedule</text>
+	</string>
+	<string id="jup_a9_losses_info_desc">
+		<text>«Delivery schedule for «product No. 62»: July 14 - 20 (twenty) units, 1 (one) damaged;21.07 - 32 (thirty-two) units, 2 (two) damaged;28.07 - 26 (twenty-six) units, 1 (one) damaged.A report on the percentage of losses during transportation was sent to the plant administration.A copy has been sent to the repair shop.»</text>
+	</string>
+	<string id="jup_a9_meeting_info">
+		<text>Notebook sheet</text>
+	</string>
+	<string id="jup_a9_meeting_info_desc">
+		<text>Result of the meeting: all departments should focus on the evacuation of the production complex of product No. 62.</text>
+	</string>
+	<string id="jup_a9_power_info">
+		<text>Duty shift log</text>
+	</string>
+	<string id="jup_a9_power_info_desc">
+		<text>«18:30 - Sealing of all sections of «P-1» has been completed.19:00 - Sealing of the railway lock doors has been completed.19:45 - The transport gate doors are closed.To bring the lock door mechanism into operation, it was necessary to turn on the auxiliary generator due to the planned loss of power to the overpass.20:00 - Chem.The workshop began pumping gas into the overpass.22:00 - Preservation work on the overpass has been completed.All documentation has been sent to the First Department."</text>
+	</string>
+	<string id="jup_a9_way_info">
+		<text>Overpass diagram</text>
+	</string>
+	<string id="jup_a9_way_info_desc">
+		<text>Scheme of the Pripyat-1 overpass.The diagram shows that it passes under the city of Pripyat.There are two marks on the diagram: «1.Seal the doors of the transport gateway" and "2.Use gas from the chemical workshop.connections for preservation of the overpass.»</text>
+	</string>
+	<string id="jup_b1_half_artifact">
+		<text>Modified insulator</text>
+	</string>
+	<string id="jup_b1_half_artifact_descr">
+		<text>This item was once an electrical insulator.Now it has almost turned into an artifact characterized by unstable properties.Most likely, it was he who was the source of variable psi radiation.</text>
+	</string>
+	<string id="jup_b200_tech_materials_acetone">
+		<text>Can of rosin</text>
+	</string>
+	<string id="jup_b200_tech_materials_acetone_descr">
+		<text>A can of rosin used for soldering.A rare thing in the Zone: as a rule, fragments of broken objects are connected here using electrical tape.</text>
+	</string>
+	<string id="jup_b200_tech_materials_capacitor">
+		<text>Capacitor packaging</text>
+	</string>
+	<string id="jup_b200_tech_materials_capacitor_descr">
+		<text>A package of capacitors, which themselves are not that rare in the Zone.But the capacity declared on these parts is so high that it is difficult to imagine their purpose.</text>
+	</string>
+	<string id="jup_b200_tech_materials_textolite">
+		<text>Textolite base</text>
+	</string>
+	<string id="jup_b200_tech_materials_textolite_descr">
+		<text>Textolite is the basis of a printed circuit board.What an amateur radio technician experiences when he sees an untouched textolite slab is comparable only to the sensations of a writer looking at a blank sheet of paper.</text>
+	</string>
+	<string id="jup_b200_tech_materials_transistor">
+		<text>Transistor box</text>
+	</string>
+	<string id="jup_b200_tech_materials_transistor_descr">
+		<text>A box of high-quality transistors - semiconductor parts capable of generating, converting and amplifying electrical vibrations.The ultimate dream of a radio engineer, if such a one is miraculously brought into the Zone.</text>
+	</string>
+	<string id="jup_b200_tech_materials_wire">
+		<text>Roll of copper wire</text>
+	</string>
+	<string id="jup_b200_tech_materials_wire_descr">
+		<text>Copper is an excellent conductor - and, in combination, a valuable non-ferrous metal.In view of this fact, such wire is very rare: all available copper reserves in the Zone were found and recycled back in the mid-1990s.</text>
+	</string>
+	<string id="jup_b209_monster_scanner">
+		<text>Mutant presence scanner</text>
+	</string>
+	<string id="jup_b209_monster_scanner_descr">
+		<text>A complex of an anomalous activity scanner, a mutant presence sensor (limited range) and a recording unit.The device is equipped with an automatic switch that trips after a certain amount of data has been accumulated.</text>
+	</string>
+	<string id="jup_b47_jupiter_products_info">
+		<text>Administrative documents</text>
+	</string>
+	<string id="jup_b47_jupiter_products_info_descr">
+		<text>A folder with documents containing purely administrative information.According to the latter, in connection with an order from the central laboratory, technical documentation for a certain «product No. 62» was transferred to the testing workshop.</text>
+	</string>
+	<string id="jup_b47_merc_pda">
+		<text>Black PDA</text>
+	</string>
+	<string id="jup_b47_merc_pda_desc">
+		<text>Among the few messages, one attracts special attention due to the sender's nickname - Jackal.«My person at the research institute will recommend you to the head of the expedition.Tom will have to take your guys to guard the bunker, this will make the task a lot easier.Remember: the customer wants no information about the operation of objects with the index «X» to fall into the hands of scientists.If anything leaks out, we are not residents outside the Zone.Don't let me down, Black."</text>
+	</string>
+	<string id="jup_b9_blackbox">
+		<text>"Black box"</text>
+	</string>
+	<string id="jup_b9_blackbox_descr">
+		<text>The «black box» that survived the crash of the Skat-1 helicopter.It should contain encrypted information about the last minutes of the flight.</text>
+	</string>
+	<string id="pri_a25_explosive_charge_descr">
+		<text>Military standard plastic explosives.Equipped with a five-second delay timer.</text>
+	</string>
+	<string id="pri_a25_explosive_name">
+		<text>Explosives with a timer</text>
+	</string>
+	<string id="st_af_quest_b14_twisted">
+		<text>Changed steering wheel</text>
+	</string>
+	<string id="st_device_flash_snag">
+		<text>PDA Snags</text>
+	</string>
+	<string id="st_device_flash_snag_descr">
+		<text>The PDA has a map marked near the stop - an obvious hiding place - plus a couple of erotic photographs of rather low quality.</text>
+	</string>
+	<string id="st_device_pda_port_bandit_leader">
+		<text>Bandit PDA</text>
+	</string>
+	<string id="st_device_pda_port_bandit_leader_descr">
+		<text>The last message on the PDA: «Take this Snag and ram it here, I have a specific market for him.Get it for me anywhere.If he struggles, break him off.All.Sultan."</text>
+	</string>
+	<string id="st_device_pda_zat_b5_dealer_desc">
+		<text>This PDA stores data on Morgan's clients, as well as the coordinates of the secret "Debt" warehouse, where Morgan took the weapons from.The weapons went to the mercenaries;in addition, there is information about contacts with a certain Sultan.To cover his tracks, Morgan decided to transfer the location of the cache to Liberty.The mission was to be carried out by his accomplice, a mercenary nicknamed Grif.In addition, the PDA mentions a sensor that should notify «Duty» if the cache is opened, and which only Morgan himself can turn off.This data will certainly be of interest to both «Duty» and «Freedom».</text>
+	</string>
+	<string id="st_device_pda_zat_b5_dealer_name">
+		<text>Morgan's PDA</text>
+	</string>
+	<string id="st_jup_b10_notes_01_desc">
+		<text>A note on the back of an old document: «Ghost, I'm taking my things.Special thanks for the machine gun - without it I would be without hands.In exchange, I leave a set of medications from the Doctor.I managed to lure a mercenary who was hot on my trail into a trap, so I won't need them... hopefully.Now I'm heading to a meeting with Fang: he managed to assemble a decoder.If you have time, we'll meet at the usual place.Shooter."</text>
+	</string>
+	<string id="st_jup_b10_notes_01_name">
+		<text>Note to the Ghost</text>
+	</string>
+	<string id="st_jup_b10_notes_02_desc">
+		<text>A note on a squared sheet of paper: «Shooter, I left the second decoder in our hiding place in Pripyat for any fireman.Now we're going with the Ghost to Agroprom, we'll throw the extra equipment here.If anything, take it all.No fluff!Fang."</text>
+	</string>
+	<string id="st_jup_b10_notes_02_name">
+		<text>Note to Strelok</text>
+	</string>
+	<string id="st_jup_b10_notes_03_desc">
+		<text>A note on the back of an old document: «Fang, I can't wait for you anymore - I have a whole pack on my tail.I'm going to the Sarcophagus myself.I'm leaving my lucky gun: there's absolutely no way to find cartridges for it.If I don't come back, give it to the Ghost and tell him to take care of it, it's a smart machine.Be!Shooter."</text>
+	</string>
+	<string id="st_jup_b10_notes_03_name">
+		<text>Note to Fang</text>
+	</string>
+	<string id="st_jup_b10_ufo_memory_2_desc">
+		<text>Memory module removed from an unmanned reconnaissance vehicle.Novikov unlocked the module, opening access to the information that was collected by the reconnaissance officer: among other things, it contained bearings to three radio beacons.</text>
+	</string>
+	<string id="st_jup_b10_ufo_memory_2_name">
+		<text>Memory module (unlocked)</text>
+	</string>
+	<string id="st_jup_b10_ufo_memory_desc">
+		<text>Memory module extracted from an unmanned reconnaissance vehicle.Despite the crash of the media, the memory module is functional - but, unfortunately, blocked.</text>
+	</string>
+	<string id="st_jup_b10_ufo_memory_name">
+		<text>Memory module (locked)</text>
+	</string>
+	<string id="st_jup_b205_sokolov_note_desc">
+		<text>An old piece of paper with a schedule of posts;Four numbers are visible on the bottom: «1421».On top of the old notes it is written in marker: «Lieutenant Sokolov V.I.Due to the helicopter crash, he proceeded to evacuation point B205.The evacuation did not take place within two days; further stay at the point is associated with an unjustified risk.I decided to leave the point and proceed to the mobile laboratory of the scientific expedition.The laboratory is located northeast of the evacuation point."</text>
+	</string>
+	<string id="st_jup_b205_sokolov_note_name">
+		<text>Note from Sokolov</text>
+	</string>
+	<string id="st_jup_b206_plant_desc">
+		<text>A plant that was part of an abnormally altered grove.The trees reacted quite aggressively to the invasion, but the plant itself has not yet shown any dangerous properties.</text>
+	</string>
+	<string id="st_jup_b206_plant_name">
+		<text>Abnormal plant</text>
+	</string>
+	<string id="st_jup_b207_merc_pda_with_contract_desc">
+		<text>The last received message in the PDA is a message from Morgan.Essentially, this is an order to kill a stalker named Degtyarev.Several photos are attached to the message.At the end of the message, Morgan demands that all this information be erased.</text>
+	</string>
+	<string id="st_jup_b207_merc_pda_with_contract_name">
+		<text>Mercenary PDA</text>
+	</string>
+	<string id="st_jup_b32_scanner_device_desc">
+		<text>The device body combines an artifact detector, a battery and a powerful transmitter.This thing is supposed to scan anomalies, determining the number and type of artifacts that appear in them.All information received should be automatically sent to the scientists' bunker.</text>
+	</string>
+	<string id="st_jup_b32_scanner_device_name">
+		<text>Anomalous Activity Scanner</text>
+	</string>
+	<string id="st_jup_b46_duty_founder_pda_desc">
+		<text>The last recording on the PDA is audio:\n«...wherever you go, every time you return to the same place.This damn fog... it's impossible to get used to... Chepurnoy disappeared, and that was it.Strange.Maybe he found a way out?..\nThe sixth day, all the water came out... And the colonel went crazy: he shot two people and shot himself in the forehead... I am now alone.Alone inside this damn anomaly... And I was tempted to arrange a break in communication with headquarters!You could take it, eh?A pension, a dacha, fishing - and there would be no «Debt»... But really, I wonder how everything would have turned out!.. Just to hell with it.Captain Tachenko has been dead for a long time... And General «Dolga» Tachenko will now leave, soon... to the upper tundra, motherfucker... to places rich in game... such is justice.»\nThen the sound of a shot is heard, the recording ends.</text>
+	</string>
+	<string id="st_jup_b46_duty_founder_pda_name">
+		<text>General Tachenko's PDA</text>
+	</string>
+	<string id="st_lx8_service_instruction_descr">
+		<text>The instructions describe how to use «product No. 62».It is especially emphasized that when aiming, one should not observe lead adjusted for wind, since these factors can be neglected at the range of aimed fire.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_lx8_service_instruction_name">
+		<text>Instructions for «product No. 62»</text>
+	</string>
+	<string id="st_pri_a19_american_experiment_info_descr">
+		<text>The notebook contains a detailed description of an experiment on the directed influence of a psi-field on an object located in the other hemisphere of the Earth.A group of scientists on a ship in the Caribbean Sea received a signal, but with distortions.The modulations were inexplicably distorted, as if «tweaked» by someone.One of the working versions is based on the assumption that the theory of the noosphere is correct, which allegedly introduced these distortions.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_pri_a19_american_experiment_info_name">
+		<text>Notebook with a record of the experiment</text>
+	</string>
+	<string id="st_pri_a19_lab_x10_info_descr">
+		<text>The documents indicate the technical characteristics of the antenna and their difference from the predicted ones.There is a mark on the reverse side - it indicates that this documentation was prepared in the X10 laboratory.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_pri_a19_lab_x10_info_name">
+		<text>Raduga emitter - basic performance characteristics</text>
+	</string>
+	<string id="st_pri_a19_lab_x16_info_descr">
+		<text>The documents talk about one of the by-products of the research - the discovery of the ability of living beings to generate directional psi-radiation.In the process of research in the X16 laboratory, a biological field emitter was grown, de facto - a giant brain.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_pri_a19_lab_x16_info_name">
+		<text>Research Documents</text>
+	</string>
+	<string id="st_pri_a19_lab_x18_info_descr">
+		<text>The report talks about the study of biological samples sent from the X18 laboratory.The samples were exposed to an information field of varying degrees of intensity.The report describes in detail the mutations of living organisms caused by such irradiation.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_pri_a19_lab_x18_info_name">
+		<text>Sample Research Report</text>
+	</string>
+	<string id="st_pri_a19_lab_x7_info_descr">
+		<text>The document talks about the transfer of the research group and the transfer of all materials to the laboratory with the X7 index, which will study the problems of the influence of the noosphere.Composition of the research group: Lebedev N.A., Kalancha E.F., Suslov V.I.\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_pri_a19_lab_x7_info_name">
+		<text>Transfer order</text>
+	</string>
+	<string id="st_pri_b306_envoy_pda_desc">
+		<text>The last entry on the PDA reads: «Found an emergency generator on the sixth - technical - floor.Took me two hours to get it into more or less working condition.It would be worth trying to launch it, but Serbin forbade us to do anything until he brought people in.»</text>
+	</string>
+	<string id="st_pri_b306_envoy_pda_name">
+		<text>Barchuk's PDA</text>
+	</string>
+	<string id="st_pri_b35_lab_x8_key_desc">
+		<text>Red magnetic key card.On one of the planes the inscription «X8» is visible.</text>
+	</string>
+	<string id="st_pri_b35_lab_x8_key_name">
+		<text>Red key card - "X8"</text>
+	</string>
+	<string id="st_pri_b36_monolith_hiding_place_pda_desc">
+		<text>There are many entries in the CCP that have no obvious meaning, but one still attracts attention: «The Monolith turned to those listening to him and ordered that excess equipment be collected and placed in places hidden from infidels, and the places should be marked with his sign.Difficult times will come and those who hear the great Monolith will take advantage of its wisdom... I conveyed the will of the Monolith to my brothers, and indicated where to place supplies...»</text>
+	</string>
+	<string id="st_pri_b36_monolith_hiding_place_pda_name">
+		<text>Monolith fighter's PDA</text>
+	</string>
+	<string id="st_toolkit_1_desc">
+		<text>Set of tools «Young Technician».It is unlikely to be suitable for work that requires subtlety, but in conditions of a total shortage of tools in the Zone it can be useful for a thrifty technician.</text>
+	</string>
+	<string id="st_toolkit_1_name">
+		<text>Tools for rough work</text>
+	</string>
+	<string id="st_toolkit_2_desc">
+		<text>Not a bad set of tools.Apparently, it was carefully selected by an experienced craftsman «to suit himself, my dear one.»Despite the years, all the instruments are well preserved.</text>
+	</string>
+	<string id="st_toolkit_2_name">
+		<text>Tools for fine work</text>
+	</string>
+	<string id="st_toolkit_3_desc">
+		<text>A professional set of tools for fine-tuning equipment;The inscription on the box says that it was made in the GDR.What is included in the kit is enough to carry out almost any setup and calibration work.</text>
+	</string>
+	<string id="st_toolkit_3_name">
+		<text>Calibration Tools</text>
+	</string>
+	<string id="st_zat_a23_access_card">
+		<text>Old magnetic key card</text>
+	</string>
+	<string id="st_zat_a23_access_card_descr">
+		<text>Magnetic key card belonging to Cardan.Used for admission to the workshop where «product No. 62» was tested.</text>
+	</string>
+	<string id="st_zat_a23_gauss_rifle_docs">
+		<text>Documentation for «product No. 62»</text>
+	</string>
+	<string id="st_zat_a23_gauss_rifle_docs_descr">
+		<text>Documentation that describes the operating principle and main performance characteristics of the electromagnetic installation.\nThe documents include a note: «The documentation must be returned to the central laboratory (X8).I'll be busy, you can deliver it yourself.In the Yubileiny KBO, use a magnetic card - you'll take the elevator down to the minus second floor, and then you'll figure it out on your own.I am enclosing the access card.\nN.Lebedev"\nThese documents should not fall into the wrong hands: they will clearly be of interest to SBU analysts.</text>
+	</string>
+	<string id="st_zat_a23_labx8_key_name">
+		<text>Yellow key card - «X8»</text>
+	</string>
+	<string id="st_zat_b12_documents_1">
+		<text>Order No. 562</text>
+	</string>
+	<string id="st_zat_b12_documents_2">
+		<text>Internal order No. 423</text>
+	</string>
+	<string id="st_zat_b12_key_1">
+		<text>Key "A"</text>
+	</string>
+	<string id="st_zat_b12_key_1_descr">
+		<text>A normal looking key, marked with the letter «A».</text>
+	</string>
+	<string id="st_zat_b12_key_2">
+		<text>Key "B"</text>
+	</string>
+	<string id="st_zat_b12_key_2_descr">
+		<text>A normal looking key, marked with the letter «B».</text>
+	</string>
+	<string id="st_zat_b20_noah_pda_desc">
+		<text>The voice in one of the audio recordings sounds especially excited: «Aha, here you are, Fuev mutants!.. So you climbed to the top, and you think Noah won't get to you?.. Hehe!I see you don't know that I have a personal move near the northern farm... Well, that's it, screw you, bastards!»</text>
+	</string>
+	<string id="st_zat_b20_noah_pda_name">
+		<text>Noah's PDA</text>
+	</string>
+	<string id="st_zat_b40_notebook_desc">
+		<text>Among the many spam messages in the laptop inbox, there is a single message marked as important:\n«Set up a camp at the waste treatment station - everyone who is involved in the case will come to you.Don't expect anything black: he will be with people on Jupiter, he has his own task.The military has slowed down flights in the Zone, so there won't be any trouble from them.When the stalkers find their way to Pripyat, we will send a guide and wait for the customer's people there - they will show where the laboratory is.\nJackal"</text>
+	</string>
+	<string id="st_zat_b40_notebook_name">
+		<text>Mercenaries laptop</text>
+	</string>
+	<string id="st_zat_b40_pda_1_desc">
+		<text>Last incoming message:\n«We are still hanging around some old workshops.I sent two ahead to scout the way to you.Until the courier from the customer shows up, we will wait here: the air is clearly fresher here.\nTesak"</text>
+	</string>
+	<string id="st_zat_b40_pda_1_name">
+		<text>Mercenary Hook's PDA</text>
+	</string>
+	<string id="st_zat_b40_pda_2_name">
+		<text>Ridge Mercenary PDA</text>
+	</string>
+	<string id="st_zat_b57_gas_desc">
+		<text>A cylinder containing a dangerous chemical nerve agent.</text>
+	</string>
+	<string id="st_zat_b57_gas_name">
+		<text>Gas cylinder "Perin-V3"</text>
+	</string>
+	<string id="zat_b33_safe_container_desc">
+		<text>The box is locked, with a very clever lock built into it.Judging by the weight and noise when shaken, there is something inside.</text>
+	</string>
+	<string id="zat_b33_safe_container_name">
+		<text>steel box</text>
+	</string>
+	<string id="zat_b39_joker_pda_description">
+		<text>Entry in the PDA: «Now I'm sure that the artifact is not below!It should be on the tree itself!It looks like you can climb it from a hill.Now the main thing is that there are no monsters there.Eh, it's a pity, after a quarrel with Cardan and Barzha I had to come here alone... But as soon as I bring the artifact, they will know who they should have listened to!»</text>
+	</string>
+	<string id="zat_b39_joker_pda_name">
+		<text>Joker PDA</text>
+	</string>
+	<string id="zat_b44_barge_pda_desc">
+		<text>In the last entry on the PDA one feels resentment: «Kardan is an old drunk!As it swells, he can't lift his butt off the chair - well, yes, of course: «We need to take a better look around here»... idiot!He also ran into me and the Joker - we are, like, too young, we don't beat a damn thing... h-he!.. And the Joker is also good: he was offended, grabbed his backpack and - whoops!- with ends.While I was calming Cardan down, I left in an unknown direction.What am I supposed to do now, drink with an old idiot?And this vodka is crap, poof... And it all started so great!»</text>
+	</string>
+	<string id="zat_b44_barge_pda_name">
+		<text>PDA Barges</text>
+	</string>
+	<string id="zat_b22_medic_pda_desc">
+		<text>Entry #12.The research will soon end... People in the camp are already beginning to suspect something.The capercaillie agreed with Danila to go after the bloodsuckers... I wonder when they will figure it out?.. We need to sort the jars of blood: find out which of them are infected, and hide the rest... Someone is coming!..
+Entry #13...possibly the last one.Everything is wrong!First this curious idiot hunter, and now Capercaillie.It's naive to expect that I can get away with anything.They'll come for me.However... what, in essence, is the difference?Hemoglobin addiction will soon eat me.It's better to let them shoot you - it's better than dying from illness...</text>
+	</string>
+	<string id="zat_b22_medic_pda">
+		<text>PDA Tremora</text>
+	</string>
+	<string id="st_zat_b12_documents_1_descr">
+		<text>Top secret.Order No. 562 beginning.defense headquarters of facility No. 1 R. Yu. Didenko.\nChemical defense unit No. 423 to change its deployment from sector B103 to sector A19 to conduct field tests of chemicals.mixtures "Perin-V3" in conditions especially close to combat.Rep.for prov.tests: com.others/c P.P.Slavin.Rep.for transportation and safety - deputy.com.otherp/p K.S.Valov.</text>
+	</string>
+	<string id="st_zat_b12_documents_2_descr">
+		<text>Top secret.Order of Colonel P.P.Slavin.\nIn accordance with this order, familiarize the personnel of chemical defense unit No. 423 with the following information:\n1.Keys to the container with chemicals.mixture "Perin-B3" are available: s.c. P.P.Slavin (key A), p/p K.S.Valov (key B).\n2.The order of building a column, starting from the head of the column: deputy machine.com.etc., resistance machineNo. 8, armored personnel carrier No. 1, transport.vehicle No. 1, armored personnel carrier No. 3, support vehicle.No. 2, machine com.otherP.P.Slavina.\nCopies of the order are to be handed over to P/C K.S.Valov and st/l R.B.Nazarenko.</text>
+	</string>
+	<string id="st_zat_a23_labx8_key_descr">
+		<text>A yellow magnetic key card with the inscription «X8» printed on one of the surfaces.\nIt should not fall into the wrong hands, as it allows you to get into a secret laboratory.</text>
+	</string>
+	<string id="st_jup_b202_bandit_pda">
+		<text>PDA of the Sultan's envoy</text>
+	</string>
+	<string id="st_jup_b202_bandit_pda_descr">
+		<text>The last message sent from the PDA was an audio message: «Sultan, I caught this rotten fraer!He got the best of me!Now for a long time, the bitch will remember how to sell bullshit to the boys!»</text>
+	</string>
+	<string id="st_af_quest_b14_twisted_descr">
+		<text>It was once the steering wheel of a dredger, but now before my eyes is an approximately half-formed artifact.Moreover, the artifact is quite unusual: it glows intensely, emits weakly - and that's all.</text>
+	</string>
+	<string id="st_zat_b40_pda_2_desc">
+		<text>Incoming message:\n«I managed to agree on weapons: this greedy guy will sell us the supplies of his group.In general, it won't cost much, but you'll have to drag yourself to Jupiter.\nGrif.»</text>
+	</string>
+</string_table>

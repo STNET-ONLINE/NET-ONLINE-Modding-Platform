@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<string_table>
+	<string id="gunsl_up_prop_laser">
+		<text>Laser pointer</text>
+	</string>
+	<string id="gunsl_up_prop_lightingsights">
+		<text>Tritium inserts</text>
+	</string>
+	<string id="gunsl_up_prop_torch">
+		<text>Tactical flashlight</text>
+	</string>
+	
+	<string id="gunsl_up_prop_rail">
+		<text>Rail fastening</text>
+	</string>	
+	<string id="gunsl_up_prop_short_stock">
+		<text>Short stock</text>
+	</string>
+	
+	<string id="gunsl_up_prop_short_barrel">
+		<text>Shortened barrel</text>
+	</string>	
+	
+	<string id="gunsl_up_prop_tactical_handle">
+		<text>Tactical grip</text>
+	</string>
+	<string id="gunsl_up_prop_headlamp">
+		<text>Headlamp</text>
+	</string>	
+
+	<string id="gunsl_up_prop_bayonet">
+		<text>Bayonet</text>
+	</string>	
+	<string id="gunsl_up_prop_no_silencer">
+		<text>Muffler ban</text>
+	</string>	
+	<string id="gunsl_up_prop_destruction">
+		<text>Slaughter rate</text>
+	</string>		
+	<string id="gunsl_up_prop_new_ammo">
+		<text>New type of cartridges</text>
+	</string>		
+	<string id="gunsl_up_prop_computer">
+		<text>On-board computer</text>
+	</string>		
+	<string id="gunsl_up_prop_autoshot">
+		<text>Electronic fuse</text>
+	</string>		
+	<string id="gunsl_up_prop_autoaim">
+		<text>Self-timer</text>
+	</string>	
+	<string id="gunsl_up_prop_zoomspeed">
+		<text>High speed zoom</text>
+	</string>
+	<string id="gunsl_up_magneticshield">
+		<text>Shielding</text>
+	</string>				
+	
+</string_table>
