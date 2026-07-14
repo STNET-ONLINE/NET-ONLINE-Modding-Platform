@@ -1,0 +1,23 @@
+[logic] 
+active = sr_idle@wait
+
+[sr_idle@wait]
+on_actor_inside = sr_timer@run_to_1 %=send_tip(START_SR_TIMER) =send_tip(GO)%
+
+[sr_timer@run_to_1] 
+type = dec
+start_value = 15000
+on_info = {=actor_in_zone(test_sr_timer_2)} sr_timer@run_to_2 %=send_tip(GO_TO_POINT_2)%
+on_value = 0 | %=send_tip(YOU_FAIL)% sr_idle@wait
+
+[sr_timer@run_to_2] 
+type = dec
+start_value = 20000
+on_info = {=actor_in_zone(test_sr_timer_1)} sr_timer@run_to_1 %=send_tip(GO_TO_POINT_1)%
+on_value = 0 | %=send_tip(YOU_FAIL)% sr_idle@wait
+
+
+
+;Описания полей: type - тип счетчика, инкриментирующий(inc) или декриментирующий(dec). Если поле не задано - счетчик будет инкриментирующий start_value - начальное значение счетчика в РЕАЛЬНЫХ милисекундах. Для декриментирующих счетчиков задавать обязательно. Для инкриментирующих, если не задано, то считается с 0.
+;Переходы из секции sr_timer могут быть как по обычным условиям (on_timer, on_info) так и по специфическому условию on_value. В общем случае on_value Можно использовать для производства каких либо действий в зависимости от состояния счетчика. Например:
+;on_value = 5000| %+info1% | 1000| %+info2% 

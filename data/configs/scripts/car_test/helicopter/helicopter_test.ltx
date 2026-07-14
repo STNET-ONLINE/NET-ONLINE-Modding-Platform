@@ -1,0 +1,157 @@
+; [logic]
+; active = heli_move@idle
+
+; [heli_move@idle]
+; path_move = test_helicopter_idle_walk
+; path_look = test_helicopter_idle_look
+; max_velocity = 100
+; engine_sound = false
+; combat_ignore_cond = true 
+; combat_ignore_keep_when_attacked = true 
+; on_info = {=OnServer() =actor_has_info(heli_start_car_test)} heli_move@start %=send_tip(VERTIBED_START_MOVE)%
+
+; [heli_move@start]
+; path_move = test_helicopter_move_1_walk
+; path_look = test_helicopter_move_1_look
+; engine_sound = true
+; invulnerable = false
+; immortal = false
+; mute = false
+; max_velocity = 80
+; min_mgun_attack_dist = 8
+; max_mgun_attack_dist = 200
+; min_rocket_attack_dist = 25
+; combat_ignore_cond = false 
+; combat_ignore_keep_when_attacked = false 
+; fire_point = test_helicopter_shoot
+; on_game_timer = 500 | heli_move@end %=send_tip(VERTIBERD_END)%
+
+; [heli_move@end]
+; path_move = test_helicopter_idle_walk
+; path_look = test_helicopter_idle_look
+; engine_sound = false
+; invulnerable = false
+; immortal = false
+; mute = false
+; max_velocity = 100
+; min_mgun_attack_dist = 8
+; max_mgun_attack_dist = 200
+; min_rocket_attack_dist = 25
+; combat_ignore_cond = false 
+; combat_ignore_keep_when_attacked = false
+
+; [logic]
+; active = heli_combat@idle
+
+; [heli_combat@idle]
+; combat_ignore = false
+; combat_enemy = nil
+; combat_use_rocket = true 
+; combat_use_mgun = true 
+; combat_velocity = 100
+; combat_safe_altitude = 85
+; on_info = {=OnServer() =actor_has_info(heli_start_car_test)} heli_combat@start %=send_tip(HELICOPTER_START_ATTACKED)%
+
+; [heli_combat@start]
+; combat_ignore = false
+; ;combat_enemy = gigant_kill_test_helicopter_combat
+; combat_enemy = actor
+; combat_use_rocket = true 
+; combar_use_mgun = true 
+; combat_velocity = 100
+; combat_safe_altitude = 85
+
+
+
+
+
+
+[logic]
+active = heli_move@idle
+
+[heli_move@idle]
+path_move = test_helicopter_idle_walk
+path_look = test_helicopter_idle_look
+
+max_velocity = 50
+combat_ignore_cond = false
+combat_ignore_keep_when_attacked = false
+
+combat_use_rocket = true
+combat_use_mgun = true
+
+engine_sound = true
+mute = false
+engine_sound = true
+on_info = {=actor_in_zone(ixray_test_space_restrictor)} heli_move@attack
+
+allow_hit_enemy = true   ;Включение боевого режима при атаке противника 
+forget_on_reset = true	 ;Забывать ли противника при смене схемы
+forget_on_reload = true  ;Забывать ли противника при установке схемы
+
+[heli_move@attack]
+path_move = test_helicopter_move_1_walk
+path_look = test_helicopter_move_1_look
+engine_sound = true
+combat_use_rocket = false
+combat_use_mgun = true
+mute = false
+combat_velocity = 30
+max_velocity = 50
+combat_safe_alitude = 0
+on_info = %=send_tip(SCHEME_2)%
+on_info2 = {+helicopter_test} heli_move@idle %-helicopter_test%
+
+forget_hit_enemy = true  ;Разрешить забывать атакующего противника
+allow_hit_enemy = true   ;Включение боевого режима при атаке противника 
+forget_on_reset = true	 ;Забывать ли противника при смене схемы
+forget_on_reload = true  ;Забывать ли противника при установке схемы
+
+[heli_move@back]
+path_move = helicopter_idle_walk
+path_look = helicopter_idle_look
+max_velocity = 50
+mute = false
+combat_ignore_cond = false
+combat_ignore_keep_when_attacked = false
+engine_sound = true
+
+
+
+
+
+
+
+; ;ГОВНО СОБАК ВКУСНОЕ
+; [logic]
+; active = heli_combat@idle
+
+; [heli_combat@idle]
+; path_move = test_helicopter_move_1_walk
+; path_look = test_helicopter_move_1_look
+; combat_ignore = false
+; combat_enemy = actor
+; combat_use_rocket = true 
+; combat_use_mgun = true 
+; combat_velocity = 100
+; combat_safe_altitude = 0
+; max_velocity = 80
+; min_mgun_attack_dist = 8
+; max_mgun_attack_dist = 200
+; min_rocket_attack_dist = 25
+
+; on_hit = hit@test_hit
+
+; [hit@test_hit]
+; on_info = %=send_tip(HELICOPTER_IDI_NAXYI)%
+
+; ; ; on_info = {=OnServer() =actor_has_info(heli_start_car_test)} heli_move@start %=send_tip(HELICOPTER_START_ATTACKED)%
+
+; ; ; [heli_move@start]
+; ; ; combat_ignore = false
+; ; ; ;combat_enemy = gigant_kill_test_helicopter_combat
+; ; ; combat_enemy = nil
+; ; ; combat_use_rocket = true 
+; ; ; combar_use_mgun = true 
+; ; ; combat_velocity = 100
+; ; ; combat_safe_altitude = 85

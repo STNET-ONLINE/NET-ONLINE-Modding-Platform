@@ -1,0 +1,111 @@
+<w>
+    <main_wnd x="0" y="0" width="1024" height="768" update_delay="2900"/>
+
+	    <interface_chat ratio="1" x="551" y="687" width="676" height="34" max_symb_count="127">
+	        <text width="465" font="letterica18" complex_mode="1" vert_align="c" r="255" g="255" b="255"></text>
+			<text_color>
+				<e r="255" g="255" b="255"/>
+				<h r="255" g="255" b="255"/>
+				<t r="255" g="183" b="111"/>
+			</text_color>
+	    </interface_chat>
+		
+	    <interface_chat_nickname x="-5200" y="404" width="224" height="64" max_symb_count="127">
+	        <text x="18" width="206" font="letterica18" complex_mode="1" vert_align="c" r="255" g="255" b="255"></text>
+	        <texture>interface_main_edit</texture>
+			<text_color>
+				<e r="255" g="255" b="255"/>
+				<h r="255" g="255" b="255"/>
+				<t r="255" g="183" b="111"/>
+			</text_color>
+	    </interface_chat_nickname>
+		
+		
+	    <interface_chat_push ratio="1" x="526" y="760" width="726" height="80" stretch="1" align="c" check_mode="0">
+			<text font="letterica16" r="200" g="200" b="200" complex_mode="1" align="c">st_interface_chat_push</text>
+			<text_color>
+				<e r="255" g="255" b="255"/>
+				<h r="255" g="255" b="255"/>
+				<t r="255" g="183" b="111"/>
+			</text_color>
+			<texture>PDAButton</texture>
+			<sound_t>interface\play_sound_click_in</sound_t>
+			<sound_h>interface\squad_panel_slide</sound_h>
+	    </interface_chat_push>
+
+	<background ratio="1" anchor="180;-1;0;0" width="1252" height="840" stretch="1">
+	</background>
+
+	<pda ratio="1" anchor="180;-1;0;0" width="1252" height="840">
+		<!-- LOGS -->
+		<auto_frame ratio="1" x="526" y="0" width="726" height="647" stretch="1">
+			<texture>PDASecondaryBackground</texture>
+		</auto_frame>
+		<!-- CHAT INPUT -->
+		<auto_frame ratio="1" x="526" y="657" width="726" height="93" stretch="1">
+			<texture>PDASecondaryBackground</texture>
+		</auto_frame>
+		<!-- LIST CONTACT -->
+		<auto_frame ratio="1" x="0" y="0" width="516" height="840" stretch="1">
+			<texture>PDAPrimaryBackground</texture>
+		</auto_frame>
+	</pda>
+
+	<center_background x="0" y="0" width="1024" height="768" stretch="1">
+	</center_background>
+
+    <center_caption x="181" y="146" width="196" height="19">
+		<text  x="11" align="l" vert_align="c" font="letterica16" color="white" complex_mode="1"/>
+	</center_caption>
+
+	<logs_list ratio="1" anchor="25;-1;-1;0" width="676" height="597" item_height="1000" scroll_profile="default" always_show_scroll="0">
+		<font font="letterica18" color="ui_4"/>
+	</logs_list>
+
+	<logs_item ratio="1" x="0" y="0" width="342" height="500">
+		<date_static x="75" y="16" width="91" height="12">
+			<text align="l" font="letterica16" color="ui_3"/>
+		</date_static>
+		<source_static ratio="1" x="173" y="14" width="261" height="19">
+			<text font="letterica16" color="ui_1"/>
+		</source_static>
+		<caption_static x="171" y="16" width="83" height="12">
+			<text align="l" font="letterica16" color="ui_1"/>
+		</caption_static>
+		<text_static x="75" y="37" width="179" height="14" complex_mode="1">
+			<text align="l" font="letterica16" color="ui_4"/>
+		</text_static>
+		<image x="0" y="11" width="58" height="43" stretch="1"/>
+	</logs_item>
+
+	<filter_news ratio="1" x="300" y="25" width="25" height="25">
+		<window_name>filter_news</window_name>
+        <texture>ui_PDA_checker</texture>
+		<text x="5" font="letterica16" r="170" g="170" b="170">pda_filter_news</text>
+		<options_item entry="pda_filter_news" group="pda_filter_logs"/>
+	</filter_news>
+
+	<filter_talk ratio="1" x="300" y="65" width="25" height="25">
+		<window_name>filter_talk</window_name>
+        <texture>ui_PDA_checker</texture>
+		<text x="5" font="letterica16" r="170" g="170" b="170">pda_filter_talk</text>
+		<options_item entry="pda_filter_talk" group="pda_filter_logs"/>
+	</filter_talk>
+	
+	<period_caption x="-5599" y="478" width="195" height="26">
+		<text align="r" vert_align="c" font="letterica18" r="220" g="220" b="220">pda_date_filter</text>
+	</period_caption>
+	<period x="-5599" y="478" width="195" height="26" stretch="1">
+		<text align="c" vert_align="c" font="letterica18" r="170" g="170" b="170"/>
+	</period>
+
+	<btn_prev_period x="-5616" y="93" width="24" height="30" stretch="1">
+		<window_name>btn_prev_period</window_name>
+		<texture>ui_inGame2_pda_Filtr_arrow_left</texture>
+	</btn_prev_period>
+
+	<btn_next_period x="-5760" y="93" width="24" height="30" stretch="1">
+		<window_name>btn_next_period</window_name>
+		<texture>ui_inGame2_pda_Filtr_arrow_right</texture>
+	</btn_next_period>
+</w>

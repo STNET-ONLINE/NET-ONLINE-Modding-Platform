@@ -1,0 +1,49 @@
+<w>
+  <dragdrop_actor_exchange x="735" y="203" width="253" height="140"
+    cell_width="35" cell_height="47" rows_num="4" cols_num="7"
+    unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
+
+  <dragdrop_partner_exchange x="36" y="203" width="253" height="140"
+    cell_width="33" cell_height="41" rows_num="4" cols_num="7"
+    unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
+
+  <exchange_panel x="318" y="352" width="390" height="52" stretch="1">
+    <texture r="12" g="12" b="12" a="204">interface_main_window</texture>
+
+    <actor_status x="12" y="6" width="116" height="16">
+      <text align="l" vert_align="c" complex_mode="1" font="letterica16" color="ui_3"/>
+    </actor_status>
+
+    <phase_status x="132" y="6" width="126" height="16">
+      <text align="c" vert_align="c" complex_mode="1" font="letterica16" color="ui_3"/>
+    </phase_status>
+
+    <partner_status x="262" y="6" width="116" height="16">
+      <text align="r" vert_align="c" complex_mode="1" font="letterica16" color="ui_3"/>
+    </partner_status>
+
+    <confirm_button x="82" y="25" width="102" height="22" stretch="1" hint="">
+      <window_name>exchange_confirm_button</window_name>
+      <texture>interface_inventory_button</texture>
+      <text font="letterica16" align="c" complex_mode="1">player_exchange_confirm</text>
+      <text_color>
+        <e r="26" g="26" b="26"/>
+        <h r="255" g="183" b="111"/>
+        <t r="255" g="255" b="255"/>
+        <d color="ui_5"/>
+      </text_color>
+    </confirm_button>
+
+    <cancel_button x="206" y="25" width="102" height="22" stretch="1" hint="">
+      <window_name>exchange_cancel_button</window_name>
+      <texture>interface_inventory_button</texture>
+      <text font="letterica16" align="c" complex_mode="1">player_exchange_cancel</text>
+      <text_color>
+        <e r="26" g="26" b="26"/>
+        <h r="255" g="183" b="111"/>
+        <t r="255" g="255" b="255"/>
+        <d color="ui_5"/>
+      </text_color>
+    </cancel_button>
+  </exchange_panel>
+</w>

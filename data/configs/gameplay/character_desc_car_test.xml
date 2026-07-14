@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+  <specific_character id="test_trader" team_default = "1">
+    <name>TEST_TRADE</name>
+    <icon>ui_inGame2_neutral_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+
+    <class>test_trader</class>
+    <community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+
+    <rank>25</rank>
+	  <money min="9000000" max="9000000" infinitive="0"/>
+    <reputation>0</reputation>
+	
+    <visual>actors\stalker_neutral\stalker_neutral_1</visual>
+    <supplies>
+      [spawn] \n      
+      wpn_knife
+    </supplies>
+
+#include "gameplay\character_dialogs_mp.xml"
+
+<actor_dialog>medic_heal_dialog</actor_dialog>
+
+  </specific_character>
+  
+    <specific_character id="test_tech" team_default = "1">
+    <name>TEST_TECH</name>
+    <icon>ui_inGame2_neutral_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+
+    <class>test_tech</class>
+    <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+
+    <rank>25</rank>
+	  <money min="250" max="1750" infinitive="0"/>
+    <reputation>0</reputation>
+	
+    <visual>actors\stalker_neutral\stalker_neutral_4</visual>
+    <supplies>
+      [spawn] \n      
+      wpn_ak74 = 1 \n
+      wpn_pm = 1 \n
+    </supplies>
+
+#include "gameplay\character_dialogs_mp.xml"
+  </specific_character>
+  
+</xml>

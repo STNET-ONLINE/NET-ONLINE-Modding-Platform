@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_inventory_box_search_sender">
+		<text>Container search</text>
+	</string>
+	<string id="st_inventory_box_search_found">
+		<text>Found in the container:\n%s</text>
+	</string>
+	<string id="st_inventory_box_search_empty">
+		<text>Nothing useful was found in the container.</text>
+	</string>
+</string_table>

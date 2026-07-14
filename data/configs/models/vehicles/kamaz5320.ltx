@@ -1,0 +1,519 @@
+;-------------------------------------------------------------------------------
+;----- KAMAZ 5320 --------------------------------------------------------------
+;-------------------------------------------------------------------------------
+
+
+;-------------------------------------------------------------------------------
+;--------- ATTACH --------------------------------------------------------------
+;-------------------------------------------------------------------------------
+[attached_bones]
+kamaz_front_bamper = front_bamper
+kamaz_door_left_red = left_door
+kamaz_door_right_red = right_door
+kamaz_door_left_white = left_door
+kamaz_door_right_white = right_door
+
+guitar_a = guitar
+explosive_tank = canister
+empty_canister = canister
+backpack = backpack
+
+radiator = radiator
+accumulator = accumulator
+spark_plug = spark_plug
+
+figure_cat = figure
+
+;Trailer
+kamaz_mount = mount
+kamaz_trailer = trailer
+kamaz_beams = trailer_beams
+kamaz_back_door = back_door
+kamaz_tent = tent
+
+;Upgrades
+kamaz_fuel = fuel_right
+kamaz_snorkel = snorkel
+kamaz_mudguard = mudguard
+
+kamaz_wheel = front_left_wheel, front_right_wheel, wheel_1
+kamaz_wheel2 = back_left_wheel, back_right_wheel, back_left_wheel2, back_right_wheel2, wheel_2
+
+[attached_lock_bones]
+left_door
+right_door
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+
+[car_definition]
+
+camera_pos			= -0.7, 2.6, 2.9	;смещение камеры в кабине влево-вправо, вверх-вниз, вперед-назад
+
+camera_pos_firsteye			= -0.7, 2.5, 3.0
+camera_pos_lookat		= 0.0, 3.9, -2.0
+camera_pos_free			= 0.0, 4.0, -4.2
+
+driving_wheels			= back_left_wheel,back_right_wheel,back_left_wheel2,back_right_wheel2, front_left_wheel,front_right_wheel
+steering_wheels			= front_left_wheel,front_right_wheel
+breaking_wheels			= back_left_wheel,back_right_wheel,back_left_wheel2,back_right_wheel2,front_left_wheel,front_right_wheel
+doors				= left_door,right_door,back_door
+steer				= stearing_wheel			
+driver_place			= seat_left, seat_right                     
+exhausts			= exhausts						
+exhaust_particles		= vehiclefx\exhaust_1
+exhaust_particles_full 	= vehiclefx\exhaust_1_full
+
+damage				= damage_bones
+
+
+;-------------------------------------------------------------------------------
+;------ Factory parameters of Engine -------------------------------------------
+
+fuel_tank			= 200		; L
+fuel_consumption		= 20		; L / (100k R); liters per 100 000 rotations
+engine_power			= 33		; horse_power (kW=hp*0.808) max power
+max_power_rpm			= 5000		; (nominal rpm ) on this rpm value engine power reaches maximum
+max_torque_rpm			= 3900		; on this rpm engine torque reaches maximum
+
+power_increment_factor		= 0.2
+power_decrement_factor		= 0.6
+rpm_increment_factor		= 0.3
+rpm_decrement_factor		= 0.2
+m_power_neutral_factor		= 1
+
+;--Система пробуксовки, если машина застряла/не получает мощность
+idle_slippage_time = 3000 		;[NET Online] Максимальное время ожидания при простое машины перед обработкой пробуксовки, мс
+min_speed_slippage = 0.0, 3.2 	;[NET Online] Допустимый диапазон скорости для фиксации состояния пробуксовки
+max_speed_slippage = 3.0 		;[NET Online] Порог скорости, после которого состояние пробуксовки сбрасывается
+reference_slippage = 0.08 		;[NET Online] Прибавка к reference_radius, используемая для усиления эффекта мощности
+reset_slippage_time = 3000 		;[NET Online] Время плавного возврата reference_radius к исходному значению, мс
+
+; additional engine parameters
+
+max_engine_rpm			= 5500		; rpm (5000) rpm will never be more
+idling_engine_rpm		= 900		; rpm (750) min rpm - starts from this rpm value
+limiter_engine_rpm      = 0            ;[NET Online] multiper for RPM
+
+;--Компенсация удара, при ударе машины по какой-либо поверхности [NET Online]
+wheel_contact_bounce_factor = 0.15
+wheel_curb_max_normal_y = 0.6
+wheel_curb_min_depth = 0.002
+wheel_curb_spring_factor = 0.35
+wheel_curb_damping_factor = 2.5
+wheel_curb_friction_factor = 0.55
+wheel_curb_bounce_factor = 0.0
+wheel_curb_slip = 0.02
+
+;-------------------------------------------------------------------------------
+;------ Adjustment a wheel -----------------------------------------------------
+
+reference_radius		= 0.38		
+axle_friction			= 0.0001	
+steering_speed			= 0.45
+steering_torque			= 1000000
+break_torque			= 0.07
+break_time			= 1.0
+hand_break_torque		= 0.065
+
+;-------------------------------------------------------------------------------
+;------ Gearbox ----------------------------------------------------------------
+
+main_gear_ratio			= 15.6
+auto_transmission		= off
+
+[transmission_gear_ratio]
+R				= 3.17, 1500,3500,2000
+N1				= 5.42, 1500,3500,2000
+N2				= 3.28, 1500,3500,2000
+N3				= 2.15, 1500,3500,2000
+N4				= 1.32, 1500,3500,2000
+N5              = 0.96, 1500,3500,2000
+
+;-------------------------------------------------------------------------------
+;------ Rest Adjustment --------------------------------------------------------
+
+[lights]
+headlights			= f1, f2, f3, f4, f5, pribor_panel_light_1, pribor_panel_light_2
+
+[f1]
+bone				= left_light
+color				= 2.0614, 1.155, 0.2156, 1.0
+range				= 41
+cone_angle			= 52
+spot_texture    = internal\internal_light_torch_r2	
+glow_texture			= glow\glow_Orange_bright
+glow_radius			= 2.5
+
+is_volumetric = true
+volumetric_distance = 0.25
+volumetric_intensity = 0.10
+volumetric_quality = 0.75
+
+
+[f2]
+bone				= right_light
+color				= 2.0614, 1.155, 0.2156, 1.0
+range				= 41
+cone_angle			= 52
+spot_texture    = internal\internal_light_torch_r2	
+glow_texture			= glow\glow_Orange_bright
+glow_radius			= 2.5
+
+is_volumetric = true
+volumetric_distance = 0.25
+volumetric_intensity = 0.10
+volumetric_quality = 0.75
+
+[f3]
+bone               		= back_left_light
+color              		= 0.25,0,0,0.1
+range              		= 2.1
+cone_angle         		= 60
+spot_texture       		= internal\internal_light_torch_r2
+glow_texture       		= glow\glow_torch_r2
+glow_radius        		= 1.5
+is_point                = true
+
+[f4]
+bone               		= back_right_light
+color              		= 0.25,0,0,0.1
+range              		= 2.1
+cone_angle         		= 60
+spot_texture       		= internal\internal_light_torch_r2
+glow_texture       		= glow\glow_torch_r2
+glow_radius        		= 1.5
+is_point                = true
+
+[f5]
+bone               		= up_light
+color              		= 1.0,0.447,0,0.1
+range              		= 0.5
+cone_angle         		= 60
+spot_texture       		= internal\internal_light_torch_r2
+glow_texture       		= glow\glow_torch_r2
+glow_radius        		= 1.5
+is_point                = true
+
+[pribor_panel_light_1]
+bone                    = speed_light
+color                   = 1.0, 1.0, 1.0, 1.0
+range                   = 0.06
+cone_angle              = 90
+spot_texture       		= internal\internal_light_torch_r2
+glow_texture       		= glow\glow_torch_r2
+glow_radius        		= 0.1
+is_point                = true
+cast_shadow             = false
+
+[pribor_panel_light_2]
+bone                    = rpm_light
+color                   = 1.0, 1.0, 1.0, 1.0
+range                   = 0.06
+cone_angle              = 90
+spot_texture       		= internal\internal_light_torch_r2
+glow_texture       		= glow\glow_torch_r2
+glow_radius        		= 0.1
+is_point                = true
+cast_shadow             = false
+
+[car_sound]
+snd_volume         		= 1.0
+snd_name           		= car\veh_kamaz\engine_run
+engine_sound_start_dellay	= 0.5
+transmission_switch		= car\veh_kamaz\gearchange
+explosion_sound    		= weapons\heli_explosion
+relative_pos       		= 0.0,0.5,0.5.
+
+engine_turn_idle						= car\engine\engine_idle_truck
+engine_turn_stop						= car\veh_kamaz\engine_stop
+engine_turn_start						= car\engine\engine_turn_start
+engine_turn_started						= car\veh_kamaz\engine_start
+
+;-------------------------------------------------------------------------------
+;------ damage params ----------------------------------------------------------
+
+[damage_particles]
+
+explosion_particles		= explosions\expl_mushroom_01
+car_damage_particles1		= explosions\expl_car_smoke_small
+car_damage_particles2		= explosions\expl_car_smoke_big
+wheels_damage_particles1	= vehiclefx\exhaust_1
+wheels_damage_particles2	= vehiclefx\exhaust_1
+
+particle_bones1			= kabina
+particle_bones2			= root
+
+;-------------------------------------------------------------------------------
+;------ particle bones ---------------------------------------------------------
+
+[particle_bones]
+root				=  0,-0.5,1
+kabina				=  1.3,-0.5,-1
+engine				= 0, 0, 0
+
+;-------------------------------------------------------------------------------
+;------ damage items -----------------------------------------------------------
+
+[damage_items]
+
+;-------------------------------------------------------------------------------
+;------ collisiondamage --------------------------------------------------------
+
+[collision_damage]
+
+;-------------------------------------------------------------------------------
+;------ damage bones -----------------------------------------------------------
+
+[damage_bones]
+default				= 1, -1, 0.1
+
+;Урон при попадание в бензобаки
+fuel_left 			= 3,  -1, 3
+fuel_right 			= 3,  -1, 3
+
+;Урон при попадание по бортовому прицепу
+trailer 			= 0.01, -1, 0.01
+trailer_beams 		= 0.01, -1, 0.01
+tent				= 0, 	-1, 0.01
+
+;Урон при попадание по шасси автомобиля
+chassis				= 0.8, -1, 0.01
+back_axle			= 0.8, -1, 0.01
+back_axle2			= 0.8, -1, 0.01
+front_axle			= 0.8, -1, 0.01
+
+;Урон при попадание в кабину
+kabina		= 1.3,   -1, 0.01
+left_door 	= 0.1,   -1, 0.01
+right_door	= 0.1, 	 -1, 0.01
+seat_left 	= 1.3,   -1, 0.01
+seat_right	= 1.3,   -1, 0.01
+
+[immunities]
+burn_immunity         	= 0.1		;-- burn (fire)
+strike_immunity       	= 0.003		;-- strike (collision with objects) => collision_damage
+shock_immunity        	= 0.1		;-- shock (anom)
+wound_immunity        	= 0.0		;-- wound
+radiation_immunity    	= 0.0		;-- radiation
+telepatic_immunity    	= 0.0		;-- telepathy
+chemical_burn_immunity 	= 0.05		;-- chemical burn (anom)
+explosion_immunity    	= 0.1		;-- explosion
+fire_wound_immunity   	= 0.01		;-- bullets hits
+
+;-------------------------------------------------------------------------------
+;----------------explosion params-----------------------------------------------
+
+[explosion]
+blast				= 20
+blast_r				= 5
+blast_impulse			= 500
+frags				= 15
+frags_r				= 30
+frag_hit			= 0.5
+frag_hit_impulse		= 350
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+up_throw_factor			= 0.25
+wm_size				= 0.1
+explode_particles		= explosions\expl_vehichels
+light_color			= 0.6,0.5,0.3
+light_range			= 15.0
+light_time			= 0.5
+fragment_speed			= 76
+fragment_tracer_max_length	= 3
+explode_duration		= 50
+
+snd_explode			= weapons\heli_explosion
+;wallmarks
+wallmark_section		= explosion_marks
+
+[explode_effector]
+effect_sect_name = effector_explode_hit
+
+;-------------------------------------------------------------------------------
+;------ Others params ----------------------------------------------------------
+
+[autoremove_parts]
+time				= 60
+
+[air_resistance]
+linear_factor			= 500.f		;
+angular_factor			= 500.f		;
+
+;-------------------------------------------------------------------------------
+;---  vehicleInspector----------------------------------------------------------
+
+[vehicle_inspector] ;Если костей нет берём отсюда
+engine_bone = chassis
+use_distance = 1.5
+engine_name = car_engine_name
+
+;-------------------------------------------------------------------------------
+;--- car doors------------------------------------------------------------------
+
+[left_door]
+door_axis = 0, 1, 0 ;X, Y, Z - По какой оси вращаем дверь
+door_closed_angle = 0 ;Угол при котором дверь считается закрытой
+door_opened_angle = 75 ;Угол, при котором дверь считается открытой
+door_open_speed = 138 ;Множитель скорости закрытия/открытия
+driver_place = seat_left
+driver_place_radius = 0.30
+door_place_block = front_door, back_door ;Какие двери запрещено трогать с этого места
+exit_place_world = true ;Разрешает выходить, только если камера наведена на игровой мир
+snd_door_open = car\veh_niva\door_open
+snd_door_close = car\veh_niva\door_close
+
+[right_door]
+door_axis = 0, 1, 0 ;X, Y, Z - По какой оси вращаем дверь
+door_opened_angle = -75 ;Угол, при котором дверь считается открытой
+door_closed_angle = 0 ;Угол при котором дверь считается закрытой
+door_open_speed = 138 ;Множитель скорости закрытия/открытия
+driver_place = seat_right
+driver_place_radius = 0.30
+door_place_block = front_door, back_door ;Какие двери запрещено трогать с этого места
+exit_place_world = true ;Разрешает выходить, только если камера наведена на игровой мир
+passenger_place = true ;Гарант место пассажира
+snd_door_open = car\veh_niva\door_open
+snd_door_close = car\veh_niva\door_close
+
+[back_door]
+door_axis = 0, 1, 0 ;X, Y, Z - По какой оси вращаем дверь
+door_closed_angle = 0 ;Угол при котором дверь считается закрытой
+door_opened_angle = 75 ;Угол, при котором дверь считается открытой
+door_open_speed = 138 ;Множитель скорости закрытия/открытия
+door_trunk = true ;Является ли это дверь разблокировщим для открытия багажника
+trunk_bone = trailer ;Имя кости для открытия Багажника
+offset_place = false ;Разрешить ли сферу для нахождения рядом с костью
+door_trunk_place = 1.7 ;Насколько далеко можно находиться от багажника
+door_name = car_back_door_name
+trunk_name = car_trunk_name
+force_enable_trunk = true
+snd_door_open = car\veh_niva\door_open
+snd_door_close = car\veh_niva\door_close
+
+;[kabina]
+;root_door = true ;Дверь уже стоит, и от неё зависят остальные двери
+;door_axis = 0, 1, 0 ;X, Y, Z - По какой оси вращаем дверь
+;door_closed_angle = 0 ;Угол при котором дверь считается закрытой
+;door_opened_angle = 20 ;Угол, при котором дверь считается открытой
+;door_open_speed = 138 ;Множитель скорости закрытия/открытия
+;door_engine = true ;Является ли это дверь разблокировщиком для редактирования машины
+;engine_bone = chassis ;Имя кости для открытия Vehicle Inspector
+;offset_place = false
+;door_name = car_front_door_name
+;force_enable_engine = false
+;engine_name = car_engine_Name
+;snd_door_open = car\veh_niva\door_open
+;snd_door_close = car\veh_niva\door_close
+
+;-------------------------------------------------------------------------------
+;--- car suspension-------------------------------------------------------------
+[suspensions_params]
+soft_binding_axle = true ;Разрешить ли применять мягкую процедурную привязку для оси
+soft_binding_dampers = true ;Разрешить ли применять мягкую процедурную привязку для дамперов
+
+[suspensions] ;Процедурная визуализации подвески. Ось = Связующие колёса
+;front_axle = front_left_wheel, front_right_wheel 
+back_axle1 = back_left_wheel, back_right_wheel
+back_axle2 = back_left_wheel2, back_right_wheel2 
+
+[wheels] ;Какие колёса допустимо использовать для просчёта точки опоры
+wheels = back_left_wheel, back_right_wheel, back_left_wheel2, back_right_wheel2, front_left_wheel, front_right_wheel
+
+;-------------------------------------------------------------------------------
+;------ VEHICLE RADIO-----------------------------------------------------------
+
+[vehicle_radio] ;--URL Stream CarRadio [NET Online]
+radio_enable = true
+radio_bone = root
+radio_door = left_door, right_door
+radio_use_battery = true
+radio_recharge_battery = -0.00007
+
+;-------------------------------------------------------------------------------
+;--- car dashboard -------------------------------------------------------------
+
+[dashboard]
+rpm_bone = rpm_arrow
+rpm_angle = 110.0, -200.0 ;[NET Online] min_angle, rpm_multiplay
+speed_bone = speed_arrow
+speed_angle = 140.0, -7.75 ;[NET Online] min_angle, speed_multiplay
+
+;-------------------------------------------------------------------------------
+;--- engine broken settings ---------------------------------------------------
+
+[vehicle_engine_condition]
+hit_wear_factor		= 1 ;Множитель урона для двигателя
+hit_water_factor	= 1 ;Множитель урона для воды
+
+engine_repair_factor = 2			;Множитель восстановления состояния двигателя
+condition_repair_factor = 2			;Множитель восстановления общего состояния машины
+
+engine_wear_factor = 5				;Общиий множитель состояния машины
+engine_particle_bone = engine
+
+critical_attach = true 			   	  ;Есть ли у машины критические аттачи
+critical_attach_battery = accumulator ;Если есть этот аттач, машина начинает заводиться, но не заводится. Разрешается использование accumulator settings.
+critical_attach_turn = spark_plug     ;Если есть этот аттач, машина может заводиться, при наличии battery аттача.
+critical_attach_water = radiator 	  ;Если есть этот аттач, машина использует engine_water_params.
+
+;						Таблица параметров двигателя
+;							engine_wear  | reference_radius | max_car_weight 
+engine_water_params_100 = 		0.0, 				0.03, 				10
+engine_water_params_90 = 		0.0, 				0.02, 				10
+engine_water_params_70 = 		0.0, 				0.01, 				5
+engine_water_params_50 = 		0.0, 				0.050, 				3
+engine_water_params_30 = 		0.0, 				0.010, 				10
+engine_water_params_20 = 		0.00003, 			0, 					1
+engine_water_params_5 = 		0.0005, 			0, 					0
+engine_water_params_0 = 	  	0.001, 				0, 			 		0
+
+engine_water_particle_30 = explosions\expl_car_smoke_small
+engine_water_particle_20 = explosions\expl_car_smoke_small
+engine_water_particle_5 = explosions\expl_car_smoke_small
+engine_water_particle_0 = explosions\expl_car_smoke_big
+
+;						reference_radius | fuel_consumption | max_car_weight
+engine_wear_params_100 = 	   0.0, 				0, 					0
+engine_wear_params_90 = 	 -0.02, 				0, 					0
+engine_wear_params_70 = 	 -0.06, 				1, 					0
+engine_wear_params_50 = 	 -0.08, 				3, 				  -10
+engine_wear_params_30 = 	 -0.12, 				4, 				  -15
+engine_wear_params_20 = 	 -0.20, 				5, 				  -15
+engine_wear_params_5  = 	 -0.23, 				6, 				  -25
+engine_wear_params_0  = 	 -0.28, 				6, 				  -25
+
+engine_wear_particle_30 = explosions\expl_car_smoke_small
+engine_wear_particle_20 = explosions\expl_car_smoke_small
+engine_wear_particle_5 = explosions\expl_car_smoke_small
+engine_wear_particle_0 = explosions\expl_car_smoke_big
+
+;						Charge Turn State % | Recharge Idle State %
+accumulator_wear = 			0.00003,             -0.00007 
+
+;						Disable light %  | Disable start %
+accumulator_settings = 		0.1,                0.0
+;						 Engine Wear %
+engine_disable_settings = 	 0
+
+;-------------------------------------------------------------------------------
+;--- car driver anim -----------------------------------------------------------
+
+[car_anims]
+idle_anim = veh_kamaz_idle_legs 		;Анимация бездействия ног
+body_anim = veh_kamaz_idle_torso 		;Анимация бездействия тела
+gas_anim = veh_kamaz_gas 		;Анимация нажатия педали газа
+brake_anim = veh_kamaz_brake 	;Анимация нажатия педали тормоза(+сцепления)
+left_anim = veh_kamaz_rotation 			;Анимация поворота руля влево
+right_anim = veh_kamaz_rotation		 	;Анимация поворота руля вправо
+gear_up_anim = veh_kamaz_idle 		;Анимация повышения передачи
+;gear_down_anim = veh_kamaz_idle_torso 	;Анимация понижения передачи
+pas_anim = veh_niva_idle_passenger		;Анимация пассажира
+
+turn_start_anim = veh_kamaz_turn_engine_start	;Анимация старта зажигания
+turn_idle_anim = veh_kamaz_turn_engine_idle 		;Анимация ожидания зажигания
+turn_end_anim = veh_kamaz_turn_engine_end 		;Анимация окончания зажигания
+
+;-------------------------------------------------------------------------------
+;------ End params -------------------------------------------------------------

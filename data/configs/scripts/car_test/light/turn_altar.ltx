@@ -1,0 +1,17 @@
+[logic]
+active = ph_button@turn_start
+
+[ph_button@turn_start]
+anim = idle
+on_info = ph_button@turn_off %=turn_off(test_turn_altar)%
+tooltip = light_off
+
+[ph_button@turn_off]
+anim = idle
+on_press = ph_button@turn_on %=turn_on(test_turn_altar)%
+tooltip = light_off
+
+[ph_button@turn_on]
+anim = idle
+on_press = ph_button@turn_off %=turn_off(test_turn_altar)%
+tooltip = light_on

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<w>
+    <party_leader_icon x="0" y="0" ratio="1" width="18" height="18" stretch="1">
+        <texture r="251" g="176" b="59" a="255">PartyLeader</texture>
+    </party_leader_icon>
+
+    <party_icon x="0" y="0" ratio="1" width="14" height="14" stretch="1">
+        <texture color="ui_6">PartyMember</texture>
+    </party_icon>
+
+    <party_nickname x="0" y="14" width="180" height="18">
+        <text font="letterica16" color="ui_6" align="c" vert_align="c"/>
+    </party_nickname>
+</w>

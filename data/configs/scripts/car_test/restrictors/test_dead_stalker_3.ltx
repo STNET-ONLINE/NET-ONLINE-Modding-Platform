@@ -1,0 +1,7 @@
+[logic]
+active = sr_idle@spawn
+
+[sr_idle@spawn]
+on_info = {=OnServer()} sr_idle@nil %=spawn_corpse(sim_default_stalker_3:test_dead_stalker_3)% 
+
+[sr_idle@nil]

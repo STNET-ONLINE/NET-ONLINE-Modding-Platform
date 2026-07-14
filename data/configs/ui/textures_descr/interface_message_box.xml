@@ -1,0 +1,48 @@
+<w>
+    <file name="ui\netonline\interface_message_box">
+        <!-- BEGIN MessageBoxBackground -->
+            <texture id="MessageBoxBackground_lt"    x="4" y="4" width="38" height="38"/>
+            <texture id="MessageBoxBackground_t"     x="42" y="4" width="44" height="38"/>
+            <texture id="MessageBoxBackground_rt"    x="86" y="4" width="38" height="38"/>
+
+            <texture id="MessageBoxBackground_l"     x="4" y="42" width="38" height="44"/>
+            <texture id="MessageBoxBackground_back"  x="42" y="42" width="44" height="44"/>
+            <texture id="MessageBoxBackground_r"     x="86" y="42" width="38" height="44"/>
+
+            <texture id="MessageBoxBackground_lb"    x="4" y="86" width="38" height="38"/>
+            <texture id="MessageBoxBackground_b"     x="42" y="86" width="44" height="38"/>
+            <texture id="MessageBoxBackground_rb"    x="86" y="86" width="38" height="38"/>
+        <!-- END -->
+
+        <!-- BEGIN MessageBoxButton_1 -->
+            <texture id="MessageBoxButton_1_e"    x="4" y="212" width="188" height="80"/>
+            <texture id="MessageBoxButton_1_h"    x="4" y="212" width="188" height="80"/>
+            <texture id="MessageBoxButton_1_t"    x="4" y="128" width="188" height="80"/>
+            <texture id="MessageBoxButton_1_d"    x="4" y="212" width="188" height="80"/>
+        <!-- END -->
+
+        <!-- BEGIN MessageBoxButton_2 -->
+            <texture id="MessageBoxButton_2_e"    x="196" y="212" width="383" height="80"/>
+            <texture id="MessageBoxButton_2_h"    x="196" y="212" width="383" height="80"/>
+            <texture id="MessageBoxButton_2_t"    x="196" y="128" width="383" height="80"/>
+            <texture id="MessageBoxButton_2_d"    x="196" y="212" width="383" height="80"/>
+        <!-- END -->
+
+        <!-- BEGIN MessageBoxIconQuit -->
+            <texture id="MessageBoxIconQuit"    x="4" y="477" width="181" height="181"/>
+        <!-- END -->
+
+        <!-- BEGIN PremiumIcon -->
+            <texture id="PremiumIcon"    x="128" y="83" width="38" height="38"/>
+        <!-- END -->
+
+        <!-- BEGIN PartyLeader -->
+            <texture id="PartyLeader"    x="166" y="83" width="38" height="38"/>
+        <!-- END -->
+
+        <!-- BEGIN PartyMember -->
+            <texture id="PartyMember"    x="204" y="83" width="38" height="38"/>
+        <!-- END -->
+
+    </file>
+</w>

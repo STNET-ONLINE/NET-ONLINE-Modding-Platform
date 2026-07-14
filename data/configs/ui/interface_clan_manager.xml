@@ -1,0 +1,127 @@
+<w>
+	<clan_manager x="0" y="0" width="1024" height="768">
+		<background x="0" y="0" width="1024" height="768" stretch="1">
+			<texture a="240">FactionManagerShadow</texture>
+		</background>
+		<left ratio="1" x="150" y="260" width="462" height="744" complex_mode="1">
+			<clan_title ratio="1" x="0" y="0" width="462" height="43" complex_mode="1">
+				<text font="graffiti32" vert_align="c" align="l" complex_mode="1"/>
+			</clan_title>
+			<label_adm ratio="1" x="0" y="52" width="174" height="19" complex_mode="1">
+				<text font="letterica18" vert_align="c" align="l" complex_mode="1"/>
+			</label_adm>
+			<text_adm ratio="1" x="174" y="52" width="262" height="19" complex_mode="1">
+				<text font="letterica18" color="experemental_primary" vert_align="c" align="l" complex_mode="1"/>
+			</text_adm>
+
+			<administrator ratio="1" x="0" y="90" width="462" height="144" complex_mode="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerBackground_1</texture>
+			</administrator>
+
+			<faction_bank ratio="1" x="6" y="245" width="450" height="64" complex_mode="1">
+				<money ratio="1" x="0" y="0" width="296" height="64" complex_mode="1" stretch="1">
+					<texture r="255" g="255" b="255" a="255">FactionManagerItm</texture>
+					<text x="16" font="letterica18" r="168" g="168" b="168" vert_align="c" align="l" complex_mode="1"/>
+				</money>
+				<action ratio="1" x="300" y="0" width="150" height="64" stretch="1">
+					<sound_t>interface\squad_panel_slide</sound_t>
+					<texture r="255" g="255" b="255" a="255">FactionManagerButton_1</texture>
+					<text font="letterica18" color="experemental_primary" vert_align="c" align="c" complex_mode="1">
+						clan_manager_action
+					</text>
+				</action>
+			</faction_bank>
+
+			<public ratio="1" x="0" y="239" width="462" height="505" complex_mode="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerBackground_1</texture>
+			</public>
+		</left>
+		<center ratio="1" anchor="260;-1;0;0" width="462" height="744" complex_mode="1">
+			<count_title ratio="1" x="0" y="0" width="462" height="43" complex_mode="1">
+				<text font="graffiti32" vert_align="c" align="l" complex_mode="1"/>
+			</count_title>
+			<label_count ratio="1" x="0" y="52" width="84" height="19" complex_mode="1">
+				<text font="letterica18" vert_align="c" align="l" complex_mode="1"/>
+			</label_count>
+			<text_count ratio="1" x="84" y="52" width="352" height="19" complex_mode="1">
+				<text font="letterica18" color="experemental_primary" vert_align="c" align="l" complex_mode="1"/>
+			</text_count>
+			<frame ratio="1" x="0" y="90" width="462" height="654" complex_mode="1">
+				<list ratio="1" x="6" y="6" width="450" height="642" always_show_scroll="0"></list>
+				<texture r="255" g="255" b="255" a="255">FactionManagerBackground_1</texture>
+			</frame>
+		</center>
+		<right ratio="1" anchor="260;-1;-1;150" width="462" height="744" complex_mode="1">
+			<invites_title ratio="1" x="0" y="0" width="462" height="43" complex_mode="1">
+				<text font="graffiti32" vert_align="c" align="l" complex_mode="1"/>
+			</invites_title>
+			<label_online ratio="1" x="0" y="52" width="84" height="19" complex_mode="1">
+				<text font="letterica18" vert_align="c" align="l" complex_mode="1"/>
+			</label_online>
+			<text_online ratio="1" x="84" y="52" width="352" height="19" complex_mode="1">
+				<text font="letterica18" color="experemental_primary" vert_align="c" align="l" complex_mode="1"/>
+			</text_online>
+			<frame ratio="1" x="0" y="90" width="462" height="654" complex_mode="1">
+				<list ratio="1" x="6" y="6" width="450" height="642" always_show_scroll="0"></list>
+				<texture r="255" g="255" b="255" a="255">FactionManagerBackground_1</texture>
+			</frame>
+		</right>
+	</clan_manager>
+
+	<clan_players_itm ratio="1" x="0" y="0" width="450" height="69" complex_mode="1">
+		<background ratio="1" x="0" y="0" width="450" height="64" complex_mode="1" stretch="1">
+			<texture r="255" g="255" b="255" a="255">FactionManagerItm</texture>
+		</background>
+		<playername ratio="1" x="14" y="22" width="297" height="20">
+			<text font="letterica18" vert_align="c" align="l" complex_mode="1"/>
+		</playername>
+		<status ratio="1" x="226" y="0" width="210" height="64">
+			<text font="letterica18" vert_align="c" align="r" color="experemental_primary" complex_mode="1">is_moderator</text>
+		</status>
+	</clan_players_itm>
+
+	<faction_bank ratio="1" anchor="334;-1;0;0" x="0" y="0" width="466" height="412" complex_mode="1">
+		<background ratio="1" x="0" y="0" width="466" height="412">
+			<texture r="255" g="255" b="255" a="255">FactionManagerBackground_2</texture>
+			<auto_static ratio="1" x="29" y="234" width="408" height="70" stretch="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerInput</texture>
+			</auto_static>
+		</background>
+		<header ratio="1" x="8" y="8" width="450" height="64">
+			<line ratio="1" x="0" y="0" width="382" height="64" stretch="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerHeader</texture>
+				<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">
+					clan_manager_bank_title
+				</text>
+			</line>
+			<close ratio="1" x="386" y="0" width="64" height="64" stretch="1">
+				<sound_t>interface\squad_panel_slide</sound_t>
+				<texture r="255" g="255" b="255" a="255">FactionManagerButton_3</texture>
+			</close>
+		</header>
+
+		<description ratio="1" x="36" y="108" width="398" height="60">
+			<text font="letterica18" vert_align="c" align="c" complex_mode="1">clan_manager_bank_description</text>
+		</description>
+
+		<current ratio="1" x="36" y="192" width="398" height="17">
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1"/>
+		</current>
+
+		<input ratio="1" x="29" y="234" width="408" height="70" max_symb_count="127">
+			<text x="18" width="206" font="letterica18" complex_mode="1" vert_align="c" r="255" g="255" b="255"/>
+		</input>
+
+		<add ratio="1" x="8" y="340" width="223" height="64" stretch="1">
+			<sound_t>interface\squad_panel_slide</sound_t>
+			<texture r="255" g="255" b="255" a="255">FactionManagerButton_2</texture>
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">clan_manager_bank_add</text>
+		</add>
+		<subtract ratio="1" x="235" y="340" width="223" height="64" stretch="1">
+			<sound_t>interface\squad_panel_slide</sound_t>
+			<texture r="255" g="255" b="255" a="255">FactionManagerButton_2</texture>
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">clan_manager_bank_subtract</text>
+		</subtract>
+	</faction_bank>
+
+</w>

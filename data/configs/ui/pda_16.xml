@@ -1,0 +1,120 @@
+<w>
+	
+	<main anchor="0;-1;0;0" x="0" y="0" width="1024" height="768"/>
+	
+		<!-- IXRAY EDITOR FIXES! DONT DELETE THIS-->
+	<clock_wnd x="99999" y="9999" width="48" height="50">
+	    <text height="43" font="letterica18" align="l" vert_align="c" complex_mode="1"/>
+			<text_color>
+				<e r="0" g="0" b="0"/>
+				<h r="0" g="0" b="0"/>
+				<t r="0" g="0" b="0"/>
+			</text_color>
+	</clock_wnd>
+	<!-- IXRAY EDITOR FIXES! DONT DELETE THIS-->
+	
+	<background_static x="0" y="0" width="1024" height="768" stretch="1">
+		<auto_static x="-5" y="-5" width="1920" height="1080" stretch="1">
+			<texture>interface_pda_background</texture>
+		</auto_static>
+	</background_static>
+
+	<pda_back x="0" y="0" width="1024" height="768">
+		<texture>interface_pda_background</texture>
+	</pda_back>
+
+	<noice_static ratio="1" anchor="60;-1;0;0" width="1252" height="80" stretch="1">
+		<!-- <texture a="70">ui_pda2_noice</texture> -->
+		<auto_static ratio="1" x="1187" y="27" width="35" height="26" stretch="1">
+			<texture>interface_main_pda_battery</texture>
+		</auto_static>
+		<!--Ребята! Кто пойдёт на Кордон к Сидору, знайте - переход перекрыт аномалиями. Ёк-макарёк, придётся идти другим путём. САНЬ, НУ ТЫ И НАСРАЛ XD -->
+	<!--<auto_static x="761" y="38" width="85" height="51" stretch="1">
+		<texture>interface_pda_tab_power</texture>
+	</auto_static>-->
+	<clock_wnd ratio="1" x="1100" y="0" width="68" height="80">
+	    <text font="letterica18" align="c" vert_align="c" complex_mode="1"/>
+			<text_color>
+				<e r="0" g="0" b="0"/>
+				<h r="0" g="0" b="0"/>
+				<t r="0" g="0" b="0"/>
+			</text_color>
+	</clock_wnd>
+	</noice_static>
+
+	<caption_static x="-5000" y="57" width="753" height="27">
+		<text font="letterica16" align="l" x="5" y="5" r="170" g="170" b="170"/>
+	</caption_static>
+
+	<close_button x="-5000" y="0" width="0" height="0" hint="pda_btn_close" stretch="1">
+        <texture_t>ui_inGame2_pda_offline_t</texture_t>
+        <texture_e>ui_inGame2_pda_offline_e</texture_e>
+        <texture_h>ui_inGame2_pda_offline_h</texture_h>
+	</close_button>
+
+	<hint_wnd x="0" y="0" width="210" height="120">
+		<background x="0" y="0" width="210" height="100" border="5">
+			<texture a="100">ui_icons_PDA_tooltips</texture>
+		</background>
+		<text x="-5000" y="10" width="0" height="0">
+			<text font="letterica16" color="ui_6" complex_mode="1" align="l" vert_align="t"/>
+		</text>
+	</hint_wnd>
+
+	<tab ratio="1" anchor="60;-1;0;0" width="1252" height="80">
+		<auto_frame ratio="1" x="0" y="0" width="1070" height="80" stretch="1">
+			<texture>PDAHeaderLine</texture>
+		</auto_frame>
+		<auto_frame ratio="1" x="1080" y="0" width="172" height="80" stretch="1">
+			<texture>PDAStatusLine</texture>
+		</auto_frame>
+		<button ratio="1" x="10" y="0" width="175" height="80" id="eptTasks" hint="pda_btn_quests_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" color="white" complex_mode="1">pda_btn_quests</text>
+			<text_color>
+				<e r="122" g="123" b="127"/>
+				<h r="195" g="197" b="201"/>
+				<t r="255" g="255" b="255"/>
+			</text_color>
+		</button>
+		<button ratio="1" x="185" y="0" width="175" height="80" id="eptRanking" hint="pda_btn_ranking_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" complex_mode="1">pda_btn_ranking</text>
+			<text_color>
+				<e r="122" g="123" b="127"/>
+				<h r="195" g="197" b="201"/>
+				<t r="255" g="255" b="255"/>
+			</text_color>
+		</button>
+		<button ratio="1" x="360" y="0" width="175" height="80" id="eptTasksList" hint="pda_btn_logs_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" complex_mode="1">missions_list</text>
+			<text_color>
+				<e r="122" g="123" b="127"/>
+				<h r="195" g="197" b="201"/>
+				<t r="255" g="255" b="255"/>
+			</text_color>
+		</button>
+		<button ratio="1" x="535" y="0" width="175" height="80" id="eptFactions" hint="pda_btn_logs_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" complex_mode="1">st_interface_mm_faction</text>
+			<text_color>
+				<e r="80" g="80" b="80"/>
+				<h r="80" g="80" b="80"/>
+				<t r="80" g="80" b="80"/>
+			</text_color>
+		</button>
+		<button ratio="1" x="710" y="0" width="175" height="80" id="eptParty" hint="pda_btn_logs_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" complex_mode="1">kb_contacts</text>
+			<text_color>
+				<e r="122" g="123" b="127"/>
+				<h r="195" g="197" b="201"/>
+				<t r="255" g="255" b="255"/>
+			</text_color>
+		</button>
+		<button ratio="1" x="885" y="0" width="175" height="80" id="eptLogs" hint="pda_btn_logs_hint" frame_mode="0" stretch="1">
+			<text align="c" vert_align="c" font="letterica18" color="white" complex_mode="1">pda_btn_logs</text>
+			<text_color>
+				<e r="122" g="123" b="127"/>
+				<h r="195" g="197" b="201"/>
+				<t r="255" g="255" b="255"/>
+			</text_color>
+		</button>
+	</tab>
+</w>

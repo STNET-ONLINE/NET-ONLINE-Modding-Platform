@@ -1,0 +1,36 @@
+[logic@killer_torg_armor]
+suitable = {=check_npc_name(jup_base_killer_armor)} true
+trade = misc\trade\only_use\armor\killer.ltx
+prior = 200
+active = animpoint@armor
+can_select_weapon = false
+level_spot = trader
+
+[animpoint@armor]
+cover_name = merc_base_armor
+avail_animations = animpoint_sit_normal
+use_camp = false
+meet = meet
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+;out_restr = jup_space_restrictor_noweapon
+invulnerable = true 
+mp_optimization = true ;Оптимизация для стоячих NPC (VodkaNET)
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+
+[meet]
+close_snd_hello = jup_a6_stalker_barmen_greeting
+close_snd_bye 	= jup_a6_stalker_barmen_farewell
+close_anim 		= nil
+close_victim 	= nil
+far_anim 		= nil
+far_victim 		= nil
+close_distance  = 0
+far_distance 	= 0
+close_snd_distance = 3
+use = {=actor_enemy} false, {=dist_to_actor_le(3)} true, false
+snd_on_use = {!dist_to_actor_le(3)} nil
+allow_break = false
+meet_on_talking = false

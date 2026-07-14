@@ -1,0 +1,20 @@
+[logic]
+active = heli_combat@idle
+
+[heli_combat@idle]
+combat_ignore = false
+combat_enemy = nil
+combat_use_rocket = true 
+combat_use_mgun = true 
+combat_velocity = 100
+combat_safe_altitude = 85
+on_info = {=actor_in_zone(test_helicopter_start_combat)} heli_combat@start %=send_tip(HELICOPTER_START_ATTACKED)%
+
+[heli_combat@start]
+combat_ignore = false
+;combat_enemy = gigant_kill_test_helicopter_combat
+combat_enemy = actor
+combat_use_rocket = true 
+combar_use_mgun = true 
+combat_velocity = 100
+combat_safe_altitude = 85

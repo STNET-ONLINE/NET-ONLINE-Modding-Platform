@@ -1,0 +1,42 @@
+[logic]
+active = ph_idle@none
+
+[ph_idle@none]
+on_use = ph_idle@10m %+car_test_tir_info_10m%
+tips = tir_distance_none_tip
+
+[ph_idle@10m]
+on_use = ph_idle@25m %-car_test_tir_info_10m +car_test_tir_info_25m%
+tips = tir_distance_10m_tip
+
+[ph_idle@25m]
+on_use = ph_idle@50m %-car_test_tir_info_25m +car_test_tir_info_50m%
+tips = tir_distance_25m_tip
+
+[ph_idle@50m]
+on_use = ph_idle@100m %-car_test_tir_info_50m +car_test_tir_info_100m%
+tips = tir_distance_50m_tip
+
+[ph_idle@100m]
+on_use = ph_idle@120m %-car_test_tir_info_100m +car_test_tir_info_120m%
+tips = tir_distance_100m_tip
+
+[ph_idle@120m]
+on_use = ph_idle@140m %-car_test_tir_info_120m +car_test_tir_info_140m%
+tips = tir_distance_120m_tip
+
+[ph_idle@140m]
+on_use = ph_idle@160m %-car_test_tir_info_140m +car_test_tir_info_160m%
+tips = tir_distance_140m_tip
+
+[ph_idle@160m]
+on_use = ph_idle@180m %-car_test_tir_info_160m +car_test_tir_info_180m%
+tips = tir_distance_160m_tip
+
+[ph_idle@180m]
+on_use = ph_idle@200m %-car_test_tir_info_180m +car_test_tir_info_200m%
+tips = tir_distance_180m_tip
+
+[ph_idle@200m]
+on_use = ph_idle@10m %-car_test_tir_info_200m +car_test_tir_info_10m%
+tips = tir_distance_200m_tip

@@ -1,0 +1,40 @@
+<w>
+	<walkie_talkie ratio="1" anchor="334;-1;0;0" x="0" y="0" width="466" height="412" complex_mode="1">
+		<background ratio="1" x="0" y="0" width="466" height="412">
+			<texture r="255" g="255" b="255" a="255">FactionManagerBackground_2</texture>
+			<auto_static ratio="1" x="29" y="234" width="408" height="70" stretch="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerInput</texture>
+			</auto_static>
+		</background>
+		<header ratio="1" x="8" y="8" width="450" height="64">
+			<line ratio="1" x="0" y="0" width="382" height="64" stretch="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerHeader</texture>
+				<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">walkie_talkie_title</text>
+			</line>
+			<close ratio="1" x="386" y="0" width="64" height="64" stretch="1">
+				<texture r="255" g="255" b="255" a="255">FactionManagerButton_3</texture>
+			</close>
+		</header>
+
+		<description ratio="1" x="36" y="108" width="398" height="60">
+			<text font="letterica18" vert_align="c" align="c" complex_mode="1">walkie_talkie_description</text>
+		</description>
+
+		<current ratio="1" x="36" y="192" width="398" height="17">
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1"/>
+		</current>
+
+		<input ratio="1" x="29" y="234" width="408" height="70" max_symb_count="5">
+			<text x="18" width="206" font="letterica18" complex_mode="1" vert_align="c" r="255" g="255" b="255"/>
+		</input>
+
+		<accept ratio="1" x="8" y="340" width="223" height="64" stretch="1">
+			<texture r="255" g="255" b="255" a="255">FactionManagerButton_2</texture>
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">walkie_talkie_accept</text>
+		</accept>
+		<reset ratio="1" x="235" y="340" width="223" height="64" stretch="1">
+			<texture r="255" g="255" b="255" a="255">FactionManagerButton_2</texture>
+			<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">walkie_talkie_reset</text>
+		</reset>
+	</walkie_talkie>
+</w>

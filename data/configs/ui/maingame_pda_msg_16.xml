@@ -1,0 +1,19 @@
+<w>
+	<icon_static ratio="1" x="0" y="0" width="76" height="76" fit="cover"/>
+
+	<time_static ratio="1" x="88" y="14" width="50" height="19">
+		<text font="ruda16semibold" color="ui_1"/>
+	</time_static>
+
+	<source_static ratio="1" x="138" y="14" width="261" height="19">
+		<text font="ruda16semibold" color="ui_1"/>
+	</source_static>
+	
+	<caption_static ratio="1" x="88" y="44" width="320" height="19">
+		<text font="ruda20regular" r="255" g="255" b="255"/>
+	</caption_static>
+
+	<msg_static ratio="1" x="88" y="95" width="454" height="14" complex_mode="1">
+		<text font="ruda18regular" r="205" g="205" b="205"/>
+	</msg_static>
+</w>

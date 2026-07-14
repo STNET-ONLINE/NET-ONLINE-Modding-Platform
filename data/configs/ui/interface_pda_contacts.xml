@@ -1,0 +1,56 @@
+<w>
+	<pda_contacts ratio="1" anchor="180;-1;0;0" width="1252" height="840">
+		<background x="0" y="0" width="1024" height="768" stretch="1">
+		</background>
+		<left ratio="1" x="0" y="0" width="462" height="744" complex_mode="1">
+			<radmin_title ratio="1" x="0" y="0" width="462" height="43" complex_mode="1">
+				<text font="graffiti32" vert_align="c" align="l" complex_mode="1">radmin_title</text>
+			</radmin_title>
+			<radmin_label ratio="1" x="0" y="52" width="462" height="19" complex_mode="1">
+				<text font="letterica18" color="experemental_primary" vert_align="c" align="l" complex_mode="1">radmin_description</text>
+			</radmin_label>
+
+			<radmin_panel ratio="1" x="0" y="90" width="462" height="574" complex_mode="1">
+				<texture>PDASecondaryBackground</texture>
+				<list ratio="1" x="6" y="0" width="450" height="493" item_height="45" always_show_scroll="0" can_select="1">
+					<text ratio="1" x="19" align="c" vert_align="c" color="white" complex_mode="1" font="letterica16" r="255" g="255" b="255"/>
+					<text_color>
+						<e r="255" g="255" b="255" a="120"/>
+						<h r="255" g="183" b="111"/>
+						<t r="255" g="255" b="255"/>
+					</text_color>
+				</list>
+			</radmin_panel>
+			<button_panel ratio="1" x="0" y="668" width="462" height="76">
+				<texture>PDASecondaryBackground</texture>
+				<spawn ratio="1" x="6" y="6" width="223" height="64">
+					<sound_t>interface\squad_panel_slide</sound_t>
+					<texture r="255" g="255" b="255" a="255">FactionManagerButton_2</texture>
+					<text font="letterica18" vert_align="c" align="c" color="experemental_primary" complex_mode="1">radmin_spawn</text>
+				</spawn>
+			</button_panel>
+		</left>
+		<right ratio="1" x="600" y="0" width="462" height="744">
+			<frame ratio="1" x="0" y="90" width="462" height="574" complex_mode="1">
+				<texture>PDASecondaryBackground</texture>
+				<list ratio="1" x="6" y="74" width="450" height="493" item_height="45" always_show_scroll="0" can_select="1">
+					<text ratio="1" x="19" align="c" vert_align="c" color="white" complex_mode="1" font="letterica16" r="255" g="255" b="255"/>
+					<text_color>
+						<e r="255" g="255" b="255" a="120"/>
+						<h r="255" g="183" b="111"/>
+						<t r="255" g="255" b="255"/>
+					</text_color>
+				</list>
+			</frame>
+		</right>
+		<title ratio="1" anchor="260;-1;-1;150" width="462" height="43">
+			<text font="graffiti32" vert_align="c" align="r" complex_mode="1"/>
+		</title>
+		<description ratio="1" anchor="321;-1;-1;150" width="462" height="43">
+			<text font="letterica18" vert_align="t" align="r" color="experemental_primary" complex_mode="1"/>
+		</description>
+		<section ratio="1" anchor="-1;76;-1;150" width="462" height="43">
+			<text font="small" vert_align="b" align="r" complex_mode="1"/>
+		</section>
+	</pda_contacts>
+</w>

@@ -1,0 +1,339 @@
+﻿<?xml version='1.0' encoding="UTF-8"?>
+
+<xml>
+	<!-- НОВЫЕ ПРОФИЛЯ -->
+	<character id="actor">
+		<class>Actor</class>
+		<specific_character>actor</specific_character>
+	</character>
+	<character id="default">
+		<class>Stalker_general</class>
+	</character>
+
+	<character id="mp_actor">
+		<class>mp_actor</class>
+		<specific_character>mp_actor</specific_character>
+	</character>
+
+	<character id="actor_visual_stalker">
+		<class>actor_visual_stalker</class>
+	</character>
+
+	<!-- mp profiles -->
+	<character id="mp_default_stalker">
+		<class>mp_default_stalker</class>
+	</character>
+
+
+	<!-- sim profiles -->
+	<!-- sim duty -->
+	<character id="sim_default_duty_0">
+		<class>sim_default_duty_0</class>
+	</character>
+	<character id="sim_default_duty_1">
+		<class>sim_default_duty_1</class>
+	</character>
+	<character id="sim_default_duty_2">
+		<class>sim_default_duty_2</class>
+	</character>
+	<character id="sim_default_duty_3">
+		<class>sim_default_duty_3</class>
+	</character>
+	<character id="sim_default_duty_4">
+		<class>sim_default_duty_4</class>
+	</character>
+	<!-- sim monolith -->
+	<character id="sim_default_monolith_0">
+		<class>sim_default_monolith_0</class>
+	</character>
+	<character id="sim_default_monolith_1">
+		<class>sim_default_monolith_1</class>
+	</character>
+	<character id="sim_default_monolith_2">
+		<class>sim_default_monolith_2</class>
+	</character>
+	<character id="sim_default_monolith_3">
+		<class>sim_default_monolith_3</class>
+	</character>
+	<character id="sim_default_monolith_4">
+		<class>sim_default_monolith_4</class>
+	</character>
+
+	<!-- sim freedom -->
+	<character id="sim_default_freedom_0">
+		<class>sim_default_freedom_0</class>
+	</character>
+	<character id="sim_default_freedom_1">
+		<class>sim_default_freedom_1</class>
+	</character>
+	<character id="sim_default_freedom_2">
+		<class>sim_default_freedom_2</class>
+	</character>
+	<character id="sim_default_freedom_3">
+		<class>sim_default_freedom_3</class>
+	</character>
+	<character id="sim_default_freedom_4">
+		<class>sim_default_freedom_4</class>
+	</character>
+
+	<!-- sim bandit -->
+	<character id="sim_default_bandit_0">
+		<class>sim_default_bandit_0</class>
+	</character>
+	<character id="sim_default_bandit_1">
+		<class>sim_default_bandit_1</class>
+	</character>
+	<character id="sim_default_bandit_2">
+		<class>sim_default_bandit_2</class>
+	</character>
+	<character id="sim_default_bandit_3">
+		<class>sim_default_bandit_3</class>
+	</character>
+	<character id="sim_default_bandit_4">
+		<class>sim_default_bandit_4</class>
+	</character>
+
+	<!-- sim stalker -->
+	<character id="sim_default_stalker_0">
+		<class>sim_default_stalker_0</class>
+	</character>
+	<character id="sim_default_stalker_1">
+		<class>sim_default_stalker_1</class>
+	</character>
+	<character id="sim_default_stalker_2">
+		<class>sim_default_stalker_2</class>
+	</character>
+	<character id="sim_default_stalker_3">
+		<class>sim_default_stalker_3</class>
+	</character>
+	<character id="sim_default_stalker_4">
+		<class>sim_default_stalker_4</class>
+	</character>
+
+	<!-- sim military -->
+	<character id="sim_default_military_0">
+		<class>sim_default_military_0</class>
+	</character>
+	<character id="sim_default_military_1">
+		<class>sim_default_military_1</class>
+	</character>
+	<character id="sim_default_military_2">
+		<class>sim_default_military_2</class>
+	</character>
+	<character id="sim_default_military_3">
+		<class>sim_default_military_3</class>
+	</character>
+	<character id="sim_default_military_3_sniper">
+		<class>sim_default_military_3_sniper</class>
+	</character>
+	<character id="sim_default_military_4">
+		<class>sim_default_military_4</class>
+	</character>
+
+	<!-- mercenery -->
+	<character id="sim_default_killer_0">
+		<class>sim_default_killer_0</class>
+	</character>
+	<character id="sim_default_killer_1">
+		<class>sim_default_killer_1</class>
+	</character>
+	<character id="sim_default_killer_2">
+		<class>sim_default_killer_2</class>
+	</character>
+	<character id="sim_default_killer_3">
+		<class>sim_default_killer_3</class>
+	</character>
+	<character id="sim_default_killer_4">
+		<class>sim_default_killer_4</class>
+	</character>
+
+	<!-- sim zombied -->
+	<character id="sim_default_zombied_1">
+		<class>sim_default_zombied_1</class>
+	</character>
+	<character id="sim_default_zombied_2">
+		<class>sim_default_zombied_2</class>
+	</character>
+	<character id="sim_default_zombied_3">
+		<class>sim_default_zombied_3</class>
+	</character>
+	<character id="sim_default_zombied_4">
+		<class>sim_default_zombied_4</class>
+	</character>
+
+  <!--- sim clearsky -->
+	<character id="sim_default_clearsky_0">
+		<class>sim_default_clearsky_0</class>
+	</character>
+	<character id="sim_default_clearsky_1">
+		<class>sim_default_clearsky_1</class>
+	</character>
+	<character id="sim_default_clearsky_2">
+		<class>sim_default_clearsky_2</class>
+	</character>
+	<character id="sim_default_clearsky_3">
+		<class>sim_default_clearsky_3</class>
+	</character>
+	<character id="sim_default_clearsky_4">
+		<class>sim_default_clearsky_4</class>
+	</character>
+	
+	<!--- sim renegades -->
+	<character id="sim_default_renegade_0">
+		<class>sim_default_renegade_0</class>
+	</character>
+	<character id="sim_default_renegade_1">
+		<class>sim_default_renegade_1</class>
+	</character>
+	<character id="sim_default_renegade_2">
+		<class>sim_default_renegade_2</class>
+	</character>
+	
+	<!--- sim hunter -->
+	<character id="sim_default_hunter_0">
+		<class>sim_default_hunter_0</class>
+	</character>
+	<character id="sim_default_hunter_1">
+		<class>sim_default_hunter_1</class>
+	</character>
+	<character id="sim_default_hunter_2">
+		<class>sim_default_hunter_2</class>
+	</character>	
+	<character id="sim_default_hunter_3">
+		<class>sim_default_hunter_3</class>
+	</character>
+	<character id="sim_default_hunter_4">
+		<class>sim_default_hunter_4</class>
+	</character>
+   
+   
+   
+ <!-- StalkerNET код   -->
+  <character id="barmen_military_jup">
+		<class>barmen_military_jup</class>
+   </character>
+      <character id="medic_military_jup">
+		<class>medic_military_jup</class>
+   </character>
+   <character id="trader_military_jup">
+		<class>trader_military_jup</class>
+   </character>
+  <character id="tech_military_jup">
+		<class>tech_military_jup</class>
+   </character>
+   <character id="mart_stalker_trader">
+		<class>mart_stalker_trader</class>
+   </character>
+    <character id="mart_stalker_barmen">
+		<class>mart_stalker_barmen</class>
+   </character>
+       <character id="mart_stalker_armor">
+		<class>mart_stalker_armor</class>
+   </character>
+          <character id="mart_stalker_ammo">
+		<class>mart_stalker_ammo</class>
+   </character>
+      <character id="jup_base_bandit_barmen">
+		<class>jup_base_bandit_barmen</class>
+   </character>
+   <character id="jup_base_bandit_trader">
+		<class>jup_base_bandit_trader</class>
+   </character>
+  <character id="jup_base_bandit_armor">
+		<class>jup_base_bandit_armor</class>
+   </character>
+   <character id="jup_base_duty_barmen">
+		<class>jup_base_duty_barmen</class>
+   </character>
+      <character id="jup_base_duty_trader">
+		<class>jup_base_duty_trader</class>
+   </character>
+      <character id="jup_base_duty_armor">
+		<class>jup_base_duty_armor</class>
+   </character>
+      <character id="jup_base_killer_trader">
+		<class>jup_base_killer_trader</class>
+   </character>
+      <character id="jup_base_killer_armor">
+		<class>jup_base_killer_armor</class>
+   </character>
+      <character id="jup_base_killer_barmen">
+		<class>jup_base_killer_barmen</class>
+   </character>
+      <character id="sim_default_scientist_0">
+		<class>sim_default_scientist_0</class>
+   </character>
+         <character id="sim_default_scientist_1">
+		<class>sim_default_scientist_1</class>
+   </character>  
+      <character id="scientist_artefacts">
+		<class>scientist_artefacts</class>
+   </character>
+         <character id="scientist_barmen">
+		<class>scientist_barmen</class>
+   </character>
+        <character id="scientist_guard">
+		<class>scientist_guard</class>
+   </character>
+           <character id="scientist_armor">
+		<class>scientist_armor</class>
+   </character>
+        <character id="jup_base_freedom_barmen">
+		<class>jup_base_freedom_barmen</class>
+   </character>
+        <character id="jup_base_freedom_trader">
+		<class>jup_base_freedom_trader</class>
+   </character>
+        <character id="jup_base_freedom_armor">
+		<class>jup_base_freedom_armor</class>
+   </character>
+        <character id="jup_base_cs_barmen">
+		<class>jup_base_cs_barmen</class>
+   </character>
+        <character id="jup_base_cs_trader">
+		<class>jup_base_cs_trader</class>
+   </character>
+        <character id="jup_base_cs_armor">
+		<class>jup_base_cs_armor</class>
+   </character>
+          <character id="jup_base_sin_armor">
+		<class>jup_base_sin_armor</class>
+   </character>
+          <character id="stalker_monolith_armor">
+		<class>stalker_monolith_armor</class>
+   </character>
+            <character id="stalker_monolith_drugers">
+		<class>stalker_monolith_drugers</class>
+   </character>
+             <character id="stalker_monolith_trader">
+		<class>stalker_monolith_trader</class>
+   </character>
+             <character id="stalker_spectrum_trader">
+		<class>stalker_spectrum_trader</class>
+   </character>
+             <character id="stalker_spectrum_drugers">
+		<class>stalker_spectrum_drugers</class>
+   </character>
+             <character id="stalker_spectrum_armor">
+		<class>stalker_spectrum_armor</class>
+   </character>
+            <character id="jup_b6_scientist_tech">
+		<class>jup_b6_scientist_tech</class>
+   </character>            
+			<character id="jup_b217_stalker_tech">
+		<class>jup_b217_stalker_tech</class>
+   </character>			
+			<character id="jup_zombied_boss">
+		<class>jup_zombied_boss</class>
+   </character>
+	
+	
+		<!-- CAR TEST -->
+	
+	<character id="test_trader">
+		<class>test_trader</class>
+   </character>
+	<character id="test_tech">
+		<class>test_tech</class>
+	</character>
+</xml>

@@ -1,0 +1,51 @@
+[logic]
+active = ph_idle@none
+
+[ph_idle@none]
+on_info = {+car_test_tir_info_10m} ph_idle@10m
+tips = tir_mutant_none_tip
+
+[ph_idle@10m]
+on_info = {+car_test_tir_info_25m} ph_idle@25m
+on_use =  %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_10m) =send_tip(mutant_created) =send_tip(tir_distance_10m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@25m]                                                                      
+on_info = {+car_test_tir_info_50m} ph_idle@50m                                     
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_25m) =send_tip(mutant_created) =send_tip(tir_distance_25m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@50m]                                                                      
+on_info = {+car_test_tir_info_100m} ph_idle@100m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_50m) =send_tip(mutant_created) =send_tip(tir_distance_50m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@100m]                                                                     
+on_info = {+car_test_tir_info_120m} ph_idle@120m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_100m) =send_tip(mutant_created) =send_tip(tir_distance_100m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@120m]                                                                     
+on_info = {+car_test_tir_info_140m} ph_idle@140m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_120m) =send_tip(mutant_created) =send_tip(tir_distance_120m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@140m]                                                                     
+on_info = {+car_test_tir_info_160m} ph_idle@160m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_140m) =send_tip(mutant_created) =send_tip(tir_distance_140m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@160m]                                                                     
+on_info = {+car_test_tir_info_180m} ph_idle@180m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_160m) =send_tip(mutant_created) =send_tip(tir_distance_160m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@180m]                                                                     
+on_info = {+car_test_tir_info_200m} ph_idle@200m                                   
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_180m) =send_tip(mutant_created) =send_tip(tir_distance_180m_tip)%
+tips = tir_mutant_create_tip                                                       
+                                                                                   
+[ph_idle@200m]                                                                     
+on_info = {+car_test_tir_info_10m} ph_idle@10m                                     
+on_use = %=create_squad(car_test_tir_mutant_creater_squad:smart_car_test_tir_200m) =send_tip(mutant_created) =send_tip(tir_distance_200m_tip)%
+tips = tir_mutant_create_tip

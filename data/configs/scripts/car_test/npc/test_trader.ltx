@@ -1,0 +1,34 @@
+[logic@stalker_trader]
+suitable = {=check_npc_name(test_trader)} true
+trade = misc\trade\car_test\test_trade.ltx
+prior = 200
+active = animpoint@trader
+can_select_weapon = false
+level_spot = trader
+
+[animpoint@trader]
+cover_name = cover_trader
+avail_animations = jup_b41_novikov_stand
+use_camp = false
+meet = meet
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+;out_restr = none
+invulnerable = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+
+[meet]
+close_snd_hello = nil
+close_snd_bye 	= nil
+close_anim 		= nil
+close_victim 	= nil
+far_anim 		= nil
+far_victim 		= nil
+close_distance  = 0
+far_distance 	= 0
+close_snd_distance = 3
+use = {=actor_enemy} false, true
+allow_break = false
+meet_on_talking = false

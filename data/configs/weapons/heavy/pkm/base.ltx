@@ -13,97 +13,100 @@ description             = gunsl_wpn_pkm_descr
 ef_main_weapon_type     = 2
 ef_weapon_type          = 10
 
-default_to_ruck         = false
-sprint_allowed          = false
-
 repair_group = pkm
 
-;-------------------------------------------------------
-cost                    = 20000
-weapon_class            = assault_rifle        ; Type of the weapon
-inv_weight              = 7.5
+bullet_bones        = bullet_1, bullet_2, bullet_3, bullet_4, bullet_5, bullet_6, bullet_7, bullet_8, bullet_9, bullet_10, bullet_11, bullet_12
 
-upgrades                = up_gr_firstab_pkm, up_gr_seconab_pkm, up_gr_thirdab_pkm, up_gr_fourtab_pkm, up_gr_fifthab_pkm
-installed_upgrades      =
-upgrade_scheme          = upgrade_scheme_pkm
+;-------------------------------------------------------
+cost					= 22000
+weapon_class			= assault_rifle
+inv_weight				= 9.0
 
 ;--TTX----------------------------------------------------------------------------
-hit_power              = 1.0, 1.0, 1.0, 1.0
-hit_impulse            = 120
+hit_power              = 0.9
+hit_impulse            = 30
 hit_type               = fire_wound
-fire_distance           = 150
-bullet_speed            = 500        ;начальная скорость пули
-rpm                     = 525
+fire_distance           = 250
+bullet_speed		 	= 825 ;начальная скорость пули
+rpm                     = 650
 rpm_empty_click         = 200
 
-use_aim_bullet          = false ;true                ;Поддерживается ли первая суппер пуля
-time_to_aim             = 5.0
+use_aim_bullet          = false                ;Поддерживается ли первая суппер пуля
+time_to_aim             = 0
 
-hud                     = wpn_pkm_hud
+hud                     = wpn_pk_hud
 
 misfire_probability        = 0.005 ;вероятность осечки при максимальном износе  !!!old - now not working
 ;изношенность, при которой появляется шанс осечки
-misfire_start_condition		= 0.6
+misfire_start_condition		= 0.85
 ;изношеность при которой шанс осечки становится константным
-misfire_end_condition		= 0.1
+misfire_end_condition		= 0.25
 ;шанс осечки при изношености больше чем misfireStartCondition
-misfire_start_prob	     	= 0.002
+misfire_start_prob	     	= 0.004
 ;шанс осечки при изношености больше чем misfireEndCondition
-misfire_end_prob	     	= 0.03
+misfire_end_prob	     	= 0.08
 ;увеличение изношености при одиночном выстреле
-condition_shot_dec      	= 0.001
+condition_shot_dec      	= 0.00005555
 ;увеличение изношености при выстреле очередью
-condition_queue_shot_dec	= 0.0012
+condition_queue_shot_dec	= 0.00005555
 
-ammo_elapsed            = 101
-ammo_mag_size           = 101
+ammo_elapsed            = 100
+ammo_mag_size           = 100
 
 ammo_class              = ammo_pkm_100
 grenade_class           = ammo_m209
-fire_modes              = 1, -1
+fire_modes              = -1
 launch_speed            = 0
 hand_dependence         = 1
 single_handed           = 0
 
-;-дисперсия-----------------------------------------------------------------------------
+;---aenia?ney---------------------------------------------------------------------------
 ;базовая дисперсия
-fire_dispersion_base    = 0.23        ;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
-control_inertion_factor = 3.5f ; 2.2f
-crosshair_inertion		= 7.70
+fire_dispersion_base = 0.22	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor			= 1.15f
+;crosshair_inertion      = 9.3
 
 ;отдача
-cam_return				= 0
-cam_relax_speed         = 15               ;скорость возврата в исходное положение
-cam_relax_speed_ai      = 360                ;скорость возврата в исходное положение у АИ
-cam_dispersion          = 0.5                ;увеличения угла (в градусах) с каждым выстрелом
-cam_dispersion_inc      = 0.7                ;увеличениe cam_dispersion с каждым выстрелом
-cam_dispersion_frac     = 1.0                ;ствол будет подыматься на cam_dispersion*cam_dispersion_frac +- cam_dispersion*(1-cam_dispersion_frac)
-cam_max_angle           = 30.0                ;максимальный угол отдачи
-cam_max_angle_horz      = 50.0                ;(degree) maximum shot horizontal degree
-cam_step_angle_horz     = 1.65                    ;(degree) size of step camera moved in horizontal position while shooting
+cam_relax_speed          = 8 ;скорость возврата в исходное положение
+cam_relax_speed_ai        	= 120.75
+cam_dispersion           = 0.9 ;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc = 0.6 ;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac = 1.0 ;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle = 15.0 ;максимальный угол отдачи
+cam_max_angle_horz = 9.5 ;(degree) maximum shot horizontal degree 
+cam_step_angle_horz = 2.2 ;(degree) size of step camera moved in horizontal position while shooting
 
-PDM_disp_base           = 3.0
-PDM_disp_vel_factor     = 3.0
-PDM_disp_accel_factor   = 3.0
-PDM_disp_crouch         = 0.9
-PDM_disp_crouch_no_acc  = 0.9
+PDM_disp_base = 3.5
+PDM_disp_vel_factor = 2.3
+PDM_disp_accel_factor = 1.3
+PDM_disp_crouch = 2.5
+PDM_disp_crouch_no_acc = 1.8
 
-fire_dispersion_condition_factor = 15        ;увеличение дисперсии в процентах при максимальном износе
+;zoom_cam_relax_speed        = 10.0    ; scope & ironsight
+;zoom_cam_relax_speed_ai     = 120.75
+;zoom_cam_dispersion         = 0.732
+;zoom_cam_dispersion_inc     = 0.0725
+;zoom_cam_dispersion_frac    = 1.0
+;zoom_cam_max_angle          = 50.0
+;zoom_cam_max_angle_horz     = 50.0
+;zoom_cam_step_angle_horz    = 1.93
+
+fire_dispersion_condition_factor = 5.5     ;увеличение дисперсии в процентах при максимальном износе 
 
 ;---DOF------------------------------------------------------------------------
-zoom_dof                = 0.5, 1.0, 180
-reload_dof              = 0.0, 0.5, 5, 1.7
+zoom_dof				= 0.5, 1.0, 180
+reload_dof				= 0.0, 0.5, 5, 1.7
 ;-------------------------------------------------------------------------------
-holder_range_modifier   = 1.0                       ; во сколько раз увеличивается eye_range
-holder_fov_modifier     = 1.0                       ; во сколько раз увеличивается eye_fov
+holder_range_modifier	= 0.9
+holder_fov_modifier		= 0.9
 
-min_radius              = 15
-max_radius              = 150
+min_radius              = 0
+max_radius              = 150; 500
 
-hit_probability_gd_novice  = 0.80
-hit_probability_gd_stalker = 0.80
-hit_probability_gd_veteran = 0.80
-hit_probability_gd_master  = 0.80
+;hit_probability_gd_novice	= 1
+;hit_probability_gd_stalker	= 1
+;hit_probability_gd_veteran	= 1
+;hit_probability_gd_master	= 1
 
 ;-------------------------------------------------------------------------------
 slot                    = 2                ; // secondary
@@ -112,96 +115,110 @@ animation_slot          = 2                ; type of the animation that will be 
 inv_name                = gunsl_wpn_pkm
 inv_name_short          = gunsl_wpn_pkm
 
-inv_grid_width          = 6
-inv_grid_height         = 2
-inv_grid_x              = 0
-inv_grid_y              = 36
+inv_grid_width     = 6
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 36
 
-upgr_icon_x			= 8
-upgr_icon_y			= 593
-upgr_icon_width		= 294
-upgr_icon_height   	= 83
+upgr_icon_x			= 0
+upgr_icon_y			= 595
+upgr_icon_width		= 302
+upgr_icon_height   	= 85
 
-kill_msg_x              = 80
-kill_msg_y              = 59
-kill_msg_width          = 87
-kill_msg_height         = 24
+kill_msg_x				= 0
+kill_msg_y				= 0
+kill_msg_width			= 98
+kill_msg_height			= 23
 
 ;-------------------------------------------------------------------------------
-position                = -0.027, -0.097, 0.042
-orientation             = 0, -2, 0
+position                         = -0.016, -0.005, -0.020
+orientation                      = 0.000000, 0.000000, 0.000000
 
-fire_point              = 0.0, 0.158, 0.845 ;0.000000,0.137000,0.649000
-fire_point2             = 0.0, 0.097, 0.722
+fire_point           	= 0.0, 0.05, 0.845
+;fire_point2             = 0.0, 0.097, 0.722
 
-flame_particles         = weapons\generic_weapon05
-smoke_particles         = weapons\generic_shoot_00
+; TODO
+flame_particles		= weapons\generic_weapon06
+smoke_particles		= weapons\generic_shoot_00
 grenade_flame_particles = weapons\generic_weapon01
+silencer_smoke_particles   = weapons\generic_shoot_00
 
-shell_point             = -0.020000,0.167000,0.082000
-shell_dir               = 0.0, 0.0, 0.4
-shell_particles         = weapons\generic_shells_r
+shell_point		= -0.02, 0.167, 0.082
+shell_dir		= 0.0, 0.0, 0.4
+shell_particles	        = ;
 
 ;--STRAP PARAMETERS-----------------------------------------------------------------
 ;под мишкой
-strap_position          = -0.26,-0.11,0.25                                ; position (offset) and orientation of the weapon when it is strapped
-strap_orientation       = -15,-9,110                                        ; (3rd person view in degrees)
-strap_bone0             = bip01_spine2
-strap_bone1             = bip01_spine1
+strap_position         	= -0.26, -0.11, 0.25			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      	= -15, -9, 110				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
 
 startup_ammo            = 90
 visual                  = dynamics\weapons\wpn_pkm\wpn_pkm.ogf
 
-light_disabled                                = false
-light_color             = 0.6,0.5,0.3
-light_range             = 5
-light_var_color         = 0.05
-light_var_range         = 0.5
-light_time              = 0.2
+light_disabled				= false
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 4.0
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 			= 0.2
 
-ph_mass                 = 4
-;cost                   = 2100
+silencer_light_color			= 0.6,0.5,0.3
+silencer_light_range			= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.01
+silencer_light_time 			= 0.02
+
+ph_mass			 			= 4
 
 ;addons
-scope_status            = 0
-silencer_status         = 0
-grenade_launcher_status = 0
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status		        = 0
 
-zoom_enabled            = false                                                ; (on,off)zoom mode (right mouse button)
-zoom_rotate_time        = 0.5
-scope_zoom_factor	        = 1.02
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+scope_zoom_factor			= 1.00
+
+silencer_name  		= 			; section name for the attachable silencer
+silencer_x              = 221                ; offset in inventory icon
+silencer_y              = 16
+
+grenade_launcher_name   = wpn_addon_grenade_launcher_m203
+grenade_launcher_x      = 109
+grenade_launcher_y      = 30
 
 ;звуки
-snd_draw                = weapons\ak74_draw
-snd_holster             = weapons\generic_holster
-snd_shoot               = weapons\pkm_shot, -1.1
-;snd_shoot1             = weapons\pkm_shot, -1.1
-;snd_shoot2             = weapons\pkm_shot, -1.1
-;snd_shoot3             = weapons\pkm_shot, -1.1
+snd_draw		= weapons\pk\pk_draw
+snd_holster		= weapons\pk\pk_hide
+snd_shoot		= weapons\pk\pk_shoot
+snd_empty		= weapons\pk\pk_empty
+snd_reload              = weapons\pk\pk_reload
+snd_reload_empty        = weapons\pk\pk_reload_empty
+snd_reload_jammed       = weapons\pk\pk_revival
+snd_reload_jammed_last  = weapons\pk\pk_revival
+snd_jammed_click        = weapons\glock17\glock17_dry
+snd_switch              = $silent
 
-snd_changecartridgetype = weapons\pm\pm_reload_full
-snd_empty               = weapons\gen_empty, 0.5
-snd_reload              = weapons\pkm_reload, 0.7
-snd_reload_empty        = weapons\pkm_reload, 0.7
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_jamned              = weapons\groza_reload, 0.7
-snd_jamned_last         = weapons\groza_reload, 0.7
-
-;настройки для глушителя
-silencer_hit_power      = 0.9, 0.9, 0.9, 0.9
-silencer_hit_impulse    = 120
-silencer_fire_distance  = 250
-silencer_bullet_speed   = 500
-
-;silencer_flame_particles  = weapons\generic_weapon01
-silencer_smoke_particles   = weapons\generic_shoot_00
-
-snd_silncer_shot        = weapons\w_ak74_shot1, -1.1
-
-silencer_light_color    = 0.6,0.5,0.3
-silencer_light_range    = 0.01
-silencer_light_var_color= 0.05
-silencer_light_var_range= 0.01
-silencer_light_time     = 0.01
+snd_close		= $silent
+snd_unload_mag          = $silent
+snd_jam                 = $silent
+snd_breechblock         = $silent
+snd_fakeshoot_first	= weapons\glock17\glock17_shoot_s
+snd_changefiremode	= weapons\vss\vss_firemode
+snd_aim_start           = weapons\vss\vss_aim_start
+snd_aim_end             = weapons\vss\vss_aim_end
+snd_sprint_start        = weapons\detector_prepare
+snd_sprint_end          = weapons\pistol_sprint_end
+snd_suicide	        = weapons\suicide_start
+snd_stop_suicide	= weapons\suicide_end
+snd_laser_on	        = weapons\vss\vss_firemode
+snd_laser_off	        = weapons\vss\vss_firemode
+snd_torch_on	        = weapons\vss\vss_firemode
+snd_torch_off	        = weapons\vss\vss_firemode
+snd_headlamp_on         = weapons\headflash_on
+snd_headlamp_off        = weapons\headflash_off
+snd_nv_on               = weapons\nv_act
+snd_nv_off              = weapons\nv_deact
+snd_kick		= weapons\ak74\ak74_bayonet

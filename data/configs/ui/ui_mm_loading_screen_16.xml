@@ -1,0 +1,63 @@
+<w>
+    <background width="1024" height="768">
+		<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+	      <texture>ui_background_temp</texture>
+	    </auto_static>
+    </background>
+
+    <loading_logo x="0" y="0" width="1024" height="768" stretch="1">
+    </loading_logo>
+	
+	<loading_shading x="-10" width="1044" height="768" stretch="1">
+		<texture>FactionManagerShadow</texture>
+    </loading_shading>
+	
+	<loading_information x="389" y="681" width="246" height="41" stretch="1">
+		<!-- <texture>interface_border_eleven_window_mini_bgr</texture> -->
+    </loading_information>
+
+    <loading_progress_background x="402" y="699" width="220" height="6" stretch="1">
+        <!-- <texture color="black" a="255">interface_parent_window_lt</texture> -->
+    </loading_progress_background>
+
+    <loading_progress x="-5000" y="699" width="220" height="6" horz="1" min="0" max="100" pos="0" inertion="5.0">
+        <progress stretch="1">
+            <texture>interface_parent_window_lt</texture>
+        </progress>
+        <min_color r="255" g="183" b="111"/>
+		<middle_color r="255" g="183" b="111"/>
+		<max_color r="255" g="183" b="111"/>
+    </loading_progress>
+
+    <loading_progress_percent ratio="1" anchor="-1;66;-1;66" width="84" height="64" stretch="1">
+        <text align="c" vert_align="c" r="255" g="255" b="255" a="255" font="ruda20regular"/>
+    </loading_progress_percent>
+
+    <loading_stage x="310" y="530" width="405" height="20" stretch="1">
+        <text align="c" r="170" g="170" b="170" a="0" font="letterica18"/>
+    </loading_stage>
+
+    <loading_header x="310" y="622" width="405" height="20" stretch="1">
+        <text align="c" r="103" g="103" b="103" a="0" font="letterica18"/>
+    </loading_header>
+
+    <loading_tip_number x="310" y="658" width="405" height="20" stretch="1">
+        <text align="c" r="103" g="103" b="103" a="0" font="letterica18"/>
+    </loading_tip_number>
+
+    <loading_tip x="273" y="676" width="480" height="80" complex_mode="1" stretch="1">
+        <text alignment="c" align="c" r="103" g="103" b="103" a="0" font="letterica18"/>
+    </loading_tip>
+	
+	<loading_level_title ratio="1" anchor="-1;245;0;0" width="964" height="43" complex_mode="1" stretch="1">
+        <text align="c" vert_align="c" color="experemental_primary" font="ruda28regular"/>
+    </loading_level_title>
+
+    <loading_level_desc ratio="1" anchor="-1;153;0;0" width="1024" height="85" complex_mode="1" stretch="1">
+        <text align="c" vert_align="t" r="168" g="168" b="168" font="ruda20regular"/>
+    </loading_level_desc>
+	
+	<loading_level_mode x="984" y="40" width="480" height="41" complex_mode="1" stretch="1">
+        <text align="r" r="103" g="103" b="103" font="letterica18"/>
+    </loading_level_mode>
+</w>

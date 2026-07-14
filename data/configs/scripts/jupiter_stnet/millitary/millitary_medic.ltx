@@ -1,0 +1,35 @@
+[logic@medic_military]
+suitable = {=check_npc_name(medic_military_jup)} true
+trade = misc\trade\only_use\base_drugs.ltx
+prior = 200
+active = animpoint@medic
+can_select_weapon = false
+level_spot = medic
+
+[animpoint@medic]
+cover_name = millitary_medic
+avail_animations = animpoint_sit_normal
+use_camp = false
+meet = meet
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+invulnerable = true 
+mp_optimization = true ;Оптимизация для стоячих NPC (VodkaNET)
+out_restr = jup_a6_sr_noweap
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+
+[meet]
+close_snd_hello = jup_a6_stalker_medik_greeting
+close_snd_bye 	= jup_a6_stalker_medik_farewell
+close_anim 		= nil
+close_victim 	= nil
+far_anim 		= nil
+far_victim 		= nil
+close_distance  = 0
+far_distance 	= 0
+close_snd_distance = 3
+use = {=actor_enemy} false, true
+allow_break = false
+meet_on_talking = false

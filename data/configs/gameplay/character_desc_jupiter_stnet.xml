@@ -1,0 +1,1247 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<specific_character id="barmen_military_jup" team_default = "1">
+    <name>barmen_military_jup_name</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>barmen_military_jup</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+
+    <rank>55</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_3</visual>
+    <supplies>
+      [spawn] \n
+	  
+      wpn_abakan \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+   <specific_character id="medic_military_jup" team_default = "1">
+    <name>medic_military_jup_name</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>medic_military_jup</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+
+    <rank>55</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_3</visual>
+    <supplies>
+      [spawn] \n
+	  
+      wpn_abakan \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+     <specific_character id="trader_military_jup" team_default = "1">
+    <name>trader_military_jup_name</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>trader_military_jup</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+
+    <rank>55</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_soldier\stalker_soldier_3</visual>
+    <supplies>
+      [spawn] \n
+	  
+      wpn_abakan \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="tech_military_jup" team_default = "1">
+    <name>tech_military_jup_name</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>tech_military_jup</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+
+    <rank>55</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_3</visual>
+    <supplies>
+      [spawn] \n
+	  
+      wpn_abakan \n
+      ammo_5.45x39_ap = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+      grenade_f1 = 3 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+
+
+
+
+  <specific_character id="mart_stalker_trader" team_default = "1">
+    <name>mart_stalker_trader_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>mart_stalker_trader</class>
+    <community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>30</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_2_mask</visual>
+    <supplies>
+      [spawn] \n
+      
+ 	  wpn_ak74u  \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="mart_stalker_armor" team_default = "1">
+    <name>mart_stalker_armor_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>mart_stalker_armor</class>
+    <community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>30</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_2_mask</visual>
+    <supplies>
+      [spawn] \n
+      
+ 	  wpn_ak74u  \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+      <specific_character id="mart_stalker_barmen" team_default = "1">
+    <name>mart_stalker_barmen_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>mart_stalker_barmen</class>
+    <community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>30</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_2_mask</visual>
+    <supplies>
+      [spawn] \n
+      
+ 	  wpn_ak74u  \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+  
+    <specific_character id="mart_stalker_ammo" team_default = "1">
+    <name>mart_stalker_ammo_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>mart_stalker_ammo</class>
+    <community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>30</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_2_mask</visual>
+    <supplies>
+      [spawn] \n
+      
+ 	  wpn_ak74u  \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+	  detector_advanced = 1 \n
+	  device_torch = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+   <specific_character id="jup_base_bandit_barmen " team_default = "1">
+    <name>jup_base_bandit_barmen_name</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_bandit_barmen</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+      
+	  wpn_ak74 \n
+	  ammo_5.45x39_fmj  = 1 \n
+	  wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="jup_base_bandit_armor" team_default = "1">
+    <name>jup_base_bandit_armor_name</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_bandit_armor</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+      
+	  wpn_ak74 \n
+	  ammo_5.45x39_fmj  = 1 \n
+	  wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="jup_base_bandit_trader" team_default = "1">
+    <name>jup_base_bandit_trader_name</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_bandit_trader</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+      
+	  wpn_ak74 \n
+	  ammo_5.45x39_fmj  = 1 \n
+	  wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+  <specific_character id="jup_base_duty_barmen" team_default = "1">
+    <name>jup_base_duty_barmen_name</name>
+    <icon>ui_inGame2_Dolg_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_duty_barmen</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>45</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_dolg\stalker_dolg_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 = 1 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="jup_base_duty_trader" team_default = "1">
+    <name>jup_base_duty_trader_name</name>
+    <icon>ui_inGame2_Dolg_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_duty_trader</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>45</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_dolg\stalker_dolg_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 = 1 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+      <specific_character id="jup_base_duty_armor" team_default = "1">
+    <name>jup_base_duty_armor_name</name>
+    <icon>ui_inGame2_Dolg_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_duty_armor</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>45</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_dolg\stalker_dolg_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 = 1 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_pm = 1 \n
+      ammo_9x18_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+#include "gameplay\character_sell_weapons.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+<specific_character id="jup_base_killer_trader" team_default = "1">
+    <name>jup_base_killer_trader_name</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_killer_trader</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+
+    <rank>45</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+  <specific_character id="jup_base_killer_barmen" team_default = "1">
+    <name>jup_base_killer_barmen_name</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_killer_barmen</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+
+    <rank>45</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+
+<!-- <actor_dialog>start_dialog_work_underground</actor_dialog> -->
+
+  </specific_character>
+
+    <specific_character id="jup_base_killer_armor" team_default = "1">
+    <name>jup_base_killer_armor_name</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_killer_armor</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+
+    <rank>45</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_merc\stalker_merc_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_colt1911 \n
+      ammo_11.43x23_fmj  = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+<specific_character id="sim_default_scientist_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>sim_default_scientist_0</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>40</rank>
+	<money min="1500" max="3500" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <supplies>
+      [spawn] \n
+
+      wpn_wincheaster1300 \n
+      ammo_12x70_buck = 1 \n      
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+  <specific_character id="scientist_artefacts" team_default = "1">
+    <name>scientist_artefacts_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+    <class>scientist_artefacts</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <rank>40</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_military</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74u \n 
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+
+  </specific_character>
+
+  <specific_character id="scientist_armor" team_default = "1">
+    <name>scientist_armor_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+    <class>scientist_armor</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <rank>40</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_white</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74u \n 
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+  <specific_character id="scientist_barmen" team_default = "1">
+    <name>scientist_barmen_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+    <class>scientist_barmen</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <rank>40</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_military</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74u \n 
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="scientist_guard" team_default = "1">
+    <name>scientist_guard_name</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+    <class>scientist_guard</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+    <rank>40</rank>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <reputation>0</reputation>
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74u \n 
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 2 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+
+  </specific_character>
+
+  <specific_character id="jup_base_freedom_barmen" team_default = "1">
+    <name>jup_base_freedom_barmen_name</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_freedom_barmen</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1</visual>
+    <supplies>
+      [spawn] \n
+      
+	  ammo_12x70_buck = 1 \n
+	  wpn_wincheaster1300 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="jup_base_freedom_trader" team_default = "1">
+    <name>jup_base_freedom_trader_name</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_freedom_trader</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1</visual>
+    <supplies>
+      [spawn] \n
+      
+	  ammo_12x70_buck = 1 \n
+	  wpn_wincheaster1300 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="jup_base_freedom_armor" team_default = "1">
+    <name>jup_base_freedom_armor_name</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>??????? ???????. ????????? ?????????? ???????????.</bio>
+
+    <class>jup_base_freedom_armor</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+
+    <rank>35</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1</visual>
+    <supplies>
+      [spawn] \n
+      
+	  ammo_12x70_buck = 1 \n
+	  wpn_wincheaster1300 \n
+      wpn_beretta \n
+      ammo_9x19_fmj = 1 \n
+      grenade_rgd5 = 1 \n
+
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+
+
+
+
+<specific_character id="jup_base_cs_barmen" team_default = "1"> ;- ID 
+<name>jup_base_cs_barmen_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>jup_base_cs_barmen</class> - ????? 
+<community>clearsky</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>actors\stalker_nebo\stalker_nebo_3</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character>  
+
+<specific_character id="jup_base_cs_trader" team_default = "1"> ;- ID 
+<name>jup_base_cs_trader_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>jup_base_cs_trader</class> - ????? 
+<community>clearsky</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>actors\stalker_nebo\stalker_nebo_3</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character>  
+
+
+
+<specific_character id="jup_base_cs_armor" team_default = "1"> ;- ID 
+<name>jup_base_cs_armor_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>jup_base_cs_armor</class> 
+<community>clearsky</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>actors\stalker_nebo\stalker_nebo_3</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character>
+
+
+
+<specific_character id="dungeon_master_vostoka_1" team_default = "1"> ;- ID 
+<name>dungeon_master_1_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>dungeon_master_vostoka_1</class> 
+<community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>actors\stalker_neutral\stalker_neutral_2</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character> 
+
+<specific_character id="dungeon_master_vostoka_2" team_default = "1"> ;- ID 
+<name>dungeon_master_2_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>dungeon_master_vostoka_2</class> 
+<community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>actors\stalker_neutral\stalker_neutral_2_mask</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character>  
+
+<specific_character id="jup_base_sin_armor" team_default = "1"> ;- ID 
+<name>jup_base_sin_armor_name</name> 
+<icon>ui_npc_u_nebo_2</icon> 
+<map_icon x="1" y="0"></map_icon> 
+<bio>??????? ???????. ????????? ?????????? ???????????.</bio> 
+
+<class>jup_base_sin_armor</class> 
+<community>stalker_pve</community> <terrain_sect>stalker_terrain</terrain_sect> 
+<snd_config>characters_voice\human_02\csky\</snd_config>
+
+<rank>35</rank> 
+<reputation>0</reputation> 
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+<visual>stalkernet\actors\stalker_grex3</visual> 
+<supplies> 
+[spawn] \n 
+wpn_ak74 \n 
+ammo_5.45x39_fmj = 1 \n 
+wpn_pm \n 
+ammo_9x18_fmj = 1 \n 
+grenade_rgd5 = 1 \n 
+
+#include "gameplay\character_items_nd.xml" 
+#include "gameplay\character_food.xml" 
+#include "gameplay\character_drugs.xml" 
+</supplies> 
+#include "gameplay\character_criticals_4.xml" 
+#include "gameplay\character_dialogs.xml" 
+</specific_character>  
+
+    <specific_character id="stalker_monolith_armor" team_default = "1">
+    <name>dungeon_master_1_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_monolith_armor</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999" max="99999999" infinitive="0"/>
+
+    <visual>actors\stalker_monolith\stalker_monolith_2</visual>
+    <supplies>
+      [spawn] \n
+      
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+  
+    <specific_character id="stalker_monolith_trader" team_default = "1">
+    <name>stalker_monolith_trader_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_monolith_trader</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+    <visual>actors\stalker_monolith\stalker_monolith_3</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character> 
+  
+    <specific_character id="stalker_monolith_drugers" team_default = "1">
+    <name>stalker_monolith_drugers_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_monolith_drugers</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="stalker_spectrum_armor" team_default = "1">
+    <name>stalker_spectrum_armor_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_spectrum_armor</class>
+    <community>spectrum</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+    <visual>stalkernet\actors\stalker_spectrum_3</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="stalker_spectrum_trader" team_default = "1">
+    <name>stalker_spectrum_trader_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_spectrum_trader</class>
+    <community>spectrum</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+   <visual>stalkernet\actors\stalker_spectrum_2</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character>
+
+    <specific_character id="stalker_spectrum_drugers" team_default = "1">
+    <name>stalker_spectrum_drugers_name</name>
+    <icon>ui_inGame2_monolit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>1</bio>
+
+    <class>stalker_spectrum_drugers</class>
+    <community>spectrum</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="99999999999" max="99999999999" infinitive="0"/>
+
+    <visual>stalkernet\actors\stalker_spectrum_1</visual>
+    <supplies>
+      [spawn] \n
+      wpn_ak74 \n
+      ammo_5.45x39_fmj = 1 \n
+      wpn_fort \n
+      ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+  </specific_character> 
+  
+<!-- ’ехник Ќовиков   -->
+	<specific_character id="jup_b6_scientist_tech" team_default = "1">
+		<name>jup_b6_scientist_novikov</name>
+		<icon>ui_inGame2_Novikov</icon>
+		<map_icon x="1" y="0">
+		</map_icon>
+		<bio>Ћпытный сталкер. „етальнаЯ информациЯ отсутствует.</bio>
+
+		<class>jup_b6_scientist_tech</class>
+		<community>ecolog</community>
+		<mechanic_mode>0</mechanic_mode>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<money min="99999999999" max="99999999999" infinitive="0"/>
+		<visual>actors\stalker_nebo\stalker_nebo_2_face_3</visual>
+		<supplies>
+      [spawn] \n
+
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+
+  </specific_character>
+  
+  <!-- ’ехник Ђзот   -->
+
+	<specific_character id="jup_b217_stalker_tech" team_default = "1">
+		<name>jup_b217_stalker_tech</name>
+		<icon>ui_inGame2_Azot</icon>
+		<map_icon x="1" y="0"></map_icon>
+		
+		<bio>Ћпытный сталкер. ’ехник Ђзот.</bio>
+
+		<class>jup_b217_stalker_tech</class>
+		<community>stalker_pve</community>
+		<mechanic_mode>1</mechanic_mode>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<snd_config>characters_voice\human_01\dolg\</snd_config>
+
+		<rank>50</rank>
+		<reputation>0</reputation>
+		<money min="99999999999" max="99999999999" infinitive="0"/>
+		<visual>actors\stalker_neutral\stalker_neutral_nauchniy_face_3</visual>
+		<supplies>
+
+      [spawn] \n
+
+
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+    </supplies>
+
+#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_criticals_4.xml"
+  </specific_character>
+  
+  <!-- ‡омби босс -->
+
+<specific_character id="jup_zombied_boss" team_default = "1">
+    <name>st_jup_zombied_boss</name>
+    <icon>ui_inGame2_Zombied_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio></bio>
+
+    <class>jup_zombied_boss</class>
+    <community>zombied</community> 
+    <snd_config>characters_voice\human_01\zombied\</snd_config>
+
+    <rank>25</rank>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_zombied\stalker_zombied_boss</visual>
+    <crouch_type>0</crouch_type>
+    <supplies>
+      [spawn]\n
+      
+      wpn_sks \n
+      ammo_7.62x39_fmj = 1 \n
+      wpn_walther \n
+      ammo_9x19_pbp = 1 \n
+
+#include "gameplay\character_items_3_nl.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+
+    </supplies>
+#include "gameplay\character_criticals_1.xml"
+#include "gameplay\character_dialogs_mp.xml"
+</specific_character>
+</xml>
